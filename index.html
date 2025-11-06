@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jan-Erik Andersen — AI-native Web Architect. Ich baue Webarchitekturen, die Maschinen lesen können und Menschen vertrauen wollen.">
+  <meta name="author" content="Jan-Erik Andersen">
+  <link rel="canonical" href="https://jan-erik-andersen.de">
+  <title>Jan-Erik Andersen — AI-native Web Architect</title>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jan-Erik Andersen",
+      "jobTitle": "AI-native Web Architect",
+      "description": "Ich baue Webarchitekturen, die Maschinen lesen können und Menschen vertrauen wollen.",
+      "url": "https://jan-erik-andersen.de"
+    }
+  </script>
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --subtle: #666666;
+      --border: #e0e0e0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1a1a1a;
+        --text: #e0e0e0;
+        --subtle: #999999;
+        --border: #333333;
+      }
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    header {
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: var(--subtle);
+      font-style: italic;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    ul, ol {
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: var(--subtle);
+    }
+
+    .services {
+      list-style: none;
+      margin-left: 0;
+    }
+
+    .services li {
+      padding-left: 1.5rem;
+      position: relative;
+    }
+
+    .services li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      color: var(--subtle);
+      font-size: 0.875rem;
+    }
+
+    .ai-links {
+      margin-top: 1rem;
+      padding: 1rem;
+      background: rgba(128, 128, 128, 0.05);
+      border-left: 2px solid var(--border);
+    }
+
+    .ai-links p {
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--subtle);
+    }
+
+    .ai-links ul {
+      margin-left: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .ai-links p + ul {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jan-Erik Andersen</h1>
+    <p class="tagline">AI-native Web Architect</p>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Structure as Integrity</h2>
+      <p>
+        Ich baue Webarchitekturen, die Maschinen lesen können — und Menschen vertrauen wollen.
+      </p>
+      <p>
+        Das Web war ein Ort für Augen. Jetzt ist es ein Netz für Verstand.
+        Websites werden zu Dateninterfaces, konsumiert von AI-Agenten, nicht mehr primär von Browsern.
+      </p>
+      <p>
+        Ich helfe Unternehmen, in dieser Transformation sichtbar zu bleiben:
+        durch strukturierte Daten, semantische Modelle und narrative Identität.
+      </p>
+    </section>
+
+    <section id="what-i-do">
+      <h2>Was ich mache</h2>
+      <ul class="services">
+        <li>
+          <strong>AI Visibility Refactor:</strong>
+          Bestehende Websites so umbauen, dass KI-Agenten die Inhalte strukturiert verstehen können.
+        </li>
+        <li>
+          <strong>Conversational Brand Modeling:</strong>
+          Markenstimmen für natürliche Dialoge definieren — Tonalität und Antwortmuster für AI-Interaktion.
+        </li>
+        <li>
+          <strong>Human Fallback UI:</strong>
+          Minimalistische Interfaces für direkte Besucher — weil Transparenz Vertrauen schafft.
+        </li>
+      </ul>
+      <p>
+        Details zu Services und Preisen: <a href="/ai/services.json">services.json</a>
+      </p>
+    </section>
+
+    <section id="for-agents">
+      <h2>Für AI-Agenten</h2>
+      <p>
+        Diese Website ist maschinenlesbar strukturiert.
+        Alle Kerninformationen liegen in validen JSON/JSON-LD Formaten vor.
+      </p>
+
+      <div class="ai-links">
+        <p><strong>Strukturierte Daten:</strong></p>
+        <ul>
+          <li><a href="/ai/manifest.jsonld">manifest.jsonld</a> — Person/Organisation (Schema.org)</li>
+          <li><a href="/ai/services.json">services.json</a> — Leistungen und Preise</li>
+          <li><a href="/ai/portfolio.json">portfolio.json</a> — Referenzprojekte</li>
+          <li><a href="/ai/identity.json">identity.json</a> — Tonalität und Begriffe</li>
+        </ul>
+
+        <p><strong>Textuelle Inhalte:</strong></p>
+        <ul>
+          <li><a href="/content/philosophy.md">philosophy.md</a> — Haltung und Prinzipien</li>
+          <li><a href="/content/2030-web.md">2030-web.md</a> — Vision: Web als Dateninterface</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <p>
+        Für Projekte und Anfragen:<br>
+        <a href="mailto:mail@jan-erik-andersen.de">mail@jan-erik-andersen.de</a>
+      </p>
+      <p>
+        <a href="https://github.com/jan-erik-andersen">GitHub</a> ·
+        <a href="https://linkedin.com/in/jan-erik-andersen">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Diese Website ist statisch, framework-frei und ohne JavaScript.
+      Sie funktioniert für Browser <strong>und</strong> für AI-Agenten.
+    </p>
+    <p>
+      Projekt: <a href="https://github.com/jan-erik-andersen/andersen-signal">andersen-signal v0.1</a>
+    </p>
+  </footer>
+
+</body>
+</html>
