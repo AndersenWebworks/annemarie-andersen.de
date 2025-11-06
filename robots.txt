@@ -1,0 +1,42 @@
+# robots.txt für jan-erik-andersen.de
+# AI-native Website — maschinenlesbare Daten bevorzugt
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://jan-erik-andersen.de/sitemap.xml
+
+# Machine-readable data index (for AI agents)
+# Start here for structured data discovery:
+# https://jan-erik-andersen.de/ai/index.json
+
+# Wichtige strukturierte Daten (explizit erlaubt)
+Allow: /ai/
+Allow: /content/
+Allow: /blog/
+
+# JSON/JSON-LD Dateien explizit crawlbar
+Allow: /*.json
+Allow: /*.jsonld
+Allow: /*.md
+
+# Unwichtige Dateien blockieren
+Disallow: /verify/
+Disallow: /.git/
+Disallow: /.htaccess
+
+# Spezielle Anweisungen für AI-Agenten
+# (experimentell, nicht standardisiert)
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Claude-Web
+User-agent: Bingbot
+User-agent: Googlebot
+Crawl-delay: 1
+Allow: /ai/
+Allow: /content/
+Allow: /blog/
+Allow: /*.json
+Allow: /*.jsonld
+Allow: /*.md

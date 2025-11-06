@@ -22,7 +22,11 @@
       "Bash(curl -I https://jan-erik-andersen.de)",
       "Bash(curl:*)",
       "Bash(del:*)",
-      "Bash(move \"c:\\Andersen\\Webworks\\GitHub\\Webworks\\jan-erik-andersen.de\\faq-minimal.html\" \"c:\\Andersen\\Webworks\\GitHub\\Webworks\\jan-erik-andersen.de\\faq.html\")"
+      "Bash(move \"c:\\Andersen\\Webworks\\GitHub\\Webworks\\jan-erik-andersen.de\\faq-minimal.html\" \"c:\\Andersen\\Webworks\\GitHub\\Webworks\\jan-erik-andersen.de\\faq.html\")",
+      "Bash(for url in https://jan-erik-andersen.de/ai/manifest.jsonld https://jan-erik-andersen.de/ai/services.json https://jan-erik-andersen.de/ai/portfolio.json https://jan-erik-andersen.de/ai/identity.json https://jan-erik-andersen.de/blog/feed.json https://jan-erik-andersen.de/blog/google-zero.json https://jan-erik-andersen.de/blog/google-zero.md)",
+      "Bash(do echo \"Testing: $url\")",
+      "Bash(done)",
+      "Bash(bash test-headers.sh:*)"
     ],
     "deny": [],
     "ask": []
