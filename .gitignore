@@ -1,1 +1,13 @@
+# Windows temp files
 nul
+
+# Credentials & Secrets
+FTP.md
+*.ftp
+*.credentials
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
