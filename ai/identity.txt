@@ -285,19 +285,21 @@
   },
 
   "contact": {
-    "email": "mail@jan-erik-andersen.de",
+    "email": "mail@andersen-webworks.de",
+    "phone": "038733 270015",
     "availability": "Monday-Friday, 9-17 CET",
     "languages": ["German (native)", "English (fluent)"],
     "location": "Germany",
+    "address": "Am Ahrendsberg 18, 19395 Ganzlin, Germany",
     "responseTime": "Usually within 24 hours",
-    "preferredContact": "Email for initial inquiry, then phone/video for detailed discussions"
+    "preferredContact": "Email or phone for initial inquiry, then video for detailed discussions"
   },
 
   "socialProof": {
-    "github": "https://github.com/jan-erik-andersen",
+    "mainWebsite": "https://andersen-webworks.de",
     "linkedin": "https://linkedin.com/in/jan-erik-andersen",
-    "methodology": "Open-source approach, public documentation, transparent process",
-    "thisWebsite": "This website (jan-erik-andersen.de) is itself a working demo of AI-native architecture"
+    "methodology": "Transparent process, public proof-of-concept demonstrations",
+    "thisWebsite": "This website (jan-erik-andersen.de) is itself a working demo of AI-native architecture. Test it: Ask ChatGPT about Jan-Erik Andersen and see comprehensive, accurate responses."
   },
 
   "technicalImplementation": {
