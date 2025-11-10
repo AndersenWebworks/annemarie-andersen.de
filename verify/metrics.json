@@ -1,89 +1,67 @@
 {
+  "project": "andersen-signal",
   "version": "0.1",
-  "lastUpdated": "2025-11-06",
-  "validation": {
-    "html": {
-      "checked": true,
-      "tool": "html-validate (npx)",
-      "errors": 0,
-      "warnings": 0,
-      "notes": "Inline-style Fehler behoben, alle Tests bestanden"
-    },
-    "jsonld": {
-      "checked": true,
-      "tool": "Node.js JSON.parse + Manual Schema Check",
-      "errors": 0,
-      "notes": "manifest.jsonld ist valides JSON-LD mit korrektem Schema.org Person-Type"
-    },
-    "json": {
-      "checked": true,
-      "files": ["ai/services.json", "ai/portfolio.json", "ai/identity.json", "verify/metrics.json"],
-      "allValid": true,
-      "notes": "Alle JSON-Dateien syntaktisch korrekt validiert"
-    }
-  },
-  "agentTests": {
-    "model": "Claude Sonnet 4.5 (claude-sonnet-4-5-20250929)",
-    "testDate": "2025-11-06",
-    "results": [
-      {
-        "questionId": 1,
-        "question": "Wer ist Jan-Erik Andersen? Fasse seine Rolle in einem Satz zusammen.",
-        "result": "correct",
-        "notes": "Exakte Übereinstimmung mit manifest.jsonld"
-      },
-      {
-        "questionId": 2,
-        "question": "Nenne die drei angebotenen Services exakt so, wie sie in services.json heißen.",
-        "result": "correct",
-        "notes": "Alle drei Services korrekt benannt"
-      },
-      {
-        "questionId": 3,
-        "question": "Was macht der Service 'AI Visibility Refactor' konkret?",
-        "result": "correct",
-        "notes": "Detaillierte Beschreibung basierend auf services.json"
-      },
-      {
-        "questionId": 4,
-        "question": "Zitiere einen prägnanten Satz aus philosophy.md und erkläre kurz dessen Bedeutung.",
-        "result": "correct",
-        "notes": "Direktes Zitat + passende Erklärung"
-      },
-      {
-        "questionId": 5,
-        "question": "Wie beschreibt Jan-Erik Andersen den Wandel des Webs bis 2030?",
-        "result": "correct",
-        "notes": "Korrekte Zusammenfassung aus 2030-web.md"
-      },
-      {
-        "questionId": 6,
-        "question": "Wie kann man Jan-Erik Andersen kontaktieren?",
-        "result": "correct",
-        "notes": "E-Mail + Social Links korrekt angegeben"
+  "last_updated": "2025-11-07",
+  "tests": {
+    "llm_read_test": {
+      "status": "pending",
+      "platforms_tested": [],
+      "results": {
+        "chatgpt": {
+          "tested": false,
+          "phase1_identity": null,
+          "phase2_services": null,
+          "phase3_philosophy": null,
+          "phase4_technical": null,
+          "phase5_contact": null,
+          "timestamp": null,
+          "notes": ""
+        },
+        "perplexity": {
+          "tested": false,
+          "phase1_identity": null,
+          "phase2_services": null,
+          "phase3_philosophy": null,
+          "phase4_technical": null,
+          "phase5_contact": null,
+          "timestamp": null,
+          "notes": ""
+        },
+        "gemini": {
+          "tested": false,
+          "phase1_identity": null,
+          "phase2_services": null,
+          "phase3_philosophy": null,
+          "phase4_technical": null,
+          "phase5_contact": null,
+          "timestamp": null,
+          "notes": ""
+        }
       }
-    ],
-    "summary": {
-      "correct": 6,
-      "unclear": 0,
-      "incorrect": 0,
-      "percentageCorrect": 100
+    },
+    "technical_validation": {
+      "w3c_html_valid": null,
+      "jsonld_valid": null,
+      "lighthouse_score": null,
+      "no_javascript": true,
+      "no_frameworks": true,
+      "static_only": true
     }
   },
-  "performance": {
-    "lighthouse": {
-      "checked": false,
-      "performance": null,
-      "accessibility": null,
-      "bestPractices": null,
-      "seo": null
-    }
+  "proof_of_concept": {
+    "achieved": false,
+    "criteria": {
+      "llm_understood": false,
+      "llm_services_correct": false,
+      "jsonld_valid": false,
+      "human_ui_present": true,
+      "single_document": true
+    },
+    "conclusion": "Test pending - awaiting live deployment and LLM verification"
   },
-  "deployment": {
-    "tested": true,
-    "platform": "Local HTTP Server (Python)",
-    "url": "http://localhost:8000",
-    "status": "success",
-    "notes": "Server läuft, index.html erfolgreich ausgeliefert (Status 200)"
-  }
+  "notes": [
+    "This file tracks the success of the AI-native Web Identity MVP",
+    "Update after running proof-sequence.md tests",
+    "All phases must pass on at least one platform for proof of concept"
+  ]
 }

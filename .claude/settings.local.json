@@ -27,7 +27,19 @@
       "Bash(do echo \"Testing: $url\")",
       "Bash(done)",
       "Bash(bash test-headers.sh:*)",
-      "Bash(nslookup:*)"
+      "Bash(nslookup:*)",
+      "Bash(if not exist \"verify\" mkdir verify)",
+      "Bash(if not exist \".github\" mkdir .github)",
+      "Bash(if not exist \".github\\workflows\" mkdir .githubworkflows)",
+      "Bash(mkdir:*)",
+      "Bash(while read file)",
+      "Bash(do cp \"$file\" \"$file%.json.txt\")",
+      "Bash(echo:*)",
+      "Bash(do cp \"$file\" \"$file%.md.txt\")",
+      "Bash(for url in \"https://jan-erik-andersen.de/ai/services.txt\" \"https://jan-erik-andersen.de/ai/identity.txt\" \"https://jan-erik-andersen.de/ai/portfolio.txt\" \"https://jan-erik-andersen.de/blog/google-zero.txt\")",
+      "Bash(do echo \"Testing: $url\" curl -I \"$url\")",
+      "Bash(grep -E \"HTTP|Content-Type\" echo \"---\" done)",
+      "Bash(git pull:*)"
     ],
     "deny": [],
     "ask": []

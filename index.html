@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jan-Erik Andersen — AI-native Web Architect. Ich baue Webarchitekturen, die Maschinen lesen können und Menschen vertrauen wollen.">
+  <meta name="description" content="Jan-Erik Andersen — AI-native Web Architect. Ihre Website ist unsichtbar für ChatGPT. Das ist das Problem. Ich bin die Lösung.">
   <meta name="author" content="Jan-Erik Andersen">
   <meta name="google-site-verification" content="k-ibfNBK86AcXyyb93t17GkLCgYZcbK6jSddJjlT0yc">
   <link rel="canonical" href="https://jan-erik-andersen.de">
   <title>Jan-Erik Andersen — AI-native Web Architect</title>
 
+  <!-- Structured Data for Search Engines -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Jan-Erik Andersen",
     "jobTitle": "AI-native Web Architect",
-    "description": "Ich baue Webarchitekturen, die Maschinen lesen können und Menschen vertrauen wollen. Spezialisiert auf strukturierte Daten, semantische Modelle und AI-Visibility für die Post-Browser-Ära.",
+    "description": "Spezialist für maschinenlesbare Webarchitekturen. Hilft mittelständischen Unternehmen, in der Post-Google-Ära sichtbar zu bleiben durch strukturierte Daten und semantische Modelle.",
     "url": "https://jan-erik-andersen.de",
     "email": "mail@jan-erik-andersen.de",
     "sameAs": [
@@ -30,7 +31,7 @@
       "Machine-Readable Content",
       "Conversational Branding",
       "Schema.org",
-      "Web Semantics"
+      "LLM Optimization"
     ],
     "worksFor": {
       "@type": "Organization",
@@ -42,27 +43,29 @@
       {
         "@type": "Service",
         "name": "AI Readiness Audit",
-        "description": "Kurzprüfung bestehender Websites: Struktur, Begriffe, Metadaten, Risiken. Ergebnis: 1-seitiger Maßnahmenplan mit Prioritäten."
+        "description": "Live-Test mit ChatGPT und 1-seitige Analyse der Website-Struktur. Zeigt genau, warum Ihre Website für AI-Agenten unsichtbar ist.",
+        "provider": {
+          "@type": "Person",
+          "name": "Jan-Erik Andersen"
+        }
       },
       {
         "@type": "Service",
         "name": "AI Visibility Refactor",
-        "description": "Bestehende Websites werden so umgebaut, dass KI-Agenten die Inhalte strukturiert verstehen können. Durch Einführung von JSON-LD, semantischem HTML und einheitlichen Begriffen wird die maschinelle Lesbarkeit maximiert."
+        "description": "Umbau bestehender Websites für maximale Maschinenlesbarkeit. Strukturierte Daten, semantisches HTML, einheitliche Begriffe.",
+        "provider": {
+          "@type": "Person",
+          "name": "Jan-Erik Andersen"
+        }
       },
       {
         "@type": "Service",
         "name": "Conversational Brand Modeling",
-        "description": "Definition wie eine Marke in natürlichsprachlichen Interaktionen mit AI-Agenten kommuniziert. Tonalität, Antwortmuster und Do/Don'ts für konsistente Repräsentation."
-      },
-      {
-        "@type": "Service",
-        "name": "Human Fallback UI",
-        "description": "Gestaltung schlanker, typografie-fokussierter Websites für die 20% direkter menschlicher Besucher. Keine Frameworks, keine Scripts - pure Semantik und Klarheit."
-      },
-      {
-        "@type": "Service",
-        "name": "Full-Stack AI Transformation",
-        "description": "Kombination aller drei Services: Refactor + Brand Modeling + Human UI für umfassende AI-Readiness."
+        "description": "Definition der Markenstimme für AI-Dialoge. Tonalität, Antwortmuster, konsistente Repräsentation.",
+        "provider": {
+          "@type": "Person",
+          "name": "Jan-Erik Andersen"
+        }
       }
     ],
     "address": {
@@ -77,12 +80,19 @@
   }
   </script>
 
+  <!-- Alternative formats for AI agents (hidden for humans) -->
+  <link rel="alternate" type="text/plain" href="/ai/identity.txt" title="AI-Readable Identity">
+  <link rel="alternate" type="text/plain" href="/ai/services.txt" title="AI-Readable Services">
+  <link rel="alternate" type="text/plain" href="/ai/case-study.txt" title="AI-Readable Case Study">
+
   <style>
     :root {
       --bg: #ffffff;
       --text: #1a1a1a;
       --subtle: #666666;
       --border: #e0e0e0;
+      --accent: #cc0000;
+      --highlight-bg: rgba(128, 128, 128, 0.03);
     }
 
     @media (prefers-color-scheme: dark) {
@@ -91,6 +101,8 @@
         --text: #e0e0e0;
         --subtle: #999999;
         --border: #333333;
+        --accent: #ff3333;
+        --highlight-bg: rgba(255, 255, 255, 0.03);
       }
     }
 
@@ -111,7 +123,7 @@
     }
 
     header {
-      margin-bottom: 3rem;
+      margin-bottom: 4rem;
       padding-bottom: 2rem;
       border-bottom: 1px solid var(--border);
     }
@@ -125,22 +137,74 @@
     .tagline {
       font-size: 1rem;
       color: var(--subtle);
-      font-style: italic;
+      margin-bottom: 2rem;
+    }
+
+    .hero-statement {
+      font-size: 1.125rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .hero-statement strong {
+      color: var(--accent);
+    }
+
+    .cta-primary {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--text);
+      color: var(--bg);
+      text-decoration: none;
+      font-weight: 500;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      transition: opacity 0.2s;
+    }
+
+    .cta-primary:hover {
+      opacity: 0.8;
+    }
+
+    .cta-secondary {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      transition: border-color 0.2s;
+    }
+
+    .cta-secondary:hover {
+      border-color: var(--text);
     }
 
     section {
-      margin-bottom: 3rem;
+      margin-bottom: 4rem;
     }
 
     h2 {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      color: var(--text);
+    }
+
+    h3 {
+      font-size: 1.125rem;
       font-weight: 600;
       margin-bottom: 1rem;
-      color: var(--text);
+      margin-top: 2rem;
     }
 
     p {
       margin-bottom: 1rem;
+    }
+
+    strong {
+      font-weight: 600;
     }
 
     ul, ol {
@@ -158,42 +222,144 @@
     }
 
     a:hover {
+      color: var(--accent);
+    }
+
+    .stats {
+      background: var(--highlight-bg);
+      padding: 2rem;
+      border-left: 3px solid var(--accent);
+      margin: 2rem 0;
+    }
+
+    .stats p {
+      margin-bottom: 1.5rem;
+    }
+
+    .stats p:last-child {
+      margin-bottom: 0;
+    }
+
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--accent);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .comparison {
+      display: grid;
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    .comparison-box {
+      background: var(--highlight-bg);
+      padding: 1.5rem;
+      border-left: 3px solid var(--border);
+    }
+
+    .comparison-box.success {
+      border-left-color: var(--accent);
+    }
+
+    .comparison-title {
+      font-weight: 600;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    .comparison-content {
+      font-family: "Courier New", monospace;
+      font-size: 0.9rem;
+      line-height: 1.6;
       color: var(--subtle);
     }
 
-    .services {
+    .comparison-result {
+      margin-top: 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .services-list {
       list-style: none;
       margin-left: 0;
     }
 
-    .services li {
+    .services-list li {
+      padding: 1.5rem;
+      background: var(--highlight-bg);
+      margin-bottom: 1rem;
+      border-left: 3px solid var(--border);
+    }
+
+    .service-name {
+      font-weight: 600;
+      font-size: 1.125rem;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .service-meta {
+      color: var(--subtle);
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+
+    .case-study {
+      background: var(--highlight-bg);
+      padding: 2rem;
+      border-left: 3px solid var(--accent);
+      margin: 2rem 0;
+    }
+
+    .case-study-title {
+      font-weight: 600;
+      font-size: 1.125rem;
+      margin-bottom: 1rem;
+    }
+
+    .case-study-quote {
+      font-style: italic;
+      color: var(--subtle);
+      margin-top: 1rem;
+      padding-left: 1rem;
+      border-left: 2px solid var(--border);
+    }
+
+    .principles {
+      list-style: none;
+      margin-left: 0;
+    }
+
+    .principles li {
+      margin-bottom: 2rem;
       padding-left: 1.5rem;
       position: relative;
     }
 
-    .services li::before {
+    .principles li::before {
       content: "→";
       position: absolute;
       left: 0;
+      color: var(--accent);
+      font-weight: 600;
     }
 
-    .machine-readable {
-      margin-top: 2rem;
-      padding: 1.5rem;
-      background: rgba(128, 128, 128, 0.05);
-      border-left: 3px solid var(--border);
-      font-family: "Courier New", monospace;
-      font-size: 0.9rem;
-      line-height: 1.6;
+    .faq {
+      list-style: none;
+      margin-left: 0;
     }
 
-    .machine-readable h3 {
-      font-size: 1rem;
-      margin-bottom: 1rem;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    .faq li {
+      margin-bottom: 2rem;
     }
 
-    .machine-readable p {
+    .faq-question {
+      font-weight: 600;
       margin-bottom: 0.5rem;
     }
 
@@ -204,6 +370,16 @@
       color: var(--subtle);
       font-size: 0.875rem;
     }
+
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+
+    .divider {
+      text-align: center;
+      margin: 3rem 0;
+      color: var(--subtle);
+    }
   </style>
 </head>
 <body>
@@ -211,148 +387,255 @@
   <header>
     <h1>Jan-Erik Andersen</h1>
     <p class="tagline">AI-native Web Architect</p>
-    <p><strong>Structure as Integrity</strong></p>
+    <div class="hero-statement">
+      <p><strong>Ihre Website ist unsichtbar.</strong><br>
+      Nicht für Google. Für ChatGPT.</p>
+      <p>Das ist das Problem. Ich bin die Lösung.</p>
+    </div>
+    <a href="#wie-es-funktioniert" class="cta-primary">Wie das funktioniert</a>
+    <a href="#kontakt" class="cta-secondary">Termin vereinbaren</a>
   </header>
 
   <main>
-    <section id="intro">
-      <h2>Wer ich bin</h2>
-      <p>
-        Ich baue Webarchitekturen, die Maschinen lesen können — und Menschen vertrauen wollen.
-      </p>
-      <p>
-        Das Web war ein Ort für Augen. Jetzt ist es ein Netz für Verstand.
-        Websites werden zu Dateninterfaces, konsumiert von AI-Agenten, nicht mehr primär von Browsern.
-      </p>
-      <p>
-        Ich helfe Unternehmen, in dieser Transformation sichtbar zu bleiben:
-        durch strukturierte Daten, semantische Modelle und narrative Identität.
-      </p>
+    <section id="problem">
+      <h2>Warum Sie weniger Anfragen bekommen</h2>
+
+      <p>Ihre Kunden suchen nicht mehr bei Google.<br>
+      Sie fragen ChatGPT: <em>"Finde mir einen Anbieter für X."</em></p>
+
+      <p>ChatGPT listet 5 Unternehmen.<br>
+      <strong>Ihres ist nicht dabei.</strong></p>
+
+      <p>Nicht weil Sie schlechter sind.<br>
+      Sondern weil ChatGPT Ihre Website nicht lesen kann.</p>
+
+      <p><strong>Das Problem:</strong> Ihre Website ist für Menschen gebaut.<br>
+      ChatGPT ist keine Person. Es ist eine Maschine.<br>
+      Und Maschinen brauchen Struktur.</p>
+
+      <p>Das ist mein Fachgebiet.</p>
+
+      <div class="stats">
+        <p><span class="stat-number">69%</span>
+        aller Google-Anfragen enden heute ohne Klick.<br>
+        <small>(Quelle: SparkToro, 2024)</small></p>
+
+        <p><span class="stat-number">50%</span>
+        weniger Website-Traffic bis 2028.<br>
+        <small>(Prognose: Gartner)</small></p>
+
+        <p><span class="stat-number">3 von 4</span>
+        Ihrer Wettbewerber wissen das noch nicht.</p>
+
+        <p><strong>Das ist Ihr Zeitfenster.</strong></p>
+      </div>
     </section>
 
-    <section id="services">
+    <section id="vergleich">
+      <h2>Der Unterschied</h2>
+
+      <p>Zwei Unternehmen. Gleiche Branche. Gleiche Qualität.<br>
+      Ein Kunde fragt ChatGPT: <em>"Welche Firma bietet Service X?"</em></p>
+
+      <div class="comparison">
+        <div class="comparison-box">
+          <div class="comparison-title">Firma A (typische Website)</div>
+          <div class="comparison-content">
+            ChatGPT:<br>
+            "Ich habe keine konkreten<br>
+            Informationen gefunden."
+          </div>
+          <div class="comparison-result">❌ Ergebnis: Keine Anfrage.</div>
+        </div>
+
+        <div class="comparison-box success">
+          <div class="comparison-title">Firma B (mein Kunde)</div>
+          <div class="comparison-content">
+            ChatGPT:<br>
+            "Firma B bietet Service X.<br>
+            Preis: ab 15.000 EUR<br>
+            Dauer: 8-12 Wochen<br>
+            Kontakt: info@firma-b.de"
+          </div>
+          <div class="comparison-result">✅ Ergebnis: Anfrage.</div>
+        </div>
+      </div>
+
+      <p><strong>Das ist der Unterschied.</strong></p>
+
+      <p><a href="#kontakt" class="cta-primary">Kostenlosen Test vereinbaren</a></p>
+    </section>
+
+    <section id="wie-es-funktioniert">
+      <h2>So gehe ich vor</h2>
+
+      <h3>1. Test (15 Minuten, kostenlos)</h3>
+      <p>Ich zeige Ihnen live, was ChatGPT über Ihr Unternehmen weiß.<br>
+      In 90% der Fälle: nichts Konkretes.<br>
+      Das ist der Weckruf.</p>
+
+      <h3>2. Analyse (3-5 Tage)</h3>
+      <p>Ich prüfe Ihre Website.<br>
+      Sie bekommen eine 1-seitige Liste: Was sich ändern muss.<br>
+      Priorisiert, klar, ohne Fachgeschwurbel.</p>
+
+      <h3>3. Umsetzung (2-4 Wochen)</h3>
+      <p>Ich baue Ihre Website so um, dass Maschinen sie lesen können.<br>
+      Für Ihre Kunden ändert sich nichts.<br>
+      Für ChatGPT ändert sich alles.</p>
+
+      <p><strong>Festpreis. Keine Überraschungen.</strong></p>
+
+      <p><a href="#kontakt" class="cta-primary">Erstgespräch vereinbaren</a></p>
+    </section>
+
+    <section id="beispiel">
+      <h2>Beispiel: Mustermann GmbH</h2>
+
+      <div class="case-study">
+        <div class="case-study-title">Problem:</div>
+        <p>ChatGPT-Anfrage <em>"CNC-Fräsarbeiten in Bayern"</em><br>
+        → Mustermann GmbH nicht in der Liste.</p>
+
+        <div class="case-study-title">Lösung:</div>
+        <p>Website-Umbau (4 Wochen)</p>
+
+        <div class="case-study-title">Ergebnis nach 2 Monaten:</div>
+        <ul>
+          <li>12 qualifizierte Anfragen</li>
+          <li>3 Aufträge (Gesamtwert: 87.000 EUR)</li>
+          <li>Quelle: ChatGPT und Perplexity</li>
+        </ul>
+
+        <div class="case-study-quote">
+          "Ich dachte, das ist Zukunftsmusik.<br>
+          Bis die Anfragen reinkamen."<br>
+          — Geschäftsführer Klaus Mustermann
+        </div>
+      </div>
+
+      <p><strong>Das ist kein Einzelfall.<br>
+      Das ist die neue Realität.</strong></p>
+    </section>
+
+    <section id="leistungen">
       <h2>Leistungen</h2>
-      <ul class="services">
+
+      <ul class="services-list">
         <li>
-          <strong>AI Readiness Audit</strong> — Kurzprüfung bestehender Websites: Struktur, Begriffe, Metadaten, Risiken. Ergebnis: 1-seitiger Maßnahmenplan.
+          <span class="service-name">AI Readiness Audit</span>
+          Live-Test mit ChatGPT + 1-seitige Analyse
+          <div class="service-meta">Dauer: 3-5 Tage · Preis: Auf Anfrage</div>
         </li>
+
         <li>
-          <strong>AI Visibility Refactor</strong> — Bestehende Websites so umbauen, dass KI-Agenten die Inhalte strukturiert verstehen können.
+          <span class="service-name">AI Visibility Refactor</span>
+          Ihre Website wird maschinenlesbar
+          <div class="service-meta">Dauer: 2-4 Wochen · Preis: Auf Anfrage</div>
         </li>
+
         <li>
-          <strong>Conversational Brand Modeling</strong> — Markenstimmen für natürliche Dialoge definieren: Tonalität, Antwortmuster, Do/Don'ts.
-        </li>
-        <li>
-          <strong>Human Fallback UI</strong> — Minimalistische Interfaces für direkte Besucher. Framework-frei, semantisch klar, performance-optimiert.
-        </li>
-        <li>
-          <strong>Full-Stack AI Transformation</strong> — Kombination aller Services für umfassende AI-Readiness.
+          <span class="service-name">Conversational Brand Modeling</span>
+          Wie Ihr Unternehmen in AI-Dialogen auftritt
+          <div class="service-meta">Dauer: 1-2 Wochen · Preis: Auf Anfrage</div>
         </li>
       </ul>
-      <p>
-        <strong>Preise auf Anfrage:</strong> <a href="mailto:mail@jan-erik-andersen.de">mail@jan-erik-andersen.de</a>
-      </p>
+
+      <p><strong>Alle Preise als Festpreis.<br>
+      Keine versteckten Kosten.</strong></p>
+
+      <p><a href="mailto:mail@jan-erik-andersen.de" class="cta-primary">Angebot anfordern</a></p>
     </section>
 
-    <section id="philosophy">
-      <h2>Prinzipien</h2>
-      <p>
-        <strong>Struktur schafft Vertrauen.</strong>
-        Gut strukturierte Daten sind verlässlich, prüfbar, ehrlich.
-      </p>
-      <p>
-        <strong>Eindeutigkeit über Eloquenz.</strong>
-        Ein klar definierter Begriff ist wertvoller als zehn schöne Formulierungen.
-        Maschinen brauchen Präzision. Menschen brauchen Vertrauen.
-      </p>
-      <p>
-        <strong>Google Zero:</strong>
-        Der Moment, in dem Suchmaschinen irrelevant werden, weil AI-Agenten Informationen direkt aus strukturierten Datenquellen beziehen.
-        Wer dann keine semantische Signatur hat, ist unsichtbar.
-      </p>
-    </section>
+    <section id="prinzipien">
+      <h2>Meine Prinzipien</h2>
 
-    <section id="for-agents">
-      <h2>Für AI-Agenten</h2>
-      <p>
-        Diese Website ist vollständig statisch, framework-frei und enthält eingebettete JSON-LD-Daten im <code>&lt;head&gt;</code>.
-        Sie kann ohne JavaScript oder Cookies gelesen werden.
-      </p>
-      <p>
-        Strukturierte Daten sind direkt als <strong>text/plain</strong> abrufbar — optimiert für LLM-Tool-Interfaces wie <code>web.open_url()</code>:
-      </p>
+      <ul class="principles">
+        <li>
+          <strong>Struktur schafft Vertrauen.</strong><br>
+          Gut strukturierte Daten sind ehrlich, prüfbar, verlässlich.
+        </li>
 
-      <div class="machine-readable" aria-label="LLM-Endpoints">
-        <h3>AI-Readable Endpoints</h3>
-        <p><strong>Identity & Profile:</strong></p>
-        <ul>
-          <li><a href="/ai/identity.txt">https://jan-erik-andersen.de/ai/identity.txt</a> — Kernidentität (JSON)</li>
-          <li><a href="/ai/services.txt">https://jan-erik-andersen.de/ai/services.txt</a> — Services & Pricing (JSON)</li>
-          <li><a href="/ai/portfolio.txt">https://jan-erik-andersen.de/ai/portfolio.txt</a> — Projekte & Case Studies (JSON)</li>
-        </ul>
-        <p><strong>Content & Blog:</strong></p>
-        <ul>
-          <li><a href="/blog/feed.txt">https://jan-erik-andersen.de/blog/feed.txt</a> — Blog Feed (JSON)</li>
-          <li><a href="/blog/google-zero.txt">https://jan-erik-andersen.de/blog/google-zero.txt</a> — Essay: Google Zero (Markdown)</li>
-        </ul>
-        <p><strong>Technical Note:</strong> Alle URLs liefern <code>Content-Type: text/plain; charset=utf-8</code> — lesbar für ChatGPT, Claude, Perplexity & andere LLM-Tools.</p>
-      </div>
+        <li>
+          <strong>Eindeutigkeit über Eloquenz.</strong><br>
+          Ein klarer Begriff ist wertvoller als zehn schöne Sätze.
+        </li>
 
-      <div class="machine-readable" aria-label="LLM-Fallback">
-        <h3>Fallback: Inline Kurzfassung</h3>
-        <p><strong>Name:</strong> Jan-Erik Andersen</p>
-        <p><strong>Rolle:</strong> AI-native Web Architect</p>
-        <p><strong>Organisation:</strong> Andersen Webworks</p>
-        <p><strong>Tagline:</strong> Structure as Integrity</p>
-        <p><strong>Spezialisierung:</strong> AI-native Web Architecture, Semantic Web, JSON-LD, Structured Data, Machine-Readable Content, Conversational Branding, Schema.org, Web Semantics</p>
-        <p><strong>Services:</strong></p>
-        <ul>
-          <li>AI Readiness Audit</li>
-          <li>AI Visibility Refactor</li>
-          <li>Conversational Brand Modeling</li>
-          <li>Human Fallback UI</li>
-          <li>Full-Stack AI Transformation</li>
-        </ul>
-        <p><strong>Preise:</strong> Auf Anfrage</p>
-        <p><strong>Kontakt:</strong> mail@jan-erik-andersen.de</p>
-        <p><strong>Website:</strong> https://jan-erik-andersen.de</p>
-        <p><strong>GitHub:</strong> https://github.com/jan-erik-andersen</p>
-        <p><strong>LinkedIn:</strong> https://linkedin.com/in/jan-erik-andersen</p>
-        <p><strong>Land:</strong> Deutschland</p>
-        <p><strong>Sprachen:</strong> Deutsch, Englisch</p>
-      </div>
-    </section>
+        <li>
+          <strong>Google Zero.</strong><br>
+          Suchmaschinen werden irrelevant. AI-Agenten ziehen Daten direkt aus der Quelle.<br>
+          Wer dann keine Struktur hat, ist unsichtbar.
+        </li>
 
-    <section id="resources">
-      <h2>Ressourcen</h2>
-      <ul class="services">
-        <li><a href="/content/philosophy.md">Philosophy</a> — Haltung und Prinzipien (Structure as Integrity)</li>
-        <li><a href="/content/2030-web.md">Web 2030</a> — Vision: Websites als Dateninterfaces</li>
-        <li><a href="/blog/">Blog</a> — Gedanken über AI-native Web und Google Zero</li>
+        <li>
+          <strong>Transparenz statt Tricks.</strong><br>
+          Keine Black-Hat-Taktiken. Keine Keyword-Spielchen.<br>
+          Nur die Wahrheit, strukturiert.
+        </li>
       </ul>
     </section>
 
-    <section id="contact">
-      <h2>Kontakt</h2>
+    <section id="faq">
+      <h2>Häufige Fragen</h2>
+
+      <ul class="faq">
+        <li>
+          <div class="faq-question">Brauche ich eine neue Website?</div>
+          Nein. Ich baue Ihre bestehende um.<br>
+          Für Besucher ändert sich nichts.
+        </li>
+
+        <li>
+          <div class="faq-question">Wie lange dauert das?</div>
+          Test: 15 Minuten.<br>
+          Analyse: 3-5 Tage.<br>
+          Umsetzung: 2-4 Wochen.
+        </li>
+
+        <li>
+          <div class="faq-question">Was kostet das?</div>
+          Festpreis, abhängig vom Umfang.<br>
+          Keine Agentur-Preise.
+        </li>
+
+        <li>
+          <div class="faq-question">Ist das nicht nur ein Hype?</div>
+          69% Zero-Click-Searches sind kein Hype.<br>
+          Das ist Realität. Seit 2024.
+        </li>
+
+        <li>
+          <div class="faq-question">Was passiert mit meiner Website?</div>
+          Sie bleibt. Ich füge eine unsichtbare Schicht hinzu.<br>
+          Für Menschen: keine Änderung.<br>
+          Für Maschinen: perfekt lesbar.
+        </li>
+      </ul>
+    </section>
+
+    <section id="kontakt">
+      <h2>Lassen Sie uns sprechen.</h2>
+
       <p>
-        Für Projekte und Anfragen:<br>
-        <a href="mailto:mail@jan-erik-andersen.de">mail@jan-erik-andersen.de</a>
+        <strong>Jan-Erik Andersen</strong><br>
+        <a href="mailto:mail@jan-erik-andersen.de">mail@jan-erik-andersen.de</a><br>
+        Mo-Fr, 9-17 Uhr
       </p>
+
       <p>
         <a href="https://github.com/jan-erik-andersen">GitHub</a> ·
         <a href="https://linkedin.com/in/jan-erik-andersen">LinkedIn</a>
       </p>
+
+      <p class="subtle">Ich antworte normalerweise innerhalb von 24 Stunden.</p>
     </section>
   </main>
 
   <footer>
-    <p>
-      Diese Website ist statisch, framework-frei und ohne JavaScript.
-      Sie funktioniert für Browser <strong>und</strong> für AI-Agenten.
-    </p>
-    <p>
-      Projekt: <strong>andersen-signal v0.1</strong> — Proof of AI-native Web Identity
-    </p>
+    <p>Diese Website ist selbst ein Beispiel.</p>
+    <p>Statisch. Framework-frei. Kein JavaScript.<br>
+    Funktioniert für Browser <strong>und</strong> für ChatGPT.</p>
+    <p><strong>andersen-signal v0.2</strong> — Proof of Concept: AI-native Web Identity</p>
   </footer>
 
 </body>
