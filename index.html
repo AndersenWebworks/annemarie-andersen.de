@@ -10,6 +10,7 @@
   <link rel="alternate" hreflang="de" href="https://jan-erik-andersen.de/">
   <link rel="alternate" hreflang="en" href="https://jan-erik-andersen.de/en/">
   <link rel="alternate" hreflang="x-default" href="https://jan-erik-andersen.de/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <title>Jan-Erik Andersen — AI-native Web Architect</title>
 
   <!-- Structured Data for Search Engines -->
@@ -139,357 +140,7 @@
   <link rel="alternate" type="text/plain" href="/ai/services.txt" title="AI-Readable Services">
   <link rel="alternate" type="text/plain" href="/ai/case-study.txt" title="AI-Readable Case Study">
 
-  <style>
-    :root {
-      --bg: #ffffff;
-      --text: #1a1a1a;
-      --subtle: #666666;
-      --border: #e0e0e0;
-      --accent: #cc0000;
-      --highlight-bg: rgba(128, 128, 128, 0.03);
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #1a1a1a;
-        --text: #e0e0e0;
-        --subtle: #999999;
-        --border: #333333;
-        --accent: #ff3333;
-        --highlight-bg: rgba(255, 255, 255, 0.03);
-      }
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      line-height: 1.7;
-      color: var(--text);
-      background: var(--bg);
-      max-width: 42rem;
-      margin: 0 auto;
-      padding: 2rem 1.5rem;
-    }
-
-    header {
-      margin-bottom: 4rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid var(--border);
-    }
-
-    h1 {
-      font-size: 1.75rem;
-      font-weight: 600;
-      margin-bottom: 0.5rem;
-    }
-
-    .tagline {
-      font-size: 1rem;
-      color: var(--subtle);
-      margin-bottom: 2rem;
-    }
-
-    .hero-statement {
-      font-size: 1.125rem;
-      line-height: 1.6;
-      margin-bottom: 2rem;
-    }
-
-    .hero-statement strong {
-      color: var(--accent);
-    }
-
-    .cta-primary {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      background: var(--text);
-      color: var(--bg);
-      text-decoration: none;
-      font-weight: 500;
-      margin-right: 1rem;
-      margin-bottom: 1rem;
-      transition: opacity 0.2s;
-    }
-
-    .cta-primary:hover {
-      opacity: 0.8;
-    }
-
-    .cta-secondary {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      border: 1px solid var(--border);
-      color: var(--text);
-      text-decoration: none;
-      font-weight: 500;
-      margin-bottom: 1rem;
-      transition: border-color 0.2s;
-    }
-
-    .cta-secondary:hover {
-      border-color: var(--text);
-    }
-
-    section {
-      margin-bottom: 4rem;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      font-weight: 600;
-      margin-bottom: 1.5rem;
-      color: var(--text);
-    }
-
-    h3 {
-      font-size: 1.125rem;
-      font-weight: 600;
-      margin-bottom: 1rem;
-      margin-top: 2rem;
-    }
-
-    p {
-      margin-bottom: 1rem;
-    }
-
-    strong {
-      font-weight: 600;
-    }
-
-    ul, ol {
-      margin-left: 1.5rem;
-      margin-bottom: 1rem;
-    }
-
-    li {
-      margin-bottom: 0.5rem;
-    }
-
-    a {
-      color: var(--text);
-      text-decoration: underline;
-    }
-
-    a:hover {
-      color: var(--accent);
-    }
-
-    a:focus {
-      outline: 2px solid var(--accent);
-      outline-offset: 2px;
-    }
-
-    .stats {
-      background: var(--highlight-bg);
-      padding: 2rem;
-      border-left: 3px solid var(--accent);
-      margin: 2rem 0;
-    }
-
-    .stats p {
-      margin-bottom: 1.5rem;
-    }
-
-    .stats p:last-child {
-      margin-bottom: 0;
-    }
-
-    .stat-number {
-      font-size: 2rem;
-      font-weight: 600;
-      color: var(--accent);
-      display: block;
-      margin-bottom: 0.25rem;
-    }
-
-    .comparison {
-      display: grid;
-      gap: 2rem;
-      margin: 2rem 0;
-    }
-
-    .comparison-box {
-      background: var(--highlight-bg);
-      padding: 1.5rem;
-      border-left: 3px solid var(--border);
-    }
-
-    .comparison-box.success {
-      border-left-color: var(--accent);
-    }
-
-    .comparison-title {
-      font-weight: 600;
-      margin-bottom: 1rem;
-      font-size: 1rem;
-    }
-
-    .comparison-content {
-      font-family: "Courier New", monospace;
-      font-size: 0.9rem;
-      line-height: 1.6;
-      color: var(--subtle);
-    }
-
-    .comparison-result {
-      margin-top: 1rem;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      font-size: 0.9rem;
-      font-weight: 500;
-    }
-
-    .services-list {
-      list-style: none;
-      margin-left: 0;
-    }
-
-    .services-list li {
-      padding: 1.5rem;
-      background: var(--highlight-bg);
-      margin-bottom: 1rem;
-      border-left: 3px solid var(--border);
-    }
-
-    .service-name {
-      font-weight: 600;
-      font-size: 1.125rem;
-      margin-bottom: 0.5rem;
-      display: block;
-    }
-
-    .service-meta {
-      color: var(--subtle);
-      font-size: 0.9rem;
-      margin-top: 0.5rem;
-    }
-
-    .case-study {
-      background: var(--highlight-bg);
-      padding: 2rem;
-      border-left: 3px solid var(--accent);
-      margin: 2rem 0;
-    }
-
-    .case-study-title {
-      font-weight: 600;
-      font-size: 1.125rem;
-      margin-bottom: 1rem;
-    }
-
-    .case-study-quote {
-      font-style: italic;
-      color: var(--subtle);
-      margin-top: 1rem;
-      padding-left: 1rem;
-      border-left: 2px solid var(--border);
-    }
-
-    .principles {
-      list-style: none;
-      margin-left: 0;
-    }
-
-    .principles li {
-      margin-bottom: 2rem;
-      padding-left: 1.5rem;
-      position: relative;
-    }
-
-    .principles li::before {
-      content: "→";
-      position: absolute;
-      left: 0;
-      color: var(--accent);
-      font-weight: 600;
-    }
-
-    .faq {
-      list-style: none;
-      margin-left: 0;
-    }
-
-    .faq li {
-      margin-bottom: 2rem;
-    }
-
-    .faq-question {
-      font-weight: 600;
-      margin-bottom: 0.5rem;
-    }
-
-    footer {
-      margin-top: 4rem;
-      padding-top: 2rem;
-      border-top: 1px solid var(--border);
-      color: var(--subtle);
-      font-size: 0.875rem;
-    }
-
-    footer p {
-      margin-bottom: 0.5rem;
-    }
-
-    .divider {
-      text-align: center;
-      margin: 3rem 0;
-      color: var(--subtle);
-    }
-
-    .skip-link {
-      position: absolute;
-      top: -40px;
-      left: 0;
-      background: var(--text);
-      color: var(--bg);
-      padding: 0.5rem 1rem;
-      text-decoration: none;
-      z-index: 100;
-    }
-
-    .skip-link:focus {
-      top: 0;
-    }
-
-    nav {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-
-    .controls {
-      position: fixed;
-      top: 1rem;
-      right: 1rem;
-      display: flex;
-      gap: 0.5rem;
-      z-index: 200;
-    }
-
-    .control-btn {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 0.5rem 0.75rem;
-      cursor: pointer;
-      font-size: 0.875rem;
-      font-family: inherit;
-      transition: border-color 0.2s;
-    }
-
-    .control-btn:hover {
-      border-color: var(--text);
-    }
-
-    .control-btn:focus {
-      outline: 2px solid var(--accent);
-      outline-offset: 2px;
-    }
-  </style>
+  <link rel="stylesheet" href="kindle-optimized.css">
 </head>
 <body>
 
@@ -499,8 +150,6 @@
     </button>
     <a href="/en/" class="control-btn" aria-label="Switch to English">EN</a>
   </div>
-
-  <a href="#hauptinhalt" class="skip-link">Zum Hauptinhalt springen</a>
 
   <header>
     <h1>Jan-Erik Andersen</h1>
@@ -776,24 +425,24 @@
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       const currentTheme = savedTheme || (prefersDark ? 'dark' : 'light');
 
-      // Apply theme
+      // Apply theme (Kindle-optimized colors)
       function setTheme(theme) {
         if (theme === 'dark') {
-          root.style.setProperty('--bg', '#1a1a1a');
-          root.style.setProperty('--text', '#e0e0e0');
-          root.style.setProperty('--subtle', '#999999');
-          root.style.setProperty('--border', '#333333');
-          root.style.setProperty('--accent', '#ff3333');
-          root.style.setProperty('--highlight-bg', 'rgba(255, 255, 255, 0.03)');
+          root.style.setProperty('--bg', '#1c1c1c');
+          root.style.setProperty('--text', '#d4d4d4');
+          root.style.setProperty('--subtle', '#8a8a8a');
+          root.style.setProperty('--border', '#3a3a3a');
+          root.style.setProperty('--accent', '#e87461');
+          root.style.setProperty('--highlight-bg', '#252525');
           icon.textContent = '☀️';
           toggle.setAttribute('aria-label', 'Zu hellem Modus wechseln');
         } else {
-          root.style.setProperty('--bg', '#ffffff');
-          root.style.setProperty('--text', '#1a1a1a');
-          root.style.setProperty('--subtle', '#666666');
-          root.style.setProperty('--border', '#e0e0e0');
-          root.style.setProperty('--accent', '#cc0000');
-          root.style.setProperty('--highlight-bg', 'rgba(128, 128, 128, 0.03)');
+          root.style.setProperty('--bg', '#f9f8f5');
+          root.style.setProperty('--text', '#2a2a2a');
+          root.style.setProperty('--subtle', '#6b6b6b');
+          root.style.setProperty('--border', '#d4d0c8');
+          root.style.setProperty('--accent', '#b8503d');
+          root.style.setProperty('--highlight-bg', '#f0ede5');
           icon.textContent = '🌙';
           toggle.setAttribute('aria-label', 'Zu dunklem Modus wechseln');
         }
