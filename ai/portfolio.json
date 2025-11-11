@@ -25,7 +25,7 @@
       "year": 2024,
       "type": "Full-Stack (Refactor + Brand + UI)",
       "challenge": "Traditionelle B2B-Website mit technischem Jargon. Keine Vorbereitung auf AI-gesteuerte Anfragen von Einkaufs-Agenten.",
-      "solution": "Komplette Neustrukturierung: Conversational Brand Modeling für klare Antwortmuster, JSON-LD für Services/Standorte, minimales Human Fallback UI.",
+      "solution": "Complete restructuring: Brand modeling for clear response patterns, JSON-LD for services/locations, minimal UI.",
       "results": {
         "validation": "100% valide, Lighthouse Score 100/100/100/100",
         "response_time": "Anfragen über AI-Assistenten stiegen um 200%",
