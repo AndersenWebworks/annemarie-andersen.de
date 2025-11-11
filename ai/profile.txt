@@ -1,35 +1,45 @@
-# PROFILE: Annemarie Andersen
-
-## Metadata
-Version: 1.0
-Created: 2025-11-11
-Purpose: Demo profile data for LLM processing
-Source: Demo template - replace with your own data
-
-## Person
-Name: Annemarie Andersen
-Job Title: AI-native Web Developer
-Description: Web developer specialized in AI-readable web architectures. Demo profile for template.
-URL: https://annemarie-andersen.de
-Email: mail@annemarie-andersen.de
-
-## Services
-- Service Example 1: Description of first example service.
-- Service Example 2: Description of second example service.
-- Service Example 3: Description of third example service.
-
-## Expertise
-- AI-native Web Architecture
-- Semantic Web
-- JSON-LD
-- Structured Data
-- Machine-Readable Content
-- Schema.org
-- Web Semantics
-
-## Location
-Country: DE
-
-## Languages
-- German
-- English
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-11-11",
+    "purpose": "Demo profile data for LLM processing (Plain JSON)",
+    "source": "Demo template - replace with your own data"
+  },
+  "person": {
+    "name": "Annemarie Andersen",
+    "jobTitle": "AI-native Web Developer",
+    "description": "Web developer specialized in AI-readable web architectures. Demo profile for template.",
+    "url": "https://annemarie-andersen.de",
+    "email": "mail@annemarie-andersen.de"
+  },
+  "services": [
+    {
+      "name": "Service Example 1",
+      "description": "Description of first example service."
+    },
+    {
+      "name": "Service Example 2",
+      "description": "Description of second example service."
+    },
+    {
+      "name": "Service Example 3",
+      "description": "Description of third example service."
+    }
+  ],
+  "expertise": [
+    "AI-native Web Architecture",
+    "Semantic Web",
+    "JSON-LD",
+    "Structured Data",
+    "Machine-Readable Content",
+    "Schema.org",
+    "Web Semantics"
+  ],
+  "location": {
+    "country": "DE"
+  },
+  "languages": [
+    "German",
+    "English"
+  ]
+}

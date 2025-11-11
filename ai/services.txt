@@ -1,49 +1,55 @@
-# SERVICES: Annemarie Andersen
-
-## Service Example 1
-Tagline: Description tagline for service 1
-Description: Detailed description of the first example service. Replace with your own service description.
-
-Deliverables:
-- Deliverable 1
-- Deliverable 2
-- Deliverable 3
-
-Duration: Example duration
-Pricing: Example pricing
-
-Target Audience:
-- Target group 1
-- Target group 2
-
-## Service Example 2
-Tagline: Description tagline for service 2
-Description: Detailed description of the second example service. Replace with your own service description.
-
-Deliverables:
-- Deliverable 1
-- Deliverable 2
-- Deliverable 3
-
-Duration: Example duration
-Pricing: Example pricing
-
-Target Audience:
-- Target group 1
-- Target group 2
-
-## Service Example 3
-Tagline: Description tagline for service 3
-Description: Detailed description of the third example service. Replace with your own service description.
-
-Deliverables:
-- Deliverable 1
-- Deliverable 2
-- Deliverable 3
-
-Duration: Example duration
-Pricing: Example pricing
-
-Target Audience:
-- Target group 1
-- Target group 2
+{
+  "services": [
+    {
+      "id": "service-example-1",
+      "name": "Service Example 1",
+      "tagline": "Description tagline for service 1",
+      "description": "Detailed description of the first example service. Replace with your own service description.",
+      "deliverables": [
+        "Deliverable 1",
+        "Deliverable 2",
+        "Deliverable 3"
+      ],
+      "typical_duration": "Example duration",
+      "pricing": "Example pricing",
+      "target_audience": [
+        "Target group 1",
+        "Target group 2"
+      ]
+    },
+    {
+      "id": "service-example-2",
+      "name": "Service Example 2",
+      "tagline": "Description tagline for service 2",
+      "description": "Detailed description of the second example service. Replace with your own service description.",
+      "deliverables": [
+        "Deliverable 1",
+        "Deliverable 2",
+        "Deliverable 3"
+      ],
+      "typical_duration": "Example duration",
+      "pricing": "Example pricing",
+      "target_audience": [
+        "Target group 1",
+        "Target group 2"
+      ]
+    },
+    {
+      "id": "service-example-3",
+      "name": "Service Example 3",
+      "tagline": "Description tagline for service 3",
+      "description": "Detailed description of the third example service. Replace with your own service description.",
+      "deliverables": [
+        "Deliverable 1",
+        "Deliverable 2",
+        "Deliverable 3"
+      ],
+      "typical_duration": "Example duration",
+      "pricing": "Example pricing",
+      "target_audience": [
+        "Target group 1",
+        "Target group 2"
+      ]
+    }
+  ]
+}

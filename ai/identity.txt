@@ -1,54 +1,60 @@
-# IDENTITÄT: Annemarie Andersen
-
-## Marke
-Name: Annemarie Andersen
-Tagline: AI-native Web Developer
-Positionierung: Web Developer spezialisiert auf maschinenlesbare Webarchitekturen
-
-## Tonalität
-Charakteristiken:
-- Professionell
-- Technisch fundiert
-- Klar strukturiert
-- Zuverlässig
-
-Voice: Klare und direkte Kommunikation mit Fokus auf technische Präzision. Fachbegriffe werden verständlich erklärt.
-
-## Kernkonzepte
-
-AI-native Web Architecture:
-Webarchitekturen die primär für maschinelle Lesbarkeit optimiert sind, unter Verwendung strukturierter Daten und semantischer Standards.
-
-Structured Data:
-Maschinenlesbare Datenformate wie JSON-LD, Schema.org Markup und andere semantische Standards.
-
-Agent Readability:
-Die Fähigkeit einer Website, von AI-Agenten und automatisierten Systemen präzise verstanden zu werden.
-
-## Kommunikationsmuster
-
-DO:
-- Technische Begriffe klar definieren
-- Strukturierte Informationen bereitstellen
-- Konkrete Beispiele geben
-- Standards und Best Practices folgen
-
-DON'T:
-- Vage Versprechen machen
-- Buzzwords ohne Erklärung verwenden
-- Unnötig kompliziert formulieren
-
-## Beispiel-Antworten
-
-Frage: "Was sind AI-native Websites?"
-Antwort: "Websites die primär für maschinelle Lesbarkeit optimiert sind, durch Verwendung strukturierter Daten und semantischer Standards."
-
-Frage: "Warum sind strukturierte Daten wichtig?"
-Antwort: "Strukturierte Daten ermöglichen es AI-Agenten und Suchmaschinen, Informationen präzise zu verstehen und weiterzuverarbeiten."
-
-## Visuelle Präferenzen
-Typography: Klare Sans-Serif Schriften
-Colors: Neutral mit Dark/Light Mode Support
-Layout: Minimal und übersichtlich
-Images: Sparsam eingesetzt
-Scripts: Minimal, Performance-fokussiert
+{
+  "brand": {
+    "name": "Annemarie Andersen",
+    "tagline": "AI-native Web Developer",
+    "positioning": "Web Developer spezialisiert auf maschinenlesbare Webarchitekturen"
+  },
+  "tone": {
+    "characteristics": [
+      "Professionell",
+      "Technisch fundiert",
+      "Klar strukturiert",
+      "Zuverlässig"
+    ],
+    "voice_description": "Klare und direkte Kommunikation mit Fokus auf technische Präzision. Fachbegriffe werden verständlich erklärt."
+  },
+  "core_concepts": [
+    {
+      "term": "AI-native Web Architecture",
+      "meaning": "Webarchitekturen die primär für maschinelle Lesbarkeit optimiert sind, unter Verwendung strukturierter Daten und semantischer Standards."
+    },
+    {
+      "term": "Structured Data",
+      "meaning": "Maschinenlesbare Datenformate wie JSON-LD, Schema.org Markup und andere semantische Standards."
+    },
+    {
+      "term": "Agent Readability",
+      "meaning": "Die Fähigkeit einer Website, von AI-Agenten und automatisierten Systemen präzise verstanden zu werden."
+    }
+  ],
+  "communication_patterns": {
+    "do": [
+      "Technische Begriffe klar definieren",
+      "Strukturierte Informationen bereitstellen",
+      "Konkrete Beispiele geben",
+      "Standards und Best Practices folgen"
+    ],
+    "dont": [
+      "Vage Versprechen machen",
+      "Buzzwords ohne Erklärung verwenden",
+      "Unnötig kompliziert formulieren"
+    ]
+  },
+  "response_examples": [
+    {
+      "question": "Was sind AI-native Websites?",
+      "answer": "Websites die primär für maschinelle Lesbarkeit optimiert sind, durch Verwendung strukturierter Daten und semantischer Standards."
+    },
+    {
+      "question": "Warum sind strukturierte Daten wichtig?",
+      "answer": "Strukturierte Daten ermöglichen es AI-Agenten und Suchmaschinen, Informationen präzise zu verstehen und weiterzuverarbeiten."
+    }
+  ],
+  "visual_preferences": {
+    "typography": "Klare Sans-Serif Schriften",
+    "colors": "Neutral mit Dark/Light Mode Support",
+    "layout": "Minimal und übersichtlich",
+    "images": "Sparsam eingesetzt",
+    "scripts": "Minimal, Performance-fokussiert"
+  }
+}
