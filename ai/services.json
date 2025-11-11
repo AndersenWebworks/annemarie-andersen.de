@@ -1,55 +1,221 @@
 {
-  "services": [
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
     {
-      "id": "service-example-1",
-      "name": "Service Example 1",
-      "tagline": "Description tagline for service 1",
-      "description": "Detailed description of the first example service. Replace with your own service description.",
-      "deliverables": [
-        "Deliverable 1",
-        "Deliverable 2",
-        "Deliverable 3"
-      ],
-      "typical_duration": "Example duration",
-      "pricing": "Example pricing",
-      "target_audience": [
-        "Target group 1",
-        "Target group 2"
-      ]
+      "@type": "Service",
+      "name": "Entbürokratisierung - Amtssprache vereinfachen",
+      "serviceType": "Entbürokratisierung",
+      "description": "Verwandlung komplexer Verwaltungsdokumente, Verträge, Gesetze und behördlicher Korrespondenz in klare, verständliche Sprache bei Wahrung rechtlicher Präzision.",
+      "provider": {
+        "@type": "Person",
+        "name": "Annemarie Andersen",
+        "email": "mail@annemarie-andersen.de",
+        "telephone": "+49-175-1183251"
+      },
+      "areaServed": "DE",
+      "availableLanguage": ["de", "en"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "priceSpecification": [
+          {
+            "@type": "PriceSpecification",
+            "price": "84.50",
+            "minPrice": "84.50",
+            "maxPrice": "99.67",
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": "1500",
+              "unitText": "Zeichen (inkl. Leerzeichen)"
+            },
+            "description": "Deutsche Texte"
+          },
+          {
+            "@type": "PriceSpecification",
+            "price": "86.67",
+            "minPrice": "86.67",
+            "maxPrice": "102.22",
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": "250",
+              "unitText": "Wörter"
+            },
+            "description": "Englische Texte"
+          }
+        ]
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Öffentliche Institutionen, Unternehmen, Behörden, Rechtsabteilungen"
+      }
     },
     {
-      "id": "service-example-2",
-      "name": "Service Example 2",
-      "tagline": "Description tagline for service 2",
-      "description": "Detailed description of the second example service. Replace with your own service description.",
-      "deliverables": [
-        "Deliverable 1",
-        "Deliverable 2",
-        "Deliverable 3"
-      ],
-      "typical_duration": "Example duration",
-      "pricing": "Example pricing",
-      "target_audience": [
-        "Target group 1",
-        "Target group 2"
-      ]
+      "@type": "Service",
+      "name": "Leichte Sprache",
+      "serviceType": "Leichte Sprache",
+      "description": "Übersetzung in Leichte Sprache für barrierefreie Kommunikation. Macht Texte für alle verständlich und verbessert die Zugänglichkeit. In vielen Fällen gesetzlich vorgeschrieben.",
+      "provider": {
+        "@type": "Person",
+        "name": "Annemarie Andersen",
+        "email": "mail@annemarie-andersen.de",
+        "telephone": "+49-175-1183251"
+      },
+      "areaServed": "DE",
+      "availableLanguage": ["de", "en"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "priceSpecification": [
+          {
+            "@type": "PriceSpecification",
+            "price": "65.00",
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": "1500",
+              "unitText": "Zeichen"
+            },
+            "description": "Deutsche Texte"
+          },
+          {
+            "@type": "PriceSpecification",
+            "price": "66.08",
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": "250",
+              "unitText": "Wörter"
+            },
+            "description": "Englische Texte"
+          }
+        ]
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Öffentliche Institutionen, Unternehmen, Bildungseinrichtungen"
+      }
     },
     {
-      "id": "service-example-3",
-      "name": "Service Example 3",
-      "tagline": "Description tagline for service 3",
-      "description": "Detailed description of the third example service. Replace with your own service description.",
-      "deliverables": [
-        "Deliverable 1",
-        "Deliverable 2",
-        "Deliverable 3"
-      ],
-      "typical_duration": "Example duration",
-      "pricing": "Example pricing",
-      "target_audience": [
-        "Target group 1",
-        "Target group 2"
+      "@type": "Service",
+      "name": "Lektorat & Korrektorat",
+      "serviceType": "Lektorat und Korrektorat",
+      "description": "Professionelle Textprüfung für fehlerfreie, stilistisch hochwertige Kommunikation in Deutsch und Englisch. Umfasst Rechtschreibung, Grammatik, Stil und Konsistenz.",
+      "provider": {
+        "@type": "Person",
+        "name": "Annemarie Andersen",
+        "email": "mail@annemarie-andersen.de",
+        "telephone": "+49-175-1183251"
+      },
+      "areaServed": "DE",
+      "availableLanguage": ["de", "en"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "priceSpecification": [
+          {
+            "@type": "PriceSpecification",
+            "price": "11.92",
+            "minPrice": "11.92",
+            "maxPrice": "14.06",
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": "1500",
+              "unitText": "Zeichen (inkl. Leerzeichen)"
+            },
+            "description": "Deutsche Texte"
+          },
+          {
+            "@type": "PriceSpecification",
+            "price": "13.00",
+            "minPrice": "13.00",
+            "maxPrice": "15.33",
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": "250",
+              "unitText": "Wörter"
+            },
+            "description": "Englische Texte"
+          }
+        ]
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Unternehmen, Agenturen, Start-ups, Privatpersonen, Autoren"
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "WordPress Integration",
+        "value": "Auf Wunsch verfügbar"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Übersetzung Deutsch-Englisch & Englisch-Deutsch",
+      "serviceType": "Übersetzung",
+      "description": "Professionelle Übersetzungen mit Verständnis für kulturellen Kontext. Spezialisiert auf Gaming, IT, Qualitätsmanagement, Marketing, Tourismus, Automobile, Finanzen und Medizin.",
+      "provider": {
+        "@type": "Person",
+        "name": "Annemarie Andersen",
+        "email": "mail@annemarie-andersen.de",
+        "telephone": "+49-175-1183251"
+      },
+      "areaServed": "DE",
+      "availableLanguage": ["de", "en"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "priceSpecification": [
+          {
+            "@type": "PriceSpecification",
+            "price": "1.95",
+            "minPrice": "1.95",
+            "maxPrice": "2.30",
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": "55",
+              "unitText": "Zeichen (inkl. Leerzeichen)"
+            },
+            "description": "Deutsch → Englisch"
+          },
+          {
+            "@type": "PriceSpecification",
+            "price": "0.22",
+            "minPrice": "0.22",
+            "maxPrice": "0.26",
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": "1",
+              "unitText": "Wort"
+            },
+            "description": "Englisch → Deutsch"
+          }
+        ]
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Unternehmen, Gaming-Studios, IT-Firmen, Marketing-Agenturen"
+      },
+      "serviceOutput": "Professionelle Übersetzung mit kulturellem Kontext",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Spezialisierung",
+          "value": "Gaming, IT & Technik, Qualitätsmanagement, Marketing, Tourismus, Automobile, Finanzen, Medizin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "WordPress Integration",
+          "value": "Optional verfügbar"
+        }
       ]
     }
-  ]
+  ],
+  "numberOfItems": 4
 }

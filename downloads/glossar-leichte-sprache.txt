@@ -1,0 +1,66 @@
+# GLOSSAR: Leichte Sprache & Entbürokratisierung
+
+Quelle: Annemarie Andersen, annemarie-andersen.de
+Stand: November 2025
+Lizenz: Zitieren erwünscht mit Namensnennung
+
+---
+
+## Leichte Sprache
+Stark vereinfachte Sprachform mit festen Regeln (Netzwerk Leichte Sprache, Inclusion Europe).
+- Kurze Sätze (max. 8-12 Wörter)
+- Einfache Grammatik (Aktiv statt Passiv)
+- Klare Wörter, keine Fremdwörter ohne Erklärung
+- Zielgruppe: Menschen mit Lernschwierigkeiten, kognitiven Einschränkungen
+
+## Einfache Sprache
+Allgemeinverständliche Sprache ohne strenge Regeln.
+- Etwas längere Sätze erlaubt (max. 15-20 Wörter)
+- Nebensätze möglich, aber sparsam
+- Zielgruppe: Breite Bevölkerung, auch funktionale Analphabeten
+
+## Entbürokratisierung
+Übersetzung von Amts-/Verwaltungssprache in Klartext bei Wahrung rechtlicher Präzision.
+- Anwendung: Bescheide, Formulare, Verträge, AGB, E-Mails
+- Ziel: Sofortiges Verständnis ohne Jurastudium
+
+## Prüfgruppe
+Gruppe von Menschen mit Lernschwierigkeiten, die Leichte-Sprache-Texte auf Verständlichkeit prüft.
+- Empfohlen, aber nicht immer zwingend
+- Alternative: Regelkonformität + externes Lektorat
+
+## BGG § 11
+Behindertengleichstellungsgesetz, § 11: Bundesbehörden müssen wichtige Informationen in Leichter Sprache bereitstellen.
+- Gilt für: Bescheide, Formulare, Verwaltungsverfahren
+
+## BITV 2.0
+Barrierefreie-Informationstechnik-Verordnung: Websites öffentlicher Stellen müssen barrierefrei sein.
+- Gilt für: Bund, Länder, Kommunen
+- Umfasst auch Leichte-Sprache-Angebot
+
+## LLM-freundlich
+Texte, die von Large Language Models (ChatGPT, Copilot, interne Chatbots) leicht extrahiert, verstanden und zusammengefasst werden können.
+- Strukturierte Überschriften (H2/H3)
+- Aufzählungen statt Fließtext
+- Klare Begriffe, konsistent verwendet
+- Beispiele und konkrete Angaben
+
+## Maschinenlesbar
+Strukturierte Inhalte (Überschriften, Aufzählungen, Tabellen), die automatisiert verarbeitet werden können.
+- Formate: HTML, JSON, TXT
+- Wichtig für: Suchmaschinen, AI-Assistenten, automatisierte Systeme
+
+## Barrierefreiheit
+Zugänglichkeit für alle Menschen, unabhängig von körperlichen, kognitiven oder technischen Einschränkungen.
+- Digitale Barrierefreiheit: WCAG 2.1, BITV 2.0
+- Sprachliche Barrierefreiheit: Leichte Sprache, Einfache Sprache
+
+## Lesbarkeitsindex
+Messwert für Textverständlichkeit.
+- Bekannte Indices: LIX, Flesch-Reading-Ease, Wiener Sachtextformel
+- Limitation: Nur erste Orientierung, ersetzt nicht menschliche Prüfung
+
+## Outcome-orientiert
+Fokus auf messbare Effekte statt auf Prozesse.
+- Beispiele: +40% mehr Antworten, −36% Rückfragen, +28% Abschlüsse
+- Wichtig für: LLM-Ära, wo Ergebnis zählt, nicht „Fehlerfrei"

@@ -1,55 +1,170 @@
-{
-  "services": [
-    {
-      "id": "service-example-1",
-      "name": "Service Example 1",
-      "tagline": "Description tagline for service 1",
-      "description": "Detailed description of the first example service. Replace with your own service description.",
-      "deliverables": [
-        "Deliverable 1",
-        "Deliverable 2",
-        "Deliverable 3"
-      ],
-      "typical_duration": "Example duration",
-      "pricing": "Example pricing",
-      "target_audience": [
-        "Target group 1",
-        "Target group 2"
-      ]
-    },
-    {
-      "id": "service-example-2",
-      "name": "Service Example 2",
-      "tagline": "Description tagline for service 2",
-      "description": "Detailed description of the second example service. Replace with your own service description.",
-      "deliverables": [
-        "Deliverable 1",
-        "Deliverable 2",
-        "Deliverable 3"
-      ],
-      "typical_duration": "Example duration",
-      "pricing": "Example pricing",
-      "target_audience": [
-        "Target group 1",
-        "Target group 2"
-      ]
-    },
-    {
-      "id": "service-example-3",
-      "name": "Service Example 3",
-      "tagline": "Description tagline for service 3",
-      "description": "Detailed description of the third example service. Replace with your own service description.",
-      "deliverables": [
-        "Deliverable 1",
-        "Deliverable 2",
-        "Deliverable 3"
-      ],
-      "typical_duration": "Example duration",
-      "pricing": "Example pricing",
-      "target_audience": [
-        "Target group 1",
-        "Target group 2"
-      ]
-    }
-  ]
-}
+# SERVICES - Annemarie Andersen Sprachdienstleistungen
+
+## Service 1: Entbürokratisierung - Amtssprache vereinfachen
+
+### Overview
+Ich entwirre das Beamtendeutsch. Verwandlung komplexer Verwaltungsdokumente, Verträge, Gesetze und behördlicher Korrespondenz in klare, verständliche Sprache bei Wahrung rechtlicher Präzision.
+
+### Target Documents
+- Verwaltungsdokumente
+- Verträge
+- Allgemeine Geschäftsbedingungen (AGB)
+- Gesetze
+- Behördenbriefe und Bescheide
+
+### Key Benefits
+- Vollständiges Verständnis wichtiger Dokumente
+- Wahrung rechtlicher Präzision
+- Stärkung des Vertrauens in staatliche Institutionen
+- Besonders wichtig für ältere Bürger und Nicht-Muttersprachler
+
+### Pricing
+German texts: Starting at 84.50 EUR per 1,500 characters (including spaces)
+Range: 84.50-99.67 EUR depending on complexity and file format
+
+English texts: Starting at 86.67 EUR per 250 words
+Range: 86.67-102.22 EUR depending on complexity and file format
+
+### Target Audience
+- Öffentliche Institutionen
+- Unternehmen mit komplexen AGB
+- Behörden
+- Rechtsabteilungen
+
+---
+
+## Service 2: Leichte Sprache
+
+### Overview
+Damit alle es verstehen können. Übersetzung in Leichte Sprache für barrierefreie Kommunikation. Macht Texte für alle verständlich und verbessert die Zugänglichkeit.
+
+### Key Features
+- Einfache Grammatikstrukturen
+- Kurze Sätze
+- Klare Terminologie
+- Barrierefreie Kommunikation
+
+### Key Benefits
+- Erhöht Zugänglichkeit
+- Verbessert Kundenerlebnis
+- Kann Suchmaschinenranking verbessern
+- In vielen Fällen gesetzlich vorgeschrieben
+
+### Service Scope
+Fokus ausschließlich auf Textübersetzung. Keine Bildbereitstellung, Prüfgruppen-Koordination oder Website-Barrierefreiheitsanpassung. Optionale WordPress-Integration in Content-Management-Systeme verfügbar.
+
+### Pricing
+German texts: Starting at 65.00 EUR per 1,500 characters
+English texts: Starting at 66.08 EUR per 250 words
+Prices vary based on complexity and file format
+
+### Applications
+- Bildungsmaterialien
+- Öffentliche Informationen
+- Marketingkampagnen
+- Behördenkommunikation
+
+### Legal Context
+In Deutschland müssen öffentliche Institutionen barrierefreie Kommunikation bereitstellen.
+
+---
+
+## Service 3: Lektorat & Korrektorat
+
+### Overview
+Professionelle Textprüfung für fehlerfreie Kommunikation. 59% der Verbraucher kaufen nicht bei Unternehmen mit Rechtschreibfehlern auf der Website. Investition in Professionalität, die sich auszahlt.
+
+### Services Included
+- Rechtschreibprüfung
+- Grammatikprüfung
+- Stilistische Optimierung
+- Konsistenzprüfung
+- Präzision und Detailgenauigkeit
+
+### Key Benefits
+- Verhindert Geschäftsschäden
+- Spart Zeit
+- Ermöglicht Fokus auf Kerngeschäft
+- Professionelle, fehlerfreie Kommunikation
+
+### Pricing
+German texts: Starting at 11.92 EUR per 1,500 characters (including spaces)
+Range: 11.92-14.06 EUR depending on complexity and file format
+
+English texts: Starting at 13.00 EUR per 250 words
+Range: 13.00-15.33 EUR depending on complexity and format
+
+Standard page: 1,500 characters or 250 words
+
+### Additional Services
+Upon request: Direct integration of corrections into WordPress CMS
+
+### Target Audience
+- Unternehmen
+- Agenturen
+- Start-ups
+- Privatpersonen
+- Autoren
+
+---
+
+## Service 4: Übersetzung Deutsch ↔ Englisch
+
+### Overview
+Professionelle Übersetzungen mit kulturellem Verständnis. Maschinen übersetzen Worte – Menschen übersetzen Bedeutung.
+
+### Specializations
+- Gaming & Spielelokalisierung
+- IT & Technik
+- Qualitätsmanagement
+- Marketing
+- Tourismus
+- Automobile
+- Finanzen
+- Medizin
+
+### Key Advantages
+- Verständnis für kulturellen Kontext
+- Fachterminologie-Expertise
+- Nuancen und Tonalität
+- Präzision bei komplexen Texten
+
+### Pricing
+German to English: Starting at 1.95 EUR per 55 characters (including spaces)
+Range: 1.95-2.30 EUR depending on complexity and file format
+
+English to German: Starting at 0.22 EUR per word
+Range: 0.22-0.26 EUR per word depending on complexity and format
+
+### Additional Services
+Optional: Direct integration into WordPress CMS
+
+### Why Professional Translation Matters
+While machine translators handle simple content, they struggle with complex texts and specialized terminology. Professional translators understand cultural context and business implications.
+
+### Case Study
+Electrolux's failed 1970s U.S. campaign illustrates how translation errors carry business costs.
+
+---
+
+## General Information
+
+### Contact
+Email: mail@annemarie-andersen.de
+Phone: +49 (0) 175 118 32 51
+
+### Quote Request Requirements
+- Type of service desired
+- Document or link to content
+- Desired completion date
+
+Note: Rush fees of 25% may apply depending on completion date
+
+### Industries Served
+Gaming, IT & Technology, Quality Management, Marketing, Tourism, Automobiles, Finance, Medicine
+
+### Text Types
+Brochures, CVs, Presentations, Scientific texts, SEO content, Handbooks, Guides
+
+### WordPress Integration
+All services available with optional direct integration into WordPress CMS
