@@ -1,87 +1,60 @@
-# IDENTITY - Annemarie Andersen
-
-## Basic Information
-Name: Annemarie Andersen
-Job Title: Sprachdienstleisterin für Deutsch & Englisch
-Tagline: Klar und professionell – zugeschnitten auf Ihre Zielgruppe
-Location: Klein Dammerow, Deutschland
-
-## Contact
-Email: mail@annemarie-andersen.de
-Phone: +49 (0) 175 118 32 51
-Address: Am Ahrendsberg 18, 19395 Klein Dammerow, Deutschland
-
-## Professional Focus
-Freiberufliche Sprachdienstleisterin mit Schwerpunkt auf Verständlichkeit und Präzision.
-Spezialisiert auf Übersetzung, Lektorat, Korrektorat, Leichte Sprache und Entbürokratisierung.
-
-## Languages
-- German (native professional)
-- English (professional fluency)
-
-## Core Services
-1. Entbürokratisierung - Amtssprache vereinfachen
-   - Verwandlung komplexer Verwaltungsdokumente in klare Sprache
-   - Wahrung rechtlicher Präzision
-
-2. Leichte Sprache
-   - Barrierefreie Kommunikation
-   - Gesetzlich vorgeschrieben in vielen Fällen
-
-3. Lektorat & Korrektorat
-   - Professionelle Textprüfung
-   - Fehlerfreie Kommunikation
-
-4. Übersetzung Deutsch ↔ Englisch
-   - Kulturelles Verständnis
-   - Fachterminologie-Expertise
-
-## Industry Specializations
-- Gaming & Lokalisierung
-- IT & Technik
-- Qualitätsmanagement
-- Marketing & Werbung
-- Tourismus & Hospitality
-- Automobile
-- Finanzen
-- Medizin
-
-## Text Types
-Broschüren, Lebensläufe, Präsentationen, wissenschaftliche Texte, SEO-Inhalte, Handbücher, Leitfäden
-
-## Professional Background
-- Bürokauffrau bei Hamburg Süd (Reederei)
-- Studium Gamedesign
-- QA-Positionen bei Goodgame Studios und InnoGames
-- Qualitätsmanagerin bei Jung von Matt (Kunden: BMW, Huawei, Philip Morris)
-- Freiberuflich seit 2018
-
-## Education
-Academy of Interactive Technology, Sydney, Australien
-
-## Client Base
-Unternehmen, Agenturen, Start-ups und Privatpersonen
-25+ Organisationen als Referenzen
-
-## Notable Clients (Selection)
-Gaming: Allcorrect Group, ZOO Digital Group
-Marketing: credia communications, DREILAUT UG, RIVERMEDIA, Tangram Werbeagentur
-Technology: RouterWerk GmbH, Social Softwork GmbH, Testbirds GmbH
-Travel: Enchanting Travels AG, Müritzterrasse GmbH, Urbanbnb B.V.
-Other: Blauw Research B.V., GreenLife GmbH, Traviation GSE GmbH
-
-## Business Status
-Kleinunternehmerregelung gemäß § 19 UStG
-Keine Umsatzsteuer
-
-## Brand Voice
-- Professionell und verständlich
-- Fokus auf Qualität und Präzision
-- Klar strukturierte Kommunikation
-- Expertise durch Erfahrung
-
-## Key Messages
-- "Maschinen übersetzen Worte – Menschen übersetzen Bedeutung"
-- "59% der Verbraucher kaufen nicht bei Unternehmen mit Rechtschreibfehlern"
-- "Alle haben das Recht, wichtige Dokumente vollständig zu verstehen"
-- "Leichte Sprache ist in vielen Fällen gesetzlich vorgeschrieben"
+{
+  "brand": {
+    "name": "Annemarie Andersen",
+    "tagline": "AI-native Web Developer",
+    "positioning": "Web Developer spezialisiert auf maschinenlesbare Webarchitekturen"
+  },
+  "tone": {
+    "characteristics": [
+      "Professionell",
+      "Technisch fundiert",
+      "Klar strukturiert",
+      "Zuverlässig"
+    ],
+    "voice_description": "Klare und direkte Kommunikation mit Fokus auf technische Präzision. Fachbegriffe werden verständlich erklärt."
+  },
+  "core_concepts": [
+    {
+      "term": "AI-native Web Architecture",
+      "meaning": "Webarchitekturen die primär für maschinelle Lesbarkeit optimiert sind, unter Verwendung strukturierter Daten und semantischer Standards."
+    },
+    {
+      "term": "Structured Data",
+      "meaning": "Maschinenlesbare Datenformate wie JSON-LD, Schema.org Markup und andere semantische Standards."
+    },
+    {
+      "term": "Agent Readability",
+      "meaning": "Die Fähigkeit einer Website, von AI-Agenten und automatisierten Systemen präzise verstanden zu werden."
+    }
+  ],
+  "communication_patterns": {
+    "do": [
+      "Technische Begriffe klar definieren",
+      "Strukturierte Informationen bereitstellen",
+      "Konkrete Beispiele geben",
+      "Standards und Best Practices folgen"
+    ],
+    "dont": [
+      "Vage Versprechen machen",
+      "Buzzwords ohne Erklärung verwenden",
+      "Unnötig kompliziert formulieren"
+    ]
+  },
+  "response_examples": [
+    {
+      "question": "Was sind AI-native Websites?",
+      "answer": "Websites die primär für maschinelle Lesbarkeit optimiert sind, durch Verwendung strukturierter Daten und semantischer Standards."
+    },
+    {
+      "question": "Warum sind strukturierte Daten wichtig?",
+      "answer": "Strukturierte Daten ermöglichen es AI-Agenten und Suchmaschinen, Informationen präzise zu verstehen und weiterzuverarbeiten."
+    }
+  ],
+  "visual_preferences": {
+    "typography": "Klare Sans-Serif Schriften",
+    "colors": "Neutral mit Dark/Light Mode Support",
+    "layout": "Minimal und übersichtlich",
+    "images": "Sparsam eingesetzt",
+    "scripts": "Minimal, Performance-fokussiert"
+  }
+}
