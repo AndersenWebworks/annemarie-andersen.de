@@ -1,12 +1,12 @@
 # GitHub Pages Setup
 
-**Repository:** https://github.com/AndersenWebworks/jan-erik-andersen.de
+**Repository:** https://github.com/AndersenWebworks/annemarie-andersen.de
 
 ---
 
 ## Schritt 1: GitHub Pages aktivieren
 
-1. Gehe zu: https://github.com/AndersenWebworks/jan-erik-andersen.de/settings/pages
+1. Gehe zu: https://github.com/AndersenWebworks/annemarie-andersen.de/settings/pages
 
 2. **Source:**
    - Branch: `main`
@@ -16,7 +16,7 @@
 
 4. **Warte 1-2 Minuten**
 
-5. **URL:** https://andersenwebworks.github.io/jan-erik-andersen.de/
+5. **URL:** https://andersenwebworks.github.io/annemarie-andersen.de/
 
 ---
 
@@ -24,10 +24,10 @@
 
 ### 2.1 In GitHub
 
-1. Bleibe auf: https://github.com/AndersenWebworks/jan-erik-andersen.de/settings/pages
+1. Bleibe auf: https://github.com/AndersenWebworks/annemarie-andersen.de/settings/pages
 
 2. **Custom domain:**
-   - Eingabe: `jan-erik-andersen.de`
+   - Eingabe: `annemarie-andersen.de`
    - Klicke **Save**
 
 3. **Enforce HTTPS:** ✅ Aktivieren (nach DNS-Propagation)
@@ -38,7 +38,7 @@
 
 Login: https://kasapi.kasserver.com/
 
-Navigation: Domains → DNS-Einstellungen → jan-erik-andersen.de
+Navigation: Domains → DNS-Einstellungen → annemarie-andersen.de
 
 **Einträge:**
 
@@ -68,7 +68,7 @@ Navigation: Domains → DNS-Einstellungen → jan-erik-andersen.de
 **Prüfen:**
 ```bash
 # Windows
-nslookup jan-erik-andersen.de
+nslookup annemarie-andersen.de
 
 # Erwartung:
 # Non-authoritative answer:
@@ -76,7 +76,7 @@ nslookup jan-erik-andersen.de
 # Addresses: 185.199.108.153, ...
 ```
 
-**Online-Check:** https://www.whatsmydns.net/#CNAME/jan-erik-andersen.de
+**Online-Check:** https://www.whatsmydns.net/#CNAME/annemarie-andersen.de
 
 ---
 
@@ -84,13 +84,13 @@ nslookup jan-erik-andersen.de
 
 1. Warte bis DNS propagiert ist (Schritt 2.3)
 
-2. Gehe zurück zu: https://github.com/AndersenWebworks/jan-erik-andersen.de/settings/pages
+2. Gehe zurück zu: https://github.com/AndersenWebworks/annemarie-andersen.de/settings/pages
 
 3. **Enforce HTTPS:** ✅ Aktivieren
 
 4. **Warte 1-2 Minuten** (GitHub generiert Let's Encrypt Zertifikat)
 
-5. **Teste:** https://jan-erik-andersen.de
+5. **Teste:** https://annemarie-andersen.de
 
 **Erwartung:** Website lädt mit grünem Schloss (HTTPS)
 
@@ -101,16 +101,16 @@ nslookup jan-erik-andersen.de
 ### 4.1 HTML-Seiten
 
 ```bash
-curl -I https://jan-erik-andersen.de/
+curl -I https://annemarie-andersen.de/
 # Erwartung: HTTP 200 OK
 ```
 
-Browser: https://jan-erik-andersen.de
+Browser: https://annemarie-andersen.de
 
 ### 4.2 JSON-Dateien
 
 ```bash
-curl https://jan-erik-andersen.de/ai/health.json
+curl https://annemarie-andersen.de/ai/health.json
 # Erwartung: HTTP 200 OK + JSON
 ```
 
@@ -120,7 +120,7 @@ curl https://jan-erik-andersen.de/ai/health.json
 
 **ChatGPT:**
 ```
-"Lies https://jan-erik-andersen.de/ai/health.json und zeige mir den Inhalt"
+"Lies https://annemarie-andersen.de/ai/health.json und zeige mir den Inhalt"
 ```
 
 **Erwartung:** JSON wird angezeigt, kein 400-Fehler
@@ -130,12 +130,12 @@ curl https://jan-erik-andersen.de/ai/health.json
 ```bash
 # Test-Skript
 urls=(
-  "https://jan-erik-andersen.de/"
-  "https://jan-erik-andersen.de/ai/manifest.jsonld"
-  "https://jan-erik-andersen.de/ai/services.json"
-  "https://jan-erik-andersen.de/ai/health.json"
-  "https://jan-erik-andersen.de/blog/feed.json"
-  "https://jan-erik-andersen.de/faq.json"
+  "https://annemarie-andersen.de/"
+  "https://annemarie-andersen.de/ai/manifest.jsonld"
+  "https://annemarie-andersen.de/ai/services.json"
+  "https://annemarie-andersen.de/ai/health.json"
+  "https://annemarie-andersen.de/blog/feed.json"
+  "https://annemarie-andersen.de/faq.json"
 )
 
 for url in "${urls[@]}"; do
@@ -152,7 +152,7 @@ done
 
 1. Gehe zu: https://search.google.com/search-console
 
-2. **Property:** jan-erik-andersen.de
+2. **Property:** annemarie-andersen.de
 
 3. **URL Inspection:** Teste einige URLs neu
 
@@ -212,8 +212,8 @@ git push origin main
 
 **Lösung:**
 1. Prüfe Pfade (relativ vs. absolut)
-2. GitHub Pages root ist `/`, nicht `/jan-erik-andersen.de/`
-3. Alle Links sollten relativ sein (`/ai/services.json`, nicht `/jan-erik-andersen.de/ai/services.json`)
+2. GitHub Pages root ist `/`, nicht `/annemarie-andersen.de/`
+3. Alle Links sollten relativ sein (`/ai/services.json`, nicht `/annemarie-andersen.de/ai/services.json`)
 
 ---
 

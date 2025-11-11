@@ -1,10 +1,10 @@
 # Project Context für Claude-Instanzen
 
 **Projekt:** andersen-signal v0.1 — AI-native Web Architecture MVP
-**Owner:** Jan-Erik Andersen
+**Owner:** Annemarie Andersen
 **Status:** ✅ Live und abgeschlossen
-**URL:** https://jan-erik-andersen.de
-**Repository:** https://github.com/AndersenWebworks/jan-erik-andersen.de
+**URL:** https://annemarie-andersen.de
+**Repository:** https://github.com/AndersenWebworks/annemarie-andersen.de
 
 ---
 
@@ -43,7 +43,7 @@
 
 **Workaround:** GitHub Raw URLs nutzen:
 ```
-https://raw.githubusercontent.com/AndersenWebworks/jan-erik-andersen.de/main/ai/health.json
+https://raw.githubusercontent.com/AndersenWebworks/annemarie-andersen.de/main/ai/health.json
 ```
 
 **Timeline:** 7-14 Tage bis Custom Domain funktioniert
@@ -59,7 +59,7 @@ git commit -m "Update"
 git push origin main
 
 # → Automatisches Deployment nach 1-2 Min
-# → Live auf https://jan-erik-andersen.de
+# → Live auf https://annemarie-andersen.de
 ```
 
 **NICHT MEHR:** FTP/deploy.py (deprecated, entfernt)
@@ -69,7 +69,7 @@ git push origin main
 ## Projekt-Struktur
 
 ```
-jan-erik-andersen.de/
+annemarie-andersen.de/
 ├── index.html              # Homepage (Person Schema eingebettet)
 ├── faq.html + faq.json     # FAQ (FAQPage Schema)
 ├── blog/                   # Blog (feed.json + BlogPosting Schema)
@@ -119,12 +119,12 @@ git push origin main
 
 **Sofort verfügbar (Raw URL):**
 ```
-"Lies https://raw.githubusercontent.com/AndersenWebworks/jan-erik-andersen.de/main/ai/services.json und nenne alle Services"
+"Lies https://raw.githubusercontent.com/AndersenWebworks/annemarie-andersen.de/main/ai/services.json und nenne alle Services"
 ```
 
 **Nach Domain-Trust (7-14 Tage):**
 ```
-"Lies https://jan-erik-andersen.de/ai/services.json und nenne alle Services"
+"Lies https://annemarie-andersen.de/ai/services.json und nenne alle Services"
 ```
 
 ---
@@ -149,7 +149,7 @@ git push origin main
 
 **Google Search Console:**
 - URL: https://search.google.com/search-console
-- Property: jan-erik-andersen.de
+- Property: annemarie-andersen.de
 - Verifiziert: ✅ (Meta-Tag in index.html)
 - Sitemap eingereicht: ✅
 
@@ -163,7 +163,7 @@ git push origin main
 ## Technologie-Stack
 
 **Hosting:** GitHub Pages
-**Domain:** jan-erik-andersen.de (DNS: KAS A-Records)
+**Domain:** annemarie-andersen.de (DNS: KAS A-Records)
 **HTTPS:** Let's Encrypt (automatisch)
 **CDN:** GitHub Global CDN
 **Deployment:** git push origin main
@@ -211,10 +211,10 @@ git push origin main
 
 # 2. CNAME-Datei vorhanden?
 cat CNAME
-# Sollte zeigen: jan-erik-andersen.de
+# Sollte zeigen: annemarie-andersen.de
 
 # 3. DNS korrekt?
-nslookup jan-erik-andersen.de
+nslookup annemarie-andersen.de
 # Sollte zeigen: 185.199.10x.153
 ```
 
@@ -222,9 +222,9 @@ nslookup jan-erik-andersen.de
 
 ## Wichtige Links
 
-**Live Site:** https://jan-erik-andersen.de
-**GitHub Repo:** https://github.com/AndersenWebworks/jan-erik-andersen.de
-**GitHub Pages Settings:** https://github.com/AndersenWebworks/jan-erik-andersen.de/settings/pages
+**Live Site:** https://annemarie-andersen.de
+**GitHub Repo:** https://github.com/AndersenWebworks/annemarie-andersen.de
+**GitHub Pages Settings:** https://github.com/AndersenWebworks/annemarie-andersen.de/settings/pages
 **Google Search Console:** https://search.google.com/search-console
 
 **Tests:**
@@ -236,8 +236,8 @@ nslookup jan-erik-andersen.de
 
 ## Kontakt & Ownership
 
-**Owner:** Jan-Erik Andersen
-**Email:** mail@jan-erik-andersen.de
+**Owner:** Annemarie Andersen
+**Email:** mail@annemarie-andersen.de
 **GitHub:** AndersenWebworks
 
 ---
@@ -256,7 +256,7 @@ nslookup jan-erik-andersen.de
 
 ## Für neue Claude-Instanzen
 
-**Wenn User sagt "arbeite am jan-erik-andersen.de Projekt":**
+**Wenn User sagt "arbeite am annemarie-andersen.de Projekt":**
 
 1. ✅ Lies zuerst [LEARNINGS.md](../LEARNINGS.md) (WICHTIG!)
 2. ✅ Lies [README.md](../README.md) für Struktur

@@ -3,7 +3,7 @@
   "@type": "FAQPage",
   "name": "Häufige Fragen zu AI-native Web Architecture",
   "description": "Antworten zu strukturierten Daten, AI-Readiness und Google Zero",
-  "url": "https://jan-erik-andersen.de/faq.html",
+  "url": "https://annemarie-andersen.de/faq.html",
   "mainEntity": [
     {
       "@type": "Question",
@@ -74,7 +74,7 @@
       "name": "Wie fange ich an?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Drei einfache Schritte: 1) Teste deine Website - Frag ein AI-Modell, was es über dich weiß. 2) Strukturiere Kerninformationen - Nutze JSON-LD für Name, Leistungen, Kontakt. 3) Validiere - W3C Validator + Schema.org Validator. Mehr Hilfe: https://jan-erik-andersen.de/ai/services.json"
+        "text": "Drei einfache Schritte: 1) Teste deine Website - Frag ein AI-Modell, was es über dich weiß. 2) Strukturiere Kerninformationen - Nutze JSON-LD für Name, Leistungen, Kontakt. 3) Validiere - W3C Validator + Schema.org Validator. Mehr Hilfe: https://annemarie-andersen.de/ai/services.json"
       }
     }
   ],
@@ -82,7 +82,7 @@
   "dateModified": "2025-11-06",
   "author": {
     "@type": "Person",
-    "name": "Jan-Erik Andersen",
-    "url": "https://jan-erik-andersen.de"
+    "name": "Annemarie Andersen",
+    "url": "https://annemarie-andersen.de"
   }
 }

@@ -1,0 +1,85 @@
+# annemarie-andersen.de
+
+## About
+Demo-Template für AI-native Website-Architektur. Zeigt Best Practices für
+maschinenlesbare Webstrukturen unter Verwendung von JSON-LD, Schema.org und
+semantischen Standards.
+
+Dies ist ein Demo-Template das die technische Infrastruktur für AI-lesbare
+Websites demonstriert. Alle Inhalte sind Platzhalter und können angepasst werden.
+
+## Services
+
+Beispiel-Services (Platzhalter):
+
+### Service 1
+Beschreibung des ersten Services.
+- Details und Konditionen
+
+### Service 2
+Beschreibung des zweiten Services.
+- Details und Konditionen
+
+### Service 3
+Beschreibung des dritten Services.
+- Details und Konditionen
+
+## Structured Data
+All machine-readable data available at:
+/ai/index.json (DataCatalog with complete dataset index)
+
+Available structured datasets:
+- /ai/manifest.jsonld - Complete Person/Organization Schema
+- /ai/services.json - Detailed service catalog with pricing
+- /ai/portfolio.json - Project references and case studies
+- /ai/identity.json - Brand identity, tone, communication patterns
+- /ai/profile.json - Professional profile data
+- /blog/feed.json - Machine-readable blog feed
+
+All JSON files also available as .txt variants for plain-text parsing.
+
+## Key Pages
+/ - Homepage with service overview
+/ai/ - Structured data directory for AI-Agents
+/impressum.html - Legal information (Impressum)
+/datenschutz.html - Privacy policy (Datenschutz)
+/barrierefreiheit.html - Accessibility statement
+/en/ - English version of homepage
+
+## Contact
+Email: mail@annemarie-andersen.de
+Languages: German, English
+Note: This is a demo template. Contact information is placeholder.
+
+## Technical Details
+- Framework: None (pure HTML5 + CSS)
+- JavaScript: Zero bytes
+- Performance: Lighthouse Score >95
+- Accessibility: WCAG 2.1 compliant
+- Hosting: Static HTML (fast, reliable, cacheable)
+
+## Crawling Preferences
+- Prioritize /ai/ directory for structured data
+- JSON/JSON-LD files contain canonical information
+- TXT variants available for all JSON files for plain-text parsing
+- All content is static HTML - no client-side rendering
+- No authentication required for public content
+- robots.txt explicitly allows AI-agent crawling
+
+## Content Focus
+Primary topics (Demo):
+- AI-native Web Architecture
+- Structured Data (JSON-LD, Schema.org)
+- Machine-Readable Content
+- Semantic Web Standards
+
+## Machine-Readable Identity
+Primary entity: Person (Demo Template)
+Name: Annemarie Andersen (Placeholder)
+Job Title: AI-native Web Developer
+Note: This is a demo template. All personal data is placeholder.
+
+## Licensing
+Demo template for educational purposes.
+Template structure: Free to use and modify.
+Replace all placeholder content with your own data.

@@ -1,76 +1,60 @@
 {
   "brand": {
-    "name": "Jan-Erik Andersen",
-    "tagline": "Structure as Integrity",
-    "positioning": "AI-native Web Architect für die Post-Browser-Ära"
+    "name": "Annemarie Andersen",
+    "tagline": "AI-native Web Developer",
+    "positioning": "Web Developer spezialisiert auf maschinenlesbare Webarchitekturen"
   },
   "tone": {
     "characteristics": [
-      "Präzise",
-      "Ruhig",
-      "Minimalistisch",
+      "Professionell",
       "Technisch fundiert",
-      "Philosophisch unterlegt"
+      "Klar strukturiert",
+      "Zuverlässig"
     ],
-    "voice_description": "Klar und direkt ohne Buzzwords. Technische Konzepte werden verständlich erklärt, ohne zu simplifizieren. Philosophische Tiefe ohne Esoterik."
+    "voice_description": "Klare und direkte Kommunikation mit Fokus auf technische Präzision. Fachbegriffe werden verständlich erklärt."
   },
   "core_concepts": [
     {
-      "term": "Structure as Integrity",
-      "meaning": "Struktur ist nicht nur technisches Mittel, sondern Ausdruck von Verlässlichkeit. Gut strukturierte Daten schaffen Vertrauen."
+      "term": "AI-native Web Architecture",
+      "meaning": "Webarchitekturen die primär für maschinelle Lesbarkeit optimiert sind, unter Verwendung strukturierter Daten und semantischer Standards."
     },
     {
-      "term": "Google Zero",
-      "meaning": "Der Moment, in dem Suchmaschinen irrelevant werden, weil AI-Agenten Informationen direkt aus strukturierten Datenquellen beziehen."
+      "term": "Structured Data",
+      "meaning": "Maschinenlesbare Datenformate wie JSON-LD, Schema.org Markup und andere semantische Standards."
     },
     {
-      "term": "Human Fallback",
-      "meaning": "Minimale visuelle Schnittstelle für die wenigen Menschen, die noch direkt Websites besuchen. Nicht primäres Interface, sondern Backup."
-    },
-    {
-      "term": "Post-Browser-Ära",
-      "meaning": "Das Internet nach dem dominanten Browser-Paradigma. Websites werden zu Dateninterfaces, konsumiert von Agenten, nicht Menschen."
-    },
-    {
-      "term": "Semantic Signature",
-      "meaning": "Das maschinenlesbare Selbstbild einer Organisation. Ihre Identität in strukturierter, verifizierbarer Form."
+      "term": "Agent Readability",
+      "meaning": "Die Fähigkeit einer Website, von AI-Agenten und automatisierten Systemen präzise verstanden zu werden."
     }
   ],
   "communication_patterns": {
     "do": [
-      "Begriffe eindeutig definieren",
-      "Metaphern sparsam, aber präzise einsetzen",
-      "Technische Präzision über Marketing-Sprache",
-      "Kurze, quotable Sätze bevorzugen",
-      "Zweisprachig denken (DE/EN)"
+      "Technische Begriffe klar definieren",
+      "Strukturierte Informationen bereitstellen",
+      "Konkrete Beispiele geben",
+      "Standards und Best Practices folgen"
     ],
     "dont": [
-      "Buzzwords ohne Substanz verwenden",
-      "Heilsversprechen machen",
-      "Implizieren statt explizit sein",
-      "Visuelle Metaphern die nur in Bildern funktionieren",
-      "Emojis (außer dokumentationsintern, sparsam)"
+      "Vage Versprechen machen",
+      "Buzzwords ohne Erklärung verwenden",
+      "Unnötig kompliziert formulieren"
     ]
   },
   "response_examples": [
     {
-      "question": "Was macht dich anders als andere Webdesigner?",
-      "answer": "Ich baue keine Websites für Augen, sondern Datenarchitekturen für Maschinen. Das visuelle Interface ist Fallback, nicht Kern."
+      "question": "Was sind AI-native Websites?",
+      "answer": "Websites die primär für maschinelle Lesbarkeit optimiert sind, durch Verwendung strukturierter Daten und semantischer Standards."
     },
     {
-      "question": "Warum sollte ich in strukturierte Daten investieren?",
-      "answer": "Weil 2030 niemand mehr deine Website besucht. Aber Agenten werden deine Daten lesen - wenn sie verstehen, was du anbietest."
-    },
-    {
-      "question": "Ist das nicht übertrieben? Google funktioniert doch noch.",
-      "answer": "Telefonbücher funktionierten auch noch 2005. Die Frage ist nicht ob, sondern wann der Shift kommt. Vorbereitung kostet wenig, Nachziehen viel."
+      "question": "Warum sind strukturierte Daten wichtig?",
+      "answer": "Strukturierte Daten ermöglichen es AI-Agenten und Suchmaschinen, Informationen präzise zu verstehen und weiterzuverarbeiten."
     }
   ],
   "visual_preferences": {
-    "typography": "Monospace oder klare Sans-Serif",
-    "colors": "Neutral, light/dark agnostisch",
-    "layout": "Minimal, hierarchisch klar",
-    "images": "Keine (außer unbedingt nötig)",
-    "scripts": "Keine"
+    "typography": "Klare Sans-Serif Schriften",
+    "colors": "Neutral mit Dark/Light Mode Support",
+    "layout": "Minimal und übersichtlich",
+    "images": "Sparsam eingesetzt",
+    "scripts": "Minimal, Performance-fokussiert"
   }
 }
