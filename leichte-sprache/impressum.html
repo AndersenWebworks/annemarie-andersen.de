@@ -7,14 +7,50 @@
   <meta name="robots" content="noindex, follow">
 
   <link rel="canonical" href="https://llm.annemarie-andersen.de/leichte-sprache/impressum.html">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="stylesheet" href="/kindle-optimized.css">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="stylesheet" href="../kindle-optimized.css" data-css="kindle-optimized.css">
+
+  <script>
+    (function () {
+      var link = document.querySelector('link[data-css]');
+      if (!link) return;
+
+      function stylesheetLoaded() {
+        try {
+          return !!link.sheet && link.sheet.cssRules.length > 0;
+        } catch (err) {
+          return !!link.sheet;
+        }
+      }
+
+      function fixForGitHubPages() {
+        if (!/github\.io$/.test(window.location.hostname)) return;
+        if (stylesheetLoaded()) return;
+
+        var segments = window.location.pathname.split('/').filter(Boolean);
+        if (!segments.length) return;
+
+        var repo = segments[0];
+        var desired = window.location.protocol + '//' + window.location.host + '/' + repo + '/' + link.dataset.css;
+
+        if (link.href === desired) return;
+        link.href = desired;
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', fixForGitHubPages);
+      } else {
+        fixForGitHubPages();
+      }
+    })();
+  </script>
+
 </head>
 <body>
   <header>
     <h1>Impressum</h1>
     <nav>
-      <a href="/leichte-sprache/">← Zurück zur Start-Seite</a>
+      <a href="index.html">← Zurück zur Start-Seite</a>
     </nav>
   </header>
 
@@ -39,9 +75,9 @@
   </main>
 
   <footer>
-    <p><a href="/leichte-sprache/">Start-Seite</a></p>
-    <p><a href="/leichte-sprache/datenschutz.html">Datenschutz</a></p>
-    <p><a href="/leichte-sprache/barrierefreiheit.html">Barrierefreiheit</a></p>
+    <p><a href="index.html">Start-Seite</a></p>
+    <p><a href="datenschutz.html">Datenschutz</a></p>
+    <p><a href="barrierefreiheit.html">Barrierefreiheit</a></p>
     <p><small>DEMO: © 2025 Annemarie Andersen</small></p>
   </footer>
 </body>

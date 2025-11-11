@@ -7,14 +7,50 @@
   <meta name="robots" content="noindex, follow">
 
   <link rel="canonical" href="https://llm.annemarie-andersen.de/barrierefreiheit.html">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="stylesheet" href="/kindle-optimized.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="kindle-optimized.css" data-css="kindle-optimized.css">
+
+  <script>
+    (function () {
+      var link = document.querySelector('link[data-css]');
+      if (!link) return;
+
+      function stylesheetLoaded() {
+        try {
+          return !!link.sheet && link.sheet.cssRules.length > 0;
+        } catch (err) {
+          return !!link.sheet;
+        }
+      }
+
+      function fixForGitHubPages() {
+        if (!/github\.io$/.test(window.location.hostname)) return;
+        if (stylesheetLoaded()) return;
+
+        var segments = window.location.pathname.split('/').filter(Boolean);
+        if (!segments.length) return;
+
+        var repo = segments[0];
+        var desired = window.location.protocol + '//' + window.location.host + '/' + repo + '/' + link.dataset.css;
+
+        if (link.href === desired) return;
+        link.href = desired;
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', fixForGitHubPages);
+      } else {
+        fixForGitHubPages();
+      }
+    })();
+  </script>
+
 </head>
 <body>
   <header>
     <h1>Barrierefreiheit</h1>
     <nav>
-      <a href="/">← Zurück zur Startseite</a>
+      <a href="index.html">← Zurück zur Startseite</a>
     </nav>
   </header>
 
@@ -41,15 +77,15 @@
 
       <h3>Sprachversionen</h3>
       <ul>
-        <li><a href="/">Deutsch (Standard)</a></li>
-        <li><a href="/en/">English</a></li>
-        <li><a href="/leichte-sprache/">Leichte Sprache</a></li>
+        <li><a href="index.html">Deutsch (Standard)</a></li>
+        <li><a href="en/">English</a></li>
+        <li><a href="leichte-sprache/">Leichte Sprache</a></li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p><a href="/">Startseite</a> · <a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a></p>
+    <p><a href="index.html">Startseite</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
     <p><small>DEMO: © 2025 Annemarie Andersen</small></p>
   </footer>
 </body>

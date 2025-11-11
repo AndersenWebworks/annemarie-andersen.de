@@ -7,14 +7,50 @@
   <meta name="robots" content="noindex, follow">
 
   <link rel="canonical" href="https://llm.annemarie-andersen.de/datenschutz.html">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="stylesheet" href="/kindle-optimized.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="kindle-optimized.css" data-css="kindle-optimized.css">
+
+  <script>
+    (function () {
+      var link = document.querySelector('link[data-css]');
+      if (!link) return;
+
+      function stylesheetLoaded() {
+        try {
+          return !!link.sheet && link.sheet.cssRules.length > 0;
+        } catch (err) {
+          return !!link.sheet;
+        }
+      }
+
+      function fixForGitHubPages() {
+        if (!/github\.io$/.test(window.location.hostname)) return;
+        if (stylesheetLoaded()) return;
+
+        var segments = window.location.pathname.split('/').filter(Boolean);
+        if (!segments.length) return;
+
+        var repo = segments[0];
+        var desired = window.location.protocol + '//' + window.location.host + '/' + repo + '/' + link.dataset.css;
+
+        if (link.href === desired) return;
+        link.href = desired;
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', fixForGitHubPages);
+      } else {
+        fixForGitHubPages();
+      }
+    })();
+  </script>
+
 </head>
 <body>
   <header>
     <h1>Datenschutzerklärung</h1>
     <nav>
-      <a href="/">← Zurück zur Startseite</a>
+      <a href="index.html">← Zurück zur Startseite</a>
     </nav>
   </header>
 
@@ -45,7 +81,7 @@
   </main>
 
   <footer>
-    <p><a href="/">Startseite</a> · <a href="/impressum.html">Impressum</a> · <a href="/barrierefreiheit.html">Barrierefreiheit</a></p>
+    <p><a href="index.html">Startseite</a> · <a href="impressum.html">Impressum</a> · <a href="barrierefreiheit.html">Barrierefreiheit</a></p>
     <p><small>DEMO: © 2025 Annemarie Andersen</small></p>
   </footer>
 </body>
