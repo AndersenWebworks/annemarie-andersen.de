@@ -1,61 +1,35 @@
-{
-  "metadata": {
-    "version": "1.0",
-    "created": "2025-11-07",
-    "purpose": "Duplizierbare Profile-Daten für LLM-Verarbeitung (Plain JSON)",
-    "source": "Extrahiert aus /ai/manifest.jsonld"
-  },
-  "person": {
-    "name": "Annemarie Andersen",
-    "jobTitle": "AI-native Web Architect",
-    "description": "Ich baue Webarchitekturen, die Maschinen lesen können und Menschen vertrauen wollen. Spezialisiert auf strukturierte Daten, semantische Modelle und AI-Visibility für die Post-Browser-Ära.",
-    "url": "https://annemarie-andersen.de",
-    "email": "mail@annemarie-andersen.de"
-  },
-  "services": [
-    {
-      "name": "AI Visibility Refactor",
-      "description": "Bestehende Websites werden so umgebaut, dass KI-Agenten die Inhalte strukturiert verstehen können."
-    },
-    {
-      "name": "Conversational Brand Modeling",
-      "description": "Markenstimmen für natürliche Dialoge definieren - Tonalität und Antwortmuster für AI-Interaktion."
-    },
-    {
-      "name": "Human Fallback UI",
-      "description": "Minimalistische Interfaces für direkte Besucher - weil Transparenz Vertrauen schafft."
-    }
-  ],
-  "expertise": [
-    "AI-native Web Architecture",
-    "Semantic Web",
-    "JSON-LD",
-    "Structured Data",
-    "Machine-Readable Content",
-    "Conversational Branding",
-    "Schema.org",
-    "Web Semantics"
-  ],
-  "organization": {
-    "name": "Andersen Webworks",
-    "description": "AI-native Web Architecture & Semantic Design",
-    "url": "https://andersen-webworks.de"
-  },
-  "location": {
-    "country": "DE"
-  },
-  "languages": [
-    "German",
-    "English"
-  ],
-  "socialMedia": [
-    {
-      "platform": "GitHub",
-      "url": "https://github.com/jan-erik-andersen"
-    },
-    {
-      "platform": "LinkedIn",
-      "url": "https://linkedin.com/in/jan-erik-andersen"
-    }
-  ]
-}
+# PROFILE: Annemarie Andersen
+
+## Metadata
+Version: 1.0
+Created: 2025-11-11
+Purpose: Demo profile data for LLM processing
+Source: Demo template - replace with your own data
+
+## Person
+Name: Annemarie Andersen
+Job Title: AI-native Web Developer
+Description: Web developer specialized in AI-readable web architectures. Demo profile for template.
+URL: https://annemarie-andersen.de
+Email: mail@annemarie-andersen.de
+
+## Services
+- Service Example 1: Description of first example service.
+- Service Example 2: Description of second example service.
+- Service Example 3: Description of third example service.
+
+## Expertise
+- AI-native Web Architecture
+- Semantic Web
+- JSON-LD
+- Structured Data
+- Machine-Readable Content
+- Schema.org
+- Web Semantics
+
+## Location
+Country: DE
+
+## Languages
+- German
+- English

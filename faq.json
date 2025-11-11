@@ -1,88 +1,49 @@
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "name": "Häufige Fragen zu AI-native Web Architecture",
-  "description": "Antworten zu strukturierten Daten, AI-Readiness und Google Zero",
-  "url": "https://annemarie-andersen.de/faq.html",
+  "@id": "https://annemarie-andersen.de/faq.html",
+  "name": "Frequently Asked Questions",
+  "description": "Common questions about this AI-native website template",
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Was bedeutet AI-native Web Architecture?",
+      "name": "Is this a real profile?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "AI-native bedeutet, dass Websites primär für maschinelle Konsumenten (AI-Agenten) strukturiert sind, nicht nur für menschliche Browser. Die Daten sind so organisiert, dass KI-Systeme sie direkt lesen, verstehen und verarbeiten können – ohne komplexe Scraping-Logik oder Interpretation von HTML-Layouts."
+        "text": "No, this is a demo template. All data are placeholders that should be replaced with your own information."
       }
     },
     {
       "@type": "Question",
-      "name": "Ist meine Website schon AI-ready?",
+      "name": "Can I use this template?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Schnelltest: Frag ChatGPT oder Claude 'Was weißt du über [deine Website/dein Unternehmen]?' Wenn die Antwort korrekt, vollständig und präzise ist → Ja, AI-ready. Wenn vage, ungenau oder halluziniert → Nein, nicht AI-ready."
+        "text": "Yes, the template is freely usable. Simply replace all placeholder content with your own data."
       }
     },
     {
       "@type": "Question",
-      "name": "Was ist Google Zero?",
+      "name": "What features are included?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Google Zero beschreibt den Moment, in dem Suchmaschinen irrelevant werden. Nicht weil es keine Fragen mehr gibt, sondern weil AI-Agenten Informationen direkt aus strukturierten Datenquellen beziehen – ohne den Umweg über Suchergebnis-Seiten."
+        "text": "JSON-LD structured data, Schema.org markup, semantic HTML5, Dark/Light Mode, Zero JavaScript, WCAG 2.1 compliant, plain-text mirrors for LLM tools."
       }
     },
     {
       "@type": "Question",
-      "name": "Brauche ich dann überhaupt noch eine Website?",
+      "name": "Where can I find the structured data?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ja, aber anders. Websites werden zu Dateninterfaces, nicht primär zu visuellen Oberflächen. Das visuelle Interface bleibt als 'Human Fallback' für die wenigen direkten Besucher. Der Hauptwert liegt in den strukturierten Daten."
+        "text": "In the HTML head (JSON-LD) and in the /ai/ directory as JSON and TXT files for machine readability."
       }
     },
     {
       "@type": "Question",
-      "name": "Was sind strukturierte Daten?",
+      "name": "Do I need to keep the dual-layer architecture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Strukturierte Daten sind maschinenlesbare Informationen in standardisierten Formaten wie JSON-LD oder Schema.org. Beispiel: Statt 'Wir bieten Webdesign an' in einem Fließtext schreibst du: { '@type': 'Service', 'name': 'Webdesign', 'provider': 'Dein Unternehmen', 'priceRange': '$$' }"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Kostet das nicht viel Aufwand?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nein, überraschend wenig. Für ein MVP brauchst du: 1 HTML-Datei (minimales Interface), 3-4 JSON-Dateien (strukturierte Daten), 2-3 Markdown-Dateien (Inhalte). Keine Frameworks, keine Build-Prozesse, keine Datenbank. Alles statisch. Zeitaufwand: 4-8 Stunden für eine Basis-Implementierung."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Was ist der Unterschied zu normalem SEO?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "SEO optimiert für Suchmaschinen-Rankings. AI-Visibility optimiert für Klarheit und Wahrheit. SEO-Tricks (Keyword-Stuffing, Clickbait) funktionieren nicht bei AI-Agenten. Was zählt: Präzise, strukturierte, verifizierbare Informationen."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Wann wird das relevant?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Jetzt. ChatGPT, Claude und andere AI-Agenten werden bereits jetzt für Recherche genutzt. Die Technologie ist da. Was fehlt, ist die Infrastruktur aufseiten der Websites. Wer jetzt vorbereitet, hat in 2-3 Jahren einen massiven Vorteil."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Wie fange ich an?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Drei einfache Schritte: 1) Teste deine Website - Frag ein AI-Modell, was es über dich weiß. 2) Strukturiere Kerninformationen - Nutze JSON-LD für Name, Leistungen, Kontakt. 3) Validiere - W3C Validator + Schema.org Validator. Mehr Hilfe: https://annemarie-andersen.de/ai/services.json"
+        "text": "Yes, for AI readability. The HTML serves humans, while JSON/TXT files serve AI agents and LLMs."
       }
     }
-  ],
-  "datePublished": "2025-11-06",
-  "dateModified": "2025-11-06",
-  "author": {
-    "@type": "Person",
-    "name": "Annemarie Andersen",
-    "url": "https://annemarie-andersen.de"
-  }
+  ]
 }
