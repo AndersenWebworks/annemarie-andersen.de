@@ -1,0 +1,72 @@
+{
+  "services": [
+    {
+      "id": "demo-service-1",
+      "name": "DEMO: Service 1 Name",
+      "description": "DEMO: Detaillierte Beschreibung des ersten Services. Was wird gemacht? Für wen? Welches Problem wird gelöst?",
+      "deliverables": [
+        "DEMO: Deliverable 1",
+        "DEMO: Deliverable 2",
+        "DEMO: Deliverable 3"
+      ],
+      "duration": "DEMO: z.B. 2-4 Wochen",
+      "pricing": {
+        "type": "DEMO: z.B. fixed, hourly, project-based",
+        "range": "DEMO: z.B. 1.000 - 3.000 EUR",
+        "currency": "EUR"
+      },
+      "suitable_for": [
+        "DEMO: Zielgruppe 1",
+        "DEMO: Zielgruppe 2"
+      ]
+    },
+    {
+      "id": "demo-service-2",
+      "name": "DEMO: Service 2 Name",
+      "description": "DEMO: Detaillierte Beschreibung des zweiten Services.",
+      "deliverables": [
+        "DEMO: Deliverable 1",
+        "DEMO: Deliverable 2"
+      ],
+      "duration": "DEMO: z.B. 1-2 Wochen",
+      "pricing": {
+        "type": "DEMO: z.B. fixed",
+        "range": "DEMO: z.B. 500 - 1.500 EUR",
+        "currency": "EUR"
+      },
+      "suitable_for": [
+        "DEMO: Zielgruppe 1"
+      ]
+    },
+    {
+      "id": "demo-service-3",
+      "name": "DEMO: Service 3 Name",
+      "description": "DEMO: Detaillierte Beschreibung des dritten Services.",
+      "deliverables": [
+        "DEMO: Deliverable 1",
+        "DEMO: Deliverable 2",
+        "DEMO: Deliverable 3",
+        "DEMO: Deliverable 4"
+      ],
+      "duration": "DEMO: z.B. 4-8 Wochen",
+      "pricing": {
+        "type": "DEMO: z.B. project-based",
+        "range": "DEMO: z.B. 3.000 - 10.000 EUR",
+        "currency": "EUR"
+      },
+      "suitable_for": [
+        "DEMO: Zielgruppe 1",
+        "DEMO: Zielgruppe 2",
+        "DEMO: Zielgruppe 3"
+      ]
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "lastUpdated": "2025-01-01",
+    "aiReadable": true,
+    "humanReadable": true,
+    "format": "JSON",
+    "purpose": "Service-Katalog für AI-Agenten"
+  }
+}

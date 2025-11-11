@@ -1,0 +1,36 @@
+{
+  "name": "Annemarie Andersen",
+  "domain": "llm.annemarie-andersen.de",
+  "type": "person",
+  "tagline": "DEMO: Kurz-Tagline hier eintragen",
+  "description": "DEMO: Längere Beschreibung der Person und ihrer Tätigkeit hier eintragen. Was macht sie? Für wen? Warum?",
+  "values": [
+    "DEMO: Wert 1",
+    "DEMO: Wert 2",
+    "DEMO: Wert 3"
+  ],
+  "expertise": [
+    "DEMO: Fachgebiet 1",
+    "DEMO: Fachgebiet 2",
+    "DEMO: Fachgebiet 3"
+  ],
+  "tone": {
+    "style": "DEMO: z.B. professionell, freundlich, direkt",
+    "principles": [
+      "DEMO: Tonalitäts-Prinzip 1",
+      "DEMO: Tonalitäts-Prinzip 2"
+    ]
+  },
+  "contact": {
+    "email": "demo@annemarie-andersen.de",
+    "languages": ["de", "en"]
+  },
+  "meta": {
+    "version": "1.0",
+    "lastUpdated": "2025-01-01",
+    "aiReadable": true,
+    "humanReadable": true,
+    "format": "JSON",
+    "purpose": "Markenidentität für AI-Agenten"
+  }
+}

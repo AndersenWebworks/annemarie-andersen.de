@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "name": "Annemarie Andersen AI Data Catalog",
+  "description": "Maschinenlesbare Daten über Annemarie Andersen und ihre Services",
+  "url": "https://llm.annemarie-andersen.de/ai/",
+  "datePublished": "2025-01-01",
+  "dateModified": "2025-01-01",
+  "dataset": [
+    {
+      "@type": "Dataset",
+      "name": "Identity",
+      "description": "Markenidentität, Werte, Expertise, Tonalität",
+      "url": "https://llm.annemarie-andersen.de/ai/identity.json",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://llm.annemarie-andersen.de/ai/identity.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/plain",
+          "contentUrl": "https://llm.annemarie-andersen.de/ai/identity.txt"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "Services",
+      "description": "Service-Katalog mit Deliverables, Preisen, Zielgruppen",
+      "url": "https://llm.annemarie-andersen.de/ai/services.json",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://llm.annemarie-andersen.de/ai/services.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/plain",
+          "contentUrl": "https://llm.annemarie-andersen.de/ai/services.txt"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "Health",
+      "description": "API Health Check",
+      "url": "https://llm.annemarie-andersen.de/ai/health.json",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://llm.annemarie-andersen.de/ai/health.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/plain",
+          "contentUrl": "https://llm.annemarie-andersen.de/ai/health.txt"
+        }
+      ]
+    }
+  ],
+  "keywords": ["AI", "structured data", "machine-readable", "DEMO"],
+  "license": "DEMO: Lizenz hier eintragen"
+}

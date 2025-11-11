@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Deutsche Seiten -->
+  <url>
+    <loc>https://llm.annemarie-andersen.de/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://llm.annemarie-andersen.de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://llm.annemarie-andersen.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE-x-leichte-sprache" href="https://llm.annemarie-andersen.de/leichte-sprache/"/>
+  </url>
+
+  <url>
+    <loc>https://llm.annemarie-andersen.de/impressum.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://llm.annemarie-andersen.de/datenschutz.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://llm.annemarie-andersen.de/barrierefreiheit.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Englische Seiten -->
+  <url>
+    <loc>https://llm.annemarie-andersen.de/en/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://llm.annemarie-andersen.de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://llm.annemarie-andersen.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE-x-leichte-sprache" href="https://llm.annemarie-andersen.de/leichte-sprache/"/>
+  </url>
+
+  <url>
+    <loc>https://llm.annemarie-andersen.de/en/imprint.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://llm.annemarie-andersen.de/en/privacy.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://llm.annemarie-andersen.de/en/accessibility.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Leichte Sprache Seiten -->
+  <url>
+    <loc>https://llm.annemarie-andersen.de/leichte-sprache/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://llm.annemarie-andersen.de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://llm.annemarie-andersen.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE-x-leichte-sprache" href="https://llm.annemarie-andersen.de/leichte-sprache/"/>
+  </url>
+
+  <url>
+    <loc>https://llm.annemarie-andersen.de/leichte-sprache/impressum.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://llm.annemarie-andersen.de/leichte-sprache/datenschutz.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://llm.annemarie-andersen.de/leichte-sprache/barrierefreiheit.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- AI-lesbare Daten -->
+  <url>
+    <loc>https://llm.annemarie-andersen.de/ai/identity.json</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://llm.annemarie-andersen.de/ai/services.json</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://llm.annemarie-andersen.de/ai/index.json</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "timestamp": "2025-01-01T00:00:00Z",
+  "version": "1.0",
+  "endpoints": [
+    "/ai/identity.json",
+    "/ai/identity.txt",
+    "/ai/services.json",
+    "/ai/services.txt",
+    "/ai/index.json",
+    "/ai/index.txt",
+    "/ai/health.json",
+    "/ai/health.txt"
+  ],
+  "message": "All AI endpoints operational"
+}
