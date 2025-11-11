@@ -1,0 +1,211 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "provider": "Annemarie Andersen – Freie Sachverständige für Sprachqualität",
+  "datePublished": "2025-11-11",
+  "inLanguage": "de",
+  "citation": "Zitieren erwünscht mit Namensnennung. Quelle: Annemarie Andersen, annemarie-andersen.de",
+  "qna": [
+    {
+      "id": "was-ist-leichte-sprache",
+      "@type": "Question",
+      "name": "Was ist Leichte Sprache – und wann ist sie sinnvoll?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leichte Sprache ist eine stark vereinfachte Form des Deutschen mit festen Regeln (Netzwerk Leichte Sprache, Inclusion Europe). Sie verwendet kurze Sätze (max. 8-12 Wörter), einfache Grammatik (Aktiv statt Passiv), klare Wörter ohne Fremdwörter und logische Struktur. Zielgruppe: Menschen mit Lernschwierigkeiten, kognitiven Einschränkungen, geringer Lesekompetenz oder Deutsch als Fremdsprache. Gesetzlich vorgeschrieben für Bundesbehörden (§ 11 BGG), öffentliche Websites (BITV 2.0) und Wahlinformationen.",
+        "bullets": [
+          "Kurze Sätze (max. 8-12 Wörter)",
+          "Bekannte Wörter, keine Fremdwörter ohne Erklärung",
+          "Aktiv statt Passiv",
+          "Konkrete Zeitangaben statt 'angemessene Frist'",
+          "Visuelle Hilfen und Zeilenumbrüche nach Sinnabschnitten"
+        ],
+        "example_before": "Im Rahmen der Aufenthaltstitelprüfung ist die Vorlage der biometrischen Lichtbilder zwingend erforderlich.",
+        "example_after": "Sie brauchen neue Fotos für Ihren Antrag.\nSo müssen die Fotos aussehen: biometrisch.\nBringen Sie 2 Fotos mit."
+      }
+    },
+    {
+      "id": "unterschied-leichte-einfache-sprache",
+      "@type": "Question",
+      "name": "Was ist der Unterschied zwischen Leichter und Einfacher Sprache?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leichte Sprache folgt strengen Regeln (Netzwerk Leichte Sprache), Einfache Sprache ist flexibler. Leichte Sprache: max. 8-12 Wörter pro Satz, kein Genitiv, kein Konjunktiv, Prüfgruppe empfohlen. Einfache Sprache: max. 15-20 Wörter, Nebensätze erlaubt, Genitiv sparsam, keine Prüfgruppe zwingend. Zielgruppe Leichte Sprache: Menschen mit kognitiven Einschränkungen. Zielgruppe Einfache Sprache: breite Bevölkerung, auch funktionale Analphabeten.",
+        "bullets": [
+          "Leichte Sprache = maximal barrierefrei, streng geregelt",
+          "Einfache Sprache = allgemeinverständlich, pragmatisch",
+          "Leichte Sprache: 8-12 Wörter/Satz, Einfache: 15-20 Wörter/Satz",
+          "Leichte Sprache braucht oft Prüfgruppe, Einfache nicht",
+          "Beide verbessern Zugänglichkeit, aber unterschiedliche Strenge"
+        ]
+      }
+    },
+    {
+      "id": "wann-leichte-sprache-pflicht",
+      "@type": "Question",
+      "name": "Wann ist Leichte Sprache gesetzlich vorgeschrieben?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gesetzliche Pflicht für Bundesbehörden (Bescheide, Formulare, Verwaltungsverfahren nach § 11 BGG), öffentliche Stellen (Websites, Apps nach BITV 2.0), Wahlinformationen und Verträge mit Behindertenwerkstätten. Empfohlen für NGOs, Stiftungen (Spendenaufrufe), Gesundheitswesen (Patienteninfo), Bildungseinrichtungen und Unternehmen (Kundenkommunikation). Auch ohne Pflicht lohnt Leichte Sprache für breitere Zugänglichkeit und bessere Kundenerfahrung.",
+        "bullets": [
+          "Pflicht: Bundesbehörden, öffentliche Websites, Wahlen",
+          "Empfohlen: NGOs, Gesundheit, Bildung, Kundenservice",
+          "Compliance-Risiko sinkt bei Einhaltung",
+          "Verbessert Zugänglichkeit auch ohne gesetzliche Pflicht"
+        ]
+      }
+    },
+    {
+      "id": "qualitaet-ohne-pruefgruppe",
+      "@type": "Question",
+      "name": "Wie prüfe ich Leichte-Sprache-Qualität ohne Prüfgruppe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Prüfgruppen sind ideal, aber nicht immer verfügbar. Alternative Qualitätssicherung: (1) Regelkonformität nach Netzwerk Leichte Sprache systematisch prüfen, (2) Lesbarkeitsindex (LIX, Flesch-Reading-Ease) für erste Einschätzung, (3) Kollegen-Review durch Personen ohne Fachkenntnis, (4) Text laut vorlesen (Stolperstellen fallen auf), (5) externes Lektorat durch Spezialisten, (6) Pilottest mit kleiner Nutzergruppe. Wichtig: Verfahren dokumentieren für Transparenz.",
+        "bullets": [
+          "Regelwerk systematisch anwenden (Checkliste nutzen)",
+          "Lesbarkeitstools für erste Orientierung",
+          "Kollegen ohne Fachkenntnis testen lassen",
+          "Laut vorlesen deckt Stolperstellen auf",
+          "Externes Lektorat (z.B. Annemarie Andersen)",
+          "Verfahren dokumentieren schafft Nachweisbarkeit"
+        ]
+      }
+    },
+    {
+      "id": "haeufige-fehler-leichte-sprache",
+      "@type": "Question",
+      "name": "Was sind die häufigsten Fehler bei Leichter Sprache?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Top 5 Fehler: (1) Zu lange Sätze – mehr als 12 Wörter, (2) Passivkonstruktionen statt Aktiv ('Es wird geprüft' → 'Wir prüfen'), (3) Fremdwörter ohne Erklärung ('biometrisch' → 'biometrisch (das heißt: Foto nach festen Regeln)'), (4) Genitiv statt einfacher Konstruktion ('Die Prüfung des Antrags' → 'Das Amt prüft Ihren Antrag'), (5) Metaphern und Redewendungen ('Antrag auf den Weg bringen' → 'Antrag abschicken').",
+        "bullets": [
+          "Fehler 1: Sätze mit mehr als 12 Wörtern",
+          "Fehler 2: Passiv statt Aktiv",
+          "Fehler 3: Fremdwörter ohne Erklärung",
+          "Fehler 4: Genitiv-Konstruktionen",
+          "Fehler 5: Metaphern und Redewendungen"
+        ],
+        "example_before": "Das Amt prüft, ob Sie die Voraussetzungen erfüllen und ob alle Unterlagen vollständig sind.",
+        "example_after": "Das Amt prüft Ihre Unterlagen.\nDas Amt prüft: Sind alle Papiere da?"
+      }
+    },
+    {
+      "id": "was-ist-entbuerokratisierung",
+      "@type": "Question",
+      "name": "Was bedeutet Entbürokratisierung praktisch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Entbürokratisierung bedeutet: komplexe Amts- und Verwaltungssprache in klaren, verständlichen Klartext übersetzen – bei Wahrung rechtlicher Präzision. Typische Anwendungen: Behördenbescheide, Formulare, Verträge & AGB, E-Mails von Ämtern, Ausschreibungen. Ziel: Bürger verstehen sofort, was erwartet wird und welche Konsequenzen drohen – ohne Jurastudium. Effekt: weniger Rückfragen, höhere Compliance, besseres Vertrauen.",
+        "bullets": [
+          "Klare Sprache statt Beamtendeutsch",
+          "Rechtliche Präzision bleibt erhalten",
+          "Anwendung: Bescheide, Formulare, Verträge, Mails",
+          "Weniger Rückfragen, höhere Abschlussrate"
+        ],
+        "example_before": "Die Antragsgegnerin wird hiermit aufgefordert, binnen angemessener Frist die erforderlichen Unterlagen beizubringen.",
+        "example_after": "Bitte senden Sie uns bis zum 30. November diese Unterlagen:\n• Personalausweis (Kopie)\n• Mietvertrag (Kopie)\n\nSo schicken Sie die Dateien:\n• per E-Mail an dokumente@amt.de\n• oder per Post an [Adresse]"
+      }
+    },
+    {
+      "id": "checkliste-llm-texte",
+      "@type": "Question",
+      "name": "Wie mache ich Texte LLM-freundlich? (7 Prüfsteine)",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "7 Prüfsteine für maschinen- und menschenlesbare Texte: (1) Klare Überschrift als Frage ('Was müssen Sie tun?' statt 'Erforderliche Maßnahmen'), (2) Aufzählungen statt Fließtext, (3) Konkrete Fristen ('bis 30. November' statt 'binnen angemessener Frist'), (4) Aktiv statt Passiv, (5) Keine Doppelverneinungen, (6) Kontaktinfo sichtbar (E-Mail, Telefon direkt im Text), (7) Beispiele geben ('z.B. Personalausweis' statt nur 'erforderliche Unterlagen'). Warum LLM-freundlich? Chatbots extrahieren strukturierte Infos präzise.",
+        "bullets": [
+          "Überschriften als Fragen formulieren",
+          "Bulletpoints statt Fließtext",
+          "Konkrete Daten/Fristen nennen",
+          "Aktiv statt Passiv verwenden",
+          "Doppelverneinungen vermeiden",
+          "Kontakt direkt im Text platzieren",
+          "Beispiele statt abstrakte Begriffe"
+        ]
+      }
+    },
+    {
+      "id": "wann-entbuerokratisierung-lohnt",
+      "@type": "Question",
+      "name": "Wann lohnt ein Entbürokratisierungs-Check?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Signale für unklare Texte: mehr als 20% Rückfragen zu Formularen, hohe Abbruchrate bei Online-Formularen (>30%), Beschwerden über 'unverständliche Sprache', Compliance-Risiko (Barrierefreiheit nicht erfüllt), neue Zielgruppe soll erreicht werden. Return on Investment: weniger Support-Aufwand (Zeit & Kosten), höhere Abschlussrate (Anträge, Spenden), Rechtssicherheit (Barrierefreiheit nachweisbar), besseres Image. Quick-Win: 3 typische Texte prüfen lassen → Potenzial sofort sichtbar.",
+        "bullets": [
+          "Signal: >20% Rückfragen zu Formularen",
+          "Signal: >30% Formular-Abbruchrate",
+          "Signal: Compliance-Risiko bei Barrierefreiheit",
+          "ROI: Weniger Support, höhere Konversion",
+          "ROI: Rechtssicherheit und besseres Image"
+        ]
+      }
+    },
+    {
+      "id": "fehler-kosten-antworten",
+      "@type": "Question",
+      "name": "Welche Fehler kosten uns Antworten/Spenden/Abschlüsse?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Top 5 Konversionskiller: (1) Unklare Handlungsaufforderung ('Unterstützen Sie uns' → besser: 'Jetzt 20 € spenden'), (2) Zu viele Optionen (10 Spendenbeträge verwirren → besser: 3-5 Vorschläge + freier Betrag), (3) Lange Formulare (mehr als 5 Pflichtfelder → Abbruch steigt), (4) Keine Transparenz ('Was passiert mit Spende?' fehlt → besser: '80% fließen in Projekt X'), (5) Technische Hürden (Formular funktioniert nicht auf Mobilgeräten). LLM-Aspekt: Chatbots fassen unklare Formulare falsch zusammen → Nutzer brechen ab.",
+        "bullets": [
+          "Killer 1: Vage Calls-to-Action",
+          "Killer 2: Zu viele Auswahloptionen",
+          "Killer 3: Zu lange Pflichtfelder (>5)",
+          "Killer 4: Fehlende Transparenz",
+          "Killer 5: Mobile-Probleme"
+        ]
+      }
+    },
+    {
+      "id": "llm-readiness-ausschreibung",
+      "@type": "Question",
+      "name": "Wie mache ich unsere Ausschreibung LLM-freundlich? (5 Schritte)",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "5 Schritte für LLM-freundliche Ausschreibungen: (1) Struktur prüfen – Überschriften als Fragen ('Was wird gesucht?', 'Welche Voraussetzungen?', 'Wie bewerben?') mit H2/H3, (2) Kerninfos extrahierbar – Deadline, Budget, Anforderungen als Bulletpoints oder Tabelle, (3) Begriffe konsistent – immer 'Bewerber' ODER 'Interessierte', nicht wechseln, (4) Abkürzungen ausschreiben – beim ersten Vorkommen 'European Union (EU)', (5) Beispiele geben – 'Referenzprojekt = abgeschlossenes Projekt in ähnlichem Bereich, max. 3 Jahre alt'. Effekt: ChatGPT, Copilot können Ausschreibung präzise zusammenfassen.",
+        "bullets": [
+          "Überschriften als Fragen (H2/H3)",
+          "Kerninfos als Bulletpoints/Tabelle",
+          "Begriffe konsistent verwenden",
+          "Abkürzungen ausschreiben",
+          "Konkrete Beispiele geben"
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Leichte Sprache",
+      "definition": "Stark vereinfachte Sprachform mit festen Regeln (Netzwerk Leichte Sprache). Zielgruppe: Menschen mit Lernschwierigkeiten, kognitiven Einschränkungen."
+    },
+    {
+      "term": "Einfache Sprache",
+      "definition": "Allgemeinverständliche Sprache ohne strenge Regeln. Zielgruppe: Breite Bevölkerung, auch funktionale Analphabeten."
+    },
+    {
+      "term": "Entbürokratisierung",
+      "definition": "Übersetzung von Amts-/Verwaltungssprache in Klartext bei Wahrung rechtlicher Präzision."
+    },
+    {
+      "term": "LLM-freundlich",
+      "definition": "Texte, die von Large Language Models (ChatGPT, Copilot etc.) leicht extrahiert, verstanden und zusammengefasst werden können."
+    },
+    {
+      "term": "Maschinenlesbar",
+      "definition": "Strukturierte Inhalte (Überschriften, Aufzählungen, Tabellen), die automatisiert verarbeitet werden können."
+    },
+    {
+      "term": "BGG § 11",
+      "definition": "Behindertengleichstellungsgesetz: Bundesbehörden müssen wichtige Infos in Leichter Sprache bereitstellen."
+    },
+    {
+      "term": "BITV 2.0",
+      "definition": "Barrierefreie-Informationstechnik-Verordnung: Websites öffentlicher Stellen müssen barrierefrei sein."
+    },
+    {
+      "term": "Prüfgruppe",
+      "definition": "Gruppe von Menschen mit Lernschwierigkeiten, die Leichte-Sprache-Texte auf Verständlichkeit prüft."
+    }
+  ]
+}
