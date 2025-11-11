@@ -34,7 +34,6 @@ Available structured datasets:
 - /ai/portfolio.json - Project references and case studies
 - /ai/identity.json - Brand identity, tone, communication patterns
 - /ai/profile.json - Professional profile data
-- /blog/feed.json - Machine-readable blog feed
 
 All JSON files also available as .txt variants for plain-text parsing.
 
