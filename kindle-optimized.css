@@ -32,6 +32,45 @@
   }
 }
 
+/* ==========================================================================
+   Dark Mode Toggle (CSS-Only)
+   ========================================================================== */
+
+.darkmode-checkbox {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Manual Dark Mode Override */
+body:has(.darkmode-checkbox:checked) {
+  --bg: #1c1c1c;
+  --text: #d4d4d4;
+  --subtle: #8a8a8a;
+  --border: #3a3a3a;
+  --accent: #e87461;
+  --highlight-bg: #252525;
+  background: #1c1c1c;
+  color: #d4d4d4;
+}
+
+/* Toggle Icon Visibility */
+.darkmode-checkbox:checked ~ .controls label .icon-light {
+  display: none;
+}
+
+.darkmode-checkbox:checked ~ .controls label .icon-dark {
+  display: inline;
+}
+
+.controls label .icon-dark {
+  display: none;
+}
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -891,6 +930,8 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
+  display: flex;
+  gap: var(--space-xs);
 }
 
 .control-btn {
@@ -907,6 +948,7 @@ nav {
   border: 1px solid var(--border);
   background: var(--highlight-bg);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
