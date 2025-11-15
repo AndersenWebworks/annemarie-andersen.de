@@ -1,0 +1,8 @@
+{
+  "site": "annemarie-andersen.de",
+  "version": "v1.0",
+  "build": 1,
+  "changelog": [
+    "v1.0 feat: Pillar-Seite /all mit allen Leistungen, Preisen, Geo & Schema.org"
+  ]
+}
