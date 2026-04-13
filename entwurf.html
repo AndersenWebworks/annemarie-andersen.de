@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annemarie Andersen — Barrierefreie Kommunikation &amp; Sprachdienstleistungen</title>
+  <meta name="description" content="Freiberufliche Sprachdienstleisterin: Leichte Sprache nach BITV 2.0, Entbürokratisierung, KI-Qualitätssicherung, Lektorat und Übersetzungen. Referenz: Deutscher Zukunftspreis des Bundespräsidenten.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "name": "Annemarie Andersen – Sprachdienstleistungen",
+        "description": "Freiberufliche Sprachdienstleisterin für barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0, Entbürokratisierung und KI-Qualitätssicherung.",
+        "url": "https://annemarie-andersen.de",
+        "telephone": "+491751183251",
+        "email": "mail@annemarie-andersen.de",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Mecklenburg-Vorpommern",
+          "addressCountry": "DE"
+        },
+        "areaServed": { "@type": "Country", "name": "Deutschland" },
+        "priceRange": "$$",
+        "knowsAbout": ["Leichte Sprache", "Barrierefreie Kommunikation", "BITV 2.0", "BFSG", "Lektorat", "Korrektorat", "Fachübersetzung Deutsch-Englisch", "KI-Qualitätssicherung", "Post-Editing"],
+        "founder": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "jobTitle": "Freiberufliche Sprachdienstleisterin"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Was kostet Leichte Sprache?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Die Kosten richten sich nach Umfang und Komplexität des Ausgangstextes. Für die Übertragung in Leichte Sprache berechne ich ab 75 EUR pro Normseite (1.500 Zeichen inklusive Leerzeichen). Gern erstelle ich Ihnen ein individuelles Angebot."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Sind Unternehmen zur barrierefreien Kommunikation verpflichtet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Seit dem 28. Juni 2025 verpflichtet das Barrierefreiheitsstärkungsgesetz (BFSG) Unternehmen im E-Commerce, in der Telekommunikation, im Bankwesen und in der Personenbeförderung, ihre digitale Kommunikation barrierefrei zu gestalten. Für öffentliche Stellen gilt diese Pflicht über BITV 2.0 und das Behindertengleichstellungsgesetz schon länger."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kann KI Leichte Sprache?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "KI kann einfachere Formulierungen vorschlagen, erfüllt aber nicht zuverlässig die Anforderungen der Leichten Sprache. Leichte Sprache folgt einem eigenen Regelwerk mit konkreten Vorgaben zu Satzlänge, Wortauswahl, Satzbau und Gestaltung. Diese Anforderungen gehen weit über Vereinfachung hinaus."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Prüfen Sie auch KI-generierte Texte?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Immer mehr Unternehmen erstellen Texte mit KI-Tools und brauchen jemanden, der Qualität, Korrektheit und Compliance prüft. Mein QA-Hintergrund aus der Gaming- und Agenturbranche macht genau das zur Kernkompetenz."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy: #1e3a5f;
+      --navy-dark: #142a45;
+      --navy-light: #2b5082;
+      --terracotta: #c0542b;
+      --terracotta-hover: #a34523;
+      --cream: #f8f6f3;
+      --white: #ffffff;
+      --text: #2d2d2d;
+      --text-muted: #5a5a5a;
+      --border: #e2dfd9;
+      --font-heading: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+      --font-body: 'Source Sans 3', 'Segoe UI', system-ui, -apple-system, sans-serif;
+      --max-width: 1120px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 18px;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: var(--navy); text-decoration: none; transition: color 0.2s; }
+    a:hover { color: var(--terracotta); }
+
+    .container { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+
+    /* ===== PAGE SYSTEM ===== */
+    .page { display: none; }
+    .page.active { display: block; }
+
+    /* ===== HEADER ===== */
+    .site-header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(255,255,255,0.97);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(8px);
+      transition: box-shadow 0.3s;
+    }
+    .site-header.scrolled { box-shadow: 0 2px 20px rgba(0,0,0,0.08); }
+
+    .header-inner {
+      max-width: var(--max-width); margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between; height: 72px;
+    }
+
+    .logo { font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: var(--navy); line-height: 1.2; cursor: pointer; }
+    .logo span { display: block; font-family: var(--font-body); font-size: 12px; font-weight: 400; color: var(--text-muted); letter-spacing: 0.06em; text-transform: uppercase; }
+
+    .nav-links { display: flex; gap: 28px; align-items: center; list-style: none; }
+    .nav-links > li > a { font-size: 15px; font-weight: 600; color: var(--text); }
+    .nav-links > li > a:hover { color: var(--terracotta); }
+
+    .nav-cta {
+      background: var(--terracotta) !important; color: var(--white) !important;
+      padding: 10px 24px; border-radius: 6px; font-weight: 600; font-size: 14px !important;
+    }
+    .nav-cta:hover { background: var(--terracotta-hover) !important; }
+
+    /* Dropdown */
+    .has-dropdown { position: relative; }
+    .dropdown-trigger { cursor: default; }
+    .dropdown-trigger::after { content: ' \25BE'; font-size: 11px; color: var(--text-muted); }
+    .dropdown-menu {
+      display: none; position: absolute; top: calc(100% + 12px); left: -16px;
+      background: var(--white); border: 1px solid var(--border); border-radius: 8px;
+      padding: 8px 0; min-width: 300px; box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+      list-style: none; z-index: 200;
+    }
+    .has-dropdown:hover .dropdown-menu { display: block; }
+    .dropdown-menu a { display: block; padding: 10px 20px; font-size: 15px; font-weight: 400; color: var(--text); }
+    .dropdown-menu a:hover { background: var(--cream); color: var(--terracotta); }
+
+    /* Mobile nav */
+    .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+    .nav-toggle span { display: block; width: 24px; height: 2px; background: var(--navy); margin: 6px 0; transition: 0.3s; }
+
+    /* ===== HERO ===== */
+    .hero {
+      padding: 160px 24px 120px;
+      background: linear-gradient(145deg, var(--navy) 0%, var(--navy-dark) 100%);
+      color: var(--white); position: relative; overflow: hidden;
+    }
+    .hero::after {
+      content: ''; position: absolute; top: -50%; right: -20%;
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .hero-content { max-width: 720px; position: relative; z-index: 1; }
+    .hero h1 { font-family: var(--font-heading); font-size: clamp(32px, 5vw, 48px); font-weight: 700; line-height: 1.25; margin-bottom: 20px; }
+    .hero-sub { font-size: 20px; line-height: 1.65; color: rgba(255,255,255,0.85); margin-bottom: 36px; }
+    .hero-badge {
+      display: inline-block; padding: 6px 16px;
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 4px; font-size: 14px; color: rgba(255,255,255,0.75);
+      margin-bottom: 40px; letter-spacing: 0.02em;
+    }
+    .hero-badge a { color: rgba(255,255,255,0.85); border-bottom: 1px solid rgba(255,255,255,0.3); }
+    .hero-badge a:hover { color: var(--white); }
+
+    /* Sub-page hero */
+    .page-hero {
+      padding: 140px 24px 56px;
+      background: linear-gradient(145deg, var(--navy) 0%, var(--navy-dark) 100%);
+      color: var(--white);
+    }
+    .page-hero h1 { font-family: var(--font-heading); font-size: clamp(28px, 4vw, 40px); font-weight: 700; line-height: 1.3; margin-bottom: 12px; }
+    .page-hero .lead { font-size: 19px; line-height: 1.65; color: rgba(255,255,255,0.8); max-width: 640px; }
+    .breadcrumb { font-size: 14px; color: rgba(255,255,255,0.5); margin-bottom: 24px; }
+    .breadcrumb a { color: rgba(255,255,255,0.6); }
+    .breadcrumb a:hover { color: var(--white); }
+
+    /* ===== BUTTONS ===== */
+    .btn-primary {
+      display: inline-block; background: var(--terracotta); color: var(--white);
+      padding: 16px 40px; border-radius: 6px; font-size: 17px; font-weight: 600;
+      transition: background 0.2s, transform 0.2s; border: none; cursor: pointer;
+    }
+    .btn-primary:hover { background: var(--terracotta-hover); color: var(--white); transform: translateY(-1px); }
+
+    .btn-outline {
+      display: inline-block; border: 2px solid var(--navy); color: var(--navy);
+      padding: 14px 36px; border-radius: 6px; font-size: 16px; font-weight: 600;
+      transition: all 0.2s;
+    }
+    .btn-outline:hover { background: var(--navy); color: var(--white); }
+
+    /* ===== SECTIONS ===== */
+    .section { padding: 96px 24px; }
+    .section-light { background: var(--cream); }
+    .section-dark { background: var(--navy); color: var(--white); }
+
+    .section-header { max-width: 640px; margin-bottom: 56px; }
+    .section-header h2 {
+      font-family: var(--font-heading); font-size: clamp(26px, 3.5vw, 36px);
+      font-weight: 700; color: var(--navy); margin-bottom: 16px; line-height: 1.3;
+    }
+    .section-dark .section-header h2 { color: var(--white); }
+    .section-header p { font-size: 18px; color: var(--text-muted); line-height: 1.7; }
+    .section-dark .section-header p { color: rgba(255,255,255,0.7); }
+
+    /* ===== CONTENT SECTIONS (subpages) ===== */
+    .content-section { padding: 80px 24px; }
+    .content-section.alt { background: var(--cream); }
+    .content-body { max-width: 720px; }
+    .content-body h2 {
+      font-family: var(--font-heading); font-size: clamp(24px, 3vw, 32px);
+      font-weight: 700; color: var(--navy); margin-bottom: 24px; line-height: 1.3;
+    }
+    .content-body h3 {
+      font-family: var(--font-heading); font-size: 20px; font-weight: 700;
+      color: var(--navy); margin: 36px 0 14px; line-height: 1.4;
+    }
+    .content-body p { margin-bottom: 18px; font-size: 18px; line-height: 1.75; }
+    .content-body p:last-child { margin-bottom: 0; }
+    .content-body .punchline { font-size: 20px; font-weight: 600; color: var(--navy); }
+    .content-body ul { margin: 0 0 24px 24px; }
+    .content-body li { margin-bottom: 8px; font-size: 17px; line-height: 1.65; }
+
+    /* ===== COMPLIANCE CARDS ===== */
+    .law-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .law-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-top: 3px solid var(--navy); border-radius: 6px; padding: 28px 24px;
+    }
+    .law-card h3 { font-family: var(--font-heading); font-size: 17px; font-weight: 700; color: var(--navy); margin-bottom: 10px; }
+    .law-card p { font-size: 15px; line-height: 1.65; color: var(--text-muted); }
+
+    /* ===== SERVICE CARDS ===== */
+    .services-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; }
+    .service-card {
+      background: var(--white); border: 1px solid var(--border); border-radius: 8px;
+      padding: 36px 32px; transition: box-shadow 0.3s, transform 0.2s;
+    }
+    .service-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .service-card.featured { border-color: var(--navy); border-width: 2px; position: relative; }
+    .service-card.featured::before {
+      content: 'Kernleistung'; position: absolute; top: -12px; left: 24px;
+      background: var(--navy); color: var(--white); font-size: 12px; font-weight: 600;
+      padding: 3px 12px; border-radius: 3px; letter-spacing: 0.04em; text-transform: uppercase;
+    }
+    .service-icon {
+      width: 48px; height: 48px; background: var(--cream); border-radius: 10px;
+      display: flex; align-items: center; justify-content: center; margin-bottom: 20px; font-size: 22px;
+    }
+    .service-card h3 { font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: var(--navy); margin-bottom: 14px; }
+    .service-card p { font-size: 16px; line-height: 1.7; color: var(--text-muted); margin-bottom: 20px; }
+    .service-link { font-size: 15px; font-weight: 600; color: var(--terracotta); cursor: pointer; }
+    .service-link:hover { color: var(--terracotta-hover); }
+
+    /* ===== PROCESS ===== */
+    .process-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+    .process-step { text-align: center; padding: 32px 24px; }
+    .step-number {
+      width: 48px; height: 48px; background: var(--navy); color: var(--white);
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-size: 20px; font-weight: 700; margin: 0 auto 20px; font-family: var(--font-heading);
+    }
+    .process-step h3 { font-family: var(--font-heading); font-size: 18px; color: var(--navy); margin-bottom: 12px; }
+    .process-step p { font-size: 16px; line-height: 1.65; color: var(--text-muted); }
+
+    /* ===== REFERENCE CARDS ===== */
+    .ref-highlights { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-bottom: 56px; }
+    .ref-card { background: var(--cream); border-radius: 8px; padding: 32px 28px; border-left: 4px solid var(--navy); }
+    .ref-card h3 { font-family: var(--font-heading); font-size: 17px; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+    .ref-card .ref-client { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.04em; }
+    .ref-card p { font-size: 15px; line-height: 1.65; color: var(--text); }
+    .ref-logos { text-align: center; }
+    .ref-logos h3 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 24px; }
+    .logo-wall { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+    .logo-wall span { display: inline-block; background: var(--cream); padding: 8px 18px; border-radius: 4px; font-size: 14px; font-weight: 600; color: var(--text-muted); white-space: nowrap; }
+
+    /* ===== CASE STUDY ===== */
+    .case-study { margin-bottom: 56px; padding-bottom: 56px; border-bottom: 1px solid var(--border); }
+    .case-study:last-of-type { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .case-study .cs-label { font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--terracotta); font-weight: 600; margin-bottom: 8px; }
+    .case-study h3 { font-family: var(--font-heading); font-size: 24px; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+    .case-study .cs-client { font-size: 15px; color: var(--text-muted); margin-bottom: 20px; }
+    .case-study p { font-size: 17px; line-height: 1.75; margin-bottom: 14px; }
+    .case-study .cs-link { display: inline-block; margin-top: 8px; font-size: 15px; font-weight: 600; color: var(--terracotta); }
+
+    /* ===== ABOUT ===== */
+    .about-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 64px; align-items: start; }
+    .about-text p { margin-bottom: 18px; font-size: 18px; line-height: 1.75; }
+    .about-text .opener { font-size: 22px; font-weight: 600; color: var(--navy); line-height: 1.5; }
+    .about-sidebar { background: var(--cream); border-radius: 8px; padding: 32px; }
+    .about-sidebar h3 { font-family: var(--font-heading); font-size: 16px; color: var(--navy); margin-bottom: 20px; }
+    .fact-list { list-style: none; }
+    .fact-list li { font-size: 15px; padding: 10px 0; border-bottom: 1px solid var(--border); color: var(--text); }
+    .fact-list li:last-child { border-bottom: none; }
+    .fact-label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 2px; }
+
+    /* ===== INDUSTRY TAGS ===== */
+    .industry-grid { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0; }
+    .industry-tag {
+      background: var(--cream); border: 1px solid var(--border); border-radius: 6px;
+      padding: 10px 18px; font-size: 15px; font-weight: 600; color: var(--navy);
+    }
+
+    /* ===== FAQ ===== */
+    .faq-list { max-width: 720px; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item summary {
+      padding: 22px 0; font-size: 18px; font-weight: 600; color: var(--navy);
+      cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;
+    }
+    .faq-item summary:hover { color: var(--terracotta); }
+    .faq-item summary::after { content: '+'; font-size: 24px; font-weight: 300; color: var(--text-muted); }
+    .faq-item[open] summary::after { content: '\2013'; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-answer { padding: 0 0 24px; font-size: 16px; line-height: 1.75; color: var(--text-muted); }
+
+    /* ===== CTA ===== */
+    .cta-section { text-align: center; padding: 96px 24px; }
+    .cta-section h2 { font-family: var(--font-heading); font-size: clamp(28px, 4vw, 40px); color: var(--white); margin-bottom: 18px; }
+    .cta-section p { font-size: 18px; color: rgba(255,255,255,0.75); max-width: 540px; margin: 0 auto 36px; line-height: 1.7; }
+    .cta-contact { margin-top: 32px; font-size: 15px; color: rgba(255,255,255,0.55); }
+    .cta-contact a { color: rgba(255,255,255,0.75); border-bottom: 1px solid rgba(255,255,255,0.3); }
+    .cta-contact a:hover { color: var(--white); }
+
+    /* ===== CONTACT PAGE ===== */
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
+    .contact-card { background: var(--cream); border-radius: 8px; padding: 40px 36px; }
+    .contact-card h3 { font-family: var(--font-heading); font-size: 18px; color: var(--navy); margin-bottom: 24px; }
+    .contact-card .contact-item { margin-bottom: 20px; }
+    .contact-card .contact-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 4px; }
+    .contact-card .contact-value { font-size: 18px; font-weight: 600; }
+    .contact-card .contact-value a { color: var(--navy); }
+
+    /* ===== FOOTER ===== */
+    .site-footer {
+      background: var(--navy-dark); color: rgba(255,255,255,0.5); padding: 40px 24px; font-size: 14px;
+    }
+    .footer-inner {
+      max-width: var(--max-width); margin: 0 auto; display: flex;
+      justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;
+    }
+    .footer-links { display: flex; gap: 24px; list-style: none; }
+    .footer-links a { color: rgba(255,255,255,0.5); font-size: 14px; }
+    .footer-links a:hover { color: rgba(255,255,255,0.8); }
+
+    /* ===== ANIMATIONS ===== */
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 900px) {
+      .nav-links {
+        display: none; flex-direction: column; position: absolute;
+        top: 72px; left: 0; right: 0; background: var(--white);
+        padding: 24px; border-bottom: 1px solid var(--border);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.08); gap: 8px;
+      }
+      .nav-links.open { display: flex; }
+      .nav-toggle { display: block; }
+
+      .has-dropdown .dropdown-menu {
+        display: block; position: static; border: none; box-shadow: none;
+        background: none; padding: 0 0 0 16px; min-width: 0;
+      }
+      .dropdown-trigger::after { display: none; }
+      .dropdown-menu a { padding: 8px 0; }
+
+      .hero { padding: 130px 24px 80px; }
+      .page-hero { padding: 120px 24px 48px; }
+      .law-cards, .services-grid, .ref-highlights, .process-grid { grid-template-columns: 1fr; }
+      .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 32px; }
+      .footer-inner { flex-direction: column; text-align: center; }
+    }
+
+    /* ===== PRINT ===== */
+    @media print {
+      .site-header, .nav-toggle { display: none; }
+      .hero, .page-hero { padding-top: 40px; background: var(--navy) !important; -webkit-print-color-adjust: exact; }
+      .section, .content-section { padding: 40px 0; }
+      .page { display: block !important; page-break-before: always; }
+      .page:first-child { page-break-before: auto; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="header">
+    <div class="header-inner">
+      <a class="logo" onclick="navigateTo('home')">
+        Annemarie Andersen
+        <span>Sprachdienstleistungen</span>
+      </a>
+      <nav aria-label="Hauptnavigation">
+        <ul class="nav-links" id="navLinks">
+          <li class="has-dropdown">
+            <a href="#" class="dropdown-trigger" onclick="return false">Leistungen</a>
+            <ul class="dropdown-menu">
+              <li><a href="#barrierefreiheit">Barrierefreiheit &amp; Leichte Sprache</a></li>
+              <li><a href="#verwaltung">Verständliche Verwaltung</a></li>
+              <li><a href="#ki-qs">KI-Qualitätssicherung</a></li>
+              <li><a href="#lektorat">Lektorat &amp; Übersetzung</a></li>
+            </ul>
+          </li>
+          <li><a href="#referenzen">Referenzen</a></li>
+          <li><a href="#ueber-mich">Über mich</a></li>
+          <li><a href="#kontakt" class="nav-cta">Angebot anfordern</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Navigation öffnen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- ============================================================ -->
+  <!-- PAGE: HOME                                                    -->
+  <!-- ============================================================ -->
+  <div class="page active" id="page-home">
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Ihre Kommunikation muss barrierefrei sein.</h1>
+          <p class="hero-sub">Seit Juni 2025 ist das gesetzliche Pflicht. Ich bringe Ihre Texte in Form – verständlich, regelkonform und professionell. Auch die, die eine KI geschrieben hat.</p>
+          <div class="hero-badge">Referenz: <a href="https://www.deutscher-zukunftspreis.de/de/barrierefreiheit/leichte-sprache/intro" target="_blank" rel="noopener">Deutscher Zukunftspreis des Bundespräsidenten</a></div>
+          <br>
+          <a href="#kontakt" class="btn-primary">Angebot anfordern</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compliance -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-header">
+          <h2>Was sich seit 2025 geändert hat</h2>
+        </div>
+
+        <div style="max-width: 720px; margin-bottom: 56px;">
+          <p style="margin-bottom: 16px; font-size: 18px; line-height: 1.75;">Das Barrierefreiheitsstärkungsgesetz verpflichtet seit dem 28.&nbsp;Juni 2025 Unternehmen im E-Commerce, in der Telekommunikation und im Bankwesen dazu, ihre digitale Kommunikation barrierefrei zu gestalten. Für Behörden gelten mit BITV&nbsp;2.0 und dem Behindertengleichstellungsgesetz noch weiterreichende Pflichten – einschließlich Leichter Sprache.</p>
+
+          <p style="margin-bottom: 16px; font-size: 18px; line-height: 1.75;">Gleichzeitig nutzen immer mehr Organisationen KI-Tools für ihre Texte. Das klingt meistens brauchbar. Aber brauchbar reicht nicht, wenn Texte gesetzliche Anforderungen erfüllen und im Zweifelsfall vor Gericht standhalten müssen.</p>
+
+          <p style="font-size: 20px; font-weight: 600; color: var(--navy);">Zwischen „wir haben einen Text" und „unser Text erfüllt die Anforderungen" liegt ein Fachgebiet. Meins.</p>
+        </div>
+
+        <div class="law-cards">
+          <div class="law-card">
+            <h3>BFSG</h3>
+            <p>E-Commerce, Banken, Telekommunikation und Personenbeförderung: barrierefreie Produkte und Dienstleistungen. Pflicht seit Juni 2025.</p>
+          </div>
+          <div class="law-card">
+            <h3>BITV 2.0 &amp; BGG</h3>
+            <p>Behörden und öffentliche Stellen müssen Informationen in Leichter Sprache bereitstellen. Geregelt in §&nbsp;11 BGG und der BITV&nbsp;2.0.</p>
+          </div>
+          <div class="law-card">
+            <h3>EU-Richtlinie 2019/882</h3>
+            <p>Der European Accessibility Act schafft europaweit verbindliche Standards für barrierefreie Kommunikation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section fade-in">
+      <div class="container">
+        <div class="section-header">
+          <h2>Was ich für Sie tue</h2>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card featured">
+            <div class="service-icon">&#9737;</div>
+            <h3>Barrierefreiheit &amp; Leichte Sprache</h3>
+            <p>Texte in Leichter Sprache nach aktuellem Regelwerk. Für Websites, Formulare, Broschüren und Barrierefreiheitserklärungen. Ich übertrage Ihre bestehenden Inhalte oder erstelle Texte von Grund auf – inklusive der Ausgangstexte in Standardsprache.</p>
+            <a href="#barrierefreiheit" class="service-link">Mehr erfahren &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">&#9998;</div>
+            <h3>Verständliche Verwaltung</h3>
+            <p>Behördendeutsch in klare Sprache übersetzen. Bescheide, Formulare und AGB so formulieren, dass Ihre Zielgruppe sie beim ersten Lesen versteht – und Ihr Postfach nicht mit Rückfragen überläuft.</p>
+            <a href="#verwaltung" class="service-link">Mehr erfahren &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">&#10003;</div>
+            <h3>KI-Qualitätssicherung</h3>
+            <p>Sie nutzen ChatGPT oder DeepL für Ihre Texte? Dann brauchen Sie jemanden, der das Ergebnis prüft. Ich prüfe KI-generierte Texte auf inhaltliche Fehler, stilistische Brüche und Compliance-Lücken.</p>
+            <a href="#ki-qs" class="service-link">Mehr erfahren &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">&#8644;</div>
+            <h3>Lektorat &amp; Übersetzung</h3>
+            <p>Korrekturlesen, stilistische Überarbeitung und Fachübersetzungen Deutsch–Englisch. Von technischer Dokumentation über Marketingtexte bis zu Druckvorlagen für Premium-Events.</p>
+            <a href="#lektorat" class="service-link">Mehr erfahren &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-header">
+          <h2>So läuft es ab</h2>
+        </div>
+        <div class="process-grid">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <h3>Anfrage</h3>
+            <p>Sie beschreiben, was Sie brauchen – per Mail oder Telefon. Kurz reicht.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <h3>Angebot</h3>
+            <p>Ich nenne Ihnen Umfang, Preis und Zeitrahmen. Verbindlich und transparent.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <h3>Umsetzung</h3>
+            <p>Sie erhalten Ihre Texte termingerecht und in Ihrem gewünschten Format. Bei Leichter Sprache in zwei Stufen: Ausgangstext, dann Übertragung.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- References -->
+    <section class="section fade-in">
+      <div class="container">
+        <div class="section-header">
+          <h2>Auftraggeber und Projekte</h2>
+        </div>
+
+        <div class="ref-highlights">
+          <div class="ref-card">
+            <div class="ref-client">Deutscher Zukunftspreis</div>
+            <h3>Leichte Sprache für den Bundespräsidenten</h3>
+            <p>Übertragung des Geleitworts von Frank-Walter Steinmeier und der Texte aller Nominierten 2024 und 2025 in Leichte Sprache.</p>
+          </div>
+
+          <div class="ref-card">
+            <div class="ref-client">Bundesministerium der Finanzen / PD GmbH</div>
+            <h3>Förderleitfaden DARP</h3>
+            <p>Barrierefreie Kommunikation für den Förderleitfaden des Deutschen Aufbau- und Resilienzplans. Ausgangstexte und Leichte Sprache nach BITV&nbsp;2.0.</p>
+          </div>
+
+          <div class="ref-card">
+            <div class="ref-client">sbstnz GmbH / House of Suntory</div>
+            <h3>Premium-Lektorat</h3>
+            <p>Englischsprachiges Lektorat für Marketingmaterial eines Whisky-Events bei Fotografiska Berlin. Marken: Hibiki, Hakushu, Yamazaki.</p>
+          </div>
+        </div>
+
+        <div class="ref-logos">
+          <h3>Weitere Auftraggeber</h3>
+          <div class="logo-wall">
+            <span>Allcorrect Group</span>
+            <span>Blauw Research</span>
+            <span>credia communications</span>
+            <span>Enchanting Travels</span>
+            <span>GreenLife</span>
+            <span>KUMARI</span>
+            <span>MWE Edelstahl</span>
+            <span>RPLC</span>
+            <span>Runden Group</span>
+            <span>TechRadar</span>
+            <span>Testbirds</span>
+            <span>Traviation</span>
+            <span>ZOO Digital</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-header">
+          <h2>Häufige Fragen</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Was kostet Leichte Sprache?</summary>
+            <div class="faq-answer">Die Kosten richten sich nach Umfang und Komplexität des Ausgangstextes. Für die Übertragung in Leichte Sprache berechne ich ab 75&nbsp;EUR pro Normseite (1.500 Zeichen inklusive Leerzeichen). Gern erstelle ich Ihnen ein individuelles Angebot.</div>
+          </details>
+          <details class="faq-item">
+            <summary>Sind Unternehmen zur barrierefreien Kommunikation verpflichtet?</summary>
+            <div class="faq-answer">Seit dem 28.&nbsp;Juni 2025: ja. Das Barrierefreiheitsstärkungsgesetz betrifft Unternehmen im E-Commerce, in der Telekommunikation, im Bankwesen und in der Personenbeförderung. Für öffentliche Stellen gilt die Pflicht über BITV&nbsp;2.0 und das Behindertengleichstellungsgesetz schon länger.</div>
+          </details>
+          <details class="faq-item">
+            <summary>Kann KI Leichte Sprache?</summary>
+            <div class="faq-answer">KI kann einfachere Formulierungen vorschlagen. Leichte Sprache folgt aber einem eigenen Regelwerk mit konkreten Vorgaben zu Satzlänge, Wortauswahl, Satzbau und Gestaltung. KI-Tools erfüllen diese Anforderungen nicht zuverlässig – weder sprachlich noch im Layout.</div>
+          </details>
+          <details class="faq-item">
+            <summary>Was ist der Unterschied zwischen Leichter Sprache und Einfacher Sprache?</summary>
+            <div class="faq-answer">Leichte Sprache folgt einem festen Regelwerk mit klaren Vorgaben und richtet sich primär an Menschen mit Lernschwierigkeiten. Einfache Sprache ist weniger streng und orientiert sich am Sprachniveau B1. Beide machen Texte verständlicher. Leichte Sprache ist der strengere Standard – und der einzige, der gesetzlich verankert ist.</div>
+          </details>
+          <details class="faq-item">
+            <summary>Prüfen Sie auch KI-generierte Texte?</summary>
+            <div class="faq-answer">Ja. Immer mehr Unternehmen erstellen Texte mit KI-Tools und brauchen jemanden, der Qualität, Korrektheit und Compliance prüft. Mein Hintergrund in der Qualitätssicherung – unter anderem bei Jung von Matt für BMW, Sparkasse und Montblanc – macht genau das zur Kernkompetenz.</div>
+          </details>
+          <details class="faq-item">
+            <summary>Wie läuft eine Zusammenarbeit ab?</summary>
+            <div class="faq-answer">Sie schicken mir Ihren Text oder beschreiben, was Sie brauchen. Ich erstelle ein Angebot mit Umfang, Preis und Zeitrahmen. Nach Ihrer Freigabe lege ich los. Bei Leichter Sprache arbeite ich in zwei Stufen: erst der Ausgangstext in Standardsprache, dann die Übertragung.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section-dark cta-section">
+      <div class="container">
+        <h2>Reden wir über Ihre Texte.</h2>
+        <p>Ob Barrierefreiheit, Entbürokratisierung oder Qualitätssicherung – schreiben Sie mir, was Sie brauchen. Ich melde mich innerhalb von 24&nbsp;Stunden.</p>
+        <a href="#kontakt" class="btn-primary">Angebot anfordern</a>
+        <div class="cta-contact">
+          <a href="mailto:mail@annemarie-andersen.de">mail@annemarie-andersen.de</a>
+          &nbsp;&middot;&nbsp;
+          <a href="tel:+491751183251">+49&nbsp;(0)&nbsp;175&nbsp;118&nbsp;32&nbsp;51</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- ============================================================ -->
+  <!-- PAGE: BARRIEREFREIHEIT                                        -->
+  <!-- ============================================================ -->
+  <div class="page" id="page-barrierefreiheit">
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; Barrierefreiheit &amp; Leichte Sprache</div>
+        <h1>Leichte Sprache ist kein Goodwill. Es ist geltendes Recht.</h1>
+        <p class="lead">Behörden müssen Informationen in Leichter Sprache bereitstellen. Unternehmen müssen barrierefrei kommunizieren. Das sind keine Empfehlungen – das sind Gesetze.</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="content-body">
+          <h2>Was Leichte Sprache ist – und was nicht</h2>
+          <p>Leichte Sprache ist kein vereinfachtes Deutsch. Es ist ein eigenständiges Regelwerk mit verbindlichen Vorgaben: kurze Sätze, ein Gedanke pro Satz, keine Fremdwörter, keine Metaphern, keine Passivkonstruktionen. Dazu kommen Gestaltungsregeln für Schriftgröße, Zeilenabstand und den Einsatz von Bildern.</p>
+
+          <p>Einfache Sprache – häufig verwechselt – orientiert sich am Sprachniveau B1 und hat kein festes Regelwerk. Der Unterschied ist juristisch relevant: Wo das Gesetz Leichte Sprache fordert, reicht Einfache Sprache nicht.</p>
+
+          <h3>Wer braucht Leichte Sprache?</h3>
+          <ul>
+            <li><strong>Behörden und öffentliche Stellen</strong> – §&nbsp;11 BGG und BITV&nbsp;2.0 verpflichten Bundesbehörden, wesentliche Inhalte in Leichter Sprache bereitzustellen.</li>
+            <li><strong>Unternehmen unter BFSG-Pflicht</strong> – E-Commerce, Banken, Telekommunikation und Personenbeförderung müssen seit Juni 2025 barrierefrei kommunizieren.</li>
+            <li><strong>Organisationen mit Barrierefreiheitserklärung</strong> – Wer eine BITV-konforme Erklärung veröffentlichen muss, braucht auch die Leichte-Sprache-Variante.</li>
+            <li><strong>Agenturen mit öffentlichen Auftraggebern</strong> – Wer Behörden-Aufträge gewinnen will, muss barrierefreie Kommunikation liefern können.</li>
+          </ul>
+
+          <h3>Was KI hier nicht kann</h3>
+          <p>Sprachmodelle können Texte vereinfachen. Leichte Sprache erstellen können sie nicht. Die Gründe sind konkret:</p>
+          <ul>
+            <li>KI hält sich nicht zuverlässig an das Regelwerk – Satzlängen, Wortauswahl und Gestaltung weichen regelmäßig ab.</li>
+            <li>Leichte Sprache erfordert Prüfung durch die Zielgruppe – Menschen mit Lernschwierigkeiten lesen den Text und geben Rückmeldung. Das kann kein Algorithmus ersetzen.</li>
+            <li>Die Gestaltungsvorgaben (Bilder, Layout, Schriftgröße) liegen außerhalb dessen, was Textmodelle leisten.</li>
+            <li>Bei Compliance-relevanten Texten haftet der Auftraggeber. „Hat die KI gemacht" ist keine Verteidigung.</li>
+          </ul>
+
+          <h3>Mein Angebot</h3>
+          <p>Ich übertrage bestehende Texte in Leichte Sprache oder erstelle neue Texte von Grund auf – inklusive der Ausgangstexte in Standardsprache. Konkret:</p>
+          <ul>
+            <li>Leichte-Sprache-Texte für Websites, Broschüren und Formulare</li>
+            <li>Barrierefreiheitserklärungen nach BITV&nbsp;2.0</li>
+            <li>Ausgangstexte in Standardsprache als Basis für die Übertragung</li>
+            <li>Beratung zur weiteren Qualitätssicherung (z.&nbsp;B. Prüfung durch die Zielgruppe)</li>
+          </ul>
+
+          <h3>Referenz: Deutscher Zukunftspreis</h3>
+          <p>Für den <a href="https://www.deutscher-zukunftspreis.de/de/barrierefreiheit/leichte-sprache/intro" target="_blank" rel="noopener">Deutschen Zukunftspreis</a> – einen der bedeutendsten Wissenschafts- und Innovationspreise Deutschlands, verliehen vom Bundespräsidenten persönlich – habe ich das Geleitwort von Frank-Walter Steinmeier und die Texte aller sechs nominierten Teams der Jahrgänge 2024 und 2025 in Leichte Sprache übertragen.</p>
+          <p>2024 ging der Preis an ams OSRAM und Fraunhofer für intelligente LED-Technologie. 2025 an Robert Bosch für emissionsfreie Brennstoffzellenantriebe. Die Leichte-Sprache-Texte stehen auf der Website des Zukunftspreises unter Barrierefreiheit.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark cta-section">
+      <div class="container">
+        <h2>Ihre Texte müssen barrierefrei sein?</h2>
+        <p>Schreiben Sie mir, was Sie brauchen. Ich schätze den Aufwand ein und erstelle Ihnen ein Angebot – unverbindlich und innerhalb von 24&nbsp;Stunden.</p>
+        <a href="#kontakt" class="btn-primary">Angebot anfordern</a>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- ============================================================ -->
+  <!-- PAGE: VERWALTUNG                                              -->
+  <!-- ============================================================ -->
+  <div class="page" id="page-verwaltung">
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; Verständliche Verwaltung</div>
+        <h1>Behördendeutsch versteht niemand. Das muss nicht so bleiben.</h1>
+        <p class="lead">Verwaltungssprache schafft Barrieren, die Geld kosten: Rückfragen, Widersprüche, Frust. Klare Texte verhindern das.</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="content-body">
+          <h2>Warum verständliche Verwaltung kein Luxus ist</h2>
+          <p>Jeder Bescheid, den jemand nicht versteht, erzeugt eine Rückfrage. Jede Rückfrage bindet Personal. Jedes Formular, das falsch ausgefüllt wird, verdoppelt den Aufwand. Und jeder Widerspruch, der aus Missverständnissen entsteht, kostet ein Vielfaches des Originals.</p>
+
+          <p>Entbürokratisierung ist politisch gewollt – vom Onlinezugangsgesetz bis zum Bürokratieentlastungsgesetz. Aber ein digitales Formular, das genauso unverständlich ist wie sein Papier-Vorgänger, hat nichts entbürokratisiert. Es hat das Problem nur ins Internet verschoben.</p>
+
+          <h3>Was ich tue</h3>
+          <p>Ich übersetze Verwaltungssprache in Deutsch, das funktioniert. Nicht simpel, nicht juristisch verwässert – verständlich. Für Bescheide, Formulare, Vertragsklauseln und AGB.</p>
+
+          <ul>
+            <li><strong>Bescheide und Schreiben</strong> – Verwaltungsakte, die Bürger tatsächlich verstehen, ohne einen Anwalt zu brauchen.</li>
+            <li><strong>Formulare</strong> – Strukturen und Formulierungen, die korrekt ausgefüllt zurückkommen.</li>
+            <li><strong>AGB und Vertragsklauseln</strong> – Verständlich formuliert, ohne den rechtlichen Kern zu verändern.</li>
+            <li><strong>Webseiten-Texte für öffentliche Stellen</strong> – Von der Startseite bis zur Barrierefreiheitserklärung.</li>
+          </ul>
+
+          <h3>Für wen das interessant ist</h3>
+          <p>Behörden, Kommunen und öffentliche Stellen, die ihre Kommunikation verbessern wollen – oder müssen. Agenturen, die für die öffentliche Hand arbeiten. Und Unternehmen, die merken, dass ihre Vertragstexte mehr Fragen aufwerfen, als sie beantworten.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark cta-section">
+      <div class="container">
+        <h2>Texte, die beim ersten Lesen funktionieren.</h2>
+        <p>Schicken Sie mir einen Text, der Probleme macht. Ich zeige Ihnen, was sich ändern lässt.</p>
+        <a href="#kontakt" class="btn-primary">Angebot anfordern</a>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- ============================================================ -->
+  <!-- PAGE: KI-QS                                                   -->
+  <!-- ============================================================ -->
+  <div class="page" id="page-ki-qs">
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; KI-Qualitätssicherung</div>
+        <h1>KI schreibt schnell. Richtig ist etwas anderes.</h1>
+        <p class="lead">Immer mehr Unternehmen nutzen KI für ihre Texte. Kaum jemand prüft, was dabei herauskommt. Das rächt sich.</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="content-body">
+          <h2>Das Problem mit KI-generierten Texten</h2>
+          <p>ChatGPT, DeepL, Gemini – die Tools sind gut genug, um brauchbare Texte zu produzieren. Brauchbar heißt: Sie klingen plausibel. Brauchbar heißt nicht: Sie sind korrekt.</p>
+
+          <p>Was regelmäßig schiefgeht:</p>
+          <ul>
+            <li><strong>Halluzinationen</strong> – KI erfindet Fakten, Zitate und Quellen. Das fällt nicht sofort auf, weil der Text flüssig klingt.</li>
+            <li><strong>Stilistische Gleichförmigkeit</strong> – KI-Texte verraten sich durch monotone Satzlängen, übertriebene Höflichkeit und dieselben Floskeln in jedem zweiten Absatz.</li>
+            <li><strong>Compliance-Lücken</strong> – KI kennt weder Ihre Branchenregulierung noch Ihre internen Kommunikationsrichtlinien.</li>
+            <li><strong>Tonalitätsbrüche</strong> – Ein Premium-Brand, der klingt wie ein Chatbot, beschädigt sich selbst.</li>
+          </ul>
+
+          <h3>Warum ausgerechnet ich</h3>
+          <p>Ich komme aus der Qualitätssicherung. Nicht aus der Textbranche, die jetzt notgedrungen KI-Prüfung anbietet – aus der QA. Bei Jung von Matt habe ich Kampagnen für BMW und Sparkasse gegen Qualitätskriterien geprüft. Bei Goodgame Studios und InnoGames Softwarereleases. Das Prinzip ist dasselbe: definierte Anforderungen, systematische Prüfung, klare Kriterien statt Bauchgefühl.</p>
+
+          <h3>Was ich prüfe</h3>
+          <ul>
+            <li>Inhaltliche Korrektheit – stimmen die Fakten?</li>
+            <li>Stilistische Konsistenz – passt der Text zur Marke?</li>
+            <li>Compliance – entspricht der Text branchenspezifischen Vorgaben?</li>
+            <li>Barrierefreiheit – erfüllt der Text gesetzliche Anforderungen?</li>
+            <li>KI-Tells – klingt der Text noch nach KI?</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark cta-section">
+      <div class="container">
+        <h2>Ihre KI schreibt. Ich prüfe.</h2>
+        <p>Schicken Sie mir einen KI-generierten Text. Ich sage Ihnen, wo die Schwachstellen liegen.</p>
+        <a href="#kontakt" class="btn-primary">Angebot anfordern</a>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- ============================================================ -->
+  <!-- PAGE: LEKTORAT                                                -->
+  <!-- ============================================================ -->
+  <div class="page" id="page-lektorat">
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; Lektorat &amp; Übersetzung</div>
+        <h1>Manchmal braucht ein Text kein Redesign. Nur jemanden, der genau hinschaut.</h1>
+        <p class="lead">Korrekturlesen, stilistische Überarbeitung und Fachübersetzungen Deutsch–Englisch. Bilingual, seit 2018.</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="content-body">
+          <h2>Lektorat &amp; Korrektorat</h2>
+          <p>Korrektorat heißt: Orthografie, Grammatik, Zeichensetzung. Keine Fehler durchlassen. Lektorat geht weiter: Lesefluss, Tonalität, Zielgruppenpassung. Stimmt der Text in sich? Passt er zur Marke? Erreicht er, was er soll?</p>
+
+          <p>Ich arbeite mit Druckvorlagen genauso wie mit Website-Texten, mit Geschäftsberichten genauso wie mit Marketingmaterial. Sprache ist Sprache – die Qualitätskriterien bleiben dieselben.</p>
+
+          <h3>Fachübersetzung Deutsch–Englisch</h3>
+          <p>Bilingual aufgewachsen, Studium in Sydney, Berufserfahrung in internationalen Teams. Ich übersetze in beide Richtungen, mit Schwerpunkt auf technischen Texten, Gaming-Lokalisierung und Marketingmaterial.</p>
+
+          <h3>Branchen, in denen ich arbeite</h3>
+          <div class="industry-grid">
+            <span class="industry-tag">Gaming</span>
+            <span class="industry-tag">IT &amp; Technik</span>
+            <span class="industry-tag">Qualitätsmanagement</span>
+            <span class="industry-tag">Marketing</span>
+            <span class="industry-tag">Tourismus</span>
+            <span class="industry-tag">Automobile</span>
+            <span class="industry-tag">Finanzen</span>
+            <span class="industry-tag">Medizin</span>
+          </div>
+
+          <p>Dazu: Broschüren, Präsentationen, wissenschaftliche Texte, Handbücher, SEO-Texte und Bewerbungsunterlagen.</p>
+
+          <h3>Sondergebiet: Altdeutsche Schrift</h3>
+          <p>Ich lese Sütterlin und Kurrentschrift und übersetze alte Handschriften und Drucke ins heutige Hochdeutsch. Ein Nischenangebot – aber wer es braucht, findet nicht viele, die es können.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark cta-section">
+      <div class="container">
+        <h2>Ihr Text verdient einen genauen Blick.</h2>
+        <p>Ob Korrekturlesen, Stilbearbeitung oder Übersetzung – schreiben Sie mir, was Sie brauchen.</p>
+        <a href="#kontakt" class="btn-primary">Angebot anfordern</a>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- ============================================================ -->
+  <!-- PAGE: ÜBER MICH                                               -->
+  <!-- ============================================================ -->
+  <div class="page" id="page-ueber-mich">
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; Über mich</div>
+        <h1>Ein ungewöhnlicher Weg in die Sprache</h1>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="opener">Ich komme nicht aus der Germanistik. Ich komme aus der Qualitätssicherung.</p>
+
+            <p>Bürokauffrau gelernt bei Hamburg Süd. Game Design studiert in Schwerin und am AIT in Sydney. Spiele getestet bei Goodgame Studios und InnoGames – erst als QA Tester, dann als QA Technician. Digitale Kampagnen geprüft bei Jung von Matt – als QA-Managerin für BMW, Sparkasse, Montblanc und Huawei.</p>
+
+            <p>Was das mit Sprache zu tun hat? Alles.</p>
+
+            <p>Qualitätssicherung bedeutet: systematisch prüfen, ob etwas den Anforderungen entspricht. Ob das ein Softwarerelease ist, eine BMW-Kampagne oder ein barrierefreier Text für den Deutschen Zukunftspreis – der Prozess ist derselbe. Definierte Kriterien. Strukturiertes Vorgehen. Kein „passt schon".</p>
+
+            <p>Seit 2018 wende ich diese Arbeitsweise auf Sprache an. Bilingual Deutsch und Englisch, 100&nbsp;% remote von Mecklenburg-Vorpommern aus. Meine Auftraggeber reichen vom Bundespräsidenten über das Bundesministerium der Finanzen bis zu Gaming-Studios und internationalen Agenturen.</p>
+
+            <p>Ich bin keine Texterin, die auch Qualitätssicherung anbietet. Ich bin eine QA-Spezialistin, die Sprache zu ihrem Fachgebiet gemacht hat. Der Unterschied zeigt sich im Ergebnis.</p>
+          </div>
+
+          <aside class="about-sidebar">
+            <h3>Kurzprofil</h3>
+            <ul class="fact-list">
+              <li><span class="fact-label">Selbstständig seit</span> 2018</li>
+              <li><span class="fact-label">Standort</span> Mecklenburg-Vorpommern, 100&nbsp;% remote</li>
+              <li><span class="fact-label">Sprachen</span> Deutsch &amp; Englisch (bilingual)</li>
+              <li><span class="fact-label">Hintergrund</span> QA: Goodgame Studios, InnoGames, Jung von Matt</li>
+              <li><span class="fact-label">Studium</span> Game Design (Schwerin &amp; Sydney)</li>
+              <li><span class="fact-label">Top-Referenz</span> Deutscher Zukunftspreis des Bundespräsidenten</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark cta-section">
+      <div class="container">
+        <h2>Überzeugt?</h2>
+        <p>Schreiben Sie mir, was Sie brauchen. Ich melde mich innerhalb von 24&nbsp;Stunden.</p>
+        <a href="#kontakt" class="btn-primary">Angebot anfordern</a>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- ============================================================ -->
+  <!-- PAGE: REFERENZEN                                              -->
+  <!-- ============================================================ -->
+  <div class="page" id="page-referenzen">
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; Referenzen</div>
+        <h1>Auftraggeber und Projekte</h1>
+        <p class="lead">Eine Auswahl meiner bisherigen Arbeit – von der Bundesregierung bis zur Berliner Kunstszene.</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div style="max-width: 800px;">
+
+          <div class="case-study">
+            <div class="cs-label">Leichte Sprache</div>
+            <h3>Deutscher Zukunftspreis</h3>
+            <div class="cs-client">Preis des Bundespräsidenten für Technik und Innovation</div>
+            <p>Der Deutsche Zukunftspreis ist einer der bedeutendsten Wissenschafts- und Innovationspreise Deutschlands. Verliehen vom Bundespräsidenten persönlich, dotiert mit 250.000&nbsp;Euro, übertragen im ZDF.</p>
+            <p>Für die Jahrgänge 2024 und 2025 habe ich das Geleitwort von Bundespräsident Frank-Walter Steinmeier und die Texte aller sechs nominierten Teams in Leichte Sprache übertragen. 2024: Intelligente LED-Technologie (ams OSRAM / Fraunhofer), Generative KI (LMU München / Nyris) und Energiespar-Chips. 2025: Brennstoffzellenantrieb für Lkw (Robert Bosch), Biomaterialien (traceless materials) und Augenlasertechnik (Carl Zeiss Meditec).</p>
+            <p>Die Prüfung erfolgte durch das Büro für Leichte Sprache Iserlohn.</p>
+            <a href="https://www.deutscher-zukunftspreis.de/de/barrierefreiheit/leichte-sprache/intro" target="_blank" rel="noopener" class="cs-link">Texte auf deutscher-zukunftspreis.de ansehen &rarr;</a>
+          </div>
+
+          <div class="case-study">
+            <div class="cs-label">Leichte Sprache &amp; Ausgangstexte</div>
+            <h3>Förderleitfaden DARP</h3>
+            <div class="cs-client">PD – Berater der öffentlichen Hand GmbH / Bundesministerium der Finanzen</div>
+            <p>Barrierefreie Kommunikation für den Förderleitfaden des Deutschen Aufbau- und Resilienzplans (DARP). Der Förderleitfaden ist das zentrale Informationsangebot des BMF für die Konzeption und Erstellung von Förderrichtlinien des Bundes.</p>
+            <p>Leistung: Erstellung der Ausgangstexte in Standardsprache und Übertragung in Leichte Sprache nach BITV&nbsp;2.0. Drei Bausteine: Inhaltsbeschreibung der acht Module, Navigationshilfe und Barrierefreiheitserklärung. Koordination mit der PD und der DGS-Agentur yomma.</p>
+          </div>
+
+          <div class="case-study">
+            <div class="cs-label">Englisches Lektorat</div>
+            <h3>House of Suntory</h3>
+            <div class="cs-client">sbstnz GmbH / Fotografiska Berlin</div>
+            <p>Englischsprachiges Premium-Lektorat für Marketingmaterial eines Whisky-Tasting-Events bei Fotografiska Berlin. Kunstkarten der Sumi-e-Künstlerin Katja Hiendlemayer und Tasting-Faltblätter für die Marken Hibiki, Hakushu 12 und Yamazaki 18.</p>
+            <p>Korrekturen auf drei Ebenen: Grammatik und Typografie (Anführungszeichen, Oxford Comma, Kursivierung von Fremdwörtern), Konsistenz (Title Case vs. Sentence Case, Zeichenverwendung) und Copywriting-Niveau (verbrauchte Phrasen, Kategorienfehler, Selbstlob-Jargon).</p>
+          </div>
+
+          <div class="case-study">
+            <div class="cs-label">Lokalisierung &amp; QA</div>
+            <h3>Internationale Film- und TV-Industrie</h3>
+            <div class="cs-client">ZOO Digital Group</div>
+            <p>Übersetzung und Qualitätssicherung von Inhalten für die internationale Film- und TV-Industrie. Untertitel, Synchronisation und Metadaten für globale Streaming-Plattformen.</p>
+          </div>
+
+        </div>
+
+        <div class="ref-logos" style="margin-top: 64px;">
+          <h3>Weitere Auftraggeber</h3>
+          <div class="logo-wall">
+            <span>Allcorrect Group</span>
+            <span>Blauw Research</span>
+            <span>credia communications</span>
+            <span>Enchanting Travels</span>
+            <span>GreenLife</span>
+            <span>KUMARI</span>
+            <span>MWE Edelstahl</span>
+            <span>RPLC</span>
+            <span>Runden Group</span>
+            <span>TechRadar</span>
+            <span>Testbirds</span>
+            <span>Traviation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark cta-section">
+      <div class="container">
+        <h2>Ihr Projekt könnte das nächste sein.</h2>
+        <p>Schreiben Sie mir, was Sie brauchen. Ich freue mich auf Ihre Anfrage.</p>
+        <a href="#kontakt" class="btn-primary">Angebot anfordern</a>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- ============================================================ -->
+  <!-- PAGE: KONTAKT                                                 -->
+  <!-- ============================================================ -->
+  <div class="page" id="page-kontakt">
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; Kontakt</div>
+        <h1>Reden wir über Ihre Texte.</h1>
+        <p class="lead">Beschreiben Sie kurz, was Sie brauchen. Ich melde mich innerhalb von 24&nbsp;Stunden mit einer Einschätzung.</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="contact-grid">
+
+          <div>
+            <div class="content-body">
+              <h2>So erreichen Sie mich</h2>
+              <div class="contact-card">
+                <div class="contact-item">
+                  <div class="contact-label">E-Mail</div>
+                  <div class="contact-value"><a href="mailto:mail@annemarie-andersen.de">mail@annemarie-andersen.de</a></div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-label">Telefon</div>
+                  <div class="contact-value"><a href="tel:+491751183251">+49&nbsp;(0)&nbsp;175&nbsp;118&nbsp;32&nbsp;51</a></div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-label">Standort</div>
+                  <div class="contact-value">Mecklenburg-Vorpommern, 100&nbsp;% remote</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="content-body">
+              <h2>Was ich für ein Angebot brauche</h2>
+              <p>Damit ich Ihnen einen realistischen Preis nennen kann:</p>
+              <ul>
+                <li><strong>Welche Leistung?</strong> Leichte Sprache, Lektorat, Übersetzung, KI-Prüfung?</li>
+                <li><strong>Umfang?</strong> Zeichenanzahl, Seitenanzahl oder eine kurze Beschreibung.</li>
+                <li><strong>Zeitrahmen?</strong> Bis wann brauchen Sie das Ergebnis?</li>
+                <li><strong>Ausgangstext?</strong> Liegt bereits ein Text vor, oder soll ich auch den erstellen?</li>
+              </ul>
+              <p>Keine Sorge, wenn Sie nicht alles wissen. Schreiben Sie mir einfach – den Rest klären wir im Gespräch.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- ============================================================ -->
+  <!-- PAGE: AGB                                                     -->
+  <!-- ============================================================ -->
+  <div class="page" id="page-agb">
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; AGB</div>
+        <h1>Allgemeine Geschäftsbedingungen</h1>
+        <p class="lead">Annemarie Andersen – Sprachdienstleistungen<br>Stand: April 2026</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="content-body" style="max-width: 800px;">
+
+          <h2>1. Geltungsbereich</h2>
+          <p>Diese AGB gelten für alle Verträge zwischen Annemarie Andersen, freiberufliche Sprachdienstleisterin (nachfolgend „Auftragnehmerin"), und dem jeweiligen Auftraggeber (nachfolgend „Kunde") über sprachliche Dienstleistungen, insbesondere Leichte Sprache, Lektorat, Korrektorat, Übersetzungen, Entbürokratisierung und KI-Qualitätssicherung.</p>
+          <p>Entgegenstehende oder abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, die Auftragnehmerin stimmt ihrer Geltung ausdrücklich schriftlich zu.</p>
+
+          <h2>2. Leistungsumfang</h2>
+          <p>Der Leistungsumfang ergibt sich aus der jeweiligen Auftragsbestätigung oder dem Angebot. Die Auftragnehmerin erbringt ausschließlich sprachliche Dienstleistungen. Nicht zum Leistungsumfang gehören insbesondere:</p>
+          <ul>
+            <li>die inhaltliche oder fachliche Prüfung der Ausgangstexte,</li>
+            <li>die Bereitstellung von Prüfgruppen für Leichte Sprache,</li>
+            <li>die Bereitstellung von Bildern, Grafiken oder Illustrationen,</li>
+            <li>die technische Umsetzung (Webentwicklung, Layout, Barrierefreiheit von Websites),</li>
+            <li>die rechtliche Prüfung von Texten.</li>
+          </ul>
+
+          <h2>3. Pflichten des Kunden</h2>
+          <p>Der Kunde stellt sicher, dass:</p>
+          <ul>
+            <li>die bereitgestellten Ausgangstexte inhaltlich korrekt und vollständig sind,</li>
+            <li>alle für die Bearbeitung notwendigen Informationen rechtzeitig bereitgestellt werden,</li>
+            <li>bei Leichte-Sprache-Aufträgen die Prüfung durch die Zielgruppe eigenverantwortlich organisiert wird,</li>
+            <li>bei Übersetzungen die Richtigkeit fachspezifischer Terminologie im Ausgangstext gewährleistet ist.</li>
+          </ul>
+          <p>Verzögerungen durch fehlende oder fehlerhafte Zulieferungen gehen zulasten des Kunden.</p>
+
+          <h2>4. Inhaltliche Verantwortung</h2>
+          <p>Die Verantwortung für die inhaltliche Richtigkeit, fachliche Korrektheit und rechtliche Zulässigkeit der Texte liegt ausschließlich beim Kunden. Die Auftragnehmerin bearbeitet die Texte sprachlich, nicht inhaltlich. Eine Haftung für inhaltliche Fehler in den Ausgangstexten oder für die Eignung der Texte für einen bestimmten Zweck ist ausgeschlossen.</p>
+
+          <h2>5. Haftung</h2>
+          <p>Die Auftragnehmerin haftet nur für Vorsatz und grobe Fahrlässigkeit. Bei leichter Fahrlässigkeit haftet die Auftragnehmerin nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten), begrenzt auf den vorhersehbaren, vertragstypischen Schaden.</p>
+          <p>Die Haftung ist in jedem Fall auf die Höhe des jeweiligen Auftragshonorars begrenzt.</p>
+          <p>Die Auftragnehmerin haftet nicht für:</p>
+          <ul>
+            <li>inhaltliche Fehler, die bereits im Ausgangstext vorhanden waren,</li>
+            <li>Folgeschäden, die aus der Verwendung der bearbeiteten Texte entstehen,</li>
+            <li>Schäden durch die Nichtbeachtung von Hinweisen der Auftragnehmerin (z.&nbsp;B. zur Prüfung durch Fachpersonal oder Zielgruppen),</li>
+            <li>entgangenen Gewinn oder mittelbare Schäden jeglicher Art,</li>
+            <li>die Einhaltung branchenspezifischer Vorschriften oder Compliance-Anforderungen des Kunden.</li>
+          </ul>
+
+          <h2>6. Reklamation und Nachbesserung</h2>
+          <p>Beanstandungen sind innerhalb von 14&nbsp;Tagen nach Lieferung schriftlich mitzuteilen. Die Auftragnehmerin hat das Recht zur Nachbesserung. Über die Nachbesserung hinausgehende Ansprüche sind ausgeschlossen, soweit gesetzlich zulässig.</p>
+
+          <h2>7. Vergütung und Zahlungsbedingungen</h2>
+          <p>Die Vergütung richtet sich nach dem jeweiligen Angebot. Rechnungen sind innerhalb von 14&nbsp;Tagen nach Zugang ohne Abzug zahlbar. Bei Aufträgen über 500&nbsp;Euro netto kann eine Anzahlung von 50&nbsp;% vereinbart werden.</p>
+          <p>Die Auftragnehmerin ist als Kleinunternehmerin nach §&nbsp;19 UStG von der Umsatzsteuer befreit. In den Rechnungen wird keine Umsatzsteuer ausgewiesen.</p>
+
+          <h2>8. Urheberrecht und Nutzungsrechte</h2>
+          <p>Die Nutzungsrechte an den erstellten Texten gehen erst mit vollständiger Bezahlung auf den Kunden über. Bis dahin verbleiben sämtliche Rechte bei der Auftragnehmerin.</p>
+
+          <h2>9. Vertraulichkeit</h2>
+          <p>Die Auftragnehmerin behandelt alle im Rahmen des Auftrags erhaltenen Informationen vertraulich. Eine Weitergabe an Dritte erfolgt nicht ohne ausdrückliche Zustimmung des Kunden.</p>
+
+          <h2>10. Referenznennung</h2>
+          <p>Die Auftragnehmerin darf den Kunden und das Projekt als Referenz nennen, sofern der Kunde nicht ausdrücklich widerspricht.</p>
+
+          <h2>11. Schlussbestimmungen</h2>
+          <p>Es gilt das Recht der Bundesrepublik Deutschland. Sollten einzelne Bestimmungen dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Änderungen und Ergänzungen bedürfen der Schriftform.</p>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>Annemarie Andersen – Sprachdienstleistungen &middot; Mecklenburg-Vorpommern</div>
+      <ul class="footer-links">
+        <li><a href="#">Impressum</a></li>
+        <li><a href="#">Datenschutz</a></li>
+        <li><a href="#agb">AGB</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    // === SPA ROUTING ===
+    const pageTitles = {
+      'home': 'Annemarie Andersen — Barrierefreie Kommunikation & Sprachdienstleistungen',
+      'barrierefreiheit': 'Leichte Sprache & Barrierefreiheit — Annemarie Andersen',
+      'verwaltung': 'Verständliche Verwaltung — Annemarie Andersen',
+      'ki-qs': 'KI-Qualitätssicherung — Annemarie Andersen',
+      'lektorat': 'Lektorat & Übersetzung — Annemarie Andersen',
+      'ueber-mich': 'Über mich — Annemarie Andersen',
+      'referenzen': 'Referenzen — Annemarie Andersen',
+      'kontakt': 'Angebot anfordern — Annemarie Andersen',
+      'agb': 'AGB — Annemarie Andersen'
+    };
+
+    function navigateTo(page) {
+      location.hash = page;
+    }
+
+    function route() {
+      const hash = location.hash.slice(1) || 'home';
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      const target = document.getElementById('page-' + hash);
+      if (target) {
+        target.classList.add('active');
+        document.title = pageTitles[hash] || pageTitles['home'];
+        window.scrollTo({ top: 0, behavior: 'instant' });
+
+        // Re-trigger fade-in animations
+        target.querySelectorAll('.fade-in').forEach(el => {
+          el.classList.remove('visible');
+          void el.offsetHeight;
+          observer.observe(el);
+        });
+      } else {
+        // Fallback to home
+        document.getElementById('page-home').classList.add('active');
+        document.title = pageTitles['home'];
+      }
+
+      // Close mobile nav
+      document.getElementById('navLinks').classList.remove('open');
+    }
+
+    window.addEventListener('hashchange', route);
+
+    // Handle SPA links
+    document.addEventListener('click', function(e) {
+      const link = e.target.closest('a[href^="#"]');
+      if (link) {
+        const hash = link.getAttribute('href').slice(1);
+        if (pageTitles[hash]) {
+          e.preventDefault();
+          navigateTo(hash);
+        }
+      }
+    });
+
+    // === MOBILE NAV ===
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle?.addEventListener('click', () => links.classList.toggle('open'));
+
+    // === HEADER SCROLL ===
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    // === FADE-IN ON SCROLL ===
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // === INIT ===
+    route();
+  </script>
+
+</body>
+</html>
