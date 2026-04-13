@@ -1,0 +1,7 @@
+node_modules/
+.vscode/
+*.db-wal
+*.db-shm
+*.db-journal
+.DS_Store
+Thumbs.db

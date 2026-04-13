@@ -1,0 +1,51 @@
+{
+  "site": {
+    "domain": "annemarie-andersen.de",
+    "name": "Annemarie Andersen - Sprachdienstleistungen",
+    "url": "https://annemarie-andersen.de",
+    "description": "Freiberufliche Sprachdienstleisterin fuer barrierefreie Kommunikation, Leichte Sprache, Entbuerokratisierung und KI-Qualitaetssicherung.",
+    "contact": "mail@annemarie-andersen.de"
+  },
+  "version": "v1.0",
+  "build": 1,
+  "dateModified": "2026-04-13T00:00:00Z",
+  "datePublished": "2026-04-13T00:00:00Z",
+  "endpoints": [
+    {
+      "id": "identity-schema",
+      "url": "https://annemarie-andersen.de/ai/identity-schema.json",
+      "type": "Person",
+      "format": "application/ld+json",
+      "description": "Schema.org Person mit Kontaktdaten und Qualifikationen"
+    },
+    {
+      "id": "services",
+      "url": "https://annemarie-andersen.de/ai/services.json",
+      "type": "ItemList",
+      "format": "application/json",
+      "description": "Leistungen und Fachgebiete"
+    },
+    {
+      "id": "identity-text",
+      "url": "https://annemarie-andersen.de/ai/identity.txt",
+      "type": "PlainText",
+      "format": "text/plain",
+      "description": "Plain-Text Zusammenfassung"
+    },
+    {
+      "id": "services-text",
+      "url": "https://annemarie-andersen.de/ai/services.txt",
+      "type": "PlainText",
+      "format": "text/plain",
+      "description": "Plain-Text Auflistung der Services"
+    }
+  ],
+  "formats": {
+    "json": "Strukturierte Daten (application/json, application/ld+json)",
+    "txt": "Fallback fuer einfache Agenten ohne JSON-Support"
+  },
+  "discovery": {
+    "robots": "AI-Manifest Hinweis in /robots.txt",
+    "sitemap": "https://annemarie-andersen.de/sitemap.xml"
+  }
+}

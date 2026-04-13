@@ -1,0 +1,23 @@
+# Annemarie Andersen - Sprachdienstleistungen
+
+> Freiberufliche Sprachdienstleisterin fuer barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0, Entbuerokratisierung und KI-Qualitaetssicherung. Seit 2018 selbststaendig. Referenzkunde: Bundesministerium der Finanzen.
+
+## Leistungen
+
+- Barrierefreiheit & Leichte Sprache: Texte nach BITV 2.0 und BGG fuer Websites, Formulare, Broschueren und Barrierefreiheitserklaerungen
+- Verstaendliche Verwaltung: Behoerdendeutsch in klare Sprache uebersetzen - Bescheide, Formulare, AGB
+- KI-Qualitaetssicherung & Post-Editing: Pruefung KI-generierter Texte auf Korrektheit, Stil und Compliance
+- Lektorat & Uebersetzung: Korrekturlesen, stilistische Ueberarbeitung, Fachuebersetzungen Deutsch-Englisch
+
+## Kontakt
+
+- Email: mail@annemarie-andersen.de
+- Telefon: +49 175 118 32 51
+- Website: https://annemarie-andersen.de
+- Standort: Mecklenburg-Vorpommern, 100 % remote
+
+## Relevante Dateien
+
+- [AI Manifest](/ai/manifest.json) - Maschinenlesbare Endpoints
+- [Services](/ai/services.json) - Strukturierte Leistungsdaten
+- [Identity](/ai/identity-schema.json) - Person Schema.org

@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Annemarie Andersen",
+  "jobTitle": "Freiberufliche Sprachdienstleisterin",
+  "description": "Sprachdienstleisterin fuer barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0, Entbuerokratisierung und KI-Qualitaetssicherung. Hintergrund in QA (Jung von Matt, Goodgame Studios, InnoGames).",
+  "url": "https://annemarie-andersen.de",
+  "email": "mail@annemarie-andersen.de",
+  "telephone": "+491751183251",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Mecklenburg-Vorpommern",
+    "addressCountry": "DE"
+  },
+  "knowsAbout": [
+    "Leichte Sprache",
+    "Barrierefreie Kommunikation",
+    "BITV 2.0",
+    "BFSG",
+    "Entbuerokratisierung",
+    "KI-Qualitaetssicherung",
+    "Post-Editing",
+    "Lektorat",
+    "Korrektorat",
+    "Fachuebersetzung Deutsch-Englisch"
+  ],
+  "knowsLanguage": ["de", "en"],
+  "worksFor": {
+    "@type": "ProfessionalService",
+    "name": "Annemarie Andersen - Sprachdienstleistungen",
+    "url": "https://annemarie-andersen.de"
+  }
+}

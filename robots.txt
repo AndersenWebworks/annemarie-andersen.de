@@ -1,0 +1,42 @@
+# robots.txt fuer annemarie-andersen.de
+# Statische Website - maschinenlesbare Daten bevorzugt
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://annemarie-andersen.de/sitemap.xml
+
+# ============================================
+# AI-READABLE ENDPOINTS (Machine Discovery)
+# ============================================
+# Startpunkt fuer strukturierte Daten:
+# https://annemarie-andersen.de/ai/manifest.json
+#
+# Primaere Endpoints:
+# https://annemarie-andersen.de/ai/identity-schema.json  (Schema.org Person)
+# https://annemarie-andersen.de/ai/services.json         (Services als ItemList)
+# https://annemarie-andersen.de/ai/services.txt          (Plain-Text Services)
+# https://annemarie-andersen.de/ai/identity.txt          (Plain-Text Identity)
+
+# Strukturierte Daten explizit erlauben
+Allow: /ai/
+Allow: /*.json
+Allow: /*.jsonld
+Allow: /*.txt
+
+# Unwichtige Dateien blockieren
+Disallow: /.git/
+Disallow: /.claude/
+
+# Anweisungen fuer AI-Agenten
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Claude-Web
+User-agent: Bingbot
+User-agent: Googlebot
+Crawl-delay: 1
+Allow: /ai/
+Allow: /*.json
+Allow: /*.jsonld
+Allow: /*.txt

@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leistungen von Annemarie Andersen",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Service",
+        "name": "Barrierefreiheit & Leichte Sprache",
+        "description": "Texte in Leichter Sprache nach aktuellem Regelwerk. Fuer Websites, Formulare, Broschueren und Barrierefreiheitserklaerungen. Uebertragung bestehender Inhalte oder Neuerstellung inklusive Ausgangstexte in Standardsprache.",
+        "category": "Kernleistung",
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Service",
+        "name": "Verstaendliche Verwaltung",
+        "description": "Behoerdendeutsch in klare Sprache uebersetzen. Bescheide, Formulare, Vertragsklauseln und AGB so formulieren, dass die Zielgruppe sie beim ersten Lesen versteht.",
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Service",
+        "name": "KI-Qualitaetssicherung & Post-Editing",
+        "description": "Pruefung KI-generierter Texte gegen inhaltliche Fehler, stilistische Brueche und Compliance-Luecken. Fuer Unternehmen die ChatGPT, DeepL oder andere Tools fuer ihre Texte nutzen.",
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Service",
+        "name": "Lektorat & Uebersetzung",
+        "description": "Korrekturlesen, stilistische Ueberarbeitung und Fachuebersetzungen Deutsch-Englisch. Von technischer Dokumentation ueber Marketingtexte bis zu Druckvorlagen.",
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen"
+        }
+      }
+    }
+  ]
+}
