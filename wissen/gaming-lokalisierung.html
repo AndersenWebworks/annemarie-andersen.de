@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming-Lokalisierung: Warum Übersetzen nicht reicht | Annemarie Andersen</title>
+  <meta name="description" content="Spieletexte übersetzen ist nicht dasselbe wie Spiele lokalisieren. Was den Unterschied ausmacht, welche Fehler teuer werden und warum KI hier an Grenzen stößt.">
+  <meta name="author" content="Annemarie Andersen">
+  <link rel="canonical" href="https://annemarie-andersen.de/wissen/gaming-lokalisierung.html">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Gaming-Lokalisierung: Warum Übersetzen nicht reicht">
+  <meta property="og:description" content="Spieletexte übersetzen ist nicht dasselbe wie Spiele lokalisieren. Was den Unterschied ausmacht und warum KI hier an Grenzen stößt.">
+  <meta property="og:url" content="https://annemarie-andersen.de/wissen/gaming-lokalisierung.html">
+  <meta property="og:image" content="https://annemarie-andersen.de/portrait.jpg">
+  <meta property="og:locale" content="de_DE">
+  <meta property="article:author" content="Annemarie Andersen">
+  <meta property="article:published_time" content="2026-04-15">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Gaming-Lokalisierung: Warum Übersetzen nicht reicht",
+    "description": "Spieletexte übersetzen ist nicht dasselbe wie Spiele lokalisieren. Kulturelle Anpassung, UI-Constraints und variable Strings machen Gaming-Lokalisierung zu einer eigenen Disziplin.",
+    "author": {
+      "@type": "Person",
+      "name": "Annemarie Andersen",
+      "url": "https://annemarie-andersen.de",
+      "jobTitle": "Freiberufliche Sprachdienstleisterin",
+      "description": "Spezialisiert auf Leichte Sprache, Lektorat und barrierefreie Kommunikation. Vor der Selbstständigkeit: QA bei InnoGames, Goodgame Studios und Jung von Matt."
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Annemarie Andersen"
+    },
+    "datePublished": "2026-04-15",
+    "mainEntityOfPage": "https://annemarie-andersen.de/wissen/gaming-lokalisierung.html",
+    "keywords": ["Gaming-Lokalisierung", "Spieleübersetzung", "Game Localization", "LQA", "Lokalisierungstest", "Sprachdienstleistung Gaming"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="header">
+    <div class="header-inner">
+      <a href="../" class="logo">
+        Annemarie Andersen
+        <span>freie Sachverständige für Sprachdienstleistungen</span>
+      </a>
+      <nav aria-label="Hauptnavigation">
+        <ul class="nav-links" id="navLinks">
+          <li class="has-dropdown">
+            <a href="#" class="dropdown-trigger" onclick="return false">Leistungen</a>
+            <ul class="dropdown-menu">
+              <li><a href="../barrierefreiheit/">Barrierefreiheit &amp; Leichte Sprache</a></li>
+              <li><a href="../verwaltung/">Verständliche Verwaltung</a></li>
+              <li><a href="../ki-qualitaetssicherung/">KI-Qualitätssicherung</a></li>
+              <li><a href="../lektorat/">Lektorat &amp; Übersetzung</a></li>
+            </ul>
+          </li>
+          <li><a href="../referenzen/">Referenzen</a></li>
+          <li><a href="../ueber-mich/">Über mich</a></li>
+          <li class="has-dropdown">
+            <a href="#" class="dropdown-trigger" onclick="return false" style="color: var(--terracotta);">Wissen</a>
+            <ul class="dropdown-menu">
+              <li><a href="bfsg.html">Barrierefreiheitsstärkungsgesetz</a></li>
+              <li><a href="leichte-sprache.html">Was ist Leichte Sprache?</a></li>
+              <li><a href="behoerdentexte.html">Behördentexte: Vorher &amp; Nachher</a></li>
+              <li><a href="gaming-lokalisierung.html">Gaming-Lokalisierung</a></li>
+            </ul>
+          </li>
+          <li><a href="../kontakt/" class="nav-cta">Angebot anfordern</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Navigation öffnen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="article-hero">
+      <div class="article-hero-inner">
+        <div class="article-breadcrumb">
+          <a href="../">Startseite</a> / <a href="bfsg.html">Wissen</a>
+        </div>
+        <h1>Gaming-Lokalisierung: Warum Übersetzen nicht reicht</h1>
+        <div class="article-meta">
+          Von Annemarie Andersen &middot; April 2026 &middot; 7 Min. Lesezeit
+        </div>
+      </div>
+    </section>
+
+    <article class="article-body">
+
+      <h2>Übersetzung ist der Anfang, nicht das Ergebnis</h2>
+
+      <p>Ein Spiel zu übersetzen bedeutet, Wörter von einer Sprache in eine andere zu bringen. Ein Spiel zu lokalisieren bedeutet, es so anzupassen, dass es sich in der Zielsprache anfühlt, als wäre es dort entstanden. Das sind zwei verschiedene Dinge.</p>
+
+      <p>Lokalisierung betrifft nicht nur den Text. Sie betrifft kulturelle Referenzen, Humor, Maßeinheiten, Datumsformate, Namenskonventionen, rechtliche Anforderungen und die Frage, ob ein Wortspiel im Englischen auch auf Deutsch funktioniert. Meistens tut es das nicht.</p>
+
+      <div class="stat-box">
+        <div class="stat-number">187,7 Mrd. USD</div>
+        <div class="stat-label">Umsatz erwartet die Gaming-Branche weltweit für 2026 (Newzoo, Global Games Market Report). Der deutschsprachige Markt ist der größte in Europa. Wer hier schlecht lokalisiert, verliert zahlende Spieler.</div>
+      </div>
+
+      <h2>Was Lokalisierung alles umfasst</h2>
+
+      <p>Wer noch nie mit Spieletexten gearbeitet hat, unterschätzt den Umfang. Ein mittelgroßes Spiel hat leicht 50.000 bis 200.000 Wörter Text. Und dieser Text verhält sich anders als in einem Buch oder auf einer Website.</p>
+
+      <h3>Variable Strings</h3>
+
+      <p>Spieletexte enthalten Platzhalter: <code>{player_name} hat {item_name} erhalten.</code> Auf Englisch funktioniert das. Auf Deutsch muss der Satz je nach Genus des Items anders lauten: „hat <em>den</em> Stahlhelm erhalten", „hat <em>die</em> Rüstung erhalten", „hat <em>das</em> Schwert erhalten". Ein einzelner String, drei Varianten. Maschinelle Übersetzung scheitert hier zuverlässig.</p>
+
+      <h3>Platzbeschränkungen</h3>
+
+      <p>UI-Elemente haben eine feste Breite. „Save" passt auf einen Button. „Speichern" braucht doppelt so viel Platz. „Zwischengespeichert" sprengt ihn komplett. Lokalisierung heißt auch: mit dem vorhandenen Platz arbeiten, ohne Bedeutung zu verlieren.</p>
+
+      <h3>Kulturelle Anpassung</h3>
+
+      <p>Humor ist kulturspezifisch. Referenzen auf amerikanische Popkultur, die in den USA jedes Kind versteht, sagen in Deutschland niemandem etwas. Gute Lokalisierung ersetzt sie durch Äquivalente, die dieselbe Emotion auslösen – nicht durch eine wörtliche Übersetzung, die ins Leere geht.</p>
+
+      <h3>Konsistenz über das gesamte Spiel</h3>
+
+      <p>Ein Schwert, das in der Beschreibung „Klinge des Nordens" heißt, im Inventar „Northern Blade" und im Dialog „Nordklinge", zerstört die Immersion. Lokalisierung erfordert Terminologielisten, die über alle Texte hinweg gelten – vom Tutorial bis zum Endgame-Content.</p>
+
+      <h2>Die fünf häufigsten Fehler</h2>
+
+      <ol>
+        <li><strong>Maschinelle Übersetzung ohne Review.</strong> DeepL und Google Translate produzieren brauchbaren Output für E-Mails. Für Spieltexte mit variablen Strings, Genusanpassung und Kontext, der nur im Spiel sichtbar ist, produzieren sie Fehler, die Spieler sofort bemerken.</li>
+        <li><strong>Übersetzer ohne Gaming-Erfahrung.</strong> Wer „HP" mit „Pferdestärke" statt „Lebenspunkte" übersetzt, hat das Fachgebiet nicht verstanden. Gaming hat ein eigenes Vokabular, und das ist keine Geschmacksfrage.</li>
+        <li><strong>Kein Kontext für die Übersetzer.</strong> Strings ohne Kontext sind ein Ratespiel. „Fire" kann „Feuer", „Abfeuern" oder „Kündigen" heißen. Wer keinen Screenshot oder keine Beschreibung mitliefert, bekommt Zufallstreffer.</li>
+        <li><strong>Lokalisierung erst am Ende.</strong> Wenn die Lokalisierung beginnt, nachdem das Spiel fertig ist, passen die Texte nicht in die UI, die Terminologie ist inkonsistent und der Zeitdruck produziert Fehler. Professionelle Studios starten die Lokalisierung parallel zur Entwicklung.</li>
+        <li><strong>Kein Linguistic Quality Assurance (LQA).</strong> Übersetzte Texte müssen im Spiel getestet werden. Passt der Text in die Box? Stimmt der Kontext? Funktioniert die Anrede? LQA ist kein Luxus, sondern der Teil, der den Unterschied zwischen „übersetzt" und „lokalisiert" ausmacht.</li>
+      </ol>
+
+      <h2>Warum KI hier an Grenzen stößt</h2>
+
+      <p>KI-gestützte Übersetzung wird besser. Für Gaming-Lokalisierung reicht sie trotzdem nicht. Die Gründe:</p>
+
+      <ul>
+        <li><strong>Variable Strings:</strong> KI kann Genus, Kasus und Numerus in dynamischen Sätzen nicht zuverlässig anpassen.</li>
+        <li><strong>Fehlender Kontext:</strong> Ein String in einer Tabelle hat keinen Bildschirmkontext. KI übersetzt, was dasteht, nicht was gemeint ist.</li>
+        <li><strong>Kulturelle Nuancen:</strong> Wortspiele, Anspielungen und Humor lassen sich nicht regelbasiert übertragen. Das erfordert Kreativität und Zielgruppenkenntnis.</li>
+        <li><strong>Platzlimits:</strong> KI optimiert nicht auf Zeichenlänge. Sie übersetzt Bedeutung, nicht Layout.</li>
+      </ul>
+
+      <p>KI kann den Prozess beschleunigen, etwa bei der Vorübersetzung großer Textmengen. Aber das Ergebnis braucht ein menschliches Review. In der Praxis heißt das: <a href="../ki-qualitaetssicherung/">KI-Qualitätssicherung</a> als fester Bestandteil des Workflows, nicht als Ersatz für Lokalisierungsexpertise.</p>
+
+      <h2>Mein Hintergrund</h2>
+
+      <p>Ich komme aus der Gaming-Branche. Bei Goodgame Studios und InnoGames habe ich Spielereleases getestet und die Qualitätssicherung für Lokalisierungsprojekte betreut. Bei Jung von Matt habe ich Kampagnen für BMW und Sparkasse gegen Qualitätskriterien geprüft. Ob Software oder Sprache: Der Qualitätsprozess ist derselbe.</p>
+
+      <p>Heute biete ich <a href="../lektorat/">Fachübersetzung und Lokalisierung</a> für den deutschsprachigen Markt an – mit dem technischen Verständnis und der Branchenkenntnis, die nur aus der direkten Arbeit am Produkt entstehen.</p>
+
+      <div class="article-sources">
+        <h3>Quellen</h3>
+        <ol>
+          <li>Newzoo: Global Games Market Report 2026 – <a href="https://newzoo.com/resources/trend-reports/newzoo-global-games-market-report-2024-free-version" target="_blank" rel="noopener">newzoo.com</a></li>
+          <li>Game – Verband der deutschen Games-Branche: Marktdaten Deutschland 2025 – <a href="https://www.game.de/marktdaten/" target="_blank" rel="noopener">game.de</a></li>
+          <li>GALA (Globalization and Localization Association): What is Game Localization? – <a href="https://www.gala-global.org" target="_blank" rel="noopener">gala-global.org</a></li>
+          <li>IGDA (International Game Developers Association): Localization Best Practices – <a href="https://igda.org" target="_blank" rel="noopener">igda.org</a></li>
+        </ol>
+      </div>
+
+      <div class="article-author">
+        <img src="../portrait.jpg" alt="Annemarie Andersen" width="80" height="80">
+        <div>
+          <div class="author-name">Annemarie Andersen</div>
+          <div class="author-role">Freiberufliche Sprachdienstleisterin</div>
+          <div class="author-bio">Spezialisiert auf Leichte Sprache nach BITV 2.0, Lektorat und barrierefreie Kommunikation. Vor der Selbstständigkeit: Quality Management bei Jung von Matt, InnoGames und Goodgame Studios. Referenzen: Deutscher Zukunftspreis 2024 + 2025, Senior Partner in School e.V. <a href="../ueber-mich/">Mehr über mich</a>.</div>
+        </div>
+      </div>
+
+      <div class="article-cta">
+        <h3>Spieletexte, die sich richtig anfühlen?</h3>
+        <p>Übersetzung, Lokalisierung und LQA aus einer Hand. Schreiben Sie mir, was Sie brauchen.</p>
+        <a href="../kontakt/">Angebot anfordern</a>
+      </div>
+
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>Annemarie Andersen – freie Sachverständige für Sprachdienstleistungen &middot; Plau am See, Mecklenburg-Vorpommern &middot; Umsetzung: <a href="https://andersen-webworks.de" target="_blank" rel="noopener">Andersen Webworks</a></div>
+      <ul class="footer-links">
+        <li><a href="../impressum/">Impressum</a></li>
+        <li><a href="../datenschutz/">Datenschutz</a></li>
+        <li><a href="../agb/">AGB</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

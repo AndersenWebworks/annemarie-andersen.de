@@ -421,6 +421,64 @@ a:hover { color: var(--terracotta); }
   margin-bottom: 8px;
 }
 
+.comparison-box {
+  margin: 32px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .comparison-box {
+    grid-template-columns: 1fr;
+  }
+}
+
+.comparison-before, .comparison-after {
+  padding: 24px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.comparison-before {
+  background: #fef3f0;
+  border: 1px solid #e8c4b8;
+}
+
+.comparison-after {
+  background: #f0f7f0;
+  border: 1px solid #b8d4b8;
+}
+
+.comparison-label {
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+
+.comparison-before .comparison-label {
+  color: var(--terracotta);
+}
+
+.comparison-after .comparison-label {
+  color: #2d7a2d;
+}
+
+.comparison-before p, .comparison-after p {
+  margin-bottom: 8px;
+}
+
+.comparison-after ul {
+  margin: 8px 0 8px 20px;
+}
+
+.comparison-after li {
+  margin-bottom: 4px;
+}
+
 .article-sources {
   margin-top: 48px;
   padding-top: 32px;
