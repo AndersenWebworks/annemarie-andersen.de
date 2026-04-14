@@ -3,8 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Annemarie Andersen — Barrierefreie Kommunikation &amp; Sprachdienstleistungen</title>
-  <meta name="description" content="Freiberufliche Sprachdienstleisterin: Leichte Sprache nach BITV 2.0, Entbürokratisierung, KI-Qualitätssicherung, Lektorat und Übersetzungen. Referenz: Deutscher Zukunftspreis des Bundespräsidenten.">
+  <title>Annemarie Andersen – Barrierefreie Kommunikation &amp; Sprachdienstleistungen</title>
+  <meta name="description" content="Sprachdienstleisterin mit Zukunftspreis-Referenz: Leichte Sprache (BITV 2.0), Lektorat, KI-Qualitätssicherung und Fachübersetzungen.">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Annemarie Andersen – Barrierefreie Kommunikation &amp; Sprachdienstleistungen">
+  <meta property="og:description" content="Sprachdienstleisterin mit Zukunftspreis-Referenz: Leichte Sprache (BITV 2.0), Lektorat, KI-Qualitätssicherung und Fachübersetzungen.">
+  <meta property="og:url" content="https://annemarie-andersen.de">
+  <meta property="og:image" content="https://annemarie-andersen.de/portrait.jpg">
+  <meta property="og:locale" content="de_DE">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Annemarie Andersen – Barrierefreie Kommunikation &amp; Sprachdienstleistungen">
+  <meta name="twitter:description" content="Sprachdienstleisterin mit Zukunftspreis-Referenz: Leichte Sprache (BITV 2.0), Lektorat, KI-Qualitätssicherung und Fachübersetzungen.">
+  <meta name="twitter:image" content="https://annemarie-andersen.de/portrait.jpg">
 
   <script type="application/ld+json">
   {
@@ -12,7 +31,7 @@
     "@graph": [
       {
         "@type": "ProfessionalService",
-        "name": "Annemarie Andersen – Sprachdienstleistungen",
+        "name": "Annemarie Andersen – freie Sachverständige für Sprachdienstleistungen",
         "description": "Freiberufliche Sprachdienstleisterin für barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0, Entbürokratisierung und KI-Qualitätssicherung.",
         "url": "https://annemarie-andersen.de",
         "telephone": "+491751183251",
@@ -60,10 +79,26 @@
           },
           {
             "@type": "Question",
+            "name": "Was ist der Unterschied zwischen Leichter Sprache und Einfacher Sprache?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Leichte Sprache folgt einem festen Regelwerk mit klaren Vorgaben und richtet sich an Menschen mit Lernschwierigkeiten, Demenz, geringen Deutschkenntnissen oder Leseschwäche. Einfache Sprache ist weniger streng und orientiert sich am Sprachniveau B1. Beide machen Texte verständlicher, aber nur Leichte Sprache ist gesetzlich verankert."
+            }
+          },
+          {
+            "@type": "Question",
             "name": "Prüfen Sie auch KI-generierte Texte?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Ja. Immer mehr Unternehmen lassen KI texten und brauchen jemanden, der das Ergebnis prüft. Mein QA-Hintergrund, unter anderem bei Jung von Matt für BMW und Sparkasse, ist genau dafür gemacht."
+              "text": "Ja. Immer mehr Unternehmen lassen KI texten und brauchen jemanden, der das Ergebnis prüft. Mein QA-Hintergrund unter anderem bei Jung von Matt für BMW und Sparkasse ist genau dafür gemacht."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wie läuft eine Zusammenarbeit ab?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sie schicken mir Ihren Text oder beschreiben, was Sie brauchen. Ich erstelle ein Angebot mit Umfang, Preis und Zeitrahmen. Nach Ihrer Freigabe lege ich los. Bei Leichter Sprache arbeite ich in zwei Stufen: Erst der Ausgangstext in Standardsprache, dann die Übertragung."
             }
           }
         ]
@@ -145,15 +180,16 @@
 
     /* Dropdown */
     .has-dropdown { position: relative; }
-    .dropdown-trigger { cursor: default; }
+    .dropdown-trigger { cursor: pointer; }
     .dropdown-trigger::after { content: ' \25BE'; font-size: 11px; color: var(--text-muted); }
     .dropdown-menu {
-      display: none; position: absolute; top: calc(100% + 12px); left: -16px;
+      display: none; position: absolute; top: 100%; left: -16px;
       background: var(--white); border: 1px solid var(--border); border-radius: 8px;
-      padding: 8px 0; min-width: 300px; box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+      padding: 20px 0 8px; min-width: 300px; box-shadow: 0 12px 32px rgba(0,0,0,0.12);
       list-style: none; z-index: 200;
     }
-    .has-dropdown:hover .dropdown-menu { display: block; }
+    .has-dropdown:hover .dropdown-menu,
+    .has-dropdown.open .dropdown-menu { display: block; }
     .dropdown-menu a { display: block; padding: 10px 20px; font-size: 15px; font-weight: 400; color: var(--text); }
     .dropdown-menu a:hover { background: var(--cream); color: var(--terracotta); }
 
@@ -316,6 +352,10 @@
     .fact-list li { font-size: 15px; padding: 10px 0; border-bottom: 1px solid var(--border); color: var(--text); }
     .fact-list li:last-child { border-bottom: none; }
     .fact-label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 2px; }
+    .about-photo-wrap {
+      width: 75%; margin: 0 auto 24px; border-radius: 50%; overflow: hidden; aspect-ratio: 1/1;
+    }
+    .about-photo { width: 100%; height: 100%; object-fit: cover; object-position: center 15%; display: block; }
 
     /* ===== INDUSTRY TAGS ===== */
     .industry-grid { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0; }
@@ -323,6 +363,16 @@
       background: var(--cream); border: 1px solid var(--border); border-radius: 6px;
       padding: 10px 18px; font-size: 15px; font-weight: 600; color: var(--navy);
     }
+
+    /* ===== TESTIMONIALS ===== */
+    .testimonials-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; }
+    .testimonial-card {
+      background: var(--cream); border-left: 4px solid var(--terracotta); border-radius: 6px;
+      padding: 32px 28px; margin: 0;
+    }
+    .testimonial-text { font-size: 17px; line-height: 1.75; color: var(--text); margin-bottom: 20px; }
+    .testimonial-author strong { display: block; font-size: 15px; color: var(--navy); }
+    .testimonial-author span { display: block; font-size: 14px; color: var(--text-muted); }
 
     /* ===== FAQ ===== */
     .faq-list { max-width: 720px; }
@@ -363,8 +413,9 @@
       justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;
     }
     .footer-links { display: flex; gap: 24px; list-style: none; }
-    .footer-links a { color: rgba(255,255,255,0.5); font-size: 14px; }
-    .footer-links a:hover { color: rgba(255,255,255,0.8); }
+    .site-footer a { color: rgba(255,255,255,0.5); }
+    .site-footer a:hover { color: rgba(255,255,255,0.8); }
+    .footer-links a { font-size: 14px; }
 
     /* ===== ANIMATIONS ===== */
     .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
@@ -390,7 +441,7 @@
 
       .hero { padding: 130px 24px 80px; }
       .page-hero { padding: 120px 24px 48px; }
-      .law-cards, .services-grid, .ref-highlights, .process-grid { grid-template-columns: 1fr; }
+      .law-cards, .services-grid, .ref-highlights, .process-grid, .testimonials-grid { grid-template-columns: 1fr; }
       .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 32px; }
       .footer-inner { flex-direction: column; text-align: center; }
     }
@@ -412,7 +463,7 @@
     <div class="header-inner">
       <a class="logo" onclick="navigateTo('home')">
         Annemarie Andersen
-        <span>Sprachdienstleistungen</span>
+        <span>freie Sachverständige für Sprachdienstleistungen</span>
       </a>
       <nav aria-label="Hauptnavigation">
         <ul class="nav-links" id="navLinks">
@@ -465,9 +516,9 @@
         <div style="max-width: 720px; margin-bottom: 56px;">
           <p style="margin-bottom: 16px; font-size: 18px; line-height: 1.75;">Das Barrierefreiheitsstärkungsgesetz verpflichtet seit dem 28.&nbsp;Juni 2025 Unternehmen im E-Commerce, in der Telekommunikation und im Bankwesen dazu, ihre digitale Kommunikation barrierefrei zu gestalten. Für Behörden gelten mit BITV&nbsp;2.0 und dem Behindertengleichstellungsgesetz noch weiterreichende Pflichten einschließlich Leichter Sprache.</p>
 
-          <p style="margin-bottom: 16px; font-size: 18px; line-height: 1.75;">Gleichzeitig nutzen immer mehr Organisationen KI-Tools für ihre Texte. Das klingt meistens brauchbar. Aber brauchbar reicht nicht, wenn Texte gesetzliche Anforderungen erfüllen und im Zweifelsfall vor Gericht standhalten müssen.</p>
+          <p style="margin-bottom: 16px; font-size: 18px; line-height: 1.75;">Gleichzeitig lassen viele Organisationen ihre Texte inzwischen von KI schreiben. Das klingt meistens brauchbar. Aber brauchbar reicht nicht, wenn Texte gesetzliche Anforderungen erfüllen und im Zweifelsfall vor Gericht standhalten müssen.</p>
 
-          <p style="font-size: 20px; font-weight: 600; color: var(--navy);">Zwischen „Wir haben einen Text." und „Unser Text erfüllt die Anforderungen." liegt ein Fachgebiet. Meins.</p>
+          <p style="font-size: 20px; font-weight: 600; color: var(--navy);">Zwischen „Wir haben einen Text.“ und „Unser Text erfüllt die Anforderungen.“ liegt ein Fachgebiet. Meins.</p>
         </div>
 
         <div class="law-cards">
@@ -512,14 +563,14 @@
           <div class="service-card">
             <div class="service-icon">&#10003;</div>
             <h3>KI-Qualitätssicherung</h3>
-            <p>Sie nutzen ChatGPT oder DeepL für Ihre Texte? Dann brauchen Sie jemanden, der das Ergebnis prüft. Ich finde, was beim Überfliegen nicht auffällt: sachliche Fehler, Stilbrüche, fehlende Compliance.</p>
+            <p>Sie nutzen ChatGPT oder DeepL für Ihre Texte? Dann brauchen Sie jemanden, der das Ergebnis prüft. Ich finde, was beim Überfliegen nicht auffällt: Sachliche Fehler, Stilbrüche, fehlende Compliance.</p>
             <a href="#ki-qs" class="service-link">mehr erfahren &rarr;</a>
           </div>
 
           <div class="service-card">
             <div class="service-icon">&#8644;</div>
             <h3>Lektorat &amp; Übersetzung</h3>
-            <p>Korrekturlesen, stilistische Überarbeitung und Fachübersetzungen Deutsch–Englisch. Von technischer Dokumentation über Marketingtexte bis zu Druckvorlagen für Premium-Events.</p>
+            <p>Korrekturlesen, stilistische Überarbeitung und Fachübersetzungen Deutsch–Englisch. Von technischer Dokumentation über Marketingtexte bis hin zu Druckvorlagen für Premium-Events.</p>
             <a href="#lektorat" class="service-link">mehr erfahren &rarr;</a>
           </div>
         </div>
@@ -562,14 +613,14 @@
         <div class="ref-highlights">
           <div class="ref-card">
             <div class="ref-client">Deutscher Zukunftspreis</div>
-            <h3>Leichte Sprache für den Bundespräsidenten</h3>
+            <h3>Geleitwort und Nominierten-Texte in Leichter Sprache</h3>
             <p>Übertragung des Geleitworts von Frank-Walter Steinmeier und der Texte aller Nominierten 2024 und 2025 in Leichte Sprache.</p>
           </div>
 
           <div class="ref-card">
-            <div class="ref-client">Bundesministerium der Finanzen / PD GmbH</div>
-            <h3>Förderleitfaden DARP</h3>
-            <p>Barrierefreie Kommunikation für den Förderleitfaden des Deutschen Aufbau- und Resilienzplans. Ausgangstexte und Leichte Sprache nach BITV&nbsp;2.0.</p>
+            <div class="ref-client">Seniorpartner in School – Bundesverband e.V.</div>
+            <h3>Lektorat für den Wirkungsbericht</h3>
+            <p>Lektorat und barrierefreie Aufbereitung für den digitalen Wirkungsbericht eines bundesweit tätigen Sozialunternehmens mit über 1.800 ehrenamtlichen Mitgliedern.</p>
           </div>
 
           <div class="ref-card">
@@ -585,17 +636,51 @@
             <span>Allcorrect Group</span>
             <span>Blauw Research</span>
             <span>credia communications</span>
+            <span>DREILAUT</span>
             <span>Enchanting Travels</span>
             <span>GreenLife</span>
             <span>KUMARI</span>
+            <span>Müritzterrasse</span>
             <span>MWE Edelstahl</span>
-            <span>RPLC</span>
+            <span>RIVERMEDIA</span>
+            <span>RouterWerk</span>
+            <span>RPL Communication</span>
             <span>Runden Group</span>
+            <span>sbv anderetaal</span>
+            <span>Social Softwork</span>
+            <span>Tangram. Werbeagentur</span>
             <span>TechRadar</span>
             <span>Testbirds</span>
             <span>Traviation</span>
+            <span>Urbanbnb</span>
+            <span>WBG Pooling</span>
             <span>ZOO Digital</span>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section fade-in">
+      <div class="container">
+        <div class="section-header">
+          <h2>Das sagen Auftraggeber</h2>
+        </div>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card">
+            <p class="testimonial-text">„Kompetent, zuverlässig und sehr fundiert. Als etabliertes Sozialunternehmen legen wir neben einem guten Stil auch Wert auf Barrierefreiheit. Annemarie ist uns eine hilfreiche Partnerin in allen Formen der Textverarbeitung. Wir sind sehr zufrieden und empfehlen gerne weiter."</p>
+            <footer class="testimonial-author">
+              <strong>Karin Chierchia</strong>
+              <span>Seniorpartner in School – Bundesverband e.V.</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p class="testimonial-text">„Ich arbeite regelmäßig mit Annemarie zusammen und bin mit der Zusammenarbeit sehr zufrieden."</p>
+            <footer class="testimonial-author">
+              <strong>Christoph Konitzer</strong>
+              <span>ALLES + JEDEN – Agentur für digitale Barrierefreiheit</span>
+            </footer>
+          </blockquote>
         </div>
       </div>
     </section>
@@ -609,7 +694,7 @@
         <div class="faq-list">
           <details class="faq-item">
             <summary>Was kostet Leichte Sprache?</summary>
-            <div class="faq-answer">Die Kosten richten sich nach Umfang und Komplexität des Ausgangstextes. Für die Übertragung in Leichte Sprache berechne ich ab 75&nbsp;EUR pro Normseite (1.500 Zeichen inklusive Leerzeichen). Gern erstelle ich Ihnen ein individuelles Angebot.</div>
+            <div class="faq-answer">Die Kosten richten sich nach Umfang und Komplexität des Ausgangstextes. Für die Übertragung in Leichte Sprache berechne ich ab 68,50&nbsp;EUR pro Normseite (1.500 Zeichen inklusive Leerzeichen). Gern erstelle ich Ihnen ein individuelles Angebot.</div>
           </details>
           <details class="faq-item">
             <summary>Sind Unternehmen zur barrierefreien Kommunikation verpflichtet?</summary>
@@ -621,15 +706,15 @@
           </details>
           <details class="faq-item">
             <summary>Was ist der Unterschied zwischen Leichter Sprache und Einfacher Sprache?</summary>
-            <div class="faq-answer">Leichte Sprache folgt einem festen Regelwerk mit klaren Vorgaben und richtet sich primär an Menschen mit Lernschwierigkeiten. Einfache Sprache ist weniger streng und orientiert sich am Sprachniveau B1. Beide machen Texte verständlicher. Leichte Sprache ist der strengere Standard – und der einzige, der gesetzlich verankert ist.</div>
+            <div class="faq-answer">Leichte Sprache folgt einem festen Regelwerk mit klaren Vorgaben und richtet sich an Menschen mit Lernschwierigkeiten, Demenz, geringen Deutschkenntnissen oder Leseschwäche. Einfache Sprache ist weniger streng und orientiert sich am Sprachniveau B1. Beide machen Texte verständlicher, aber nur Leichte Sprache ist gesetzlich verankert.</div>
           </details>
           <details class="faq-item">
             <summary>Prüfen Sie auch KI-generierte Texte?</summary>
-            <div class="faq-answer">Ja. Immer mehr Unternehmen lassen KI texten und brauchen jemanden, der das Ergebnis prüft. Mein QA-Hintergrund, unter anderem bei Jung von Matt für BMW und Sparkasse, ist genau dafür gemacht.</div>
+            <div class="faq-answer">Ja. Immer mehr Unternehmen lassen KI texten und brauchen jemanden, der das Ergebnis prüft. Mein QA-Hintergrund unter anderem bei Jung von Matt für BMW und Sparkasse ist genau dafür gemacht.</div>
           </details>
           <details class="faq-item">
             <summary>Wie läuft eine Zusammenarbeit ab?</summary>
-            <div class="faq-answer">Sie schicken mir Ihren Text oder beschreiben, was Sie brauchen. Ich erstelle ein Angebot mit Umfang, Preis und Zeitrahmen. Nach Ihrer Freigabe lege ich los. Bei Leichter Sprache arbeite ich in zwei Stufen: erst der Ausgangstext in Standardsprache, dann die Übertragung.</div>
+            <div class="faq-answer">Sie schicken mir Ihren Text oder beschreiben, was Sie brauchen. Ich erstelle ein Angebot mit Umfang, Preis und Zeitrahmen. Nach Ihrer Freigabe lege ich los. Bei Leichter Sprache arbeite ich in zwei Stufen: Erst der Ausgangstext in Standardsprache, dann die Übertragung.</div>
           </details>
         </div>
       </div>
@@ -661,7 +746,7 @@
       <div class="container">
         <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; Barrierefreiheit &amp; Leichte Sprache</div>
         <h1>Leichte Sprache ist kein Goodwill. Es ist geltendes Recht.</h1>
-        <p class="lead">Behörden müssen Informationen in Leichter Sprache bereitstellen, Unternehmen barrierefrei kommunizieren. Keine Empfehlung, sondern geltendes Recht.</p>
+        <p class="lead">Behörden müssen Informationen in Leichter Sprache bereitstellen, Unternehmen barrierefrei kommunizieren. Was viele noch für freiwillig halten, ist längst Pflicht.</p>
       </div>
     </section>
 
@@ -669,9 +754,9 @@
       <div class="container">
         <div class="content-body">
           <h2>Was Leichte Sprache ist – und was nicht</h2>
-          <p>Leichte Sprache ist nicht einfach simpleres Deutsch, sondern ein eigenständiges Regelwerk mit verbindlichen Vorgaben: kurze Sätze, ein Gedanke pro Satz, keine Fremdwörter, keine Metaphern, keine Passivkonstruktionen. Dazu kommen Gestaltungsregeln für Schriftgröße, Zeilenabstand und den Einsatz von Bildern.</p>
+          <p>Leichte Sprache ist nicht einfach simpleres Deutsch, sondern ein eigenständiges Regelwerk mit verbindlichen Vorgaben: Kurze Sätze, ein Gedanke pro Satz, keine Fremdwörter, keine Metaphern, keine Passivkonstruktionen. Dazu kommen Gestaltungsregeln für Schriftgröße, Zeilenabstand und den Einsatz von Bildern.</p>
 
-          <p>Einfache Sprache – häufig verwechselt – orientiert sich am Sprachniveau B1 und hat kein festes Regelwerk. Der Unterschied ist juristisch relevant: Wo das Gesetz Leichte Sprache fordert, reicht Einfache Sprache nicht.</p>
+          <p>Einfache Sprache, häufig verwechselt, orientiert sich am Sprachniveau B1 und hat kein festes Regelwerk. Der Unterschied ist juristisch relevant: Wo das Gesetz Leichte Sprache fordert, reicht Einfache Sprache nicht.</p>
 
           <h3>Wer braucht Leichte Sprache?</h3>
           <ul>
@@ -682,16 +767,16 @@
           </ul>
 
           <h3>Was KI hier nicht kann</h3>
-          <p>Sprachmodelle können Texte vereinfachen. Leichte Sprache erstellen können sie nicht. Die Gründe sind konkret:</p>
+          <p>Sprachmodelle können Texte vereinfachen. Leichte Sprache erstellen können sie nicht.</p>
           <ul>
             <li>KI hält sich nicht zuverlässig an das Regelwerk – Satzlängen, Wortauswahl und Gestaltung weichen regelmäßig ab.</li>
-            <li>Leichte Sprache erfordert Prüfung durch die Zielgruppe – Menschen mit Lernschwierigkeiten lesen den Text und geben Rückmeldung. Das kann kein Algorithmus ersetzen.</li>
+            <li>Leichte Sprache erfordert Prüfung durch die Zielgruppe. Das kann kein Algorithmus ersetzen.</li>
             <li>Die Gestaltungsvorgaben (Bilder, Layout, Schriftgröße) liegen außerhalb dessen, was Textmodelle leisten.</li>
-            <li>Bei Compliance-relevanten Texten haftet der Auftraggeber. „Hat die KI gemacht" ist keine Verteidigung.</li>
+            <li>Bei Compliance-relevanten Texten haftet der Auftraggeber. „Hat die KI gemacht“ ist keine Verteidigung.</li>
           </ul>
 
           <h3>Mein Angebot</h3>
-          <p>Ich übertrage bestehende Texte in Leichte Sprache oder erstelle neue Texte von Grund auf – inklusive der Ausgangstexte in Standardsprache. Konkret:</p>
+          <p>Ich übertrage bestehende Texte in Leichte Sprache oder erstelle neue Texte von Grund auf inklusive der Ausgangstexte in Standardsprache. Konkret:</p>
           <ul>
             <li>Leichte-Sprache-Texte für Websites, Broschüren und Formulare</li>
             <li>Barrierefreiheitserklärungen nach BITV&nbsp;2.0</li>
@@ -700,7 +785,7 @@
           </ul>
 
           <h3>Referenz: Deutscher Zukunftspreis</h3>
-          <p>Für den <a href="https://www.deutscher-zukunftspreis.de/de/barrierefreiheit/leichte-sprache/intro" target="_blank" rel="noopener">Deutschen Zukunftspreis</a> – einen der bedeutendsten Wissenschafts- und Innovationspreise Deutschlands, verliehen vom Bundespräsidenten persönlich – habe ich das Geleitwort von Frank-Walter Steinmeier und die Texte aller sechs nominierten Teams der Jahrgänge 2024 und 2025 in Leichte Sprache übertragen.</p>
+          <p>Für den <a href="https://www.deutscher-zukunftspreis.de/de/barrierefreiheit/leichte-sprache/intro" target="_blank" rel="noopener">Deutschen Zukunftspreis</a>, einen der bedeutendsten Wissenschafts- und Innovationspreise Deutschlands, verliehen vom Bundespräsidenten persönlich, habe ich das Geleitwort von Frank-Walter Steinmeier und die Texte aller sechs nominierten Teams der Jahrgänge 2024 und 2025 in Leichte Sprache übertragen.</p>
           <p>2024 ging der Preis an ams OSRAM und Fraunhofer für intelligente LED-Technologie. 2025 an Robert Bosch für emissionsfreie Brennstoffzellenantriebe. Die Leichte-Sprache-Texte stehen auf der Website des Zukunftspreises unter Barrierefreiheit.</p>
         </div>
       </div>
@@ -709,7 +794,7 @@
     <section class="section-dark cta-section">
       <div class="container">
         <h2>Ihre Texte müssen barrierefrei sein?</h2>
-        <p>Schreiben Sie mir, was Sie brauchen. Ich schätze den Aufwand ein und erstelle Ihnen ein Angebot – unverbindlich und innerhalb von 24&nbsp;Stunden.</p>
+        <p>Schreiben Sie mir, was Sie brauchen. Ich schätze den Aufwand ein und erstelle Ihnen ein Angebot, unverbindlich und innerhalb von 24&nbsp;Stunden.</p>
         <a href="#kontakt" class="btn-primary">Angebot anfordern</a>
       </div>
     </section>
@@ -734,9 +819,9 @@
       <div class="container">
         <div class="content-body">
           <h2>Warum verständliche Verwaltung kein Luxus ist</h2>
-          <p>Ein Bescheid, den niemand versteht, erzeugt Rückfragen. Die binden Personal. Falsch ausgefüllte Formulare verdoppeln den Aufwand, und Widersprüche aus Missverständnissen kosten ein Vielfaches des Originals.</p>
+          <p>Ein Bescheid, den niemand versteht, erzeugt Rückfragen. Die binden Personal. Falsch ausgefüllte Formulare verdoppeln den Aufwand und Widersprüche aus Missverständnissen kosten ein Vielfaches des Originals.</p>
 
-          <p>Entbürokratisierung ist politisch gewollt – vom Onlinezugangsgesetz bis zum Bürokratieentlastungsgesetz. Aber ein digitales Formular, das genauso unverständlich ist wie sein Papier-Vorgänger, hat nichts entbürokratisiert. Es hat das Problem nur ins Internet verschoben.</p>
+          <p>Entbürokratisierung ist politisch gewollt, vom Onlinezugangsgesetz bis zum Bürokratieentlastungsgesetz. Aber ein digitales Formular, das genauso unverständlich ist wie sein Papier-Vorgänger, hat nichts entbürokratisiert. Es hat das Problem nur ins Internet verschoben.</p>
 
           <h3>Was ich tue</h3>
           <p>Ich übersetze Verwaltungssprache in Deutsch, das funktioniert. Klar formuliert und trotzdem juristisch belastbar. Für Bescheide, Formulare, Vertragsklauseln und AGB.</p>
@@ -749,7 +834,7 @@
           </ul>
 
           <h3>Für wen das interessant ist</h3>
-          <p>Behörden, Kommunen und öffentliche Stellen, die ihre Kommunikation verbessern wollen – oder müssen. Agenturen, die für die öffentliche Hand arbeiten. Und Unternehmen, die merken, dass ihre Vertragstexte mehr Fragen aufwerfen, als sie beantworten.</p>
+          <p>Behörden, Kommunen und öffentliche Stellen, die ihre Kommunikation verbessern wollen oder müssen. Agenturen, die für die öffentliche Hand arbeiten. Und Unternehmen, die merken, dass ihre Vertragstexte mehr Fragen aufwerfen, als sie beantworten.</p>
         </div>
       </div>
     </section>
@@ -782,26 +867,26 @@
       <div class="container">
         <div class="content-body">
           <h2>Das Problem mit KI-generierten Texten</h2>
-          <p>ChatGPT, DeepL, Gemini – die Tools sind gut genug, um brauchbare Texte zu produzieren. Brauchbar heißt: Sie klingen plausibel. Brauchbar heißt nicht: Sie sind korrekt.</p>
+          <p>ChatGPT, DeepL und Gemini sind gut genug, um brauchbare Texte zu produzieren. Das Problem: Brauchbar heißt, es klingt gut genug, um es nicht zu hinterfragen. Nicht: Es stimmt.</p>
 
           <p>Was regelmäßig schiefgeht:</p>
           <ul>
             <li><strong>Halluzinationen</strong> – KI erfindet Fakten, Zitate und Quellen. Das fällt nicht sofort auf, weil der Text flüssig klingt.</li>
             <li><strong>Stilistische Gleichförmigkeit</strong> – KI-Texte verraten sich durch monotone Satzlängen, übertriebene Höflichkeit und dieselben Floskeln in jedem zweiten Absatz.</li>
             <li><strong>Compliance-Lücken</strong> – KI kennt weder Ihre Branchenregulierung noch Ihre internen Kommunikationsrichtlinien.</li>
-            <li><strong>Tonalitätsbrüche</strong> – Ein Premium-Brand, der klingt wie ein Chatbot, beschädigt sich selbst.</li>
+            <li><strong>Tonalitätsbrüche</strong> – Eine Premium-Marke, die klingt wie ein Chatbot, beschädigt sich selbst.</li>
           </ul>
 
           <h3>Warum ausgerechnet ich</h3>
-          <p>Mein Hintergrund ist nicht Text, sondern Qualitätssicherung. Bei Jung von Matt habe ich Kampagnen für BMW und Sparkasse gegen Qualitätskriterien geprüft, bei Goodgame Studios und InnoGames Softwarereleases. Ob Software oder Sprache: Der Prozess ist derselbe.</p>
+          <p>Bei Jung von Matt habe ich Kampagnen für BMW und Sparkasse gegen Qualitätskriterien geprüft, bei Goodgame Studios und InnoGames Softwarereleases. Ob Software oder Sprache: Der Prozess ist derselbe.</p>
 
           <h3>Was ich prüfe</h3>
           <ul>
-            <li>Stimmen die Fakten, oder hat die KI etwas erfunden?</li>
-            <li>Passt der Stil zur Marke?</li>
+            <li>Sachliche Richtigkeit – stimmen die Fakten, oder hat die KI halluziniert?</li>
+            <li>Stil und Tonalität – passt der Text zur Marke und zur Zielgruppe?</li>
+            <li>Terminologie – einheitlich, fachlich korrekt und verständlich?</li>
             <li>Branchenspezifische Compliance und Regulierung</li>
-            <li>Barrierefreiheit nach BFSG und BITV 2.0</li>
-            <li>Und: Merkt man dem Text die KI an?</li>
+            <li>Barrierefreiheit nach BFSG und BITV&nbsp;2.0</li>
           </ul>
         </div>
       </div>
@@ -840,7 +925,7 @@
           <p>Ich arbeite mit Druckvorlagen genauso wie mit Website-Texten, mit Geschäftsberichten genauso wie mit Marketingmaterial. Sprache ist Sprache – die Qualitätskriterien bleiben dieselben.</p>
 
           <h3>Fachübersetzung Deutsch–Englisch</h3>
-          <p>Studium in Sydney, jahrelange Arbeit in internationalen Teams. Ich übersetze in beide Richtungen, mit Schwerpunkt auf technischen Texten, Gaming-Lokalisierung und Marketingmaterial.</p>
+          <p>Studium in Sydney, jahrelange Arbeit in internationalen Teams. Ich übersetze in beide Richtungen mit Schwerpunkt auf technischen Texten, Gaming-Lokalisierung und Marketingmaterial.</p>
 
           <h3>Branchen, in denen ich arbeite</h3>
           <div class="industry-grid">
@@ -854,10 +939,7 @@
             <span class="industry-tag">Medizin</span>
           </div>
 
-          <p>Dazu: Broschüren, Präsentationen, wissenschaftliche Texte, Handbücher, SEO-Texte und Bewerbungsunterlagen.</p>
-
-          <h3>Sondergebiet: Altdeutsche Schrift</h3>
-          <p>Ich lese Sütterlin und Kurrentschrift und übersetze alte Handschriften und Drucke ins heutige Hochdeutsch. Ein Nischenangebot – aber wer es braucht, findet nicht viele, die es können.</p>
+          <p>Außerdem: Broschüren, Präsentationen, wissenschaftliche Texte, Handbücher, SEO-Texte und Bewerbungsunterlagen.</p>
         </div>
       </div>
     </section>
@@ -865,7 +947,7 @@
     <section class="section-dark cta-section">
       <div class="container">
         <h2>Ihr Text verdient einen genauen Blick.</h2>
-        <p>Ob Korrekturlesen, Stilbearbeitung oder Übersetzung – schreiben Sie mir, was Sie brauchen.</p>
+        <p>Schreiben Sie mir, was Sie brauchen.</p>
         <a href="#kontakt" class="btn-primary">Angebot anfordern</a>
       </div>
     </section>
@@ -895,18 +977,21 @@
 
             <p>Was das mit Sprache zu tun hat? Alles.</p>
 
-            <p>Qualitätssicherung bedeutet: systematisch prüfen, ob etwas den Anforderungen entspricht. Ob Softwarerelease, BMW-Kampagne oder Zukunftspreis: Der Prozess bleibt derselbe. Definierte Kriterien, strukturiertes Vorgehen, kein „passt schon".</p>
+            <p>Qualitätssicherung bedeutet: systematisch prüfen, ob etwas den Anforderungen entspricht. Ob Softwarerelease, BMW-Kampagne oder Zukunftspreis: Der Prozess bleibt derselbe. Definierte Kriterien, strukturiertes Vorgehen, kein „passt schon“.</p>
 
-            <p>Seit 2018 wende ich diese Arbeitsweise auf Sprache an. Deutsch und Englisch, 100&nbsp;% remote von Mecklenburg-Vorpommern aus. Meine Auftraggeber reichen vom Bundespräsidenten über das Bundesministerium der Finanzen bis zu Gaming-Studios und internationalen Agenturen.</p>
+            <p>Seit 2018 wende ich diese Arbeitsweise auf Sprache an. Deutsch und Englisch, 100&nbsp;% remote von Plau am See, Mecklenburg-Vorpommern aus. Meine Auftraggeber reichen vom Bundesministerium der Finanzen bis zu Gaming-Studios und internationalen Agenturen.</p>
 
-            <p>Andere kommen aus der Textbranche und bieten jetzt auch QS an. Bei mir war es andersrum: erst die Qualitätssicherung, dann die Sprache.</p>
+            <p>Andere kommen aus der Textbranche und bieten jetzt auch QS an. Bei mir war es andersrum: Erst die Qualitätssicherung, dann die Sprache.</p>
           </div>
 
           <aside class="about-sidebar">
+            <div class="about-photo-wrap">
+              <img src="portrait.jpg" alt="Annemarie Andersen – freie Sachverständige für Sprachdienstleistungen" class="about-photo">
+            </div>
             <h3>Kurzprofil</h3>
             <ul class="fact-list">
               <li><span class="fact-label">Selbstständig seit</span> 2018</li>
-              <li><span class="fact-label">Standort</span> Mecklenburg-Vorpommern, 100&nbsp;% remote</li>
+              <li><span class="fact-label">Standort</span> Plau am See, Mecklenburg-Vorpommern, 100&nbsp;% remote</li>
               <li><span class="fact-label">Sprachen</span> Deutsch &amp; Englisch</li>
               <li><span class="fact-label">Hintergrund</span> QA: Goodgame Studios, InnoGames, Jung von Matt</li>
               <li><span class="fact-label">Studium</span> Game Design (Schwerin &amp; Sydney)</li>
@@ -956,11 +1041,11 @@
           </div>
 
           <div class="case-study">
-            <div class="cs-label">Leichte Sprache &amp; Ausgangstexte</div>
-            <h3>Förderleitfaden DARP</h3>
-            <div class="cs-client">PD – Berater der öffentlichen Hand GmbH / Bundesministerium der Finanzen</div>
-            <p>Barrierefreie Kommunikation für den Förderleitfaden des Deutschen Aufbau- und Resilienzplans (DARP). Der Förderleitfaden ist das zentrale Informationsangebot des BMF für die Konzeption und Erstellung von Förderrichtlinien des Bundes.</p>
-            <p>Leistung: Erstellung der Ausgangstexte in Standardsprache und Übertragung in Leichte Sprache nach BITV&nbsp;2.0. Drei Bausteine: Inhaltsbeschreibung der acht Module, Navigationshilfe und Barrierefreiheitserklärung. Koordination mit der PD und der DGS-Agentur yomma.</p>
+            <div class="cs-label">Lektorat &amp; Barrierefreiheit</div>
+            <h3>Wirkungsbericht</h3>
+            <div class="cs-client">Seniorpartner in School – Bundesverband e.V.</div>
+            <p>Lektorat und barrierefreie Aufbereitung für den digitalen Wirkungsbericht eines bundesweit tätigen Sozialunternehmens. Seniorpartner in School bildet ehrenamtliche Mediatoren aus und vermittelt sie an Schulen – über 1.800 Mitglieder, 1.300 aktive Mediatoren an 426 Schulen in ganz Deutschland.</p>
+            <a href="https://wirkungsbericht.seniorpartnerinschool.de" target="_blank" rel="noopener" class="cs-link">Wirkungsbericht ansehen &rarr;</a>
           </div>
 
           <div class="case-study">
@@ -968,7 +1053,6 @@
             <h3>House of Suntory</h3>
             <div class="cs-client">sbstnz GmbH / Fotografiska Berlin</div>
             <p>Englischsprachiges Premium-Lektorat für Marketingmaterial eines Whisky-Tasting-Events bei Fotografiska Berlin. Kunstkarten der Sumi-e-Künstlerin Katja Hiendlemayer und Tasting-Faltblätter für die Marken Hibiki, Hakushu 12 und Yamazaki 18.</p>
-            <p>Korrekturen auf drei Ebenen: Grammatik und Typografie (Anführungszeichen, Oxford Comma, Kursivierung von Fremdwörtern), Konsistenz (Title Case vs. Sentence Case, Zeichenverwendung) und Copywriting-Niveau (verbrauchte Phrasen, Kategorienfehler, Selbstlob-Jargon).</p>
           </div>
 
           <div class="case-study">
@@ -986,15 +1070,24 @@
             <span>Allcorrect Group</span>
             <span>Blauw Research</span>
             <span>credia communications</span>
+            <span>DREILAUT</span>
             <span>Enchanting Travels</span>
             <span>GreenLife</span>
             <span>KUMARI</span>
+            <span>Müritzterrasse</span>
             <span>MWE Edelstahl</span>
-            <span>RPLC</span>
+            <span>RIVERMEDIA</span>
+            <span>RouterWerk</span>
+            <span>RPL Communication</span>
             <span>Runden Group</span>
+            <span>sbv anderetaal</span>
+            <span>Social Softwork</span>
+            <span>Tangram. Werbeagentur</span>
             <span>TechRadar</span>
             <span>Testbirds</span>
             <span>Traviation</span>
+            <span>Urbanbnb</span>
+            <span>WBG Pooling</span>
           </div>
         </div>
       </div>
@@ -1019,7 +1112,7 @@
     <section class="page-hero">
       <div class="container">
         <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; Kontakt</div>
-        <h1>Reden wir über Ihre Texte.</h1>
+        <h1>Schreiben Sie mir.</h1>
         <p class="lead">Beschreiben Sie kurz, was Sie brauchen. Ich melde mich innerhalb von 24&nbsp;Stunden mit einer Einschätzung.</p>
       </div>
     </section>
@@ -1042,7 +1135,7 @@
                 </div>
                 <div class="contact-item">
                   <div class="contact-label">Standort</div>
-                  <div class="contact-value">Mecklenburg-Vorpommern, 100&nbsp;% remote</div>
+                  <div class="contact-value">Plau am See, Mecklenburg-Vorpommern, 100&nbsp;% remote</div>
                 </div>
               </div>
             </div>
@@ -1078,7 +1171,117 @@
       <div class="container">
         <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; AGB</div>
         <h1>Allgemeine Geschäftsbedingungen</h1>
-        <p class="lead">Annemarie Andersen – Sprachdienstleistungen<br>Stand: April 2026</p>
+        <p class="lead">Annemarie Andersen – freie Sachverständige für Sprachdienstleistungen<br>Stand: April 2026</p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class=”content-body” style=”max-width: 800px;”>
+
+          <h2>§&nbsp;1 Geltungsbereich</h2>
+          <p>Diese AGB gelten für alle Verträge zwischen Annemarie Andersen, freiberufliche Sprachdienstleisterin (nachfolgend „Auftragnehmerin”), und dem jeweiligen Auftraggeber (nachfolgend „Kunde”) über sprachliche Dienstleistungen, insbesondere Leichte Sprache, Lektorat, Korrektorat, Übersetzungen, Entbürokratisierung und KI-Qualitätssicherung.</p>
+          <p>Entgegenstehende oder abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, die Auftragnehmerin stimmt ihrer Geltung ausdrücklich schriftlich zu.</p>
+
+          <h2>§&nbsp;2 Vertragsabschluss</h2>
+          <p>Ein Vertrag kommt zustande, wenn der Kunde ein Angebot anfordert und dieses schriftlich per E-Mail annimmt, den Ausgangstext zusendet oder den Projektbeginn bestätigt. Die im Angebot genannte Bearbeitungszeit beginnt ab dem tatsächlichen Projektbeginn.</p>
+
+          <h2>§&nbsp;3 Leistungsumfang</h2>
+          <p>Der Leistungsumfang ergibt sich aus der jeweiligen Auftragsbestätigung oder dem Angebot. Die Auftragnehmerin erbringt ausschließlich sprachliche Dienstleistungen. Nicht zum Leistungsumfang gehören insbesondere:</p>
+          <ul>
+            <li>die inhaltliche oder fachliche Prüfung der Ausgangstexte,</li>
+            <li>die Bereitstellung von Prüfgruppen für Leichte Sprache,</li>
+            <li>die Bereitstellung von Bildern, Grafiken oder Illustrationen,</li>
+            <li>die technische Umsetzung (Webentwicklung, Layout, technische Barrierefreiheit),</li>
+            <li>die rechtliche Prüfung von Texten.</li>
+          </ul>
+
+          <h2>§&nbsp;4 Pflichten des Kunden</h2>
+          <p>Der Kunde stellt sicher, dass:</p>
+          <ul>
+            <li>die bereitgestellten Ausgangstexte inhaltlich korrekt und vollständig sind,</li>
+            <li>alle für die Bearbeitung notwendigen Informationen rechtzeitig bereitgestellt werden,</li>
+            <li>bei Leichte-Sprache-Aufträgen die Prüfung durch die Zielgruppe eigenverantwortlich organisiert wird,</li>
+            <li>bei Übersetzungen die Richtigkeit fachspezifischer Terminologie im Ausgangstext gewährleistet ist,</li>
+            <li>er die erforderlichen Urheberrechte am Ausgangstext besitzt oder eine Bearbeitungserlaubnis hat.</li>
+          </ul>
+          <p>Verzögerungen durch fehlende oder fehlerhafte Zulieferungen gehen zulasten des Kunden.</p>
+
+          <h2>§&nbsp;5 Inhaltliche Verantwortung</h2>
+          <p>Die Verantwortung für die inhaltliche Richtigkeit, fachliche Korrektheit und rechtliche Zulässigkeit der Texte liegt ausschließlich beim Kunden. Die Auftragnehmerin bearbeitet die Texte sprachlich, nicht inhaltlich. Eine Haftung für inhaltliche Fehler in den Ausgangstexten oder für die Eignung der Texte für einen bestimmten Zweck ist ausgeschlossen.</p>
+          <p>Bei Erstellung oder Bearbeitung rechtlicher Dokumente übernimmt die Auftragnehmerin keine Haftung für deren rechtliche Wirksamkeit, Vollständigkeit oder Rechtssicherheit. Der Kunde ist verantwortlich, solche Dokumente durch einen Rechtsanwalt prüfen zu lassen.</p>
+
+          <h2>§&nbsp;6 Korrekturrunden</h2>
+          <p>Eine Korrekturrunde ist im Honorar enthalten, sofern im Angebot nicht anders angegeben. Sie umfasst alle Änderungswünsche, die der Kunde gesammelt in einem Durchgang übermittelt.</p>
+          <p>Änderungswünsche müssen innerhalb von 14&nbsp;Kalendertagen nach Lieferung schriftlich mitgeteilt werden. Nach Ablauf dieser Frist gilt der Text als abgenommen.</p>
+          <p>Eine Korrekturrunde umfasst Anpassungen am gelieferten Text – Umformulierungen, Kürzungen oder Ergänzungen im Rahmen der ursprünglichen Aufgabenstellung. Nicht als Korrektur gelten inhaltliche Neufassungen, Erweiterungen des Auftragsumfangs oder Änderungen durch nachträglich geänderte Vorgaben. Diese werden als Zusatzleistung berechnet.</p>
+          <p>Jede weitere Korrekturrunde über die im Angebot enthaltene Anzahl hinaus wird nach dem vereinbarten Stundensatz berechnet. Der Mehraufwand wird vorab mitgeteilt.</p>
+
+          <h2>§&nbsp;7 Vergütung und Zahlungsbedingungen</h2>
+          <p>Die Vergütung richtet sich nach dem jeweiligen Angebot. Der Mindestauftragswert beträgt 70&nbsp;Euro. Liegt der Auftragswert unter diesem Betrag, wird auf 70&nbsp;Euro aufgerundet. Bei mehreren Aufträgen im selben Monat werden die tatsächlichen Kosten berechnet, sofern diese den Mindestauftragswert übersteigen.</p>
+          <p>Rechnungen sind innerhalb von 14&nbsp;Tagen nach Zugang ohne Abzug zahlbar. Bei Aufträgen über 500&nbsp;Euro netto kann eine Anzahlung von 50&nbsp;% vereinbart werden.</p>
+          <p>Bei Zahlungsverzug werden Mahngebühren in Höhe von 5&nbsp;Euro (Privatkunden) bzw. 10&nbsp;Euro (Geschäftskunden) pro Mahnung erhoben. Verzugszinsen betragen 5&nbsp;Prozentpunkte (Privatkunden) bzw. 9&nbsp;Prozentpunkte (Geschäftskunden) über dem jeweiligen Basiszinssatz der Europäischen Zentralbank.</p>
+          <p>Die Auftragnehmerin ist als Kleinunternehmerin nach §&nbsp;19 UStG von der Umsatzsteuer befreit. In den Rechnungen wird keine Umsatzsteuer ausgewiesen.</p>
+
+          <h2>§&nbsp;8 Stornierung</h2>
+          <p>Storniert der Kunde nach Angebotsbestätigung, jedoch bevor das Projekt begonnen hat, wird eine Aufwandspauschale von 70&nbsp;Euro erhoben.</p>
+          <p>Bei Stornierung während der Durchführung wird die bis dahin erbrachte Leistung entsprechend des tatsächlichen Aufwands abgerechnet.</p>
+          <p>Bei Stornierung nach Fertigstellung wird die gesamte Leistung in Rechnung gestellt, da die vereinbarte Dienstleistung vollständig erbracht wurde.</p>
+
+          <h2>§&nbsp;9 Eilaufträge</h2>
+          <p>Bei Bearbeitung innerhalb von 48&nbsp;Stunden, an Wochenenden, während des Urlaubs oder außerhalb der regulären Arbeitszeiten wird ein Eilaufschlag von 25&nbsp;% auf den vereinbarten Preis erhoben. Der Kunde wird vorab über den Aufschlag informiert und muss ihm zustimmen.</p>
+
+          <h2>§&nbsp;10 Haftung</h2>
+          <p>Die Auftragnehmerin haftet nur für Vorsatz und grobe Fahrlässigkeit. Bei leichter Fahrlässigkeit haftet die Auftragnehmerin nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten), begrenzt auf den vorhersehbaren, vertragstypischen Schaden.</p>
+          <p>Die Haftung ist in jedem Fall auf die Höhe des jeweiligen Auftragshonorars begrenzt.</p>
+          <p>Die Auftragnehmerin haftet nicht für:</p>
+          <ul>
+            <li>inhaltliche Fehler, die bereits im Ausgangstext vorhanden waren,</li>
+            <li>Folgeschäden, die aus der Verwendung der bearbeiteten Texte entstehen,</li>
+            <li>Schäden durch die Nichtbeachtung von Hinweisen der Auftragnehmerin,</li>
+            <li>entgangenen Gewinn oder mittelbare Schäden jeglicher Art,</li>
+            <li>die Einhaltung branchenspezifischer Vorschriften oder Compliance-Anforderungen des Kunden,</li>
+            <li>die rechtliche Wirksamkeit, Vollständigkeit oder Rechtssicherheit bearbeiteter Dokumente.</li>
+          </ul>
+          <p>Höhere Gewalt einschließlich technischer Ausfälle und Naturkatastrophen entbindet die Auftragnehmerin von der Verpflichtung zur fristgerechten Leistungserbringung.</p>
+
+          <h2>§&nbsp;11 Reklamation und Nachbesserung</h2>
+          <p>Beanstandungen sind innerhalb von 14&nbsp;Tagen nach Lieferung schriftlich mitzuteilen. Die Auftragnehmerin hat das Recht zur Nachbesserung. Über die Nachbesserung hinausgehende Ansprüche sind ausgeschlossen, soweit gesetzlich zulässig.</p>
+
+          <h2>§&nbsp;12 Widerrufsrecht</h2>
+          <p>Da es sich um digitale Inhalte ohne körperlichen Datenträger handelt, besteht gemäß §&nbsp;356 Abs.&nbsp;5 BGB kein Widerrufsrecht, wenn der Kunde ausdrücklich zugestimmt hat, dass mit der Ausführung der Dienstleistung vor Ablauf der Widerrufsfrist begonnen wird.</p>
+
+          <h2>§&nbsp;13 Urheberrecht und Nutzungsrechte</h2>
+          <p>Mit Zusendung des Ausgangstextes bestätigt der Kunde, dass er die erforderlichen Urheberrechte besitzt oder eine Bearbeitungserlaubnis hat.</p>
+          <p>Die Nutzungsrechte an den erstellten Texten gehen erst mit vollständiger Bezahlung auf den Kunden über. Bis dahin verbleiben sämtliche Rechte bei der Auftragnehmerin.</p>
+
+          <h2>§&nbsp;14 Vertraulichkeit</h2>
+          <p>Die Auftragnehmerin behandelt alle im Rahmen des Auftrags erhaltenen Informationen vertraulich. Eine Weitergabe an Dritte erfolgt nicht ohne ausdrückliche Zustimmung des Kunden.</p>
+
+          <h2>§&nbsp;15 Referenznennung</h2>
+          <p>Die Auftragnehmerin darf den Kunden und das Projekt als Referenz nennen, sofern der Kunde nicht ausdrücklich widerspricht.</p>
+
+          <h2>§&nbsp;16 Schlussbestimmungen</h2>
+          <p>Es gilt das Recht der Bundesrepublik Deutschland. Gerichtsstand ist der Sitz der Auftragnehmerin.</p>
+          <p>Sollten einzelne Bestimmungen dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. An Stelle unwirksamer Bestimmungen tritt eine wirksame Regelung, die dem wirtschaftlichen Zweck am nächsten kommt.</p>
+          <p>Änderungen und Ergänzungen dieser AGB bedürfen der Schriftform und treten mit der nächsten Beauftragung in Kraft.</p>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- ============================================================ -->
+  <!-- PAGE: IMPRESSUM                                               -->
+  <!-- ============================================================ -->
+  <div class="page" id="page-impressum">
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; Impressum</div>
+        <h1>Impressum</h1>
       </div>
     </section>
 
@@ -1086,63 +1289,105 @@
       <div class="container">
         <div class="content-body" style="max-width: 800px;">
 
-          <h2>1. Geltungsbereich</h2>
-          <p>Diese AGB gelten für alle Verträge zwischen Annemarie Andersen, freiberufliche Sprachdienstleisterin (nachfolgend „Auftragnehmerin"), und dem jeweiligen Auftraggeber (nachfolgend „Kunde") über sprachliche Dienstleistungen, insbesondere Leichte Sprache, Lektorat, Korrektorat, Übersetzungen, Entbürokratisierung und KI-Qualitätssicherung.</p>
-          <p>Entgegenstehende oder abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, die Auftragnehmerin stimmt ihrer Geltung ausdrücklich schriftlich zu.</p>
+          <h2>Angaben gemäß §&nbsp;5 TMG</h2>
+          <p>Annemarie Andersen<br>Am Ahrendsberg 18<br>19395 Klein Dammerow</p>
 
-          <h2>2. Leistungsumfang</h2>
-          <p>Der Leistungsumfang ergibt sich aus der jeweiligen Auftragsbestätigung oder dem Angebot. Die Auftragnehmerin erbringt ausschließlich sprachliche Dienstleistungen. Nicht zum Leistungsumfang gehören insbesondere:</p>
+          <h2>Kontakt</h2>
+          <p>Telefon: <a href="tel:+491751183251">+49&nbsp;(0)&nbsp;175&nbsp;118&nbsp;32&nbsp;51</a><br>E-Mail: <a href="mailto:mail@annemarie-andersen.de">mail@annemarie-andersen.de</a></p>
+
+          <h2>Kleinunternehmerregelung</h2>
+          <p>Gemäß §&nbsp;19 UStG wird keine Umsatzsteuer berechnet.</p>
+
+          <h2>Streitschlichtung</h2>
+          <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung bereit: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr</a></p>
+          <p>Ich bin nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+          <h2>Haftung für Inhalte</h2>
+          <p>Als Diensteanbieter bin ich gemäß §&nbsp;7 Abs.&nbsp;1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§&nbsp;8 bis 10 TMG bin ich jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Bei Bekanntwerden von Rechtsverletzungen werde ich die betroffenen Inhalte umgehend entfernen.</p>
+
+          <h2>Haftung für Links</h2>
+          <p>Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte ich keinen Einfluss habe. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Bei Bekanntwerden von Rechtsverletzungen werde ich die betroffenen Links umgehend entfernen.</p>
+
+          <h2>Urheberrecht</h2>
+          <p>Die durch die Seitenbetreiberin erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung der Autorin.</p>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- ============================================================ -->
+  <!-- PAGE: DATENSCHUTZ                                             -->
+  <!-- ============================================================ -->
+  <div class="page" id="page-datenschutz">
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="#home">Startseite</a> &rsaquo; Datenschutz</div>
+        <h1>Datenschutzerklärung</h1>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="content-body" style="max-width: 800px;">
+
+          <h2>1. Datenschutz auf einen Blick</h2>
+          <p>Die folgenden Hinweise geben einen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.</p>
+
+          <h3>Verantwortliche Stelle</h3>
+          <p>Annemarie Andersen<br>Am Ahrendsberg 18<br>19395 Klein Dammerow<br>Telefon: +49&nbsp;(0)&nbsp;175&nbsp;118&nbsp;32&nbsp;51<br>E-Mail: mail@annemarie-andersen.de</p>
+
+          <h2>2. Allgemeine Hinweise und Pflichtinformationen</h2>
+
+          <h3>Datenschutz</h3>
+          <p>Ich nehme den Schutz Ihrer persönlichen Daten ernst. Ich behandle Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung. Ich weise darauf hin, dass die Datenübertragung im Internet Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</p>
+
+          <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
+          <p>Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.</p>
+
+          <h3>Widerspruchsrecht gegen die Datenerhebung</h3>
+          <p>Wenn die Datenverarbeitung auf Grundlage von Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;e oder f DSGVO erfolgt, haben Sie jederzeit das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch einzulegen. Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung einzulegen.</p>
+
+          <h3>Beschwerderecht bei der zuständigen Aufsichtsbehörde</h3>
+          <p>Im Falle von Verstößen gegen die DSGVO steht Ihnen ein Beschwerderecht bei einer Aufsichtsbehörde zu.</p>
+
+          <h3>Recht auf Datenübertragbarkeit</h3>
+          <p>Sie haben das Recht, Daten, die ich auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeite, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen.</p>
+
+          <h3>SSL-/TLS-Verschlüsselung</h3>
+          <p>Diese Seite nutzt aus Sicherheitsgründen eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://" auf „https://" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.</p>
+
+          <h3>Auskunft, Sperrung, Löschung und Berichtigung</h3>
+          <p>Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.</p>
+
+          <h2>3. Datenerfassung auf dieser Website</h2>
+
+          <h3>Server-Log-Dateien</h3>
+          <p>Der Provider dieser Website erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die Ihr Browser automatisch übermittelt. Dies sind:</p>
           <ul>
-            <li>die inhaltliche oder fachliche Prüfung der Ausgangstexte,</li>
-            <li>die Bereitstellung von Prüfgruppen für Leichte Sprache,</li>
-            <li>die Bereitstellung von Bildern, Grafiken oder Illustrationen,</li>
-            <li>die technische Umsetzung (Webentwicklung, Layout, Barrierefreiheit von Websites),</li>
-            <li>die rechtliche Prüfung von Texten.</li>
+            <li>Browsertyp und Browserversion</li>
+            <li>verwendetes Betriebssystem</li>
+            <li>Referrer URL</li>
+            <li>Hostname des zugreifenden Rechners</li>
+            <li>Uhrzeit der Serveranfrage</li>
+            <li>IP-Adresse</li>
           </ul>
+          <p>Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Grundlage für die Datenverarbeitung ist Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO, der die Verarbeitung zur Wahrung berechtigter Interessen erlaubt (fehlerfreie Bereitstellung der Website).</p>
 
-          <h2>3. Pflichten des Kunden</h2>
-          <p>Der Kunde stellt sicher, dass:</p>
-          <ul>
-            <li>die bereitgestellten Ausgangstexte inhaltlich korrekt und vollständig sind,</li>
-            <li>alle für die Bearbeitung notwendigen Informationen rechtzeitig bereitgestellt werden,</li>
-            <li>bei Leichte-Sprache-Aufträgen die Prüfung durch die Zielgruppe eigenverantwortlich organisiert wird,</li>
-            <li>bei Übersetzungen die Richtigkeit fachspezifischer Terminologie im Ausgangstext gewährleistet ist.</li>
-          </ul>
-          <p>Verzögerungen durch fehlende oder fehlerhafte Zulieferungen gehen zulasten des Kunden.</p>
+          <h3>Anfrage per E-Mail oder Telefon</h3>
+          <p>Wenn Sie mich per E-Mail oder Telefon kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten zum Zwecke der Bearbeitung Ihres Anliegens bei mir gespeichert und verarbeitet. Diese Daten gebe ich nicht ohne Ihre Einwilligung weiter.</p>
+          <p>Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf Ihrem berechtigten Interesse (Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO).</p>
+          <p>Die Daten verbleiben bei mir, bis Sie mich zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt. Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen – bleiben unberührt.</p>
 
-          <h2>4. Inhaltliche Verantwortung</h2>
-          <p>Die Verantwortung für die inhaltliche Richtigkeit, fachliche Korrektheit und rechtliche Zulässigkeit der Texte liegt ausschließlich beim Kunden. Die Auftragnehmerin bearbeitet die Texte sprachlich, nicht inhaltlich. Eine Haftung für inhaltliche Fehler in den Ausgangstexten oder für die Eignung der Texte für einen bestimmten Zweck ist ausgeschlossen.</p>
+          <h3>Verarbeitung von Kunden- und Vertragsdaten</h3>
+          <p>Ich erhebe, verarbeite und nutze personenbezogene Daten nur, soweit sie für die Begründung, inhaltliche Ausgestaltung oder Änderung des Vertragsverhältnisses erforderlich sind (Bestandsdaten). Grundlage ist Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;b DSGVO. Nach vollständiger Abwicklung des Vertrages werden die Daten gelöscht, sofern keine gesetzlichen Aufbewahrungsfristen entgegenstehen.</p>
 
-          <h2>5. Haftung</h2>
-          <p>Die Auftragnehmerin haftet nur für Vorsatz und grobe Fahrlässigkeit. Bei leichter Fahrlässigkeit haftet die Auftragnehmerin nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten), begrenzt auf den vorhersehbaren, vertragstypischen Schaden.</p>
-          <p>Die Haftung ist in jedem Fall auf die Höhe des jeweiligen Auftragshonorars begrenzt.</p>
-          <p>Die Auftragnehmerin haftet nicht für:</p>
-          <ul>
-            <li>inhaltliche Fehler, die bereits im Ausgangstext vorhanden waren,</li>
-            <li>Folgeschäden, die aus der Verwendung der bearbeiteten Texte entstehen,</li>
-            <li>Schäden durch die Nichtbeachtung von Hinweisen der Auftragnehmerin (z.&nbsp;B. zur Prüfung durch Fachpersonal oder Zielgruppen),</li>
-            <li>entgangenen Gewinn oder mittelbare Schäden jeglicher Art,</li>
-            <li>die Einhaltung branchenspezifischer Vorschriften oder Compliance-Anforderungen des Kunden.</li>
-          </ul>
-
-          <h2>6. Reklamation und Nachbesserung</h2>
-          <p>Beanstandungen sind innerhalb von 14&nbsp;Tagen nach Lieferung schriftlich mitzuteilen. Die Auftragnehmerin hat das Recht zur Nachbesserung. Über die Nachbesserung hinausgehende Ansprüche sind ausgeschlossen, soweit gesetzlich zulässig.</p>
-
-          <h2>7. Vergütung und Zahlungsbedingungen</h2>
-          <p>Die Vergütung richtet sich nach dem jeweiligen Angebot. Rechnungen sind innerhalb von 14&nbsp;Tagen nach Zugang ohne Abzug zahlbar. Bei Aufträgen über 500&nbsp;Euro netto kann eine Anzahlung von 50&nbsp;% vereinbart werden.</p>
-          <p>Die Auftragnehmerin ist als Kleinunternehmerin nach §&nbsp;19 UStG von der Umsatzsteuer befreit. In den Rechnungen wird keine Umsatzsteuer ausgewiesen.</p>
-
-          <h2>8. Urheberrecht und Nutzungsrechte</h2>
-          <p>Die Nutzungsrechte an den erstellten Texten gehen erst mit vollständiger Bezahlung auf den Kunden über. Bis dahin verbleiben sämtliche Rechte bei der Auftragnehmerin.</p>
-
-          <h2>9. Vertraulichkeit</h2>
-          <p>Die Auftragnehmerin behandelt alle im Rahmen des Auftrags erhaltenen Informationen vertraulich. Eine Weitergabe an Dritte erfolgt nicht ohne ausdrückliche Zustimmung des Kunden.</p>
-
-          <h2>10. Referenznennung</h2>
-          <p>Die Auftragnehmerin darf den Kunden und das Projekt als Referenz nennen, sofern der Kunde nicht ausdrücklich widerspricht.</p>
-
-          <h2>11. Schlussbestimmungen</h2>
-          <p>Es gilt das Recht der Bundesrepublik Deutschland. Sollten einzelne Bestimmungen dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Änderungen und Ergänzungen bedürfen der Schriftform.</p>
+          <h3>Google Fonts</h3>
+          <p>Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten sogenannte Google Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Schriftarten in Ihren Browser-Cache. Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse diese Website aufgerufen wurde.</p>
+          <p>Die Nutzung von Google Fonts erfolgt auf Grundlage von Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO. Weitere Informationen zu Google Fonts finden Sie unter <a href="https://developers.google.com/fonts/faq" target="_blank" rel="noopener">https://developers.google.com/fonts/faq</a> und in der Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>.</p>
 
         </div>
       </div>
@@ -1156,10 +1401,10 @@
   <!-- ===== FOOTER ===== -->
   <footer class="site-footer">
     <div class="footer-inner">
-      <div>Annemarie Andersen – Sprachdienstleistungen &middot; Mecklenburg-Vorpommern</div>
+      <div>Annemarie Andersen – freie Sachverständige für Sprachdienstleistungen &middot; Plau am See, Mecklenburg-Vorpommern &middot; Umsetzung: <a href="https://andersen-webworks.de" target="_blank" rel="noopener">Andersen Webworks</a></div>
       <ul class="footer-links">
-        <li><a href="#">Impressum</a></li>
-        <li><a href="#">Datenschutz</a></li>
+        <li><a href="#impressum">Impressum</a></li>
+        <li><a href="#datenschutz">Datenschutz</a></li>
         <li><a href="#agb">AGB</a></li>
       </ul>
     </div>
@@ -1176,7 +1421,9 @@
       'ueber-mich': 'Über mich — Annemarie Andersen',
       'referenzen': 'Referenzen — Annemarie Andersen',
       'kontakt': 'Angebot anfordern — Annemarie Andersen',
-      'agb': 'AGB — Annemarie Andersen'
+      'agb': 'AGB — Annemarie Andersen',
+      'impressum': 'Impressum — Annemarie Andersen',
+      'datenschutz': 'Datenschutzerklärung — Annemarie Andersen'
     };
 
     function navigateTo(page) {
@@ -1219,6 +1466,19 @@
           e.preventDefault();
           navigateTo(hash);
         }
+      }
+    });
+
+    // === DROPDOWN CLICK ===
+    document.querySelectorAll('.dropdown-trigger').forEach(trigger => {
+      trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        trigger.closest('.has-dropdown').classList.toggle('open');
+      });
+    });
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.has-dropdown')) {
+        document.querySelectorAll('.has-dropdown.open').forEach(el => el.classList.remove('open'));
       }
     });
 
