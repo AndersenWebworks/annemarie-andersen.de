@@ -7,9 +7,16 @@ Kein WordPress, kein CMS, kein JavaScript-Framework. Reines HTML/CSS mit Schema.
 
 - **Eigentuemerin:** Annemarie Andersen (person_id=2 im Finanztool)
 - **Domain:** annemarie-andersen.de
-- **Lokal:** Clautz serviert unter `/annemarie/` (Port 80)
-- **Hosting (spaeter):** All-Inkl (w018c99c.kasserver.com)
+- **Live:** https://andersenwebworks.github.io/annemarie-andersen.de/ (GitHub Pages = SSOT)
+- **Hosting (spaeter ggf.):** All-Inkl (w018c99c.kasserver.com)
 - **Referenz-Struktur:** jan-erik-andersen.de
+
+### ⛔ Wichtige Regeln
+
+- **NUR `index.html`** - es gibt keine entwurf.html, keine Alternativ-Versionen
+- **KEINE absoluten Pfade** in href/src! GitHub Pages deployed unter Subpfad `/annemarie-andersen.de/`. Daher: `href="wissen/bfsg.html"` (von Root) bzw. `href="../"` (von Unterordner). NIEMALS `href="/wissen/..."`.
+- **KEINE Tailscale-Links** - alle URLs muessen auf GitHub Pages funktionieren
+- **Webchat-Tool** verlinkt auf die GitHub Pages URL, nicht auf lokale Routen
 
 ## Strategie (Stand: 13.04.2026)
 
