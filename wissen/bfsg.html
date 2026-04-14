@@ -149,6 +149,20 @@
       color: var(--white) !important;
     }
 
+    .has-dropdown { position: relative; }
+    .dropdown-trigger { cursor: pointer; }
+    .dropdown-trigger::after { content: ' \25BE'; font-size: 11px; color: var(--text-muted); }
+    .dropdown-menu {
+      display: none; position: absolute; top: 100%; left: -16px;
+      background: var(--white); border: 1px solid var(--border); border-radius: 8px;
+      padding: 20px 0 8px; min-width: 300px; box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+      list-style: none; z-index: 200;
+    }
+    .has-dropdown:hover .dropdown-menu,
+    .has-dropdown.open .dropdown-menu { display: block; }
+    .dropdown-menu a { display: block; padding: 10px 20px; font-size: 15px; font-weight: 400; color: var(--text); }
+    .dropdown-menu a:hover { background: var(--cream); color: var(--terracotta); }
+
     .nav-toggle {
       display: none;
       background: none;
@@ -433,6 +447,13 @@
         gap: 16px;
       }
 
+      .has-dropdown .dropdown-menu {
+        display: block; position: static; border: none; box-shadow: none;
+        background: none; padding: 0 0 0 16px; min-width: 0;
+      }
+      .dropdown-trigger::after { display: none; }
+      .dropdown-menu a { padding: 8px 0; }
+
       .article-hero { padding: 110px 24px 40px; }
 
       .article-author {
@@ -454,16 +475,23 @@
     <div class="header-inner">
       <a href="../" class="logo">
         Annemarie Andersen
-        <span>Sprachdienstleistungen</span>
+        <span>freie Sachverständige für Sprachdienstleistungen</span>
       </a>
-      <nav>
+      <nav aria-label="Hauptnavigation">
         <ul class="nav-links" id="navLinks">
-          <li><a href="../#barrierefreiheit">Barrierefreiheit</a></li>
-          <li><a href="../#leistungen">Leistungen</a></li>
-          <li><a href="../#ueber-mich">Über mich</a></li>
-          <li><a href="../#referenzen">Referenzen</a></li>
-          <li><a href="bfsg.html" style="color: var(--terracotta);">Wissen</a></li>
-          <li><a href="../#kontakt" class="nav-cta">Angebot anfordern</a></li>
+          <li class="has-dropdown">
+            <a href="#" class="dropdown-trigger" onclick="return false">Leistungen</a>
+            <ul class="dropdown-menu">
+              <li><a href="/#barrierefreiheit">Barrierefreiheit &amp; Leichte Sprache</a></li>
+              <li><a href="/#verwaltung">Verständliche Verwaltung</a></li>
+              <li><a href="/#ki-qs">KI-Qualitätssicherung</a></li>
+              <li><a href="/#lektorat">Lektorat &amp; Übersetzung</a></li>
+            </ul>
+          </li>
+          <li><a href="/#referenzen">Referenzen</a></li>
+          <li><a href="/#ueber-mich">Über mich</a></li>
+          <li><a href="/wissen/bfsg.html" style="color: var(--terracotta);">Wissen</a></li>
+          <li><a href="/#kontakt" class="nav-cta">Angebot anfordern</a></li>
         </ul>
       </nav>
       <button class="nav-toggle" id="navToggle" aria-label="Navigation öffnen">
@@ -589,11 +617,11 @@
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <div>Annemarie Andersen – Sprachdienstleistungen &middot; Mecklenburg-Vorpommern</div>
+      <div>Annemarie Andersen – freie Sachverständige für Sprachdienstleistungen &middot; Plau am See, Mecklenburg-Vorpommern &middot; Umsetzung: <a href="https://andersen-webworks.de" target="_blank" rel="noopener">Andersen Webworks</a></div>
       <ul class="footer-links">
-        <li><a href="../#impressum">Impressum</a></li>
-        <li><a href="../#datenschutz">Datenschutz</a></li>
-        <li><a href="../#agb">AGB</a></li>
+        <li><a href="/#impressum">Impressum</a></li>
+        <li><a href="/#datenschutz">Datenschutz</a></li>
+        <li><a href="/#agb">AGB</a></li>
       </ul>
     </div>
   </footer>
@@ -609,6 +637,18 @@
     const header = document.getElementById('header');
     window.addEventListener('scroll', () => {
       header.classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    document.querySelectorAll('.dropdown-trigger').forEach(trigger => {
+      trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        trigger.closest('.has-dropdown').classList.toggle('open');
+      });
+    });
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.has-dropdown')) {
+        document.querySelectorAll('.has-dropdown.open').forEach(el => el.classList.remove('open'));
+      }
     });
   </script>
 </body>
