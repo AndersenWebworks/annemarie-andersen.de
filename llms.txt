@@ -16,6 +16,18 @@
 - Website: https://annemarie-andersen.de
 - Standort: Mecklenburg-Vorpommern, 100 % remote
 
+## Seiten
+
+- [Startseite](https://annemarie-andersen.de/) - Uebersicht aller Leistungen, Referenzen und FAQ
+- [Barrierefreiheit & Leichte Sprache](https://annemarie-andersen.de/barrierefreiheit.html) - Kernleistung, BITV 2.0, Zukunftspreis-Referenz
+- [Verstaendliche Verwaltung](https://annemarie-andersen.de/verwaltung.html) - Entbuerokratisierung, Bescheide, Formulare
+- [KI-Qualitaetssicherung](https://annemarie-andersen.de/ki-qualitaetssicherung.html) - Pruefung KI-generierter Texte
+- [Lektorat & Uebersetzung](https://annemarie-andersen.de/lektorat.html) - Korrekturlesen, DE-EN
+- [Ueber mich](https://annemarie-andersen.de/ueber-mich.html) - QA-Hintergrund, Werdegang
+- [Referenzen](https://annemarie-andersen.de/referenzen.html) - Auftraggeber und Projekte
+- [Kontakt](https://annemarie-andersen.de/kontakt.html) - Angebot anfordern
+- [BFSG-Ratgeber](https://annemarie-andersen.de/wissen/bfsg.html) - Was das Barrierefreiheitsstaerkungsgesetz fuer Ihre Texte bedeutet
+
 ## Relevante Dateien
 
 - [AI Manifest](/ai/manifest.json) - Maschinenlesbare Endpoints

@@ -13,10 +13,11 @@ Kein WordPress, kein CMS, kein JavaScript-Framework. Reines HTML/CSS mit Schema.
 
 ### ⛔ Wichtige Regeln
 
-- **NUR `index.html`** - es gibt keine entwurf.html, keine Alternativ-Versionen
-- **KEINE absoluten Pfade** in href/src! GitHub Pages deployed unter Subpfad `/annemarie-andersen.de/`. Daher: `href="wissen/bfsg.html"` (von Root) bzw. `href="../"` (von Unterordner). NIEMALS `href="/wissen/..."`.
+- **Multi-Page-Site** (seit 15.04.2026): Separate HTML-Dateien pro Seite, shared `css/style.css` + `js/main.js`
+- **KEINE absoluten Pfade** in href/src! GitHub Pages deployed unter Subpfad `/annemarie-andersen.de/`. Daher: `href="wissen/bfsg.html"` (von Root) bzw. `href="../index.html"` (von Unterordner). NIEMALS `href="/wissen/..."`.
 - **KEINE Tailscale-Links** - alle URLs muessen auf GitHub Pages funktionieren
 - **Webchat-Tool** verlinkt auf die GitHub Pages URL, nicht auf lokale Routen
+- **Header/Footer identisch** auf allen Seiten - bei Aenderungen ALLE Dateien aktualisieren
 
 ## Strategie (Stand: 13.04.2026)
 
@@ -56,19 +57,23 @@ Bundesministerium der Finanzen - Foerderleitfaden DARP (barrierefreie Kommunikat
 - Organische Texte - duerfen NICHT nach KI klingen
 - Fokus-Keywords: "Leichte Sprache BFSG", "barrierefreie Kommunikation Unternehmen", "BITV Leichte Sprache Dienstleister"
 
-## Geplante Seitenstruktur
+## Seitenstruktur (umgesetzt 15.04.2026)
 
 ```
-index.html                    <- Startseite (fertig)
+index.html                    <- Startseite (Hero, Services, Referenzen, FAQ, CTA)
 barrierefreiheit.html         <- Barrierefreiheit & Leichte Sprache
 verwaltung.html               <- Verstaendliche Verwaltung
 ki-qualitaetssicherung.html   <- KI-QS & Post-Editing
 lektorat.html                 <- Lektorat & Uebersetzung
 ueber-mich.html               <- Story, nicht Lebenslauf
-referenzen.html               <- Fallstudien, nicht nur Logos
+referenzen.html               <- Fallstudien + Logo-Wall
 kontakt.html                  <- Angebot anfordern
+agb.html                      <- AGB (16 Paragraphen)
 impressum.html                <- Pflichtseite
 datenschutz.html              <- Pflichtseite
+wissen/bfsg.html              <- BFSG-Ratgeber (Artikel)
+css/style.css                 <- Shared CSS (alle Seiten)
+js/main.js                    <- Shared JS (Nav, Dropdown, Scroll, Fade-in)
 ```
 
 ## Workflow
