@@ -16,14 +16,20 @@ document.addEventListener('click', (e) => {
   }
 });
 
-// Header scroll shadow + Back to top
+// Header scroll shadow
 const header = document.getElementById('header');
-const backToTop = document.querySelector('.back-to-top');
 window.addEventListener('scroll', () => {
   header.classList.toggle('scrolled', window.scrollY > 20);
-  if (backToTop) backToTop.classList.toggle('visible', window.scrollY > 300);
+  const btn = document.querySelector('.back-to-top');
+  if (btn) btn.classList.toggle('visible', window.scrollY > 300);
 });
-backToTop?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+// Back to top (Button sitzt nach dem Script-Tag, daher per DOMContentLoaded)
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('.back-to-top')?.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
 
 // Fade-in on scroll
 const observer = new IntersectionObserver((entries) => {
