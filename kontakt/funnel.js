@@ -241,35 +241,35 @@
   var RESULT_EMAILS = {
     'result-bfsg': {
       subject: 'Anfrage: Leichte Sprache / BFSG',
-      body: 'wir muessen unsere Kommunikation BFSG-konform gestalten und suchen Unterstuetzung bei der Umsetzung in Leichte Sprache.'
+      body: 'wir m\u00fcssen unsere Kommunikation BFSG-konform gestalten und suchen Unterst\u00fctzung bei der Umsetzung in Leichte Sprache.'
     },
     'result-bitv': {
-      subject: 'Anfrage: Leichte Sprache fuer Behoerde (BITV)',
-      body: 'wir sind eine Behoerde / arbeiten fuer eine Behoerde und brauchen Unterstuetzung bei der Uebersetzung in Leichte Sprache (BITV 2.0 / BGG).'
+      subject: 'Anfrage: Leichte Sprache f\u00fcr Beh\u00f6rde (BITV)',
+      body: 'wir sind eine Beh\u00f6rde / arbeiten f\u00fcr eine Beh\u00f6rde und brauchen Unterst\u00fctzung bei der \u00dcbersetzung in Leichte Sprache (BITV 2.0 / BGG).'
     },
     'result-leichte-sprache': {
       subject: 'Anfrage: Leichte Sprache',
-      body: 'wir moechten einen Text in Leichte Sprache uebersetzen lassen.'
+      body: 'wir m\u00f6chten einen Text in Leichte Sprache \u00fcbersetzen lassen.'
     },
     'result-verwaltung-behoerde': {
-      subject: 'Anfrage: Verstaendliche Verwaltungstexte',
-      body: 'wir sind eine Behoerde / Kommune und moechten unsere Texte verstaendlicher machen.'
+      subject: 'Anfrage: Verst\u00e4ndliche Verwaltungstexte',
+      body: 'wir sind eine Beh\u00f6rde / Kommune und m\u00f6chten unsere Texte verst\u00e4ndlicher machen.'
     },
     'result-verwaltung-agentur': {
-      subject: 'Anfrage: Sprachdienstleistung (Behoerdenauftrag)',
-      body: 'wir sind eine Agentur mit einem Behoerdenauftrag und suchen eine zuverlaessige Sprachdienstleisterin fuer Leichte Sprache und Lektorat.'
+      subject: 'Anfrage: Sprachdienstleistung (Beh\u00f6rdenauftrag)',
+      body: 'wir sind eine Agentur mit einem Beh\u00f6rdenauftrag und suchen eine zuverl\u00e4ssige Sprachdienstleisterin f\u00fcr Leichte Sprache und Lektorat.'
     },
     'result-verwaltung-unternehmen': {
-      subject: 'Anfrage: Verstaendliche Unternehmenstexte',
-      body: 'wir moechten unsere Unternehmenskommunikation verstaendlicher gestalten (Kundenanschreiben, AGBs o.Ae.).'
+      subject: 'Anfrage: Verst\u00e4ndliche Unternehmenstexte',
+      body: 'wir m\u00f6chten unsere Unternehmenskommunikation verst\u00e4ndlicher gestalten (Kundenanschreiben, AGBs o.\u00c4.).'
     },
     'result-ki-einzel': {
-      subject: 'Anfrage: KI-Text pruefen',
-      body: 'wir haben einen KI-generierten Text, der professionell ueberarbeitet werden soll.'
+      subject: 'Anfrage: KI-Text pr\u00fcfen',
+      body: 'wir haben einen KI-generierten Text, der professionell \u00fcberarbeitet werden soll.'
     },
     'result-ki-laufend': {
-      subject: 'Anfrage: Laufende KI-Qualitaetssicherung',
-      body: 'wir produzieren regelmaessig KI-Texte und suchen jemanden fuer die laufende Qualitaetssicherung.'
+      subject: 'Anfrage: Laufende KI-Qualit\u00e4tssicherung',
+      body: 'wir produzieren regelm\u00e4\u00dfig KI-Texte und suchen jemanden f\u00fcr die laufende Qualit\u00e4tssicherung.'
     },
     'result-lektorat-de': {
       subject: 'Anfrage: Deutsches Lektorat',
@@ -284,8 +284,8 @@
       body: 'wir haben Texte in Deutsch und Englisch, die lektoriert werden sollen.'
     },
     'result-unsicher': {
-      subject: 'Anfrage ueber Ihre Website',
-      body: 'ich habe mir Ihre Website angeschaut und wuerde gern mit Ihnen sprechen.'
+      subject: 'Anfrage \u00fcber Ihre Website',
+      body: 'ich habe mir Ihre Website angeschaut und w\u00fcrde gern mit Ihnen sprechen.'
     }
   };
 
@@ -304,10 +304,10 @@
 
     var subject = data.subject;
     var body = 'Hallo Frau Andersen,\n\n' + data.body;
-    body += '\n\nK\u00f6nnen wir kurz telefonieren?\n\nViele Gr\u00fc\u00dfe\n[Ihr Name]';
+    body += '\n\nHier sind ein paar Infos zum Projekt:\n[Bitte erg\u00e4nzen: Umfang, Zeitrahmen, ggf. Ausgangstext]\n\nViele Gr\u00fc\u00dfe\n[Ihr Name]';
 
     var previewHtml = 'Hallo Frau Andersen,\n\n' + esc(data.body);
-    previewHtml += '\n\nK\u00f6nnen wir kurz telefonieren?\n\nViele Gr\u00fc\u00dfe\n<span class="mf-contact-placeholder">[Ihr Name]</span>';
+    previewHtml += '\n\nHier sind ein paar Infos zum Projekt:\n<span class="mf-contact-placeholder">[Bitte erg\u00e4nzen: Umfang, Zeitrahmen, ggf. Ausgangstext]</span>\n\nViele Gr\u00fc\u00dfe\n<span class="mf-contact-placeholder">[Ihr Name]</span>';
 
     return { subject: subject, body: body, previewHtml: previewHtml };
   }
@@ -348,7 +348,7 @@
     h += '</a>';
 
     /* Trust badge */
-    h += '<p class="mf-trust-badge mf-stagger" style="--i:2.5">Antwort innerhalb von 24\u00a0Stunden \u00b7 20+ Jahre Erfahrung \u00b7 Referenz: Bundesministerium der Finanzen</p>';
+    h += '<p class="mf-trust-badge mf-stagger" style="--i:2.5">Antwort innerhalb von 24\u00a0Stunden \u00b7 20+ Jahre Erfahrung \u00b7 100\u00a0% remote</p>';
 
     /* Alternative contact */
     h += '<div class="mf-contact-alt mf-stagger" style="--i:3">';
