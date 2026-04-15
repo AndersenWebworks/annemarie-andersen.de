@@ -10,10 +10,20 @@
         "@type": "Service",
         "name": "Barrierefreiheit & Leichte Sprache",
         "description": "Texte in Leichter Sprache nach aktuellem Regelwerk. Fuer Websites, Formulare, Broschueren und Barrierefreiheitserklaerungen. Uebertragung bestehender Inhalte oder Neuerstellung inklusive Ausgangstexte in Standardsprache.",
+        "url": "https://annemarie-andersen.de/barrierefreiheit/",
         "category": "Kernleistung",
+        "serviceType": "Leichte Sprache / Barrierefreie Kommunikation",
+        "areaServed": { "@type": "Country", "name": "Deutschland" },
         "provider": {
           "@type": "Person",
-          "name": "Annemarie Andersen"
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "price": "68.50",
+          "description": "Ab 68,50 EUR pro Normseite (1.500 Zeichen inkl. Leerzeichen)"
         }
       }
     },
@@ -24,9 +34,13 @@
         "@type": "Service",
         "name": "Verstaendliche Verwaltung",
         "description": "Behoerdendeutsch in klare Sprache uebersetzen. Bescheide, Formulare, Vertragsklauseln und AGB so formulieren, dass die Zielgruppe sie beim ersten Lesen versteht.",
+        "url": "https://annemarie-andersen.de/verwaltung/",
+        "serviceType": "Entbuerokratisierung / Verstaendliche Verwaltungssprache",
+        "areaServed": { "@type": "Country", "name": "Deutschland" },
         "provider": {
           "@type": "Person",
-          "name": "Annemarie Andersen"
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de"
         }
       }
     },
@@ -37,9 +51,13 @@
         "@type": "Service",
         "name": "KI-Qualitaetssicherung & Post-Editing",
         "description": "Pruefung KI-generierter Texte gegen inhaltliche Fehler, stilistische Brueche und Compliance-Luecken. Fuer Unternehmen die ChatGPT, DeepL oder andere Tools fuer ihre Texte nutzen.",
+        "url": "https://annemarie-andersen.de/ki-qualitaetssicherung/",
+        "serviceType": "KI-Qualitaetssicherung / Post-Editing",
+        "areaServed": { "@type": "Country", "name": "Deutschland" },
         "provider": {
           "@type": "Person",
-          "name": "Annemarie Andersen"
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de"
         }
       }
     },
@@ -49,10 +67,14 @@
       "item": {
         "@type": "Service",
         "name": "Lektorat & Uebersetzung",
-        "description": "Korrekturlesen, stilistische Ueberarbeitung und Fachuebersetzungen Deutsch-Englisch. Von technischer Dokumentation ueber Marketingtexte bis zu Druckvorlagen.",
+        "description": "Korrekturlesen, stilistische Ueberarbeitung und Fachuebersetzungen Deutsch-Englisch. Von technischer Dokumentation ueber Marketingtexte bis zu Gaming-Lokalisierung.",
+        "url": "https://annemarie-andersen.de/lektorat/",
+        "serviceType": "Lektorat / Fachuebersetzung Deutsch-Englisch",
+        "areaServed": { "@type": "Country", "name": "Deutschland" },
         "provider": {
           "@type": "Person",
-          "name": "Annemarie Andersen"
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de"
         }
       }
     }

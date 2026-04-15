@@ -1,6 +1,6 @@
 # Annemarie Andersen - Sprachdienstleistungen
 
-> Freiberufliche Sprachdienstleisterin fuer barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0, Entbuerokratisierung und KI-Qualitaetssicherung. Seit 2018 selbststaendig. Referenzkunde: Bundesministerium der Finanzen.
+> Freiberufliche Sprachdienstleisterin fuer barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0, Entbuerokratisierung und KI-Qualitaetssicherung. Seit 2018 selbststaendig. Referenz: Deutscher Zukunftspreis des Bundespraesidenten (Leichte Sprache, 2024 + 2025).
 
 ## Leistungen
 
@@ -26,10 +26,17 @@
 - [Ueber mich](https://annemarie-andersen.de/ueber-mich/) - QA-Hintergrund, Werdegang
 - [Referenzen](https://annemarie-andersen.de/referenzen/) - Auftraggeber und Projekte
 - [Kontakt](https://annemarie-andersen.de/kontakt/) - Angebot anfordern
+
+## Wissen (Fachartikel)
+
 - [BFSG-Ratgeber](https://annemarie-andersen.de/wissen/bfsg.html) - Was das Barrierefreiheitsstaerkungsgesetz fuer Ihre Texte bedeutet
+- [Was ist Leichte Sprache?](https://annemarie-andersen.de/wissen/leichte-sprache.html) - Regeln, Zielgruppe, gesetzliche Pflicht, DIN SPEC 33429
+- [Behoerdentexte: Vorher & Nachher](https://annemarie-andersen.de/wissen/behoerdentexte.html) - Drei Praxisbeispiele fuer verstaendliche Verwaltungssprache
+- [Gaming-Lokalisierung](https://annemarie-andersen.de/wissen/gaming-lokalisierung.html) - Warum Uebersetzen nicht reicht: Variable Strings, kulturelle Anpassung, LQA
 
 ## Relevante Dateien
 
-- [AI Manifest](/ai/manifest.json) - Maschinenlesbare Endpoints
-- [Services](/ai/services.json) - Strukturierte Leistungsdaten
-- [Identity](/ai/identity-schema.json) - Person Schema.org
+- [AI Manifest](https://annemarie-andersen.de/ai/manifest.json) - Maschinenlesbare Endpoints
+- [Services](https://annemarie-andersen.de/ai/services.json) - Strukturierte Leistungsdaten
+- [Identity](https://annemarie-andersen.de/ai/identity-schema.json) - Person Schema.org
+- [llms.txt](https://annemarie-andersen.de/llms.txt) - Diese Datei

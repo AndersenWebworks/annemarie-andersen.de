@@ -38,6 +38,13 @@
       "type": "PlainText",
       "format": "text/plain",
       "description": "Plain-Text Auflistung der Services"
+    },
+    {
+      "id": "llms-txt",
+      "url": "https://annemarie-andersen.de/llms.txt",
+      "type": "PlainText",
+      "format": "text/plain",
+      "description": "LLM-Kontext: Uebersicht aller Seiten, Leistungen und maschinenlesbaren Dateien"
     }
   ],
   "formats": {
