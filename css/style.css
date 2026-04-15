@@ -789,7 +789,7 @@ a:hover { color: var(--terracotta); }
   border-top: 3px solid var(--navy);
   border-radius: 6px;
   padding: 48px 40px;
-  max-width: 560px;
+  max-width: var(--max-width);
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -1299,7 +1299,7 @@ a:hover { color: var(--terracotta); }
 /* Section title above funnel */
 .mf-section-intro {
   text-align: center;
-  max-width: 560px;
+  max-width: 640px;
   margin: 0 auto 32px;
 }
 
