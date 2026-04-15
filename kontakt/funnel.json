@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "version": "1.0",
+    "language": "de",
+    "updated": "2026-04-15"
+  },
+  "nodes": {
+    "start": {
+      "type": "question",
+      "text": "Was kann ich fuer Sie tun?",
+      "subtitle": "Ein paar Fragen, damit ich Ihnen gezielt antworten kann.",
+      "options": [
+        {
+          "label": "Leichte Sprache oder Barrierefreiheit",
+          "next": "leichte-sprache-kontext"
+        },
+        {
+          "label": "Verstaendliche Verwaltungstexte",
+          "next": "verwaltung-kontext"
+        },
+        {
+          "label": "KI-Texte pruefen lassen",
+          "next": "ki-kontext"
+        },
+        {
+          "label": "Lektorat oder Uebersetzung",
+          "next": "lektorat-kontext"
+        },
+        {
+          "label": "Ich bin mir nicht sicher",
+          "next": "result-unsicher"
+        }
+      ]
+    },
+
+    "leichte-sprache-kontext": {
+      "type": "question",
+      "text": "Worum geht es?",
+      "subtitle": "Unterschiedliche Anforderungen, unterschiedliche Loesungen.",
+      "options": [
+        {
+          "label": "BFSG-Pflicht (Website, App, Dokumente)",
+          "next": "result-bfsg"
+        },
+        {
+          "label": "Behoerde oder Verwaltung (BITV / BGG)",
+          "next": "result-bitv"
+        },
+        {
+          "label": "Eigenes Projekt (freiwillig)",
+          "next": "result-leichte-sprache"
+        }
+      ]
+    },
+
+    "verwaltung-kontext": {
+      "type": "question",
+      "text": "In welchem Rahmen?",
+      "subtitle": "Damit ich die passende Loesung vorschlagen kann.",
+      "options": [
+        {
+          "label": "Behoerde oder Kommune",
+          "next": "result-verwaltung-behoerde"
+        },
+        {
+          "label": "Agentur mit Behoerdenauftrag",
+          "next": "result-verwaltung-agentur"
+        },
+        {
+          "label": "Unternehmen",
+          "next": "result-verwaltung-unternehmen"
+        }
+      ]
+    },
+
+    "ki-kontext": {
+      "type": "question",
+      "text": "Was brauchen Sie?",
+      "subtitle": "Einmalig oder regelmaessig \u2013 das macht einen Unterschied.",
+      "options": [
+        {
+          "label": "Einzelnen Text pruefen oder ueberarbeiten",
+          "next": "result-ki-einzel"
+        },
+        {
+          "label": "Laufende Qualitaetssicherung",
+          "next": "result-ki-laufend"
+        }
+      ]
+    },
+
+    "lektorat-kontext": {
+      "type": "question",
+      "text": "Welche Sprache?",
+      "subtitle": "Ich arbeite mit Deutsch und Englisch.",
+      "options": [
+        {
+          "label": "Deutsch",
+          "next": "result-lektorat-de"
+        },
+        {
+          "label": "Englisch",
+          "next": "result-lektorat-en"
+        },
+        {
+          "label": "Deutsch und Englisch",
+          "next": "result-lektorat-beide"
+        }
+      ]
+    },
+
+    "result-bfsg": {
+      "type": "result",
+      "title": "BFSG-konforme Kommunikation",
+      "text": "Seit Juni 2025 muessen digitale Produkte und Dienstleistungen barrierefrei sein. Ich pruefe Ihre Texte auf BFSG-Konformitaet, uebersetze in Leichte Sprache und dokumentiere die Umsetzung.\n\nReferenz: Bundesministerium der Finanzen \u2013 Foerderleitfaden DARP (barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0).",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-bitv": {
+      "type": "result",
+      "title": "Leichte Sprache fuer Behoerden",
+      "text": "BITV 2.0 und BGG verpflichten Behoerden zu barrierefreier Kommunikation. Ich uebersetze Bescheide, Formulare und Web-Inhalte in Leichte Sprache \u2013 rechtssicher und verstaendlich.\n\nReferenz: Bundesministerium der Finanzen \u2013 Foerderleitfaden DARP.",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-leichte-sprache": {
+      "type": "result",
+      "title": "Leichte Sprache \u2013 freiwillig, aber wirkungsvoll",
+      "text": "Leichte Sprache erreicht Menschen, die von Standardtexten ausgeschlossen werden: Menschen mit Lernschwierigkeiten, aeltere Menschen, Menschen mit anderer Muttersprache. Ich uebersetze Ihren Text so, dass er wirklich ankommt.",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-verwaltung-behoerde": {
+      "type": "result",
+      "title": "Verstaendliche Texte fuer Ihre Behoerde",
+      "text": "Buergernahe Sprache ist politisch gewollt und gesetzlich gefordert. Ich ueberarbeite Bescheide, Formulare und Broschueren so, dass Buergerinnen und Buerger sie verstehen \u2013 ohne juristische Genauigkeit zu verlieren.",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-verwaltung-agentur": {
+      "type": "result",
+      "title": "Sprachdienstleistung fuer Ihren Behoerdenauftrag",
+      "text": "Sie haben den Auftrag, ich liefere die Spracharbeit: Leichte Sprache, Lektorat, Uebersetzung. Zuverlaessig, termingerecht, BITV-konform. 20 Jahre Erfahrung in der Zusammenarbeit mit Agenturen und Dienstleistern.",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-verwaltung-unternehmen": {
+      "type": "result",
+      "title": "Verstaendliche Unternehmenskommunikation",
+      "text": "Ob Kundenanschreiben, AGBs oder interne Richtlinien: Verstaendlichkeit spart Rueckfragen und schafft Vertrauen. Ich ueberarbeite Ihre Texte so, dass sie klar und professionell sind.",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-ki-einzel": {
+      "type": "result",
+      "title": "KI-Text pruefen und ueberarbeiten",
+      "text": "KI-generierte Texte klingen oft generisch, enthalten sachliche Fehler oder passen nicht zum Stil Ihres Unternehmens. Ich pruefe und ueberarbeite Ihren Text \u2013 fachlich, sprachlich und stilistisch.\n\nHintergrund: Quality Assurance bei Jung von Matt, Goodgame Studios und InnoGames.",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-ki-laufend": {
+      "type": "result",
+      "title": "Laufende KI-Qualitaetssicherung",
+      "text": "Sie produzieren regelmaessig KI-Texte und brauchen jemanden, der die Qualitaet sichert? Ich uebernehme das: Pruefung, Post-Editing, Styleguide-Abgleich. Auf Wunsch mit Reporting.\n\nHintergrund: Quality Assurance bei Jung von Matt, Goodgame Studios und InnoGames.",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-lektorat-de": {
+      "type": "result",
+      "title": "Deutsches Lektorat",
+      "text": "Korrektur, Stilistik, Konsistenz. Ich lektoriere Ihre Texte gruendlich und zuverlaessig \u2013 vom Blogpost bis zum Geschaeftsbericht.",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-lektorat-en": {
+      "type": "result",
+      "title": "Englisches Lektorat",
+      "text": "Proofreading und Editing fuer englische Texte. Muttersprachliches Niveau durch 20 Jahre Arbeit in internationalen Teams (Gaming, Tech, Medien).",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-lektorat-beide": {
+      "type": "result",
+      "title": "Lektorat Deutsch und Englisch",
+      "text": "Zweisprachige Texte, die zusammenpassen muessen? Ich lektoriere beide Versionen und achte auf konsistente Terminologie und Tonalitaet.",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-unsicher": {
+      "type": "result",
+      "title": "Kein Problem \u2013 schreiben Sie einfach",
+      "text": "Beschreiben Sie kurz, was Sie brauchen. Ich melde mich innerhalb von 24 Stunden mit einer Einschaetzung und einem Vorschlag. Unverbindlich und kostenlos.",
+      "cta": { "label": "Nachricht schreiben" }
+    }
+  }
+}
