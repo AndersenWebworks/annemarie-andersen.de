@@ -16,11 +16,14 @@ document.addEventListener('click', (e) => {
   }
 });
 
-// Header scroll shadow
+// Header scroll shadow + Back to top
 const header = document.getElementById('header');
+const backToTop = document.querySelector('.back-to-top');
 window.addEventListener('scroll', () => {
   header.classList.toggle('scrolled', window.scrollY > 20);
+  if (backToTop) backToTop.classList.toggle('visible', window.scrollY > 300);
 });
+backToTop?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
 // Fade-in on scroll
 const observer = new IntersectionObserver((entries) => {
