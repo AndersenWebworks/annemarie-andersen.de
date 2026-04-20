@@ -77,6 +77,23 @@
           "url": "https://annemarie-andersen.de"
         }
       }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Service",
+        "name": "Texterstellung",
+        "description": "Wirkungsberichte, Geschaeftsberichte, Foerderantraege und Konzepte -- verstaendlich geschrieben, klar strukturiert und auf die Zielgruppe zugeschnitten.",
+        "url": "https://annemarie-andersen.de/texterstellung/",
+        "serviceType": "Texterstellung / Redaktion",
+        "areaServed": { "@type": "Country", "name": "Deutschland" },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de"
+        }
+      }
     }
   ]
 }

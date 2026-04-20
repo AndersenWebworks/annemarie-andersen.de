@@ -8,6 +8,7 @@
 - Verstaendliche Verwaltung: Behoerdendeutsch in klare Sprache uebersetzen - Bescheide, Formulare, AGB
 - KI-Qualitaetssicherung & Post-Editing: Pruefung KI-generierter Texte auf Korrektheit, Stil und Compliance
 - Lektorat & Uebersetzung: Korrekturlesen, stilistische Ueberarbeitung, Fachuebersetzungen Deutsch-Englisch
+- Texterstellung: Wirkungsberichte, Geschaeftsberichte, Foerderantraege und Konzepte -- verstaendlich geschrieben und klar strukturiert
 
 ## Kontakt
 
@@ -23,6 +24,7 @@
 - [Verstaendliche Verwaltung](https://annemarie-andersen.de/verwaltung/) - Entbuerokratisierung, Bescheide, Formulare
 - [KI-Qualitaetssicherung](https://annemarie-andersen.de/ki-qualitaetssicherung/) - Pruefung KI-generierter Texte
 - [Lektorat & Uebersetzung](https://annemarie-andersen.de/lektorat/) - Korrekturlesen, DE-EN
+- [Texterstellung](https://annemarie-andersen.de/texterstellung/) - Wirkungsberichte, Foerderantraege, Konzepte, Geschaeftsberichte
 - [Ueber mich](https://annemarie-andersen.de/ueber-mich/) - QA-Hintergrund, Werdegang
 - [Referenzen](https://annemarie-andersen.de/referenzen/) - Auftraggeber und Projekte
 - [Kontakt](https://annemarie-andersen.de/kontakt/) - Angebot anfordern
