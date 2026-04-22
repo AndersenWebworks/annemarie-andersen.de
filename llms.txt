@@ -32,7 +32,7 @@
 ## Wissen (Fachartikel)
 
 - [BFSG-Ratgeber](https://annemarie-andersen.de/wissen/bfsg.html) - Was das Barrierefreiheitsstaerkungsgesetz fuer Ihre Texte bedeutet
-- [Was ist Leichte Sprache?](https://annemarie-andersen.de/wissen/leichte-sprache.html) - Regeln, Zielgruppe, gesetzliche Pflicht, DIN SPEC 33429
+- [Was ist Leichte Sprache?](https://annemarie-andersen.de/wissen/leichte-sprache.html) - Regeln, Zielgruppe, rechtliche Grundlagen, DIN SPEC 33429
 - [Behoerdentexte: Vorher & Nachher](https://annemarie-andersen.de/wissen/behoerdentexte.html) - Drei Praxisbeispiele fuer verstaendliche Verwaltungssprache
 - [Gaming-Lokalisierung](https://annemarie-andersen.de/wissen/gaming-lokalisierung.html) - Warum Uebersetzen nicht reicht: Variable Strings, kulturelle Anpassung, LQA
 
