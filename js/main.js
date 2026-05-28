@@ -26,6 +26,14 @@ window.addEventListener('scroll', () => {
 
 // Back to top (Button sitzt nach dem Script-Tag, daher per DOMContentLoaded)
 document.addEventListener('DOMContentLoaded', () => {
+  const nextProjectSlot = document.getElementById('nextProjectSlot');
+  if (nextProjectSlot) {
+    const now = new Date();
+    const nextMonth = new Date(now.getFullYear(), now.getMonth() + 1, 1);
+    const slotLabel = nextMonth.toLocaleDateString('de-DE', { month: 'long', year: 'numeric' });
+    nextProjectSlot.textContent = `Nächster freier Projektslot: ${slotLabel}.`;
+  }
+
   document.querySelector('.back-to-top')?.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
