@@ -1,6 +1,6 @@
 # Annemarie Andersen - Sprachdienstleistungen
 
-> Freiberufliche Sprachdienstleisterin fuer barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0, Entbuerokratisierung und KI-Qualitaetssicherung. Seit 2018 selbststaendig. Referenz: Deutscher Zukunftspreis des Bundespraesidenten (Leichte Sprache, 2024 + 2025).
+> Freiberufliche Sprachdienstleisterin fuer barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0, Entbuerokratisierung und KI-Qualitaetssicherung. Seit 2018 selbststaendig. Referenzen: Deutscher Zukunftspreis des Bundespraesidenten (Leichte Sprache, 2024 + 2025) und Bundesministerium der Finanzen (Foerderleitfaden DARP).
 
 ## Leistungen
 
@@ -20,13 +20,13 @@
 ## Seiten
 
 - [Startseite](https://annemarie-andersen.de/) - Uebersicht aller Leistungen, Referenzen und FAQ
-- [Barrierefreiheit & Leichte Sprache](https://annemarie-andersen.de/barrierefreiheit/) - Kernleistung, BITV 2.0, Zukunftspreis-Referenz
+- [Barrierefreiheit & Leichte Sprache](https://annemarie-andersen.de/barrierefreiheit/) - Kernleistung, BITV 2.0, Zukunftspreis-Referenz und BMF-Foerderleitfaden
 - [Verstaendliche Verwaltung](https://annemarie-andersen.de/verwaltung/) - Entbuerokratisierung, Bescheide, Formulare
 - [KI-Qualitaetssicherung](https://annemarie-andersen.de/ki-qualitaetssicherung/) - Pruefung KI-generierter Texte
 - [Lektorat & Uebersetzung](https://annemarie-andersen.de/lektorat/) - Korrekturlesen, DE-EN
-- [Texterstellung](https://annemarie-andersen.de/texterstellung/) - Wirkungsberichte, Foerderantraege, Konzepte, Geschaeftsberichte
+- [Texterstellung](https://annemarie-andersen.de/texterstellung/) - Wirkungsberichte, Foerderantraege, Konzepte, Geschaeftsberichte, BMF-Foerderleitfaden
 - [Ueber mich](https://annemarie-andersen.de/ueber-mich/) - QA-Hintergrund, Werdegang
-- [Referenzen](https://annemarie-andersen.de/referenzen/) - Auftraggeber und Projekte
+- [Referenzen](https://annemarie-andersen.de/referenzen/) - Auftraggeber und Projekte, u. a. Zukunftspreis, BMF-Foerderleitfaden und Seniorpartner in School
 - [Kontakt](https://annemarie-andersen.de/kontakt/) - Angebot anfordern
 
 ## Wissen (Fachartikel)
