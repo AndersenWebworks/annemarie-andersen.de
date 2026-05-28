@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0",
     "language": "de",
-    "updated": "2026-04-15"
+    "updated": "2026-05-28"
   },
   "nodes": {
     "start": {
@@ -112,14 +112,14 @@
     "result-bfsg": {
       "type": "result",
       "title": "BFSG-konforme Kommunikation",
-      "text": "Seit Juni 2025 müssen digitale Produkte und Dienstleistungen barrierefrei sein. Ich prüfe Ihre Texte auf BFSG-Konformität, übersetze in Leichte Sprache und dokumentiere die Umsetzung.\n\nReferenz: Bundesministerium der Finanzen \u2013 Förderleitfaden DARP (barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0).",
+      "text": "Seit Juni 2025 müssen digitale Produkte und Dienstleistungen barrierefrei sein. Ich prüfe Ihre Texte auf BFSG-Konformität, übersetze in Leichte Sprache und dokumentiere die Umsetzung.\n\nReferenz: Förderleitfaden DARP im BMF-/PD-Kontext (barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0).",
       "cta": { "label": "Unverbindlich anfragen" }
     },
 
     "result-bitv": {
       "type": "result",
       "title": "Leichte Sprache für Behörden",
-      "text": "BITV 2.0 und BGG verpflichten Behörden zu barrierefreier Kommunikation. Ich übersetze Bescheide, Formulare und Web-Inhalte in Leichte Sprache \u2013 rechtssicher und verständlich.\n\nReferenz: Bundesministerium der Finanzen \u2013 Förderleitfaden DARP.",
+      "text": "BITV 2.0 und BGG verpflichten Behörden zu barrierefreier Kommunikation. Ich übertrage Bescheide, Formulare und Web-Inhalte in verständliche Sprache, ohne den rechtlichen Kern sprachlich zu verwässern.\n\nReferenz: Förderleitfaden DARP im BMF-/PD-Kontext.",
       "cta": { "label": "Unverbindlich anfragen" }
     },
 
@@ -175,7 +175,7 @@
     "result-lektorat-en": {
       "type": "result",
       "title": "Englisches Lektorat",
-      "text": "Proofreading und Editing für englische Texte. Muttersprachliches Niveau durch 20 Jahre Arbeit in internationalen Teams (Gaming, Tech, Medien).",
+      "text": "Proofreading und Editing für englische Texte. Sicherer Stil durch langjährige Arbeit in internationalen Teams (Gaming, Tech, Medien).",
       "cta": { "label": "Unverbindlich anfragen" }
     },
 

@@ -28,6 +28,7 @@ Allow: /*.txt
 # Unwichtige Dateien blockieren
 Disallow: /.git/
 Disallow: /.claude/
+Disallow: /sftp.json
 
 # Anweisungen fuer AI-Agenten
 User-agent: GPTBot

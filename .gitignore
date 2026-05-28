@@ -6,6 +6,8 @@ node_modules/
 .DS_Store
 Thumbs.db
 assets/
+sftp.json
+sftp*.json
 *.psd
 portrait-old.jpg
 portrait-2026.jpg
