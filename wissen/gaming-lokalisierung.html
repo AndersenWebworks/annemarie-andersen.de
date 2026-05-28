@@ -187,7 +187,10 @@
       </div>
 
       <div class="article-author">
-        <img src="../portrait.jpg" alt="Annemarie Andersen" width="80" height="80">
+        <picture>
+          <source type="image/webp" srcset="../portrait-160.webp 160w, ../portrait-240.webp 240w, ../portrait-320.webp 320w" sizes="80px">
+          <img src="../portrait-160.jpg" srcset="../portrait-160.jpg 160w, ../portrait-240.jpg 240w, ../portrait-320.jpg 320w" sizes="80px" alt="Annemarie Andersen" width="80" height="80" loading="lazy" decoding="async">
+        </picture>
         <div>
           <div class="author-name">Annemarie Andersen</div>
           <div class="author-role">Freiberufliche Sprachdienstleisterin</div>
