@@ -1,18 +1,59 @@
+document.documentElement.classList.add('js');
+
 // Mobile nav toggle
 const toggle = document.getElementById('navToggle');
 const links = document.getElementById('navLinks');
-toggle?.addEventListener('click', () => links.classList.toggle('open'));
+
+function setMobileNav(open) {
+  if (!toggle || !links) return;
+  links.classList.toggle('open', open);
+  toggle.setAttribute('aria-expanded', String(open));
+  toggle.setAttribute('aria-label', open ? 'Navigation schließen' : 'Navigation öffnen');
+}
+
+toggle?.addEventListener('click', () => setMobileNav(!links.classList.contains('open')));
+
+function closeDropdown(dropdown) {
+  dropdown.classList.remove('open');
+  dropdown.querySelector('.dropdown-trigger')?.setAttribute('aria-expanded', 'false');
+}
+
+function closeAllDropdowns() {
+  document.querySelectorAll('.has-dropdown.open').forEach(closeDropdown);
+}
 
 // Dropdown click
 document.querySelectorAll('.dropdown-trigger').forEach(trigger => {
   trigger.addEventListener('click', (e) => {
     e.preventDefault();
-    trigger.closest('.has-dropdown').classList.toggle('open');
+    const dropdown = trigger.closest('.has-dropdown');
+    const open = !dropdown.classList.contains('open');
+    closeAllDropdowns();
+    dropdown.classList.toggle('open', open);
+    trigger.setAttribute('aria-expanded', String(open));
+  });
+
+  trigger.addEventListener('keydown', (e) => {
+    if (e.key === ' ') {
+      e.preventDefault();
+      trigger.click();
+    }
   });
 });
+
 document.addEventListener('click', (e) => {
   if (!e.target.closest('.has-dropdown')) {
-    document.querySelectorAll('.has-dropdown.open').forEach(el => el.classList.remove('open'));
+    closeAllDropdowns();
+  }
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeAllDropdowns();
+    if (links?.classList.contains('open')) {
+      setMobileNav(false);
+      toggle?.focus();
+    }
   }
 });
 
@@ -35,14 +76,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   document.querySelector('.back-to-top')?.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
   });
 });
 
 // Fade-in on scroll
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) entry.target.classList.add('visible');
-  });
-}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+const fadeItems = document.querySelectorAll('.fade-in');
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  fadeItems.forEach(el => observer.observe(el));
+} else {
+  fadeItems.forEach(el => el.classList.add('visible'));
+}

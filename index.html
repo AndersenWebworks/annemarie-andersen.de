@@ -284,6 +284,7 @@
   <noscript><link rel="stylesheet" href="css/style.css"></noscript>
 </head>
 <body>
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
 
   <!-- ===== HEADER ===== -->
   <header class="site-header" id="header">
@@ -295,7 +296,7 @@
       <nav aria-label="Hauptnavigation">
         <ul class="nav-links" id="navLinks">
           <li class="has-dropdown">
-            <a href="#" class="dropdown-trigger" onclick="return false">Leistungen</a>
+            <a href="#" class="dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" onclick="return false">Leistungen</a>
             <ul class="dropdown-menu">
               <li><a href="barrierefreiheit/">Barrierefreiheit &amp; Leichte Sprache</a></li>
               <li><a href="verwaltung/">Verständliche Verwaltung</a></li>
@@ -307,7 +308,7 @@
           <li><a href="referenzen/">Referenzen</a></li>
           <li><a href="ueber-mich/">Über mich</a></li>
           <li class="has-dropdown">
-            <a href="#" class="dropdown-trigger" onclick="return false" style="color: var(--terracotta);">Wissen</a>
+            <a href="#" class="dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" onclick="return false" style="color: var(--terracotta);">Wissen</a>
             <ul class="dropdown-menu">
               <li><a href="wissen/bfsg.html">Barrierefreiheitsstärkungsgesetz</a></li>
               <li><a href="wissen/leichte-sprache.html">Was ist Leichte Sprache?</a></li>
@@ -318,13 +319,13 @@
           <li><a href="kontakt/" class="nav-cta">Angebot anfordern</a></li>
         </ul>
       </nav>
-      <button class="nav-toggle" id="navToggle" aria-label="Navigation öffnen">
+      <button class="nav-toggle" id="navToggle" aria-label="Navigation öffnen" aria-controls="navLinks" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
-  <main>
+  <main id="main" tabindex="-1">
 
     <section class="hero">
       <div class="container">
@@ -415,35 +416,35 @@
 
         <div class="services-grid">
           <div class="service-card featured">
-            <div class="service-icon">&#9737;</div>
+            <div class="service-icon" aria-hidden="true">&#9737;</div>
             <h3>Barrierefreiheit &amp; Leichte Sprache</h3>
             <p>7,9 Millionen schwerbehinderte Menschen in Deutschland, über 6 Millionen funktionale Analphabeten – und Ihre Website muss für alle funktionieren. Ich übertrage Texte in Leichte Sprache nach aktuellem Regelwerk oder erstelle sie von Grund auf. Für Websites, Formulare, Broschüren und Barrierefreiheitserklärungen.</p>
             <a href="barrierefreiheit/" class="service-link">mehr erfahren &rarr;</a>
           </div>
 
           <div class="service-card">
-            <div class="service-icon">&#9998;</div>
+            <div class="service-icon" aria-hidden="true">&#9998;</div>
             <h3>Verständliche Verwaltung</h3>
             <p>86 % der Deutschen verstehen Behördenpost nicht beim ersten Lesen. Nicht weil sie dumm sind, sondern weil ein Satz mit 67 Wörtern und drei Verweisen auf Paragraphen niemanden erreicht. Ich mache aus Verwaltungssprache Texte, die funktionieren – ohne juristischen Informationsverlust.</p>
             <a href="verwaltung/" class="service-link">mehr erfahren &rarr;</a>
           </div>
 
           <div class="service-card">
-            <div class="service-icon">&#10003;</div>
+            <div class="service-icon" aria-hidden="true">&#10003;</div>
             <h3>KI-Qualitätssicherung</h3>
             <p>ChatGPT schreibt schnell. Aber es erfindet Fakten, verliert den roten Faden und kennt Ihre Compliance-Anforderungen nicht. Ich prüfe, was KI produziert: sachliche Fehler, Stilbrüche, fehlende Barrierefreiheit. Damit aus „klingt gut“ auch „stimmt“ wird.</p>
             <a href="ki-qualitaetssicherung/" class="service-link">mehr erfahren &rarr;</a>
           </div>
 
           <div class="service-card">
-            <div class="service-icon">&#8644;</div>
+            <div class="service-icon" aria-hidden="true">&#8644;</div>
             <h3>Lektorat &amp; Übersetzung</h3>
             <p>Korrekturlesen, stilistische Überarbeitung und Fachübersetzungen Deutsch–Englisch. Von technischer Dokumentation bis Druckvorlagen für Premium-Events – wie zuletzt für ein Suntory-Whisky-Tasting bei Fotografiska Berlin.</p>
             <a href="lektorat/" class="service-link">mehr erfahren &rarr;</a>
           </div>
 
           <div class="service-card">
-            <div class="service-icon">&#10002;</div>
+            <div class="service-icon" aria-hidden="true">&#10002;</div>
             <h3>Texterstellung</h3>
             <p>Wirkungsberichte, Förderanträge, Konzepte, Geschäftsberichte – ich schreibe Texte, die Ihre Zielgruppe erreichen. Verständlich von Anfang an, nicht erst nach drei Korrekturschleifen. Mit QA-Blick und Barrierefreiheit auf Wunsch gleich mit.</p>
             <a href="texterstellung/" class="service-link">mehr erfahren &rarr;</a>
@@ -621,7 +622,7 @@
 
   <script src="js/main.js"></script>
 
-  <button class="back-to-top" aria-label="Zurueck nach oben">
+  <button class="back-to-top" aria-label="Zurück nach oben">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
   </button>
 </body>
