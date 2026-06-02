@@ -39,7 +39,7 @@
       "subtitle": "Unterschiedliche Anforderungen, unterschiedliche Lösungen.",
       "options": [
         {
-          "label": "BFSG-Pflicht (Website, App, Dokumente)",
+          "label": "BFSG-naher Online-Abschluss",
           "next": "result-bfsg"
         },
         {
@@ -111,8 +111,8 @@
 
     "result-bfsg": {
       "type": "result",
-      "title": "BFSG-konforme Kommunikation",
-      "text": "Seit Juni 2025 müssen digitale Produkte und Dienstleistungen barrierefrei sein. Ich prüfe Ihre Texte auf BFSG-Konformität, übersetze in Leichte Sprache und dokumentiere die Umsetzung.\n\nReferenz: Förderleitfaden DARP im BMF-/PD-Kontext (barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0).",
+      "title": "Sprachliche Prüfung für BFSG-nahe Projekte",
+      "text": "Seit Juni 2025 gelten Barrierefreiheitsanforderungen für bestimmte digitale Produkte und Dienstleistungen. Ich prüfe und überarbeite Ihre Texte sprachlich, damit sie verständlich, strukturiert und barrierearm nutzbar sind. Die rechtliche BFSG-Einordnung bleibt eine separate Scope-Frage.\n\nReferenz: Förderleitfaden DARP im BMF-/PD-Kontext (barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0).",
       "cta": { "label": "Unverbindlich anfragen" }
     },
 
@@ -140,7 +140,7 @@
     "result-verwaltung-agentur": {
       "type": "result",
       "title": "Sprachdienstleistung für Ihren Behördenauftrag",
-      "text": "Sie haben den Auftrag, ich liefere die Spracharbeit: Leichte Sprache, Lektorat, Übersetzung. Zuverlässig, termingerecht, BITV-konform. 20 Jahre Erfahrung in der Zusammenarbeit mit Agenturen und Dienstleistern.",
+      "text": "Sie haben den Auftrag, ich liefere die Spracharbeit: Leichte Sprache, Lektorat, Übersetzung. Zuverlässig, termingerecht und BITV-nah formuliert. 20 Jahre Erfahrung in der Zusammenarbeit mit Agenturen und Dienstleistern.",
       "cta": { "label": "Unverbindlich anfragen" }
     },
 

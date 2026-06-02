@@ -91,6 +91,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://annemarie-andersen.de/barrierefreiheitserklaerung/</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://annemarie-andersen.de/impressum/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>yearly</changefreq>

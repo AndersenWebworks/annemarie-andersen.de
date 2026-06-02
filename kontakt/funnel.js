@@ -10,6 +10,7 @@
   var SLIDE_OUT_MS = 300;
   var SLIDE_IN_MS  = 400;
   var PRESS_MS     = 120;
+  var REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   var funnel   = document.getElementById('kontakt-funnel');
   var app      = document.getElementById('funnel-app');
@@ -172,8 +173,8 @@
       setTimeout(function () {
         app.classList.remove(inClass);
         isAnimating = false;
-      }, SLIDE_IN_MS);
-    }, SLIDE_OUT_MS);
+      }, REDUCED_MOTION ? 0 : SLIDE_IN_MS);
+    }, REDUCED_MOTION ? 0 : SLIDE_OUT_MS);
   }
 
   /* ── HTML Builders ────────────────────────────────── */
@@ -424,7 +425,7 @@
         history.push(currentNodeId);
         navigate(next, 'forward');
       }
-    }, PRESS_MS);
+    }, REDUCED_MOTION ? 0 : PRESS_MS);
   }
 
   function goBack() {

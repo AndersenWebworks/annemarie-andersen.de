@@ -9,35 +9,43 @@ function setMobileNav(open) {
   links.classList.toggle('open', open);
   toggle.setAttribute('aria-expanded', String(open));
   toggle.setAttribute('aria-label', open ? 'Navigation schließen' : 'Navigation öffnen');
+  if (open) {
+    links.querySelector('a, button')?.focus();
+  }
 }
 
 toggle?.addEventListener('click', () => setMobileNav(!links.classList.contains('open')));
 
-function closeDropdown(dropdown) {
+function closeDropdown(dropdown, returnFocus = false) {
   dropdown.classList.remove('open');
-  dropdown.querySelector('.dropdown-trigger')?.setAttribute('aria-expanded', 'false');
+  const trigger = dropdown.querySelector('.dropdown-trigger');
+  trigger?.setAttribute('aria-expanded', 'false');
+  if (returnFocus) trigger?.focus();
 }
 
 function closeAllDropdowns() {
-  document.querySelectorAll('.has-dropdown.open').forEach(closeDropdown);
+  document.querySelectorAll('.has-dropdown.open').forEach(d => closeDropdown(d));
 }
+
+// Wire up aria-controls and dropdown-menu ids programmatically
+document.querySelectorAll('.has-dropdown').forEach((dropdown, i) => {
+  const menu = dropdown.querySelector('.dropdown-menu');
+  const trigger = dropdown.querySelector('.dropdown-trigger');
+  if (menu && trigger) {
+    const id = `nav-dropdown-${i}`;
+    menu.id = id;
+    trigger.setAttribute('aria-controls', id);
+  }
+});
 
 // Dropdown click
 document.querySelectorAll('.dropdown-trigger').forEach(trigger => {
-  trigger.addEventListener('click', (e) => {
-    e.preventDefault();
+  trigger.addEventListener('click', () => {
     const dropdown = trigger.closest('.has-dropdown');
     const open = !dropdown.classList.contains('open');
     closeAllDropdowns();
     dropdown.classList.toggle('open', open);
     trigger.setAttribute('aria-expanded', String(open));
-  });
-
-  trigger.addEventListener('keydown', (e) => {
-    if (e.key === ' ') {
-      e.preventDefault();
-      trigger.click();
-    }
   });
 });
 
@@ -49,8 +57,10 @@ document.addEventListener('click', (e) => {
 
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
-    closeAllDropdowns();
-    if (links?.classList.contains('open')) {
+    const openDropdown = document.querySelector('.has-dropdown.open');
+    if (openDropdown) {
+      closeDropdown(openDropdown, true);
+    } else if (links?.classList.contains('open')) {
       setMobileNav(false);
       toggle?.focus();
     }
@@ -83,10 +93,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Fade-in on scroll
 const fadeItems = document.querySelectorAll('.fade-in');
-if ('IntersectionObserver' in window) {
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+if (!prefersReducedMotion && 'IntersectionObserver' in window) {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      if (entry.isIntersecting) entry.target.classList.add('visible');
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
     });
   }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
   fadeItems.forEach(el => observer.observe(el));
