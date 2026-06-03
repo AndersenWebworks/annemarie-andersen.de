@@ -1,0 +1,60 @@
+{
+  "site": {
+    "domain": "annemarie-andersen.de",
+    "name": "Annemarie Andersen - Language Services",
+    "url": "https://annemarie-andersen.de/en/",
+    "description": "Freelance language services provider for accessible communication, Easy Language, clear administrative language and AI quality assurance.",
+    "contact": "mail@annemarie-andersen.de",
+    "language": "en",
+    "alternate": "https://annemarie-andersen.de/ai/manifest.json"
+  },
+  "version": "v1.0",
+  "build": 2,
+  "dateModified": "2026-06-03T00:00:00Z",
+  "datePublished": "2026-06-03T00:00:00Z",
+  "endpoints": [
+    {
+      "id": "identity-schema",
+      "url": "https://annemarie-andersen.de/en/ai/identity-schema.json",
+      "type": "Person",
+      "format": "application/ld+json",
+      "description": "Schema.org Person with contact details and qualifications"
+    },
+    {
+      "id": "services",
+      "url": "https://annemarie-andersen.de/en/ai/services.json",
+      "type": "ItemList",
+      "format": "application/json",
+      "description": "Services and areas of expertise"
+    },
+    {
+      "id": "identity-text",
+      "url": "https://annemarie-andersen.de/en/ai/identity.txt",
+      "type": "PlainText",
+      "format": "text/plain",
+      "description": "Plain-text summary"
+    },
+    {
+      "id": "services-text",
+      "url": "https://annemarie-andersen.de/en/ai/services.txt",
+      "type": "PlainText",
+      "format": "text/plain",
+      "description": "Plain-text list of services"
+    },
+    {
+      "id": "llms-txt",
+      "url": "https://annemarie-andersen.de/en/llms.txt",
+      "type": "PlainText",
+      "format": "text/plain",
+      "description": "LLM context: overview of all pages, services and machine-readable files"
+    }
+  ],
+  "formats": {
+    "json": "Structured data (application/json, application/ld+json)",
+    "txt": "Fallback for simple agents without JSON support"
+  },
+  "discovery": {
+    "robots": "AI manifest hint in /robots.txt",
+    "sitemap": "https://annemarie-andersen.de/sitemap.xml"
+  }
+}

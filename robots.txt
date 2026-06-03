@@ -18,6 +18,10 @@ Sitemap: https://annemarie-andersen.de/sitemap.xml
 # https://annemarie-andersen.de/ai/services.json         (Services als ItemList)
 # https://annemarie-andersen.de/ai/services.txt          (Plain-Text Services)
 # https://annemarie-andersen.de/ai/identity.txt          (Plain-Text Identity)
+#
+# Englische Version (English version):
+# https://annemarie-andersen.de/en/ai/manifest.json
+# https://annemarie-andersen.de/en/llms.txt
 
 # Strukturierte Daten explizit erlauben
 Allow: /ai/

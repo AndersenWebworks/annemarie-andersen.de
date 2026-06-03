@@ -261,6 +261,14 @@ main:focus-visible {
 .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
 .nav-toggle span { display: block; width: 24px; height: 2px; background: var(--navy); margin: 6px 0; transition: 0.3s; }
 
+/* Sprachswitcher (DE | EN) */
+.header-inner > nav { margin-left: auto; }
+.lang-switch { display: flex; align-items: center; gap: 8px; margin-left: 24px; font-size: 14px; font-weight: 600; white-space: nowrap; }
+.lang-switch .lang-current { color: var(--text-muted); }
+.lang-switch .lang-sep { color: var(--border); }
+.lang-switch a { color: var(--navy); }
+.lang-switch a:hover { color: var(--terracotta); }
+
 /* ===== HERO ===== */
 .hero {
   padding: 160px 24px 120px;
@@ -855,6 +863,7 @@ main:focus-visible {
   }
   .nav-links.open { display: flex; }
   .nav-toggle { display: flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; }
+  .lang-switch { margin-left: 0; margin-right: 8px; }
 
   .has-dropdown .dropdown-menu {
     display: block; position: static; border: none; box-shadow: none;

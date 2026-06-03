@@ -6,6 +6,9 @@
   <title>Annemarie Andersen – Barrierefreie Kommunikation &amp; Sprachdienstleistungen</title>
   <meta name="description" content="Sprachdienstleisterin mit Referenzen für Leichte Sprache und verständliche Verwaltungstexte: Deutscher Zukunftspreis, Förderleitfaden DARP, Lektorat und KI-Qualitätssicherung.">
   <link rel="canonical" href="https://annemarie-andersen.de/">
+  <link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/">
+  <link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/">
+  <link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/">
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="icon" type="image/png" sizes="96x96" href="favicon-96.png">
@@ -19,6 +22,7 @@
   <meta property="og:url" content="https://annemarie-andersen.de">
   <meta property="og:image" content="https://annemarie-andersen.de/portrait.jpg">
   <meta property="og:locale" content="de_DE">
+  <meta property="og:locale:alternate" content="en_GB">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
@@ -217,6 +221,7 @@
       letter-spacing: 0.06em;
       text-transform: uppercase;
     }
+    .header-inner > nav { margin-left: auto; }
     .nav-links { display: flex; gap: 28px; align-items: center; list-style: none; }
     .nav-links > li > a { font-size: 15px; font-weight: 600; color: var(--text); }
     .nav-cta {
@@ -227,6 +232,10 @@
       font-size: 14px !important;
       font-weight: 600;
     }
+    .lang-switch { display: flex; align-items: center; gap: 8px; margin-left: 24px; font-size: 14px; font-weight: 600; white-space: nowrap; }
+    .lang-switch .lang-current { color: var(--text-muted); }
+    .lang-switch .lang-sep { color: var(--border); }
+    .lang-switch a { color: var(--navy); }
     .has-dropdown { position: relative; }
     .dropdown-menu { display: none; position: absolute; top: 100%; left: -16px; list-style: none; background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 20px 0 8px; min-width: 300px; }
     .has-dropdown:hover .dropdown-menu, .has-dropdown.open .dropdown-menu { display: block; }
@@ -271,6 +280,7 @@
       }
       .nav-links.open { display: flex; }
       .nav-toggle { display: block; }
+      .lang-switch { margin-left: 0; margin-right: 8px; }
       .has-dropdown .dropdown-menu { display: block; position: static; border: 0; background: none; padding: 0 0 0 16px; min-width: 0; }
       .hero { padding: 130px 24px 80px; }
       .hero-grid { grid-template-columns: 1fr; }
@@ -319,6 +329,11 @@
           <li><a href="kontakt/" class="nav-cta">Angebot anfordern</a></li>
         </ul>
       </nav>
+      <div class="lang-switch" aria-label="Sprache / Language">
+        <span class="lang-current" aria-current="true">DE</span>
+        <span class="lang-sep" aria-hidden="true">|</span>
+        <a href="en/" hreflang="en" lang="en" title="English">EN</a>
+      </div>
       <button class="nav-toggle" id="navToggle" aria-label="Navigation öffnen" aria-controls="navLinks" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>

@@ -1,5 +1,14 @@
 document.documentElement.classList.add('js');
 
+// Sprachabhängige UI-Strings (Deutsch = Root, Englisch = /en/)
+const LANG = document.documentElement.lang.startsWith('en') ? 'en' : 'de';
+const T = {
+  de: { navOpen: 'Navigation öffnen', navClose: 'Navigation schließen',
+        slot: 'Nächster freier Projektslot', locale: 'de-DE' },
+  en: { navOpen: 'Open navigation', navClose: 'Close navigation',
+        slot: 'Next available project slot', locale: 'en-GB' },
+}[LANG];
+
 // Mobile nav toggle
 const toggle = document.getElementById('navToggle');
 const links = document.getElementById('navLinks');
@@ -8,7 +17,7 @@ function setMobileNav(open) {
   if (!toggle || !links) return;
   links.classList.toggle('open', open);
   toggle.setAttribute('aria-expanded', String(open));
-  toggle.setAttribute('aria-label', open ? 'Navigation schließen' : 'Navigation öffnen');
+  toggle.setAttribute('aria-label', open ? T.navClose : T.navOpen);
   if (open) {
     links.querySelector('a, button')?.focus();
   }
@@ -81,8 +90,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (nextProjectSlot) {
     const now = new Date();
     const nextMonth = new Date(now.getFullYear(), now.getMonth() + 1, 1);
-    const slotLabel = nextMonth.toLocaleDateString('de-DE', { month: 'long', year: 'numeric' });
-    nextProjectSlot.textContent = `Nächster freier Projektslot: ${slotLabel}.`;
+    const slotLabel = nextMonth.toLocaleDateString(T.locale, { month: 'long', year: 'numeric' });
+    nextProjectSlot.textContent = `${T.slot}: ${slotLabel}.`;
   }
 
   document.querySelector('.back-to-top')?.addEventListener('click', () => {

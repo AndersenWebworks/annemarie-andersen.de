@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "version": "1.0",
+    "language": "en",
+    "updated": "2026-05-28"
+  },
+  "nodes": {
+    "start": {
+      "type": "question",
+      "text": "What can I do for you?",
+      "subtitle": "A few questions so I can give you a focused answer.",
+      "options": [
+        {
+          "label": "Easy Language or accessibility",
+          "next": "leichte-sprache-kontext"
+        },
+        {
+          "label": "Clear administrative texts",
+          "next": "verwaltung-kontext"
+        },
+        {
+          "label": "Get AI texts checked",
+          "next": "ki-kontext"
+        },
+        {
+          "label": "Editing or translation",
+          "next": "lektorat-kontext"
+        },
+        {
+          "label": "I'm not sure",
+          "next": "result-unsicher"
+        }
+      ]
+    },
+
+    "leichte-sprache-kontext": {
+      "type": "question",
+      "text": "What is it about?",
+      "subtitle": "Different requirements, different solutions.",
+      "options": [
+        {
+          "label": "A BFSG-related online service",
+          "next": "result-bfsg"
+        },
+        {
+          "label": "Public authority or administration (BITV / BGG)",
+          "next": "result-bitv"
+        },
+        {
+          "label": "My own project (voluntary)",
+          "next": "result-leichte-sprache"
+        }
+      ]
+    },
+
+    "verwaltung-kontext": {
+      "type": "question",
+      "text": "In what context?",
+      "subtitle": "So I can suggest the right solution.",
+      "options": [
+        {
+          "label": "Public authority or local council",
+          "next": "result-verwaltung-behoerde"
+        },
+        {
+          "label": "Agency with a public-sector contract",
+          "next": "result-verwaltung-agentur"
+        },
+        {
+          "label": "Company",
+          "next": "result-verwaltung-unternehmen"
+        }
+      ]
+    },
+
+    "ki-kontext": {
+      "type": "question",
+      "text": "What do you need?",
+      "subtitle": "One-off or ongoing – that makes a difference.",
+      "options": [
+        {
+          "label": "Check or revise a single text",
+          "next": "result-ki-einzel"
+        },
+        {
+          "label": "Ongoing quality assurance",
+          "next": "result-ki-laufend"
+        }
+      ]
+    },
+
+    "lektorat-kontext": {
+      "type": "question",
+      "text": "Which language?",
+      "subtitle": "I work in German and English.",
+      "options": [
+        {
+          "label": "German",
+          "next": "result-lektorat-de"
+        },
+        {
+          "label": "English",
+          "next": "result-lektorat-en"
+        },
+        {
+          "label": "German and English",
+          "next": "result-lektorat-beide"
+        }
+      ]
+    },
+
+    "result-bfsg": {
+      "type": "result",
+      "title": "Language review for BFSG-related projects",
+      "text": "Since June 2025, accessibility requirements have applied to certain digital products and services. I review and revise your texts so that they are clear, well-structured and easy to use with low barriers. The legal classification under the BFSG remains a separate question of scope.\n\nReference: DARP funding guide in a Federal Ministry of Finance / PD context (accessible communication, Easy Language to BITV 2.0).",
+      "cta": { "label": "Make a no-obligation enquiry" }
+    },
+
+    "result-bitv": {
+      "type": "result",
+      "title": "Easy Language for public authorities",
+      "text": "BITV 2.0 and the BGG require public authorities to communicate accessibly. I translate official notices, forms and web content into clear language, without watering down the legal substance.\n\nReference: DARP funding guide in a Federal Ministry of Finance / PD context.",
+      "cta": { "label": "Make a no-obligation enquiry" }
+    },
+
+    "result-leichte-sprache": {
+      "type": "result",
+      "title": "Easy Language – voluntary, but effective",
+      "text": "Easy Language reaches people who are shut out by standard texts: people with learning difficulties, older people, people whose first language is not German. I translate your text so that it really gets through.",
+      "cta": { "label": "Make a no-obligation enquiry" }
+    },
+
+    "result-verwaltung-behoerde": {
+      "type": "result",
+      "title": "Clear texts for your authority",
+      "text": "Citizen-friendly language is both a political priority and a legal requirement. I revise official notices, forms and brochures so that citizens understand them – without losing legal accuracy.",
+      "cta": { "label": "Make a no-obligation enquiry" }
+    },
+
+    "result-verwaltung-agentur": {
+      "type": "result",
+      "title": "Language services for your public-sector contract",
+      "text": "You have the contract, I deliver the language work: Easy Language, editing, translation. Reliable, on time and worded in line with BITV. 20 years' experience working with agencies and service providers.",
+      "cta": { "label": "Make a no-obligation enquiry" }
+    },
+
+    "result-verwaltung-unternehmen": {
+      "type": "result",
+      "title": "Clear corporate communication",
+      "text": "Whether customer letters, terms and conditions or internal guidelines: clarity saves follow-up questions and builds trust. I revise your texts so that they are clear and professional.",
+      "cta": { "label": "Make a no-obligation enquiry" }
+    },
+
+    "result-ki-einzel": {
+      "type": "result",
+      "title": "Check and revise an AI text",
+      "text": "AI-generated texts often sound generic, contain factual errors or do not match your company's style. I check and revise your text – for substance, language and style.\n\nBackground: quality assurance at Jung von Matt, Goodgame Studios and InnoGames.",
+      "cta": { "label": "Make a no-obligation enquiry" }
+    },
+
+    "result-ki-laufend": {
+      "type": "result",
+      "title": "Ongoing AI quality assurance",
+      "text": "Do you produce AI texts regularly and need someone to assure the quality? I take that on: checking, post-editing, style-guide alignment. With reporting if you want it.\n\nBackground: quality assurance at Jung von Matt, Goodgame Studios and InnoGames.",
+      "cta": { "label": "Make a no-obligation enquiry" }
+    },
+
+    "result-lektorat-de": {
+      "type": "result",
+      "title": "German editing",
+      "text": "Correction, style, consistency. I edit your texts thoroughly and reliably – from a blog post to an annual report.",
+      "cta": { "label": "Make a no-obligation enquiry" }
+    },
+
+    "result-lektorat-en": {
+      "type": "result",
+      "title": "English editing",
+      "text": "Proofreading and editing for English texts. A sure feel for style from years of working in international teams (gaming, tech, media).",
+      "cta": { "label": "Make a no-obligation enquiry" }
+    },
+
+    "result-lektorat-beide": {
+      "type": "result",
+      "title": "Editing in German and English",
+      "text": "Bilingual texts that have to match? I edit both versions and keep the terminology and tone consistent.",
+      "cta": { "label": "Make a no-obligation enquiry" }
+    },
+
+    "result-unsicher": {
+      "type": "result",
+      "title": "No problem – just write to me",
+      "text": "Describe briefly what you need. I will get back to you within 24 hours with an assessment and a suggestion. No obligation and free of charge.",
+      "cta": { "label": "Write a message" }
+    }
+  }
+}

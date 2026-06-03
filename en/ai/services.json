@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Services by Annemarie Andersen",
+  "inLanguage": "en",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Service",
+        "name": "Accessibility & Easy Language",
+        "description": "Texts in Easy Language to the current rulebook. For websites, forms, brochures and accessibility statements. Translation of existing content or new texts from scratch, including source texts in standard language.",
+        "url": "https://annemarie-andersen.de/en/barrierefreiheit/",
+        "category": "Core service",
+        "serviceType": "Easy Language / Accessible communication",
+        "areaServed": { "@type": "Country", "name": "Germany" },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de/en/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "price": "68.50",
+          "description": "From EUR 68.50 per standard page (1,500 characters including spaces)"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Service",
+        "name": "Clear Administrative Language",
+        "description": "Turning officialese into clear language. Wording notices, forms, contract clauses and terms and conditions so that the target group understands them on first reading.",
+        "url": "https://annemarie-andersen.de/en/verwaltung/",
+        "serviceType": "Clear administrative language",
+        "areaServed": { "@type": "Country", "name": "Germany" },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de/en/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Service",
+        "name": "AI Quality Assurance & Post-Editing",
+        "description": "Checking AI-generated texts for factual errors, breaks in style and compliance gaps. For companies that use ChatGPT, DeepL or other tools for their texts.",
+        "url": "https://annemarie-andersen.de/en/ki-qualitaetssicherung/",
+        "serviceType": "AI quality assurance / Post-editing",
+        "areaServed": { "@type": "Country", "name": "Germany" },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de/en/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Service",
+        "name": "Editing & Translation",
+        "description": "Proofreading, stylistic editing and specialist German-English translation. From technical documentation through marketing copy to games localisation.",
+        "url": "https://annemarie-andersen.de/en/lektorat/",
+        "serviceType": "Editing / Specialist German-English translation",
+        "areaServed": { "@type": "Country", "name": "Germany" },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de/en/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Service",
+        "name": "Copywriting",
+        "description": "Impact reports, annual reports, grant applications and concepts -- written clearly, well structured and tailored to the target group.",
+        "url": "https://annemarie-andersen.de/en/texterstellung/",
+        "serviceType": "Copywriting / Editorial",
+        "areaServed": { "@type": "Country", "name": "Germany" },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de/en/"
+        }
+      }
+    }
+  ]
+}

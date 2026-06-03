@@ -11,3 +11,6 @@ sftp*.json
 *.psd
 portrait-old.jpg
 portrait-2026.jpg
+
+# Liefer-/Arbeitsordner fuer das Leichte-Sprache-PDF - nicht auf GitHub Pages deployen
+_ls-build/

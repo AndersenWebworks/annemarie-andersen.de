@@ -1,0 +1,47 @@
+# Annemarie Andersen - Language Services
+
+> Freelance language services provider for accessible communication, Easy Language to BITV 2.0, clear administrative language and AI quality assurance. Freelance since 2018. References: the Federal President's German Future Prize (Easy Language, 2024 + 2025) and the DARP funding guide in a Federal Ministry of Finance / PD context.
+
+This is the English version of the site. German original: https://annemarie-andersen.de/llms.txt
+
+## Services
+
+- Accessibility & Easy Language: texts to BITV 2.0 and the BGG for websites, forms, brochures and accessibility statements
+- Clear Administrative Language: turning officialese into clear language - notices, forms, terms and conditions
+- AI Quality Assurance & Post-Editing: checking AI-generated texts for accuracy, style and compliance
+- Editing & Translation: proofreading, stylistic editing, specialist German-English translation
+- Copywriting: impact reports, annual reports, grant applications and concepts - written clearly and well structured
+
+## Contact
+
+- Email: mail@annemarie-andersen.de
+- Phone: +49 175 118 32 51
+- Website: https://annemarie-andersen.de/en/
+- Location: Mecklenburg-Vorpommern, 100% remote
+
+## Pages
+
+- [Home](https://annemarie-andersen.de/en/) - overview of all services, references and FAQ
+- [Accessibility & Easy Language](https://annemarie-andersen.de/en/barrierefreiheit/) - core service, BITV 2.0, Future Prize reference and DARP funding guide
+- [Clear Administrative Language](https://annemarie-andersen.de/en/verwaltung/) - cutting red tape, notices, forms
+- [AI Quality Assurance](https://annemarie-andersen.de/en/ki-qualitaetssicherung/) - checking AI-generated texts
+- [Editing & Translation](https://annemarie-andersen.de/en/lektorat/) - proofreading, German-English
+- [Copywriting](https://annemarie-andersen.de/en/texterstellung/) - impact reports, grant applications, concepts, annual reports, DARP funding guide
+- [About](https://annemarie-andersen.de/en/ueber-mich/) - QA background, career
+- [References](https://annemarie-andersen.de/en/referenzen/) - clients and projects, including the Future Prize, the DARP funding guide and Seniorpartner in School
+- [Contact](https://annemarie-andersen.de/en/kontakt/) - request a quote
+- [Accessibility Statement](https://annemarie-andersen.de/en/barrierefreiheitserklaerung/) - state of accessibility, known limitations and contact for reporting barriers
+
+## Insights (articles)
+
+- [BFSG guide](https://annemarie-andersen.de/en/wissen/bfsg.html) - what the German Accessibility Strengthening Act means for your texts
+- [What is Easy Language?](https://annemarie-andersen.de/en/wissen/leichte-sprache.html) - rules, target group, legal basis, DIN SPEC 33429
+- [Official Texts: Before & After](https://annemarie-andersen.de/en/wissen/behoerdentexte.html) - three real-world examples of clear administrative language
+- [Games Localisation](https://annemarie-andersen.de/en/wissen/gaming-lokalisierung.html) - why translation is not enough: variable strings, cultural adaptation, LQA
+
+## Relevant files
+
+- [AI manifest](https://annemarie-andersen.de/en/ai/manifest.json) - machine-readable endpoints
+- [Services](https://annemarie-andersen.de/en/ai/services.json) - structured service data
+- [Identity](https://annemarie-andersen.de/en/ai/identity-schema.json) - Schema.org Person
+- [llms.txt](https://annemarie-andersen.de/en/llms.txt) - this file

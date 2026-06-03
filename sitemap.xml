@@ -1,110 +1,327 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://annemarie-andersen.de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/barrierefreiheit/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/barrierefreiheit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/barrierefreiheit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/barrierefreiheit/"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/verwaltung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/verwaltung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/verwaltung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/verwaltung/"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/ki-qualitaetssicherung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ki-qualitaetssicherung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ki-qualitaetssicherung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ki-qualitaetssicherung/"/>
     <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/lektorat/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/lektorat/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/lektorat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/lektorat/"/>
     <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/texterstellung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/texterstellung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/texterstellung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/texterstellung/"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/ueber-mich/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ueber-mich/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ueber-mich/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ueber-mich/"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/referenzen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/referenzen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/referenzen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/referenzen/"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/kontakt/"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/wissen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/wissen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/wissen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/wissen/"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/wissen/bfsg.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/wissen/bfsg.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/wissen/bfsg.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/wissen/bfsg.html"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/wissen/leichte-sprache.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/wissen/leichte-sprache.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/wissen/leichte-sprache.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/wissen/leichte-sprache.html"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/wissen/behoerdentexte.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/wissen/behoerdentexte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/wissen/behoerdentexte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/wissen/behoerdentexte.html"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/wissen/gaming-lokalisierung.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/wissen/gaming-lokalisierung.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/wissen/gaming-lokalisierung.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/wissen/gaming-lokalisierung.html"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/agb/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/agb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/agb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/agb/"/>
     <lastmod>2026-04-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/barrierefreiheitserklaerung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/barrierefreiheitserklaerung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/barrierefreiheitserklaerung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/barrierefreiheitserklaerung/"/>
     <lastmod>2026-06-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/impressum/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/impressum/"/>
     <lastmod>2026-05-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://annemarie-andersen.de/datenschutz/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/datenschutz/"/>
     <lastmod>2026-05-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/barrierefreiheit/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/barrierefreiheit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/barrierefreiheit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/barrierefreiheit/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/verwaltung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/verwaltung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/verwaltung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/verwaltung/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/ki-qualitaetssicherung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ki-qualitaetssicherung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ki-qualitaetssicherung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ki-qualitaetssicherung/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/lektorat/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/lektorat/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/lektorat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/lektorat/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/texterstellung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/texterstellung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/texterstellung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/texterstellung/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/ueber-mich/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ueber-mich/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ueber-mich/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ueber-mich/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/referenzen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/referenzen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/referenzen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/referenzen/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/kontakt/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/wissen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/wissen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/wissen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/wissen/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/wissen/bfsg.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/wissen/bfsg.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/wissen/bfsg.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/wissen/bfsg.html"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/wissen/leichte-sprache.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/wissen/leichte-sprache.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/wissen/leichte-sprache.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/wissen/leichte-sprache.html"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/wissen/behoerdentexte.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/wissen/behoerdentexte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/wissen/behoerdentexte.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/wissen/behoerdentexte.html"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/wissen/gaming-lokalisierung.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/wissen/gaming-lokalisierung.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/wissen/gaming-lokalisierung.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/wissen/gaming-lokalisierung.html"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/agb/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/agb/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/agb/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/agb/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/barrierefreiheitserklaerung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/barrierefreiheitserklaerung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/barrierefreiheitserklaerung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/barrierefreiheitserklaerung/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/impressum/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/impressum/"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/datenschutz/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/datenschutz/"/>
+    <lastmod>2026-06-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
