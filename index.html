@@ -279,9 +279,12 @@
         gap: 8px;
       }
       .nav-links.open { display: flex; }
-      .nav-toggle { display: block; }
+      .nav-toggle { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; gap: 5px; }
+      .nav-toggle span { margin: 0; }
       .lang-switch { margin-left: 0; margin-right: 8px; }
-      .has-dropdown .dropdown-menu { display: block; position: static; border: 0; background: none; padding: 0 0 0 16px; min-width: 0; }
+      .has-dropdown .dropdown-menu { display: none; position: static; border: 0; background: none; padding: 0 0 0 16px; min-width: 0; }
+      .has-dropdown:hover .dropdown-menu { display: none; }
+      .has-dropdown.open .dropdown-menu, .has-dropdown.open:hover .dropdown-menu { display: block; }
       .hero { padding: 130px 24px 80px; }
       .hero-grid { grid-template-columns: 1fr; }
       .hero-portrait { order: -1; }

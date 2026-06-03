@@ -18,6 +18,9 @@ function setMobileNav(open) {
   links.classList.toggle('open', open);
   toggle.setAttribute('aria-expanded', String(open));
   toggle.setAttribute('aria-label', open ? T.navClose : T.navOpen);
+  if (!open) {
+    closeAllDropdowns();
+  }
   if (open) {
     links.querySelector('a, button')?.focus();
   }

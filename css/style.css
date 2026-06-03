@@ -397,6 +397,7 @@ main:focus-visible {
   background: var(--navy); color: var(--white); font-size: 12px; font-weight: 600;
   padding: 3px 12px; border-radius: 3px; letter-spacing: 0.04em; text-transform: uppercase;
 }
+html[lang^="en"] .service-card.featured::before { content: 'Core service'; }
 .service-icon {
   width: 48px; height: 48px; background: var(--cream); border-radius: 10px;
   display: flex; align-items: center; justify-content: center; margin-bottom: 20px; font-size: 22px;
@@ -862,13 +863,25 @@ main:focus-visible {
     box-shadow: 0 8px 24px rgba(0,0,0,0.08); gap: 8px;
   }
   .nav-links.open { display: flex; }
-  .nav-toggle { display: flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; }
+  .nav-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 44px;
+    gap: 5px;
+  }
+  .nav-toggle span { margin: 0; }
   .lang-switch { margin-left: 0; margin-right: 8px; }
 
   .has-dropdown .dropdown-menu {
-    display: block; position: static; border: none; box-shadow: none;
+    display: none; position: static; border: none; box-shadow: none;
     background: none; padding: 0 0 0 16px; min-width: 0;
   }
+  .has-dropdown:hover .dropdown-menu { display: none; }
+  .has-dropdown.open .dropdown-menu,
+  .has-dropdown.open:hover .dropdown-menu { display: block; }
   .dropdown-trigger::after { display: none; }
   .dropdown-menu a { padding: 8px 0; }
 
