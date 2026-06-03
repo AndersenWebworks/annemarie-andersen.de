@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0",
     "language": "de",
-    "updated": "2026-05-28"
+    "updated": "2026-06-03"
   },
   "nodes": {
     "start": {
@@ -39,12 +39,16 @@
       "subtitle": "Unterschiedliche Anforderungen, unterschiedliche Lösungen.",
       "options": [
         {
-          "label": "BFSG-naher Online-Abschluss",
+          "label": "BFSG-relevanter Online-Abschluss",
           "next": "result-bfsg"
         },
         {
           "label": "Behörde oder Verwaltung (BITV / BGG)",
           "next": "result-bitv"
+        },
+        {
+          "label": "Einfache Sprache nach DIN 8581-1",
+          "next": "result-einfache-sprache"
         },
         {
           "label": "Eigenes Projekt (freiwillig)",
@@ -111,7 +115,7 @@
 
     "result-bfsg": {
       "type": "result",
-      "title": "Sprachliche Prüfung für BFSG-nahe Projekte",
+      "title": "Sprachliche Prüfung für BFSG-relevante Projekte",
       "text": "Seit Juni 2025 gelten Barrierefreiheitsanforderungen für bestimmte digitale Produkte und Dienstleistungen. Ich prüfe und überarbeite Ihre Texte sprachlich, damit sie verständlich, strukturiert und barrierearm nutzbar sind. Die rechtliche BFSG-Einordnung bleibt eine separate Scope-Frage.\n\nReferenz: Förderleitfaden DARP im BMF-/PD-Kontext (barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0).",
       "cta": { "label": "Unverbindlich anfragen" }
     },
@@ -119,7 +123,14 @@
     "result-bitv": {
       "type": "result",
       "title": "Leichte Sprache für Behörden",
-      "text": "BITV 2.0 und BGG verpflichten Behörden zu barrierefreier Kommunikation. Ich übertrage Bescheide, Formulare und Web-Inhalte in verständliche Sprache, ohne den rechtlichen Kern sprachlich zu verwässern.\n\nReferenz: Förderleitfaden DARP im BMF-/PD-Kontext.",
+      "text": "BGG und BITV 2.0 enthalten konkrete Vorgaben für öffentliche Stellen, unter anderem zu Leichter Sprache. Ich übertrage Bescheide, Formulare und Web-Inhalte in verständliche Sprache, ohne den rechtlichen Kern sprachlich zu verwässern. Die rechtliche Prüfung bleibt Aufgabe der zuständigen juristischen Stelle.\n\nReferenz: Förderleitfaden DARP im BMF-/PD-Kontext.",
+      "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-einfache-sprache": {
+      "type": "result",
+      "title": "Einfache Sprache nach DIN 8581-1",
+      "text": "Nicht jeder Text braucht Leichte Sprache. Häufig reicht Einfache Sprache: klare Struktur, verständliche Wörter, präzise Aussagen und weniger Rückfragen. Geeignet für Kundeninformationen, HR, interne Richtlinien, Gesundheitskommunikation, Versicherungen und Verwaltungstexte.",
       "cta": { "label": "Unverbindlich anfragen" }
     },
 
@@ -133,7 +144,7 @@
     "result-verwaltung-behoerde": {
       "type": "result",
       "title": "Verständliche Texte für Ihre Behörde",
-      "text": "Bürgernahe Sprache ist politisch gewollt und gesetzlich gefordert. Ich überarbeite Bescheide, Formulare und Broschüren so, dass Bürgerinnen und Bürger sie verstehen \u2013 ohne juristische Genauigkeit zu verlieren.",
+      "text": "Bürgernahe Sprache ist politisch gewollt und in vielen öffentlichen Kontexten ausdrücklich vorgesehen. Ich überarbeite Bescheide, Formulare und Broschüren so, dass Bürgerinnen und Bürger sie verstehen \u2013 ohne juristische Genauigkeit sprachlich zu verlieren.",
       "cta": { "label": "Unverbindlich anfragen" }
     },
 
@@ -147,7 +158,7 @@
     "result-verwaltung-unternehmen": {
       "type": "result",
       "title": "Verständliche Unternehmenskommunikation",
-      "text": "Ob Kundenanschreiben, AGBs oder interne Richtlinien: Verständlichkeit spart Rückfragen und schafft Vertrauen. Ich überarbeite Ihre Texte so, dass sie klar und professionell sind.",
+      "text": "Ob Kundenanschreiben, AGB oder interne Richtlinien: Verständlichkeit spart Rückfragen und schafft Vertrauen. Ich überarbeite Ihre Texte so, dass sie klar und professionell sind.",
       "cta": { "label": "Unverbindlich anfragen" }
     },
 

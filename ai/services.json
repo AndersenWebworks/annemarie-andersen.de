@@ -9,7 +9,7 @@
       "item": {
         "@type": "Service",
         "name": "Barrierefreiheit & Leichte Sprache",
-        "description": "Texte in Leichter Sprache nach aktuellem Regelwerk. Fuer Websites, Formulare, Broschueren und Barrierefreiheitserklaerungen. Uebertragung bestehender Inhalte oder Neuerstellung inklusive Ausgangstexte in Standardsprache.",
+        "description": "Texte in Leichter Sprache nach aktuellem Regelwerk. Fuer Websites, Formulare, Broschueren und den Textanteil von Barrierefreiheitserklaerungen. Uebertragung bestehender Inhalte oder Neuerstellung inklusive Ausgangstexte in Standardsprache.",
         "url": "https://annemarie-andersen.de/barrierefreiheit/",
         "category": "Kernleistung",
         "serviceType": "Leichte Sprache / Barrierefreie Kommunikation",
@@ -32,10 +32,10 @@
       "position": 2,
       "item": {
         "@type": "Service",
-        "name": "Verstaendliche Verwaltung",
-        "description": "Behoerdendeutsch in klare Sprache uebersetzen. Bescheide, Formulare, Vertragsklauseln und AGB so formulieren, dass die Zielgruppe sie beim ersten Lesen versteht.",
-        "url": "https://annemarie-andersen.de/verwaltung/",
-        "serviceType": "Entbuerokratisierung / Verstaendliche Verwaltungssprache",
+        "name": "Einfache Sprache nach DIN 8581-1",
+        "description": "Verstaendliche Texte fuer Kundeninformationen, Formulare, HR, Verwaltung, Gesundheitskommunikation, Versicherungen und interne Richtlinien. Geeignet, wenn Leichte Sprache nicht erforderlich ist, aber Texte klarer, kuerzer und weniger missverstaendlich werden sollen.",
+        "url": "https://annemarie-andersen.de/barrierefreiheit/",
+        "serviceType": "Einfache Sprache / Verstaendliche Kommunikation",
         "areaServed": { "@type": "Country", "name": "Deutschland" },
         "provider": {
           "@type": "Person",
@@ -49,8 +49,25 @@
       "position": 3,
       "item": {
         "@type": "Service",
+        "name": "Verstaendliche Verwaltung",
+        "description": "Behoerdendeutsch in klare Sprache uebersetzen. Bescheide, Formulare, Vertragsklauseln und AGB sprachlich so formulieren, dass die Zielgruppe sie beim ersten Lesen besser versteht. Rechtliche Pruefung bleibt Aufgabe der zustaendigen juristischen Stelle.",
+        "url": "https://annemarie-andersen.de/verwaltung/",
+        "serviceType": "Entbuerokratisierung / Verstaendliche Verwaltungssprache",
+        "areaServed": { "@type": "Country", "name": "Deutschland" },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Service",
         "name": "KI-Qualitaetssicherung & Post-Editing",
-        "description": "Pruefung KI-generierter Texte gegen inhaltliche Fehler, stilistische Brueche und Compliance-Luecken. Fuer Unternehmen die ChatGPT, DeepL oder andere Tools fuer ihre Texte nutzen.",
+        "description": "Pruefung KI-generierter Texte gegen inhaltliche Fehler, Quellenprobleme, stilistische Brueche und Compliance-nahe Risiken. Fuer Unternehmen, die ChatGPT, DeepL oder andere Tools fuer ihre Texte nutzen.",
         "url": "https://annemarie-andersen.de/ki-qualitaetssicherung/",
         "serviceType": "KI-Qualitaetssicherung / Post-Editing",
         "areaServed": { "@type": "Country", "name": "Deutschland" },
@@ -63,7 +80,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "item": {
         "@type": "Service",
         "name": "Lektorat & Uebersetzung",
@@ -80,7 +97,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 6,
       "item": {
         "@type": "Service",
         "name": "Texterstellung",

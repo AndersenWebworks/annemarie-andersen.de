@@ -3,12 +3,12 @@
     "domain": "annemarie-andersen.de",
     "name": "Annemarie Andersen - Sprachdienstleistungen",
     "url": "https://annemarie-andersen.de",
-    "description": "Freiberufliche Sprachdienstleisterin fuer barrierefreie Kommunikation, Leichte Sprache, Entbuerokratisierung und KI-Qualitaetssicherung.",
+    "description": "Freiberufliche Sprachdienstleisterin fuer barrierefreie Kommunikation, Leichte Sprache, Einfache Sprache nach DIN 8581-1, Entbuerokratisierung und KI-Qualitaetssicherung.",
     "contact": "mail@annemarie-andersen.de"
   },
   "version": "v1.0",
   "build": 2,
-  "dateModified": "2026-05-28T00:00:00Z",
+  "dateModified": "2026-06-03T00:00:00Z",
   "datePublished": "2026-04-13T00:00:00Z",
   "endpoints": [
     {
