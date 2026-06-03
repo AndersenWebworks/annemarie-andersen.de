@@ -34,7 +34,7 @@
       "item": {
         "@type": "Service",
         "name": "Clear Administrative Language",
-        "description": "Turning officialese into clear language. Wording notices, forms, contract clauses and terms and conditions so that the target group understands them on first reading.",
+        "description": "Turning officialese into clear language. Notices, forms, contract clauses, and terms and conditions worded so the target audience understands them on first reading.",
         "url": "https://annemarie-andersen.de/en/verwaltung/",
         "serviceType": "Clear administrative language",
         "areaServed": { "@type": "Country", "name": "Germany" },
@@ -68,7 +68,7 @@
       "item": {
         "@type": "Service",
         "name": "Editing & Translation",
-        "description": "Proofreading, stylistic editing and specialist German-English translation. From technical documentation through marketing copy to games localisation.",
+        "description": "Proofreading, stylistic editing, and specialist German-English translation. From technical documentation to marketing copy and games localization.",
         "url": "https://annemarie-andersen.de/en/lektorat/",
         "serviceType": "Editing / Specialist German-English translation",
         "areaServed": { "@type": "Country", "name": "Germany" },
@@ -85,7 +85,7 @@
       "item": {
         "@type": "Service",
         "name": "Copywriting",
-        "description": "Impact reports, annual reports, grant applications and concepts -- written clearly, well structured and tailored to the target group.",
+        "description": "Impact reports, annual reports, grant applications, and concepts, written clearly, well structured, and tailored to the target audience.",
         "url": "https://annemarie-andersen.de/en/texterstellung/",
         "serviceType": "Copywriting / Editorial",
         "areaServed": { "@type": "Country", "name": "Germany" },

@@ -243,51 +243,51 @@
 
   var RESULT_EMAILS = {
     'result-bfsg': {
-      subject: 'Enquiry: Easy Language / BFSG',
+      subject: 'Inquiry: Easy Language / BFSG',
       body: 'We need to make our communication BFSG-compliant and are looking for support with the translation into Easy Language.'
     },
     'result-bitv': {
-      subject: 'Enquiry: Easy Language for a public authority (BITV)',
+      subject: 'Inquiry: Easy Language for a public authority (BITV)',
       body: 'We are a public authority / work for a public authority and need support with the translation into Easy Language (BITV 2.0 / BGG).'
     },
     'result-leichte-sprache': {
-      subject: 'Enquiry: Easy Language',
+      subject: 'Inquiry: Easy Language',
       body: 'We would like to have a text translated into Easy Language.'
     },
     'result-verwaltung-behoerde': {
-      subject: 'Enquiry: Clear administrative texts',
-      body: 'We are a public authority / local council and would like to make our texts clearer.'
+      subject: 'Inquiry: Clear administrative texts',
+      body: 'We are a public authority / local government and would like to make our texts clearer.'
     },
     'result-verwaltung-agentur': {
-      subject: 'Enquiry: Language services (public-sector contract)',
-      body: 'We are an agency with a public-sector contract and are looking for a reliable language services provider for Easy Language and editing.'
+      subject: 'Inquiry: Language services (public-sector contract)',
+      body: 'We are an agency with a public-sector contract and are looking for a reliable language specialist for Easy Language and editing.'
     },
     'result-verwaltung-unternehmen': {
-      subject: 'Enquiry: Clear corporate texts',
+      subject: 'Inquiry: Clear corporate texts',
       body: 'We would like to make our corporate communication clearer (customer letters, terms and conditions, and the like).'
     },
     'result-ki-einzel': {
-      subject: 'Enquiry: Check an AI text',
+      subject: 'Inquiry: Check an AI text',
       body: 'We have an AI-generated text that needs professional revision.'
     },
     'result-ki-laufend': {
-      subject: 'Enquiry: Ongoing AI quality assurance',
+      subject: 'Inquiry: Ongoing AI quality assurance',
       body: 'We produce AI texts regularly and are looking for someone to handle ongoing quality assurance.'
     },
     'result-lektorat-de': {
-      subject: 'Enquiry: German editing',
+      subject: 'Inquiry: German editing',
       body: 'We have a German-language text that needs editing.'
     },
     'result-lektorat-en': {
-      subject: 'Enquiry: English editing',
+      subject: 'Inquiry: English editing',
       body: 'We have an English-language text that needs editing.'
     },
     'result-lektorat-beide': {
-      subject: 'Enquiry: Editing in German and English',
+      subject: 'Inquiry: Editing in German and English',
       body: 'We have texts in German and English that need editing.'
     },
     'result-unsicher': {
-      subject: 'Enquiry via your website',
+      subject: 'Inquiry via your website',
       body: 'I have had a look at your website and would like to speak with you.'
     }
   };
@@ -302,7 +302,7 @@
 
   function buildEmailFromPath() {
     var resultId = getLastResultId();
-    var fb = { subject: 'Enquiry', body: 'I have had a look at your website and would like to speak with you.' };
+    var fb = { subject: 'Inquiry', body: 'I have had a look at your website and would like to speak with you.' };
     var data = RESULT_EMAILS[resultId] || fb;
 
     var subject = data.subject;

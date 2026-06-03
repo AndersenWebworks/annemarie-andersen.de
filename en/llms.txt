@@ -1,6 +1,6 @@
 # Annemarie Andersen - Language Services
 
-> Freelance language services provider for accessible communication, Easy Language to BITV 2.0, clear administrative language and AI quality assurance. Freelance since 2018. References: the Federal President's German Future Prize (Easy Language, 2024 + 2025) and the DARP funding guide in a Federal Ministry of Finance / PD context.
+> Independent language specialist for accessible communication, Easy Language to BITV 2.0, clear administrative language and AI quality assurance. Freelance since 2018. References: the Federal President's German Future Prize (Easy Language, 2024 and 2025) and the DARP funding guide in a Federal Ministry of Finance / PD context.
 
 This is the English version of the site. German original: https://annemarie-andersen.de/llms.txt
 
@@ -30,14 +30,14 @@ This is the English version of the site. German original: https://annemarie-ande
 - [About](https://annemarie-andersen.de/en/ueber-mich/) - QA background, career
 - [References](https://annemarie-andersen.de/en/referenzen/) - clients and projects, including the Future Prize, the DARP funding guide and Seniorpartner in School
 - [Contact](https://annemarie-andersen.de/en/kontakt/) - request a quote
-- [Accessibility Statement](https://annemarie-andersen.de/en/barrierefreiheitserklaerung/) - state of accessibility, known limitations and contact for reporting barriers
+- [Accessibility Statement](https://annemarie-andersen.de/en/barrierefreiheitserklaerung/) - state of accessibility, known limitations and contact for reporting accessibility barriers
 
 ## Insights (articles)
 
 - [BFSG guide](https://annemarie-andersen.de/en/wissen/bfsg.html) - what the German Accessibility Strengthening Act means for your texts
-- [What is Easy Language?](https://annemarie-andersen.de/en/wissen/leichte-sprache.html) - rules, target group, legal basis, DIN SPEC 33429
+- [What is Easy Language?](https://annemarie-andersen.de/en/wissen/leichte-sprache.html) - rules, target audience, legal basis, DIN SPEC 33429
 - [Official Texts: Before & After](https://annemarie-andersen.de/en/wissen/behoerdentexte.html) - three real-world examples of clear administrative language
-- [Games Localisation](https://annemarie-andersen.de/en/wissen/gaming-lokalisierung.html) - why translation is not enough: variable strings, cultural adaptation, LQA
+- [Games Localization](https://annemarie-andersen.de/en/wissen/gaming-lokalisierung.html) - why translation is not enough: variable strings, cultural adaptation, LQA
 
 ## Relevant files
 
