@@ -511,7 +511,12 @@ html[lang^="en"] .service-card.featured::before { content: 'Core service'; }
   justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;
 }
 .footer-links { display: flex; gap: 24px; list-style: none; }
-.site-footer a { color: rgba(255,255,255,0.86); }
+.site-footer a {
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
 .site-footer a:hover { color: var(--white); }
 .footer-links a { font-size: 14px; }
 

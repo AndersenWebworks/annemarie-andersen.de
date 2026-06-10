@@ -1,5 +1,9 @@
 document.documentElement.classList.add('js');
 
+if (location.protocol === 'http:' && location.hostname === 'annemarie-andersen.de') {
+  location.replace(`https://${location.host}${location.pathname}${location.search}${location.hash}`);
+}
+
 // Sprachabhängige UI-Strings (Deutsch = Root, Englisch = /en/)
 const LANG = document.documentElement.lang.startsWith('en') ? 'en' : 'de';
 const T = {
