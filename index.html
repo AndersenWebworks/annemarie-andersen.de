@@ -9,6 +9,8 @@
   <link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/">
   <link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/">
   <link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/">
+  <link rel="alternate" type="text/plain" title="llms.txt" href="https://annemarie-andersen.de/llms.txt">
+  <link rel="alternate" type="application/json" title="AI manifest" href="https://annemarie-andersen.de/ai/manifest.json">
 
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="icon" type="image/png" sizes="96x96" href="favicon-96.png">
@@ -46,14 +48,33 @@
           "addressRegion": "Mecklenburg-Vorpommern",
           "addressCountry": "DE"
         },
-        "areaServed": { "@type": "Country", "name": "Deutschland" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Deutschland"
+        },
         "priceRange": "$$",
-        "knowsAbout": ["Leichte Sprache", "Barrierefreie Kommunikation", "BITV 2.0", "BFSG", "Lektorat", "Korrektorat", "Fachübersetzung Deutsch-Englisch", "KI-Qualitätssicherung", "Post-Editing", "Texterstellung", "Wirkungsberichte", "Förderanträge"],
+        "knowsAbout": [
+          "Leichte Sprache",
+          "Barrierefreie Kommunikation",
+          "BITV 2.0",
+          "BFSG",
+          "Lektorat",
+          "Korrektorat",
+          "Fachübersetzung Deutsch-Englisch",
+          "KI-Qualitätssicherung",
+          "Post-Editing",
+          "Texterstellung",
+          "Wirkungsberichte",
+          "Förderanträge"
+        ],
         "founder": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "jobTitle": "Freiberufliche Sprachdienstleisterin"
-        }
+          "jobTitle": "Freiberufliche Sprachdienstleisterin",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen",
+          "url": "https://annemarie-andersen.de"
+        },
+        "@id": "https://annemarie-andersen.de/#professional-service"
       },
       {
         "@type": "FAQPage",
@@ -106,25 +127,48 @@
               "text": "Sie schicken mir Ihren Text oder beschreiben, was Sie brauchen. Ich erstelle ein Angebot mit Umfang, Preis und Zeitrahmen. Nach Ihrer Freigabe lege ich los. Bei Leichter Sprache arbeite ich in zwei Stufen: Erst der Ausgangstext in Standardsprache, dann die Übertragung."
             }
           }
-        ]
+        ],
+        "@id": "https://annemarie-andersen.de/#faq"
       },
       {
         "@type": "HowTo",
         "name": "So läuft eine Zusammenarbeit mit Annemarie Andersen ab",
         "step": [
-          { "@type": "HowToStep", "position": 1, "name": "Anfrage", "text": "Sie beschreiben, was Sie brauchen – per Mail oder Telefon. Kurz reicht." },
-          { "@type": "HowToStep", "position": 2, "name": "Angebot", "text": "Ich nenne Ihnen Umfang, Preis und Zeitrahmen. Verbindlich und transparent." },
-          { "@type": "HowToStep", "position": 3, "name": "Umsetzung", "text": "Sie erhalten Ihre Texte termingerecht und in Ihrem gewünschten Format. Bei Leichter Sprache in zwei Stufen: Ausgangstext, dann Übertragung." }
-        ]
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Anfrage",
+            "text": "Sie beschreiben, was Sie brauchen – per Mail oder Telefon. Kurz reicht."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Angebot",
+            "text": "Ich nenne Ihnen Umfang, Preis und Zeitrahmen. Verbindlich und transparent."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Umsetzung",
+            "text": "Sie erhalten Ihre Texte termingerecht und in Ihrem gewünschten Format. Bei Leichter Sprache in zwei Stufen: Ausgangstext, dann Übertragung."
+          }
+        ],
+        "@id": "https://annemarie-andersen.de/#collaboration-process"
       },
       {
         "@type": "Review",
         "reviewBody": "Kompetent, zuverlässig und sehr fundiert. Als etabliertes Sozialunternehmen legen wir neben einem guten Stil auch Wert auf Barrierefreiheit. Annemarie ist uns eine hilfreiche Partnerin in allen Formen der Textverarbeitung. Wir sind sehr zufrieden und empfehlen gerne weiter.",
-        "author": { "@type": "Person", "name": "Karin Chierchia" },
+        "author": {
+          "@type": "Person",
+          "name": "Karin Chierchia"
+        },
         "itemReviewed": {
           "@type": "ProfessionalService",
-          "name": "Annemarie Andersen – Sprachdienstleistungen"
-        }
+          "name": "Annemarie Andersen – Sprachdienstleistungen",
+          "@id": "https://annemarie-andersen.de/#professional-service",
+          "url": "https://annemarie-andersen.de"
+        },
+        "@id": "https://annemarie-andersen.de/#review-karin-chierchia"
       }
     ]
   }

@@ -9,6 +9,8 @@
   <link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/texterstellung/">
   <link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/texterstellung/">
   <link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/texterstellung/">
+  <link rel="alternate" type="text/plain" title="llms.txt" href="https://annemarie-andersen.de/llms.txt">
+  <link rel="alternate" type="application/json" title="AI manifest" href="https://annemarie-andersen.de/ai/manifest.json">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96.png">
   <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48.png">
@@ -20,15 +22,30 @@
   <meta property="og:image" content="https://annemarie-andersen.de/portrait.jpg">
   <meta property="og:locale" content="de_DE">
   <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Texterstellung – Annemarie Andersen">
+  <meta name="twitter:description" content="Wirkungsberichte, Geschäftsberichte, Förderanträge und Konzepte – verständlich geschrieben, klar strukturiert und auf Ihre Zielgruppe zugeschnitten.">
+  <meta name="twitter:image" content="https://annemarie-andersen.de/portrait.jpg">
   <link rel="stylesheet" href="../css/style.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://annemarie-andersen.de/" },
-      { "@type": "ListItem", "position": 2, "name": "Texterstellung", "item": "https://annemarie-andersen.de/texterstellung/" }
-    ]
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Startseite",
+        "item": "https://annemarie-andersen.de/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Texterstellung",
+        "item": "https://annemarie-andersen.de/texterstellung/"
+      }
+    ],
+    "@id": "https://annemarie-andersen.de/texterstellung/#breadcrumb"
   }
   </script>
   <script type="application/ld+json">
@@ -39,11 +56,19 @@
     "description": "Wirkungsberichte, Geschäftsberichte, Förderanträge und Konzepte – verständlich geschrieben, klar strukturiert und auf die Zielgruppe zugeschnitten.",
     "url": "https://annemarie-andersen.de/texterstellung/",
     "serviceType": "Texterstellung / Redaktion",
-    "areaServed": { "@type": "Country", "name": "Deutschland" },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Deutschland"
+    },
     "provider": {
       "@type": "Person",
       "name": "Annemarie Andersen",
-      "url": "https://annemarie-andersen.de"
+      "url": "https://annemarie-andersen.de",
+      "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+    },
+    "@id": "https://annemarie-andersen.de/texterstellung/#service",
+    "isPartOf": {
+      "@id": "https://annemarie-andersen.de/#professional-service"
     }
   }
   </script>

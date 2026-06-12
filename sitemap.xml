@@ -333,4 +333,112 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://annemarie-andersen.de/llms.txt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/llms.txt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/llms.txt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/llms.txt"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/llms.txt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/llms.txt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/llms.txt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/llms.txt"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/ai/manifest.json</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ai/manifest.json"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ai/manifest.json"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ai/manifest.json"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/ai/manifest.json</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ai/manifest.json"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ai/manifest.json"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ai/manifest.json"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/ai/identity-schema.json</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ai/identity-schema.json"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ai/identity-schema.json"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ai/identity-schema.json"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/ai/identity-schema.json</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ai/identity-schema.json"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ai/identity-schema.json"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ai/identity-schema.json"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/ai/services.json</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ai/services.json"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ai/services.json"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ai/services.json"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/ai/services.json</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ai/services.json"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ai/services.json"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ai/services.json"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/ai/identity.txt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ai/identity.txt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ai/identity.txt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ai/identity.txt"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/ai/identity.txt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ai/identity.txt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ai/identity.txt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ai/identity.txt"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/ai/services.txt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ai/services.txt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ai/services.txt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ai/services.txt"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://annemarie-andersen.de/en/ai/services.txt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ai/services.txt"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ai/services.txt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ai/services.txt"/>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
 </urlset>

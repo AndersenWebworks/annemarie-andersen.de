@@ -14,17 +14,25 @@
         "url": "https://annemarie-andersen.de/en/barrierefreiheit/",
         "category": "Core service",
         "serviceType": "Easy Language / Accessible communication",
-        "areaServed": { "@type": "Country", "name": "Germany" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Germany"
+        },
         "provider": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "url": "https://annemarie-andersen.de/en/"
+          "url": "https://annemarie-andersen.de/en/",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
         },
         "offers": {
           "@type": "Offer",
           "priceCurrency": "EUR",
           "price": "68.50",
           "description": "From EUR 68.50 per standard page (1,500 characters including spaces)"
+        },
+        "@id": "https://annemarie-andersen.de/en/barrierefreiheit/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
     },
@@ -37,11 +45,19 @@
         "description": "Turning officialese into clear language. Notices, forms, contract clauses, and terms and conditions worded so the target audience understands them on first reading.",
         "url": "https://annemarie-andersen.de/en/verwaltung/",
         "serviceType": "Clear administrative language",
-        "areaServed": { "@type": "Country", "name": "Germany" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Germany"
+        },
         "provider": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "url": "https://annemarie-andersen.de/en/"
+          "url": "https://annemarie-andersen.de/en/",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/en/verwaltung/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
     },
@@ -54,11 +70,19 @@
         "description": "Checking AI-generated texts for factual errors, breaks in style and compliance gaps. For companies that use ChatGPT, DeepL or other tools for their texts.",
         "url": "https://annemarie-andersen.de/en/ki-qualitaetssicherung/",
         "serviceType": "AI quality assurance / Post-editing",
-        "areaServed": { "@type": "Country", "name": "Germany" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Germany"
+        },
         "provider": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "url": "https://annemarie-andersen.de/en/"
+          "url": "https://annemarie-andersen.de/en/",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/en/ki-qualitaetssicherung/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
     },
@@ -71,11 +95,19 @@
         "description": "Proofreading, stylistic editing, and specialist German-English translation. From technical documentation to marketing copy and games localization.",
         "url": "https://annemarie-andersen.de/en/lektorat/",
         "serviceType": "Editing / Specialist German-English translation",
-        "areaServed": { "@type": "Country", "name": "Germany" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Germany"
+        },
         "provider": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "url": "https://annemarie-andersen.de/en/"
+          "url": "https://annemarie-andersen.de/en/",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/en/lektorat/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
     },
@@ -88,13 +120,22 @@
         "description": "Impact reports, annual reports, grant applications, and concepts, written clearly, well structured, and tailored to the target audience.",
         "url": "https://annemarie-andersen.de/en/texterstellung/",
         "serviceType": "Copywriting / Editorial",
-        "areaServed": { "@type": "Country", "name": "Germany" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Germany"
+        },
         "provider": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "url": "https://annemarie-andersen.de/en/"
+          "url": "https://annemarie-andersen.de/en/",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/en/texterstellung/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
     }
-  ]
+  ],
+  "@id": "https://annemarie-andersen.de/en/ai/services.json#services"
 }

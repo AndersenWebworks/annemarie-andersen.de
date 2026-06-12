@@ -10,6 +10,8 @@
   <link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/">
   <link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/">
   <link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/">
+  <link rel="alternate" type="text/plain" title="llms.txt" href="https://annemarie-andersen.de/en/llms.txt">
+  <link rel="alternate" type="application/json" title="AI manifest" href="https://annemarie-andersen.de/en/ai/manifest.json">
 
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96.png">
@@ -48,14 +50,33 @@
           "addressRegion": "Mecklenburg-Vorpommern",
           "addressCountry": "DE"
         },
-        "areaServed": { "@type": "Country", "name": "Germany" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Germany"
+        },
         "priceRange": "$$",
-        "knowsAbout": ["Easy Language", "Accessible communication", "BITV 2.0", "BFSG", "Editing", "Proofreading", "German-English specialist translation", "AI quality assurance", "Post-editing", "Copywriting", "Impact reports", "Grant applications"],
+        "knowsAbout": [
+          "Easy Language",
+          "Accessible communication",
+          "BITV 2.0",
+          "BFSG",
+          "Editing",
+          "Proofreading",
+          "German-English specialist translation",
+          "AI quality assurance",
+          "Post-editing",
+          "Copywriting",
+          "Impact reports",
+          "Grant applications"
+        ],
         "founder": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "jobTitle": "Independent language specialist"
-        }
+          "jobTitle": "Independent language specialist",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen",
+          "url": "https://annemarie-andersen.de"
+        },
+        "@id": "https://annemarie-andersen.de/#professional-service"
       },
       {
         "@type": "FAQPage",
@@ -109,27 +130,50 @@
               "text": "You send me your text or describe what you need. I prepare a quote covering scope, price and timeframe. Once you approve it, I get started. For Easy Language I work in two stages: first the source text in standard language, then the translation into Easy Language."
             }
           }
-        ]
+        ],
+        "@id": "https://annemarie-andersen.de/en/#faq"
       },
       {
         "@type": "HowTo",
         "inLanguage": "en",
         "name": "How working with Annemarie Andersen works",
         "step": [
-          { "@type": "HowToStep", "position": 1, "name": "Inquiry", "text": "You describe what you need, by email or phone. A short message is enough." },
-          { "@type": "HowToStep", "position": 2, "name": "Quote", "text": "I give you the scope, price and timeframe. Firm and transparent." },
-          { "@type": "HowToStep", "position": 3, "name": "Delivery", "text": "You receive your texts on time and in the format you want. For Easy Language in two stages: source text, then the translation into Easy Language." }
-        ]
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Inquiry",
+            "text": "You describe what you need, by email or phone. A short message is enough."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Quote",
+            "text": "I give you the scope, price and timeframe. Firm and transparent."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Delivery",
+            "text": "You receive your texts on time and in the format you want. For Easy Language in two stages: source text, then the translation into Easy Language."
+          }
+        ],
+        "@id": "https://annemarie-andersen.de/en/#collaboration-process"
       },
       {
         "@type": "Review",
         "inLanguage": "en",
         "reviewBody": "Knowledgeable, reliable and very well-founded. As an established social enterprise, we value accessibility alongside good style. Annemarie is a helpful partner to us in every form of text work. We are very satisfied and recommend her warmly.",
-        "author": { "@type": "Person", "name": "Karin Chierchia" },
+        "author": {
+          "@type": "Person",
+          "name": "Karin Chierchia"
+        },
         "itemReviewed": {
           "@type": "ProfessionalService",
-          "name": "Annemarie Andersen – Language Services"
-        }
+          "name": "Annemarie Andersen – Language Services",
+          "@id": "https://annemarie-andersen.de/#professional-service",
+          "url": "https://annemarie-andersen.de"
+        },
+        "@id": "https://annemarie-andersen.de/en/#review-karin-chierchia"
       }
     ]
   }

@@ -13,17 +13,25 @@
         "url": "https://annemarie-andersen.de/barrierefreiheit/",
         "category": "Kernleistung",
         "serviceType": "Leichte Sprache / Barrierefreie Kommunikation",
-        "areaServed": { "@type": "Country", "name": "Deutschland" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Deutschland"
+        },
         "provider": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "url": "https://annemarie-andersen.de"
+          "url": "https://annemarie-andersen.de",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
         },
         "offers": {
           "@type": "Offer",
           "priceCurrency": "EUR",
           "price": "68.50",
           "description": "Ab 68,50 EUR pro Normseite (1.500 Zeichen inkl. Leerzeichen)"
+        },
+        "@id": "https://annemarie-andersen.de/barrierefreiheit/#service-leichte-sprache",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
     },
@@ -36,11 +44,19 @@
         "description": "Verstaendliche Texte fuer Kundeninformationen, Formulare, HR, Verwaltung, Gesundheitskommunikation, Versicherungen und interne Richtlinien. Geeignet, wenn Leichte Sprache nicht erforderlich ist, aber Texte klarer, kuerzer und weniger missverstaendlich werden sollen.",
         "url": "https://annemarie-andersen.de/barrierefreiheit/",
         "serviceType": "Einfache Sprache / Verstaendliche Kommunikation",
-        "areaServed": { "@type": "Country", "name": "Deutschland" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Deutschland"
+        },
         "provider": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "url": "https://annemarie-andersen.de"
+          "url": "https://annemarie-andersen.de",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/barrierefreiheit/#service-einfache-sprache",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
     },
@@ -53,11 +69,19 @@
         "description": "Behoerdendeutsch in klare Sprache uebersetzen. Bescheide, Formulare, Vertragsklauseln und AGB sprachlich so formulieren, dass die Zielgruppe sie beim ersten Lesen besser versteht. Rechtliche Pruefung bleibt Aufgabe der zustaendigen juristischen Stelle.",
         "url": "https://annemarie-andersen.de/verwaltung/",
         "serviceType": "Entbuerokratisierung / Verstaendliche Verwaltungssprache",
-        "areaServed": { "@type": "Country", "name": "Deutschland" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Deutschland"
+        },
         "provider": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "url": "https://annemarie-andersen.de"
+          "url": "https://annemarie-andersen.de",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/verwaltung/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
     },
@@ -70,11 +94,19 @@
         "description": "Pruefung KI-generierter Texte gegen inhaltliche Fehler, Quellenprobleme, stilistische Brueche und Compliance-nahe Risiken. Fuer Unternehmen, die ChatGPT, DeepL oder andere Tools fuer ihre Texte nutzen.",
         "url": "https://annemarie-andersen.de/ki-qualitaetssicherung/",
         "serviceType": "KI-Qualitaetssicherung / Post-Editing",
-        "areaServed": { "@type": "Country", "name": "Deutschland" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Deutschland"
+        },
         "provider": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "url": "https://annemarie-andersen.de"
+          "url": "https://annemarie-andersen.de",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/ki-qualitaetssicherung/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
     },
@@ -87,11 +119,19 @@
         "description": "Korrekturlesen, stilistische Ueberarbeitung und Fachuebersetzungen Deutsch-Englisch. Von technischer Dokumentation ueber Marketingtexte bis zu Gaming-Lokalisierung.",
         "url": "https://annemarie-andersen.de/lektorat/",
         "serviceType": "Lektorat / Fachuebersetzung Deutsch-Englisch",
-        "areaServed": { "@type": "Country", "name": "Deutschland" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Deutschland"
+        },
         "provider": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "url": "https://annemarie-andersen.de"
+          "url": "https://annemarie-andersen.de",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/lektorat/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
     },
@@ -104,13 +144,22 @@
         "description": "Wirkungsberichte, Geschaeftsberichte, Foerderantraege und Konzepte -- verstaendlich geschrieben, klar strukturiert und auf die Zielgruppe zugeschnitten.",
         "url": "https://annemarie-andersen.de/texterstellung/",
         "serviceType": "Texterstellung / Redaktion",
-        "areaServed": { "@type": "Country", "name": "Deutschland" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Deutschland"
+        },
         "provider": {
           "@type": "Person",
           "name": "Annemarie Andersen",
-          "url": "https://annemarie-andersen.de"
+          "url": "https://annemarie-andersen.de",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/texterstellung/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
     }
-  ]
+  ],
+  "@id": "https://annemarie-andersen.de/ai/services.json#services"
 }

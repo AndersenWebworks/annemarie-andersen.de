@@ -9,6 +9,8 @@
   <link rel="alternate" hreflang="de" href="https://annemarie-andersen.de/ueber-mich/">
   <link rel="alternate" hreflang="en" href="https://annemarie-andersen.de/en/ueber-mich/">
   <link rel="alternate" hreflang="x-default" href="https://annemarie-andersen.de/ueber-mich/">
+  <link rel="alternate" type="text/plain" title="llms.txt" href="https://annemarie-andersen.de/llms.txt">
+  <link rel="alternate" type="application/json" title="AI manifest" href="https://annemarie-andersen.de/ai/manifest.json">
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96.png">
   <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48.png">
@@ -20,15 +22,30 @@
   <meta property="og:image" content="https://annemarie-andersen.de/portrait.jpg">
   <meta property="og:locale" content="de_DE">
   <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Über mich – Annemarie Andersen">
+  <meta name="twitter:description" content="Freiberufliche Sprachdienstleisterin seit 2018. QA-Hintergrund bei Jung von Matt, Goodgame Studios und InnoGames. 100 % remote aus Mecklenburg-Vorpommern.">
+  <meta name="twitter:image" content="https://annemarie-andersen.de/portrait.jpg">
   <link rel="stylesheet" href="../css/style.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://annemarie-andersen.de/" },
-      { "@type": "ListItem", "position": 2, "name": "Über mich", "item": "https://annemarie-andersen.de/ueber-mich/" }
-    ]
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Startseite",
+        "item": "https://annemarie-andersen.de/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Über mich",
+        "item": "https://annemarie-andersen.de/ueber-mich/"
+      }
+    ],
+    "@id": "https://annemarie-andersen.de/ueber-mich/#breadcrumb"
   }
   </script>
   <script type="application/ld+json">
@@ -46,17 +63,33 @@
       "addressRegion": "Mecklenburg-Vorpommern",
       "addressCountry": "DE"
     },
-    "knowsAbout": ["Leichte Sprache", "Barrierefreie Kommunikation", "BITV 2.0", "BFSG", "KI-Qualitätssicherung", "Lektorat", "Fachübersetzung Deutsch-Englisch"],
-    "knowsLanguage": ["de", "en"],
+    "knowsAbout": [
+      "Leichte Sprache",
+      "Barrierefreie Kommunikation",
+      "BITV 2.0",
+      "BFSG",
+      "KI-Qualitätssicherung",
+      "Lektorat",
+      "Fachübersetzung Deutsch-Englisch"
+    ],
+    "knowsLanguage": [
+      "de",
+      "en"
+    ],
     "award": "Referenz: Deutscher Zukunftspreis des Bundespräsidenten (Leichte Sprache, 2024 + 2025)",
     "alumniOf": [
-      { "@type": "EducationalOrganization", "name": "AIT – Academy of Information Technology, Sydney" }
+      {
+        "@type": "EducationalOrganization",
+        "name": "AIT – Academy of Information Technology, Sydney"
+      }
     ],
     "worksFor": {
       "@type": "ProfessionalService",
       "name": "Annemarie Andersen – Sprachdienstleistungen",
-      "url": "https://annemarie-andersen.de"
-    }
+      "url": "https://annemarie-andersen.de",
+      "@id": "https://annemarie-andersen.de/#professional-service"
+    },
+    "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
   }
   </script>
 </head>

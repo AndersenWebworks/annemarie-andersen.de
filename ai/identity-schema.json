@@ -25,10 +25,15 @@
     "Korrektorat",
     "Fachuebersetzung Deutsch-Englisch"
   ],
-  "knowsLanguage": ["de", "en"],
+  "knowsLanguage": [
+    "de",
+    "en"
+  ],
   "worksFor": {
     "@type": "ProfessionalService",
     "name": "Annemarie Andersen - Sprachdienstleistungen",
-    "url": "https://annemarie-andersen.de"
-  }
+    "url": "https://annemarie-andersen.de",
+    "@id": "https://annemarie-andersen.de/#professional-service"
+  },
+  "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
 }

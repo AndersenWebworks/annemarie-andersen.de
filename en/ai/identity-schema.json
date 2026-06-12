@@ -24,10 +24,15 @@
     "Proofreading",
     "Specialist German-English translation"
   ],
-  "knowsLanguage": ["de", "en"],
+  "knowsLanguage": [
+    "de",
+    "en"
+  ],
   "worksFor": {
     "@type": "ProfessionalService",
     "name": "Annemarie Andersen - Language Services",
-    "url": "https://annemarie-andersen.de/en/"
-  }
+    "url": "https://annemarie-andersen.de/en/",
+    "@id": "https://annemarie-andersen.de/#professional-service"
+  },
+  "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
 }
