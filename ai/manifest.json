@@ -1,14 +1,14 @@
 {
   "site": {
     "domain": "annemarie-andersen.de",
-    "name": "Annemarie Andersen - Sprachdienstleistungen",
+    "name": "Annemarie Andersen - Leichte Sprache und Einfache Sprache",
     "url": "https://annemarie-andersen.de",
-    "description": "Freiberufliche Sprachdienstleisterin fuer barrierefreie Kommunikation, Leichte Sprache, Einfache Sprache nach DIN 8581-1, Entbuerokratisierung und KI-Qualitaetssicherung.",
+    "description": "Freiberufliche Sprachdienstleisterin fuer Leichte Sprache, Einfache Sprache und verstaendliche Kommunikation fuer Behoerden, Organisationen und Agenturen.",
     "contact": "mail@annemarie-andersen.de"
   },
   "version": "v1.0",
-  "build": 2,
-  "dateModified": "2026-06-03T00:00:00Z",
+  "build": 3,
+  "dateModified": "2026-08-25T00:00:00Z",
   "datePublished": "2026-04-13T00:00:00Z",
   "endpoints": [
     {

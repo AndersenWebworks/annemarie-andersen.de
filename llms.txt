@@ -1,13 +1,14 @@
-# Annemarie Andersen - Sprachdienstleistungen
+# Annemarie Andersen - Leichte Sprache und Einfache Sprache
 
-> Freiberufliche Sprachdienstleisterin fuer barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0, Einfache Sprache nach DIN 8581-1, Entbuerokratisierung und KI-Qualitaetssicherung. Seit 2018 selbststaendig. Referenzen: Deutscher Zukunftspreis des Bundespraesidenten (Leichte Sprache, 2024 + 2025) und Foerderleitfaden DARP im BMF-/PD-Kontext.
+> Freiberufliche Sprachdienstleisterin fuer Leichte Sprache, Einfache Sprache und verstaendliche Kommunikation. Schwerpunkt: Uebertragung und Neuerstellung fuer Behoerden, Organisationen und Agenturen. Ergaenzend: sprachliche Qualitaetssicherung, Lektorat, Uebersetzung und Texterstellung.
 
 English version: https://annemarie-andersen.de/en/llms.txt
 
 ## Leistungen
 
-- Barrierefreiheit & Leichte Sprache: Texte nach BITV 2.0, BGG-Kontext und aktuellem Regelwerk fuer Websites, Formulare, Broschueren und den Textanteil von Barrierefreiheitserklaerungen
-- Einfache Sprache nach DIN 8581-1: verstaendliche Texte fuer Kundeninformationen, Formulare, HR, Verwaltung, Gesundheitskommunikation, Versicherungen und interne Richtlinien
+- Leichte Sprache: Uebertragung bestehender Texte oder Neuerstellung fuer Websites, Formulare, Broschueren und oeffentliche Informationen
+- Einfache Sprache nach DIN 8581-1: Ueberarbeitung fuer Kundeninformationen, Formulare, Verwaltung, Gesundheitskommunikation und interne Richtlinien
+- Agentur-Zuarbeit: sprachliche Uebertragung, Schlussredaktion, fachliche Rueckfragen und abnahmefaehige Kundenfassungen
 - Verstaendliche Verwaltung: Behoerdendeutsch in klare Sprache uebersetzen - Bescheide, Formulare, AGB; rechtliche Pruefung bleibt Aufgabe der zustaendigen juristischen Stelle
 - KI-Qualitaetssicherung & Post-Editing: Pruefung KI-generierter Texte auf Korrektheit, Quellen, Stil und Compliance-nahe Risiken
 - Lektorat & Uebersetzung: Korrekturlesen, stilistische Ueberarbeitung, Fachuebersetzungen Deutsch-Englisch
@@ -22,8 +23,8 @@ English version: https://annemarie-andersen.de/en/llms.txt
 
 ## Seiten
 
-- [Startseite](https://annemarie-andersen.de/) - Uebersicht aller Leistungen, Referenzen und FAQ
-- [Barrierefreiheit & Leichte Sprache](https://annemarie-andersen.de/barrierefreiheit/) - Kernleistung, BITV 2.0, Einfache Sprache nach DIN 8581-1, Zukunftspreis-Referenz und Foerderleitfaden DARP
+- [Startseite](https://annemarie-andersen.de/) - Schwerpunkt Leichte Sprache, Einfache Sprache, Leistungen, Referenzen und FAQ
+- [Leichte Sprache & Einfache Sprache](https://annemarie-andersen.de/barrierefreiheit/) - Uebertragung, Neuerstellung, Zielgruppen, Leistungsumfang und Referenzen
 - [Verstaendliche Verwaltung](https://annemarie-andersen.de/verwaltung/) - Entbuerokratisierung, Bescheide, Formulare
 - [KI-Qualitaetssicherung](https://annemarie-andersen.de/ki-qualitaetssicherung/) - Pruefung KI-generierter Texte
 - [Lektorat & Uebersetzung](https://annemarie-andersen.de/lektorat/) - Korrekturlesen, DE-EN

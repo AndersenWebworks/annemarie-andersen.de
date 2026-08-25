@@ -8,8 +8,8 @@
       "position": 1,
       "item": {
         "@type": "Service",
-        "name": "Barrierefreiheit & Leichte Sprache",
-        "description": "Texte in Leichter Sprache nach aktuellem Regelwerk. Fuer Websites, Formulare, Broschueren und den Textanteil von Barrierefreiheitserklaerungen. Uebertragung bestehender Inhalte oder Neuerstellung inklusive Ausgangstexte in Standardsprache.",
+        "name": "Leichte Sprache",
+        "description": "Uebertragung bestehender Texte oder Neuerstellung fuer Websites, Formulare, Broschueren und oeffentliche Informationen. Ausgangstext, Uebertragung und Zielgruppenpruefung werden klar voneinander abgegrenzt.",
         "url": "https://annemarie-andersen.de/barrierefreiheit/",
         "category": "Kernleistung",
         "serviceType": "Leichte Sprache / Barrierefreie Kommunikation",
@@ -41,7 +41,7 @@
       "item": {
         "@type": "Service",
         "name": "Einfache Sprache nach DIN 8581-1",
-        "description": "Verstaendliche Texte fuer Kundeninformationen, Formulare, HR, Verwaltung, Gesundheitskommunikation, Versicherungen und interne Richtlinien. Geeignet, wenn Leichte Sprache nicht erforderlich ist, aber Texte klarer, kuerzer und weniger missverstaendlich werden sollen.",
+        "description": "Sprachliche Ueberarbeitung fuer Kundeninformationen, Formulare, Verwaltung, Gesundheitskommunikation und interne Richtlinien, wenn Leichte Sprache nicht die passende Stufe ist.",
         "url": "https://annemarie-andersen.de/barrierefreiheit/",
         "serviceType": "Einfache Sprache / Verstaendliche Kommunikation",
         "areaServed": {
