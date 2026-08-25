@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0",
+    "version": "1.1",
     "language": "de",
-    "updated": "2026-06-03"
+    "updated": "2026-08-25"
   },
   "nodes": {
     "start": {
@@ -11,8 +11,12 @@
       "subtitle": "Ein paar Fragen, damit ich Ihnen gezielt antworten kann.",
       "options": [
         {
-          "label": "Leichte Sprache oder Barrierefreiheit",
+          "label": "Leichte Sprache oder Einfache Sprache",
           "next": "leichte-sprache-kontext"
+        },
+        {
+          "label": "Zuarbeit für eine Agentur",
+          "next": "result-verwaltung-agentur"
         },
         {
           "label": "Verständliche Verwaltungstexte",
@@ -150,9 +154,9 @@
 
     "result-verwaltung-agentur": {
       "type": "result",
-      "title": "Sprachdienstleistung für Ihren Behördenauftrag",
-      "text": "Sie haben den Auftrag, ich liefere die Spracharbeit: Leichte Sprache, Lektorat, Übersetzung. Zuverlässig, termingerecht und BITV-nah formuliert. 20 Jahre Erfahrung in der Zusammenarbeit mit Agenturen und Dienstleistern.",
-      "cta": { "label": "Unverbindlich anfragen" }
+      "title": "Sprachliche Zuarbeit für Ihr Agenturprojekt",
+      "text": "Sie behalten Projektsteuerung und Kundenkontakt. Ich übernehme die vereinbarte Spracharbeit: Leichte oder Einfache Sprache, Schlussredaktion, Lektorat, Übersetzung oder die Prüfung von KI-Entwürfen. Sie erhalten eine Fassung, die Sie in Ihre Abstimmung mit dem Auftraggeber geben können.\n\nBei Leichter Sprache organisieren Sie die Zielgruppen- oder Prüfgruppenprüfung separat. Dieser Schritt wird im Angebot eindeutig von meiner Leistung abgegrenzt.",
+      "cta": { "label": "Agenturprojekt anfragen" }
     },
 
     "result-verwaltung-unternehmen": {

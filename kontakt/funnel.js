@@ -46,6 +46,7 @@
   var OPTION_ICON_MAP = [
     { match: 'Leichte Sprache',     icon: 'shield' },
     { match: 'Barrierefreiheit',    icon: 'shield' },
+    { match: 'Agentur',             icon: 'layers' },
     { match: 'Verwaltung',          icon: 'file-text' },
     { match: 'KI-Texte',            icon: 'zap' },
     { match: 'Lektorat',            icon: 'book-open' },
@@ -56,7 +57,6 @@
     { match: 'BGG',                 icon: 'shield' },
     { match: 'Behoerde',            icon: 'users' },
     { match: 'Kommune',             icon: 'users' },
-    { match: 'Agentur',             icon: 'layers' },
     { match: 'Unternehmen',         icon: 'layers' },
     { match: 'Eigenes Projekt',     icon: 'book-open' },
     { match: 'Einzeln',             icon: 'file-text' },
@@ -120,7 +120,14 @@
       .then(function (data) {
         tree = data.nodes;
         computeDepths();
-        show('start');
+        var entryPoints = {
+          agentur: 'result-verwaltung-agentur'
+        };
+        var requestedEntry = new URLSearchParams(window.location.search).get('anfrage');
+        var requestedNode = Object.prototype.hasOwnProperty.call(entryPoints, requestedEntry)
+          ? entryPoints[requestedEntry]
+          : 'start';
+        show(requestedNode);
       })
       .catch(function () {
         app.innerHTML = '<p style="color:var(--text-muted);font-size:15px;">Der Assistent konnte nicht geladen werden. Bitte schreiben Sie mir direkt eine E-Mail.</p>';
@@ -252,13 +259,17 @@
       subject: 'Anfrage: Leichte Sprache',
       body: 'wir m\u00f6chten einen Text in Leichte Sprache \u00fcbersetzen lassen.'
     },
+    'result-einfache-sprache': {
+      subject: 'Anfrage: Einfache Sprache',
+      body: 'wir m\u00f6chten einen Text in Einfache Sprache \u00fcberarbeiten lassen.'
+    },
     'result-verwaltung-behoerde': {
       subject: 'Anfrage: Verst\u00e4ndliche Verwaltungstexte',
       body: 'wir sind eine Beh\u00f6rde / Kommune und m\u00f6chten unsere Texte verst\u00e4ndlicher machen.'
     },
     'result-verwaltung-agentur': {
-      subject: 'Anfrage: Sprachdienstleistung (Beh\u00f6rdenauftrag)',
-      body: 'wir sind eine Agentur mit einem Beh\u00f6rdenauftrag und suchen eine zuverl\u00e4ssige Sprachdienstleisterin f\u00fcr Leichte Sprache und Lektorat.'
+      subject: 'Anfrage: Sprachliche Zuarbeit f\u00fcr ein Agenturprojekt',
+      body: 'wir sind eine Agentur und suchen sprachliche Unterst\u00fctzung f\u00fcr ein Kundenprojekt.'
     },
     'result-verwaltung-unternehmen': {
       subject: 'Anfrage: Verst\u00e4ndliche Unternehmenstexte',
@@ -305,10 +316,10 @@
 
     var subject = data.subject;
     var body = 'Hallo Frau Andersen,\n\n' + data.body;
-    body += '\n\nHier sind ein paar Infos zum Projekt:\n[Bitte erg\u00e4nzen: Umfang, Zeitrahmen, ggf. Ausgangstext]\n\nViele Gr\u00fc\u00dfe\n[Ihr Name]';
+    body += '\n\nHier sind die wichtigsten Projektdaten:\n[Bitte erg\u00e4nzen: Textart, Umfang, gew\u00fcnschte Leistung, Termin und vorhandener Ausgangstext]\n\nViele Gr\u00fc\u00dfe\n[Ihr Name]';
 
     var previewHtml = 'Hallo Frau Andersen,\n\n' + esc(data.body);
-    previewHtml += '\n\nHier sind ein paar Infos zum Projekt:\n<span class="mf-contact-placeholder">[Bitte erg\u00e4nzen: Umfang, Zeitrahmen, ggf. Ausgangstext]</span>\n\nViele Gr\u00fc\u00dfe\n<span class="mf-contact-placeholder">[Ihr Name]</span>';
+    previewHtml += '\n\nHier sind die wichtigsten Projektdaten:\n<span class="mf-contact-placeholder">[Bitte erg\u00e4nzen: Textart, Umfang, gew\u00fcnschte Leistung, Termin und vorhandener Ausgangstext]</span>\n\nViele Gr\u00fc\u00dfe\n<span class="mf-contact-placeholder">[Ihr Name]</span>';
 
     return { subject: subject, body: body, previewHtml: previewHtml };
   }
