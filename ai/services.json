@@ -9,7 +9,7 @@
       "item": {
         "@type": "Service",
         "name": "Leichte Sprache",
-        "description": "Uebertragung bestehender Texte oder Neuerstellung fuer Websites, Formulare, Broschueren und oeffentliche Informationen. Ausgangstext, Uebertragung und Zielgruppenpruefung werden klar voneinander abgegrenzt.",
+        "description": "Uebertragung bestehender Texte oder Neuerstellung fuer Websites, Formulare, Broschueren und oeffentliche Informationen. Eine Pruefung durch eine Ziel- oder Pruefgruppe erfolgt kundenseitig. Gern bereite ich den Text dafuer vor und arbeite die Rueckmeldungen anschliessend im vereinbarten Umfang ein.",
         "url": "https://annemarie-andersen.de/barrierefreiheit/",
         "category": "Kernleistung",
         "serviceType": "Leichte Sprache / Barrierefreie Kommunikation",
@@ -42,7 +42,7 @@
         "@type": "Service",
         "name": "Einfache Sprache nach DIN 8581-1",
         "description": "Sprachliche Ueberarbeitung fuer Kundeninformationen, Formulare, Verwaltung, Gesundheitskommunikation und interne Richtlinien, wenn Leichte Sprache nicht die passende Stufe ist.",
-        "url": "https://annemarie-andersen.de/barrierefreiheit/",
+        "url": "https://annemarie-andersen.de/einfache-sprache/",
         "serviceType": "Einfache Sprache / Verstaendliche Kommunikation",
         "areaServed": {
           "@type": "Country",
@@ -54,7 +54,7 @@
           "url": "https://annemarie-andersen.de",
           "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
         },
-        "@id": "https://annemarie-andersen.de/barrierefreiheit/#service-einfache-sprache",
+        "@id": "https://annemarie-andersen.de/einfache-sprache/#service",
         "isPartOf": {
           "@id": "https://annemarie-andersen.de/#professional-service"
         }
