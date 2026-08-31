@@ -159,6 +159,31 @@
           "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Service",
+        "name": "Sprachliche Zuarbeit für Agenturen",
+        "description": "Leichte Sprache, Einfache Sprache, Schlussredaktion, Qualitätssicherung von Kunden- und KI-Entwürfen sowie Lektorat und Übersetzung Deutsch-Englisch für Kundenprojekte von Agenturen.",
+        "url": "https://annemarie-andersen.de/agentur/",
+        "serviceType": "Sprachliche Zuarbeit für Agenturen",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Deutschland"
+        },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/agentur/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
+        }
+      }
     }
   ],
   "@id": "https://annemarie-andersen.de/ai/services.json#services"
