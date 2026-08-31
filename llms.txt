@@ -13,6 +13,7 @@ English version: https://annemarie-andersen.de/en/llms.txt
 - KI-Qualitaetssicherung & Post-Editing: Pruefung KI-generierter Texte auf Korrektheit, Quellen, Stil und Compliance-nahe Risiken
 - Lektorat & Uebersetzung: Korrekturlesen, stilistische Ueberarbeitung, Fachuebersetzungen Deutsch-Englisch
 - Texterstellung: Wirkungsberichte, Geschaeftsberichte, Foerderantraege und Konzepte -- verstaendlich geschrieben und klar strukturiert
+- Barrierefreiheits-Analyse von Websites: WCAG-orientierte Bestandsaufnahme repraesentativer Seitentypen mit schriftlichem Bericht und priorisierten Befunden
 
 ## Kontakt
 
@@ -24,7 +25,7 @@ English version: https://annemarie-andersen.de/en/llms.txt
 ## Seiten
 
 - [Startseite](https://annemarie-andersen.de/) - Schwerpunkt Leichte Sprache, Einfache Sprache, Leistungen, Referenzen und FAQ
-- [Leichte Sprache & Einfache Sprache](https://annemarie-andersen.de/barrierefreiheit/) - Uebertragung, Neuerstellung, Zielgruppen, Leistungsumfang und Referenzen
+- [Leichte Sprache, Einfache Sprache & Website-Analyse](https://annemarie-andersen.de/barrierefreiheit/) - Uebertragung, Neuerstellung, Website-Analyse, Leistungsumfang und Referenzen
 - [Für Agenturen](https://annemarie-andersen.de/agentur/) - Sprachliche Zuarbeit für Kundenprojekte: Leichte und Einfache Sprache, Schlussredaktion, KI-Qualitätssicherung sowie Lektorat und Übersetzung
 - [Einfache Sprache](https://annemarie-andersen.de/einfache-sprache/) - Ueberarbeitung und Neuerstellung deutscher Sachtexte auf Grundlage von DIN ISO 24495-1 und DIN 8581-1
 - [Verstaendliche Verwaltung](https://annemarie-andersen.de/verwaltung/) - Entbuerokratisierung, Bescheide, Formulare

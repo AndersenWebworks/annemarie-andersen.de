@@ -15,6 +15,10 @@
           "next": "leichte-sprache-kontext"
         },
         {
+          "label": "Website auf Barrierefreiheit analysieren",
+          "next": "result-website-analyse"
+        },
+        {
           "label": "Zuarbeit für eine Agentur",
           "next": "result-verwaltung-agentur"
         },
@@ -122,6 +126,13 @@
       "title": "Sprachliche Prüfung für BFSG-relevante Projekte",
       "text": "Seit Juni 2025 gelten Barrierefreiheitsanforderungen für bestimmte digitale Produkte und Dienstleistungen. Ich prüfe und überarbeite Ihre Texte sprachlich, damit sie verständlich, strukturiert und barrierearm nutzbar sind. Die rechtliche BFSG-Einordnung bleibt eine separate Scope-Frage.\n\nReferenz: Förderleitfaden DARP im BMF-/PD-Kontext (barrierefreie Kommunikation, Leichte Sprache nach BITV 2.0).",
       "cta": { "label": "Unverbindlich anfragen" }
+    },
+
+    "result-website-analyse": {
+      "type": "result",
+      "title": "Barrierefreiheits-Analyse Ihrer Website",
+      "text": "Ich prüfe repräsentative Seiten und Funktionen mit technischem und redaktionellem Blick. Sie erhalten einen schriftlichen Bericht mit konkreten Befunden, Prioritäten und Empfehlungen. Die technische Umsetzung ist ein eigener Schritt; den Bericht können Sie an einen Dienstleister Ihrer Wahl geben.",
+      "cta": { "label": "Website-Analyse anfragen" }
     },
 
     "result-bitv": {

@@ -9,8 +9,8 @@
     "alternate": "https://annemarie-andersen.de/ai/manifest.json"
   },
   "version": "v1.0",
-  "build": 2,
-  "dateModified": "2026-06-03T00:00:00Z",
+  "build": 3,
+  "dateModified": "2026-08-31T00:00:00Z",
   "datePublished": "2026-06-03T00:00:00Z",
   "endpoints": [
     {

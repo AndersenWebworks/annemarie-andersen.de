@@ -11,6 +11,7 @@ This is the English version of the site. German original: https://annemarie-ande
 - AI Quality Assurance & Post-Editing: checking AI-generated texts for accuracy, style and compliance
 - Editing & Translation: proofreading, stylistic editing, specialist German-English translation
 - Copywriting: impact reports, annual reports, grant applications and concepts - written clearly and well structured
+- Website accessibility analysis: WCAG-oriented inspection of representative page types with a written report and prioritised findings
 
 ## Contact
 
@@ -22,7 +23,7 @@ This is the English version of the site. German original: https://annemarie-ande
 ## Pages
 
 - [Home](https://annemarie-andersen.de/en/) - overview of all services, references and FAQ
-- [Accessibility & Easy Language](https://annemarie-andersen.de/en/barrierefreiheit/) - core service, BITV 2.0, Future Prize reference and DARP funding guide
+- [Accessibility, Easy Language & Website Analysis](https://annemarie-andersen.de/en/barrierefreiheit/) - Easy Language, website analysis, Future Prize reference and DARP funding guide
 - [Clear Administrative Language](https://annemarie-andersen.de/en/verwaltung/) - cutting red tape, notices, forms
 - [AI Quality Assurance](https://annemarie-andersen.de/en/ki-qualitaetssicherung/) - checking AI-generated texts
 - [Editing & Translation](https://annemarie-andersen.de/en/lektorat/) - proofreading, German-English

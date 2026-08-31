@@ -21,5 +21,8 @@ Leistungen von Annemarie Andersen
 7. Texterstellung
    Wirkungsberichte, Geschaeftsberichte, Foerderantraege und Konzepte -- verstaendlich geschrieben, klar strukturiert und auf die Zielgruppe zugeschnitten.
 
+8. Barrierefreiheits-Analyse von Websites
+   WCAG-orientierte Bestandsaufnahme repraesentativer Seitentypen mit schriftlichem Analysebericht, priorisierten Befunden und Empfehlungen. Die technische Umsetzung ist ein eigener Auftrag.
+
 Kontakt: mail@annemarie-andersen.de | +49 175 118 32 51
 Website: https://annemarie-andersen.de

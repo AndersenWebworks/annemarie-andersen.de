@@ -259,6 +259,10 @@
       subject: 'Anfrage: Leichte Sprache',
       body: 'wir m\u00f6chten einen Text in Leichte Sprache \u00fcbersetzen lassen.'
     },
+    'result-website-analyse': {
+      subject: 'Anfrage: Barrierefreiheits-Analyse einer Website',
+      body: 'wir möchten unsere Website auf technische und redaktionelle Barrieren prüfen lassen und interessieren uns für einen schriftlichen Analysebericht.'
+    },
     'result-einfache-sprache': {
       subject: 'Anfrage: Einfache Sprache',
       body: 'wir m\u00f6chten einen Text in Einfache Sprache \u00fcberarbeiten lassen.'

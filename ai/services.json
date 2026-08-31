@@ -184,6 +184,32 @@
           "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Service",
+        "name": "Barrierefreiheits-Analyse von Websites",
+        "description": "WCAG-orientierte Bestandsaufnahme repraesentativer Seitentypen mit schriftlichem Analysebericht, priorisierten Befunden und Empfehlungen fuer die technische Umsetzung. Keine Konformitaetsbescheinigung oder Rechtsberatung.",
+        "url": "https://annemarie-andersen.de/barrierefreiheit/#website-analyse",
+        "serviceType": "Website-Barrierefreiheitsanalyse",
+        "areaServed": { "@type": "Country", "name": "Deutschland" },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "price": "480.00",
+          "description": "Kompaktanalyse bis 5 repraesentative Seitentypen einschliesslich Bericht und Erlaeuterungsgespraech"
+        },
+        "@id": "https://annemarie-andersen.de/barrierefreiheit/#service-website-analyse",
+        "isPartOf": { "@id": "https://annemarie-andersen.de/#professional-service" }
+      }
     }
   ],
   "@id": "https://annemarie-andersen.de/ai/services.json#services"

@@ -15,6 +15,9 @@ Services by Annemarie Andersen
 5. Copywriting
    Impact reports, annual reports, grant applications, and concepts, written clearly, well structured, and tailored to the target audience.
 
+6. Website accessibility analysis
+   WCAG-oriented inspection of representative page types with a written report, prioritised findings and recommendations. Technical implementation is a separate engagement.
+
 Contact: mail@annemarie-andersen.de | +49 175 118 32 51
 Website: https://annemarie-andersen.de/en/
 

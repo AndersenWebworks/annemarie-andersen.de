@@ -135,6 +135,32 @@
           "@id": "https://annemarie-andersen.de/#professional-service"
         }
       }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Service",
+        "name": "Website accessibility analysis",
+        "description": "WCAG-oriented inspection of representative page types with a written report, prioritised findings and recommendations for technical implementation. No certificate of conformance or legal advice.",
+        "url": "https://annemarie-andersen.de/en/barrierefreiheit/#website-analysis",
+        "serviceType": "Website accessibility analysis",
+        "areaServed": { "@type": "Country", "name": "Germany" },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de/en/",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "price": "480.00",
+          "description": "Compact analysis of up to 5 representative page types, including the report and review call"
+        },
+        "@id": "https://annemarie-andersen.de/en/barrierefreiheit/#service-website-analysis",
+        "isPartOf": { "@id": "https://annemarie-andersen.de/#professional-service" }
+      }
     }
   ],
   "@id": "https://annemarie-andersen.de/en/ai/services.json#services"
