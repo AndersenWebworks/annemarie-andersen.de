@@ -26,8 +26,8 @@
         "offers": {
           "@type": "Offer",
           "priceCurrency": "EUR",
-          "price": "68.50",
-          "description": "Ab 68,50 EUR pro Normseite (1.500 Zeichen inkl. Leerzeichen)"
+          "price": "110.00",
+          "description": "Ab 110,00 EUR pro Normseite (1.500 Zeichen inkl. Leerzeichen)"
         },
         "@id": "https://annemarie-andersen.de/barrierefreiheit/#service-leichte-sprache",
         "isPartOf": {
@@ -204,8 +204,8 @@
         "offers": {
           "@type": "Offer",
           "priceCurrency": "EUR",
-          "price": "480.00",
-          "description": "Kompaktanalyse bis 5 repraesentative Seitentypen einschliesslich Bericht und Erlaeuterungsgespraech"
+          "price": "790.00",
+          "description": "Kompaktanalyse bis 3 repraesentative Seiten oder Ablaeufe einschliesslich Bericht und Erlaeuterungsgespraech"
         },
         "@id": "https://annemarie-andersen.de/barrierefreiheit/#service-website-analyse",
         "isPartOf": { "@id": "https://annemarie-andersen.de/#professional-service" }

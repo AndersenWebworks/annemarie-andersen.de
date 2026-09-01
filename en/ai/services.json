@@ -27,8 +27,8 @@
         "offers": {
           "@type": "Offer",
           "priceCurrency": "EUR",
-          "price": "68.50",
-          "description": "From EUR 68.50 per standard page (1,500 characters including spaces)"
+          "price": "110.00",
+          "description": "German Easy Language from EUR 110.00 per standard page; English Easy Language from EUR 120.00 per 250 words"
         },
         "@id": "https://annemarie-andersen.de/en/barrierefreiheit/#service",
         "isPartOf": {
@@ -155,8 +155,8 @@
         "offers": {
           "@type": "Offer",
           "priceCurrency": "EUR",
-          "price": "480.00",
-          "description": "Compact analysis of up to 5 representative page types, including the report and review call"
+          "price": "790.00",
+          "description": "Compact analysis of up to 3 representative pages or user flows, including the report and review call"
         },
         "@id": "https://annemarie-andersen.de/en/barrierefreiheit/#service-website-analysis",
         "isPartOf": { "@id": "https://annemarie-andersen.de/#professional-service" }
