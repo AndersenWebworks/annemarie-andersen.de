@@ -29,7 +29,7 @@ This is the English version of the site. German original: https://annemarie-ande
 - [Editing & Translation](https://annemarie-andersen.de/en/lektorat/) - proofreading, German-English
 - [Copywriting](https://annemarie-andersen.de/en/texterstellung/) - impact reports, grant applications, concepts, annual reports, DARP funding guide
 - [About](https://annemarie-andersen.de/en/ueber-mich/) - QA background, career
-- [References](https://annemarie-andersen.de/en/referenzen/) - clients and projects, including the Future Prize, the DARP funding guide and Seniorpartner in School
+- [References](https://annemarie-andersen.de/en/referenzen/) - clients and projects, including the Future Prize, the DARP funding guide, WBG-Pooling and Seniorpartner in School
 - [Contact](https://annemarie-andersen.de/en/kontakt/) - request a quote
 - [Pricing & Booking](https://annemarie-andersen.de/en/preise.html) - terms, indicative prices, the booking process and an FAQ on pricing
 - [Accessibility Statement](https://annemarie-andersen.de/en/barrierefreiheitserklaerung/) - state of accessibility, known limitations and contact for reporting accessibility barriers
