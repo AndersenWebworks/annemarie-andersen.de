@@ -9,7 +9,7 @@
       "item": {
         "@type": "Service",
         "name": "Leichte Sprache",
-        "description": "Uebertragung bestehender Texte oder Neuerstellung fuer Websites, Formulare, Broschueren und oeffentliche Informationen. Eine Pruefung durch eine Ziel- oder Pruefgruppe erfolgt kundenseitig. Gern bereite ich den Text dafuer vor und arbeite die Rueckmeldungen anschliessend im vereinbarten Umfang ein.",
+        "description": "Übertragung bestehender Texte oder Neuerstellung fuer Websites, Formulare, Broschueren und oeffentliche Informationen. Eine Prüfung durch eine Ziel- oder Prüfgruppe erfolgt kundenseitig. Gern bereite ich den Text dafuer vor und arbeite die Rückmeldungen anschließend im vereinbarten Umfang ein.",
         "url": "https://annemarie-andersen.de/barrierefreiheit/",
         "category": "Kernleistung",
         "serviceType": "Leichte Sprache / Barrierefreie Kommunikation",
@@ -43,7 +43,7 @@
         "name": "Einfache Sprache nach DIN 8581-1",
         "description": "Sprachliche Ueberarbeitung fuer Kundeninformationen, Formulare, Verwaltung, Gesundheitskommunikation und interne Richtlinien, wenn Leichte Sprache nicht die passende Stufe ist.",
         "url": "https://annemarie-andersen.de/einfache-sprache/",
-        "serviceType": "Einfache Sprache / Verstaendliche Kommunikation",
+        "serviceType": "Einfache Sprache / Verständliche Kommunikation",
         "areaServed": {
           "@type": "Country",
           "name": "Deutschland"
@@ -65,10 +65,10 @@
       "position": 3,
       "item": {
         "@type": "Service",
-        "name": "Verstaendliche Verwaltung",
-        "description": "Behoerdendeutsch in klare Sprache uebersetzen. Bescheide, Formulare, Vertragsklauseln und AGB sprachlich so formulieren, dass die Zielgruppe sie beim ersten Lesen besser versteht. Rechtliche Pruefung bleibt Aufgabe der zustaendigen juristischen Stelle.",
+        "name": "Verständliche Verwaltung",
+        "description": "Behördendeutsch in klare Sprache uebersetzen. Bescheide, Formulare, Vertragsklauseln und AGB sprachlich so formulieren, dass die Zielgruppe sie beim ersten Lesen besser versteht. Rechtliche Prüfung bleibt Aufgabe der zustaendigen juristischen Stelle.",
         "url": "https://annemarie-andersen.de/verwaltung/",
-        "serviceType": "Entbuerokratisierung / Verstaendliche Verwaltungssprache",
+        "serviceType": "Entbürokratisierung / Verständliche Verwaltungssprache",
         "areaServed": {
           "@type": "Country",
           "name": "Deutschland"
@@ -90,10 +90,10 @@
       "position": 4,
       "item": {
         "@type": "Service",
-        "name": "KI-Qualitaetssicherung & Post-Editing",
-        "description": "Pruefung KI-generierter Texte gegen inhaltliche Fehler, Quellenprobleme, stilistische Brueche und Compliance-nahe Risiken. Fuer Unternehmen, die ChatGPT, DeepL oder andere Tools fuer ihre Texte nutzen.",
+        "name": "KI-Qualitätssicherung & Post-Editing",
+        "description": "Prüfung KI-generierter Texte gegen inhaltliche Fehler, Quellenprobleme, stilistische Brueche und Compliance-nahe Risiken. Fuer Unternehmen, die ChatGPT, DeepL oder andere Tools fuer ihre Texte nutzen.",
         "url": "https://annemarie-andersen.de/ki-qualitaetssicherung/",
-        "serviceType": "KI-Qualitaetssicherung / Post-Editing",
+        "serviceType": "KI-Qualitätssicherung / Post-Editing",
         "areaServed": {
           "@type": "Country",
           "name": "Deutschland"
@@ -141,7 +141,7 @@
       "item": {
         "@type": "Service",
         "name": "Texterstellung",
-        "description": "Wirkungsberichte, Geschaeftsberichte, Foerderantraege und Konzepte -- verstaendlich geschrieben, klar strukturiert und auf die Zielgruppe zugeschnitten.",
+        "description": "Wirkungsberichte, Geschaeftsberichte, Förderanträge und Konzepte -- verständlich geschrieben, klar strukturiert und auf die Zielgruppe zugeschnitten.",
         "url": "https://annemarie-andersen.de/texterstellung/",
         "serviceType": "Texterstellung / Redaktion",
         "areaServed": {
@@ -191,7 +191,7 @@
       "item": {
         "@type": "Service",
         "name": "Barrierefreiheits-Analyse von Websites",
-        "description": "WCAG-orientierte Bestandsaufnahme repraesentativer Seitentypen mit schriftlichem Analysebericht, priorisierten Befunden und Empfehlungen fuer die technische Umsetzung. Keine Konformitaetsbescheinigung oder Rechtsberatung.",
+        "description": "WCAG-orientierte Bestandsaufnahme repräsentativer Seitentypen mit schriftlichem Analysebericht, priorisierten Befunden und Empfehlungen fuer die technische Umsetzung. Keine Konformitätsbescheinigung oder Rechtsberatung.",
         "url": "https://annemarie-andersen.de/barrierefreiheit/#website-analyse",
         "serviceType": "Website-Barrierefreiheitsanalyse",
         "areaServed": { "@type": "Country", "name": "Deutschland" },
@@ -205,7 +205,7 @@
           "@type": "Offer",
           "priceCurrency": "EUR",
           "price": "790.00",
-          "description": "Kompaktanalyse bis 3 repraesentative Seiten oder Ablaeufe einschliesslich Bericht und Erlaeuterungsgespraech"
+          "description": "Kompaktanalyse bis 3 repräsentative Seiten oder Abläufe einschließlich Bericht und Erläuterungsgespräch"
         },
         "@id": "https://annemarie-andersen.de/barrierefreiheit/#service-website-analyse",
         "isPartOf": { "@id": "https://annemarie-andersen.de/#professional-service" }
