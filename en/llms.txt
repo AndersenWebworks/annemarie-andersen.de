@@ -39,7 +39,6 @@ This is the English version of the site. German original: https://annemarie-ande
 - [BFSG guide](https://annemarie-andersen.de/en/wissen/bfsg.html) - what the German Accessibility Strengthening Act means for your texts
 - [What is Easy Language?](https://annemarie-andersen.de/en/wissen/leichte-sprache.html) - rules, target audience, legal basis, DIN SPEC 33429
 - [Official Texts: Before & After](https://annemarie-andersen.de/en/wissen/behoerdentexte.html) - three real-world examples of clear administrative language
-- [Games Localization](https://annemarie-andersen.de/en/wissen/gaming-lokalisierung.html) - why translation is not enough: variable strings, cultural adaptation, LQA
 
 ## Relevant files
 

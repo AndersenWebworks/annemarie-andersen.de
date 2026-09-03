@@ -43,8 +43,7 @@ English version: https://annemarie-andersen.de/en/llms.txt
 - [BFSG-Ratgeber](https://annemarie-andersen.de/wissen/bfsg.html) - Was das Barrierefreiheitsstaerkungsgesetz fuer betroffene Texte und Services bedeutet
 - [Was ist Leichte Sprache?](https://annemarie-andersen.de/wissen/leichte-sprache.html) - Regeln, Zielgruppe, rechtliche Grundlagen und DIN SPEC 33429
 - [Was ist Einfache Sprache?](https://annemarie-andersen.de/wissen/einfache-sprache.html) - DIN ISO 24495-1, DIN 8581-1, Abgrenzung zu Leichter Sprache, Zielgruppentests und Rechtsbezug
-- [Behoerdentexte: Vorher & Nachher](https://annemarie-andersen.de/wissen/behoerdentexte.html) - Drei Praxisbeispiele fuer verstaendliche Verwaltungssprache
-- [Gaming-Lokalisierung](https://annemarie-andersen.de/wissen/gaming-lokalisierung.html) - Warum Uebersetzen nicht reicht: Variable Strings, kulturelle Anpassung, LQA
+- [Behoerdentexte: Vorher & Nachher](https://annemarie-andersen.de/wissen/behoerdentexte.html) - Drei Praxisbeispiele fuer verständliche Verwaltungssprache
 
 ## Relevante Dateien
 
