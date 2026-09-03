@@ -364,7 +364,7 @@
     h += '</a>';
 
     /* Trust badge */
-    h += '<p class="mf-trust-badge mf-stagger" style="--i:2.5">Antwort innerhalb von 24\u00a0Stunden \u00b7 20+ Jahre Erfahrung \u00b7 100\u00a0% remote</p>';
+    h += '<p class="mf-trust-badge mf-stagger" style="--i:2.5">Antwort innerhalb von 24\u00a0Stunden \u00b7 Freiberuflich seit 2018 \u00b7 100\u00a0% remote</p>';
 
     /* Alternative contact */
     h += '<div class="mf-contact-alt mf-stagger" style="--i:3">';
