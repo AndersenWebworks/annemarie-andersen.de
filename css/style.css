@@ -1540,6 +1540,25 @@ html[lang^="en"] .service-card.featured::before { content: 'Core service'; }
   }
 }
 
+/* ===== TESTIMONIALS SECTION ===== */
+.testimonials-section { margin-top: 56px; max-width: 800px; }
+.testimonials-section .testimonials-heading {
+  font-family: var(--font-heading); font-size: 24px; font-weight: 700;
+  color: var(--navy); margin-bottom: 24px; line-height: 1.3;
+}
+.testimonials-grid > .testimonial-card { margin: 0; }
+.testimonial-meta {
+  display: block; font-size: 13px; color: var(--text-muted);
+  margin-top: 6px; font-style: italic;
+}
+.testimonial-source {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin-top: 12px; font-size: 13px; color: var(--terracotta);
+  font-weight: 600; text-decoration: none;
+}
+.testimonial-source:hover { color: var(--terracotta-hover); text-decoration: underline; }
+.testimonial-source svg { flex-shrink: 0; }
+
 /* ===== PRINT ===== */
 @media print {
   .site-header, .nav-toggle { display: none; }
