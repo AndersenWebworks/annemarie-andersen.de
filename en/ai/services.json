@@ -9,8 +9,8 @@
       "position": 1,
       "item": {
         "@type": "Service",
-        "name": "Accessibility & Easy Language",
-        "description": "Texts in Easy Language based on current rulebooks. For websites, forms, brochures and accessibility statements. Translation of existing content or new texts from scratch, including source texts in standard language.",
+        "name": "Easy Language",
+        "description": "Rewriting existing texts or creating new texts in Easy Language for websites, forms, brochures and public information. Any target-group or review-group testing is arranged by the client. I can prepare the text for review and incorporate feedback within the agreed scope.",
         "url": "https://annemarie-andersen.de/en/barrierefreiheit/",
         "category": "Core service",
         "serviceType": "Easy Language / Accessible communication",
@@ -28,9 +28,9 @@
           "@type": "Offer",
           "priceCurrency": "EUR",
           "price": "110.00",
-          "description": "German Easy Language from EUR 110.00 per standard page; English Easy Language from EUR 120.00 per 250 words"
+          "description": "German Easy Language from EUR 110.00 per standard page of 1,500 characters, including spaces"
         },
-        "@id": "https://annemarie-andersen.de/en/barrierefreiheit/#service",
+        "@id": "https://annemarie-andersen.de/en/barrierefreiheit/#service-leichte-sprache",
         "isPartOf": {
           "@id": "https://annemarie-andersen.de/#professional-service"
         }
@@ -41,8 +41,33 @@
       "position": 2,
       "item": {
         "@type": "Service",
+        "name": "Plain Language (Einfache Sprache)",
+        "description": "Revision and new writing for German factual texts under DIN 8581-1, including customer information, forms, administrative texts, health communication and internal guidelines, when Easy Language is not the right level.",
+        "url": "https://annemarie-andersen.de/en/einfache-sprache/",
+        "serviceType": "Plain Language / Understandable communication",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de/en/",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/en/einfache-sprache/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Service",
         "name": "Clear Administrative Language",
-        "description": "Turning officialese into clear language. Notices, forms, contract clauses, and terms and conditions worded so the target audience understands them on first reading.",
+        "description": "Rewriting administrative German in clearer language for notices, forms, contract clauses and terms and conditions. Legal review remains the responsibility of the competent legal professional.",
         "url": "https://annemarie-andersen.de/en/verwaltung/",
         "serviceType": "Clear administrative language",
         "areaServed": {
@@ -63,11 +88,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": 4,
       "item": {
         "@type": "Service",
         "name": "AI Quality Assurance & Post-Editing",
-        "description": "Checking AI-generated texts for factual errors, breaks in style and compliance gaps. For companies that use ChatGPT, DeepL or other tools for their texts.",
+        "description": "Reviewing AI-generated texts for factual errors, source issues, stylistic inconsistencies and compliance-related risks. For organizations using ChatGPT, DeepL or other tools to produce text.",
         "url": "https://annemarie-andersen.de/en/ki-qualitaetssicherung/",
         "serviceType": "AI quality assurance / Post-editing",
         "areaServed": {
@@ -88,7 +113,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "item": {
         "@type": "Service",
         "name": "Editing & Translation",
@@ -113,11 +138,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 6,
       "item": {
         "@type": "Service",
         "name": "Copywriting",
-        "description": "Impact reports, annual reports, grant applications, and concepts, written clearly, well structured, and tailored to the target audience.",
+        "description": "Impact reports, annual reports, corporate reports, grant applications and concepts, written clearly and tailored to the target audience.",
         "url": "https://annemarie-andersen.de/en/texterstellung/",
         "serviceType": "Copywriting / Editorial",
         "areaServed": {
@@ -138,11 +163,36 @@
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 7,
+      "item": {
+        "@type": "Service",
+        "name": "Language Support for Agencies",
+        "description": "Easy Language, Plain Language, final editing, quality assurance of client and AI drafts, editing and German-English translation for agency client projects.",
+        "url": "https://annemarie-andersen.de/en/agentur/",
+        "serviceType": "Language support for agencies",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        "provider": {
+          "@type": "Person",
+          "name": "Annemarie Andersen",
+          "url": "https://annemarie-andersen.de/en/",
+          "@id": "https://annemarie-andersen.de/#person-annemarie-andersen"
+        },
+        "@id": "https://annemarie-andersen.de/en/agentur/#service",
+        "isPartOf": {
+          "@id": "https://annemarie-andersen.de/#professional-service"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
       "item": {
         "@type": "Service",
         "name": "Website accessibility analysis",
-        "description": "WCAG-oriented inspection of representative page types with a written report, prioritised findings and recommendations for technical implementation. No certificate of conformance or legal advice.",
+        "description": "WCAG-oriented review of representative page types with a written report, prioritized findings and recommendations for technical implementation. No certificate of conformance or legal advice.",
         "url": "https://annemarie-andersen.de/en/barrierefreiheit/#website-analysis",
         "serviceType": "Website accessibility analysis",
         "areaServed": { "@type": "Country", "name": "Germany" },

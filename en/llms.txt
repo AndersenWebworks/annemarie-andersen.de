@@ -1,48 +1,57 @@
-# Annemarie Andersen - Language Services
+# Annemarie Andersen - Easy Language and Plain Language
 
-> Independent language specialist for accessible communication, Easy Language in line with BITV 2.0, clear administrative language and AI quality assurance. Freelance since 2018. References: the Federal President's German Future Prize (Easy Language, 2024 and 2025) and the DARP funding guide in a Federal Ministry of Finance / PD context.
+> Independent language specialist for Easy Language, Plain Language and clear communication for public bodies, organizations and agencies. Freelance since 2018. Additional services include language quality assurance, editing, translation and copywriting.
 
 This is the English version of the site. German original: https://annemarie-andersen.de/llms.txt
 
 ## Services
 
-- Accessibility & Easy Language: texts to BITV 2.0 and the BGG for websites, forms, brochures and accessibility statements
-- Clear Administrative Language: turning officialese into clear language - notices, forms, terms and conditions
-- AI Quality Assurance & Post-Editing: checking AI-generated texts for accuracy, style and compliance
-- Editing & Translation: proofreading, stylistic editing, specialist German-English translation
-- Copywriting: impact reports, annual reports, grant applications and concepts - written clearly and well structured
-- Website accessibility analysis: WCAG-oriented inspection of representative page types with a written report and prioritised findings
+- Easy Language: rewriting existing texts or creating new German texts for websites, forms, brochures and public information. Any target-group or review-group testing is arranged by the client.
+- Plain Language: revision and new writing for German factual texts under DIN 8581-1, including customer information, forms, administrative texts, health communication and internal guidelines.
+- Language support for agencies: Easy Language, Plain Language, final editing, quality assurance of client and AI drafts, editing and German-English translation for client projects.
+- Clear Administrative Language: rewriting German notices, forms and contract language in clearer terms. Legal review remains the responsibility of the competent legal professional.
+- AI Quality Assurance and Post-Editing: checking AI-generated texts for factual errors, source issues, stylistic inconsistencies and compliance-related risks.
+- Editing and Translation: proofreading, stylistic editing and specialist German-English translation.
+- Copywriting: impact reports, annual reports, corporate reports, grant applications and concepts.
+- Website accessibility analysis: WCAG-oriented review of representative page types, with a written report, prioritized findings and recommendations for technical implementation. No certificate of conformance or legal advice.
 
 ## Contact
 
 - Email: mail@annemarie-andersen.de
 - Phone: +49 175 118 32 51
 - Website: https://annemarie-andersen.de/en/
-- Location: Mecklenburg-Vorpommern, 100% remote
+- Location: Mecklenburg-Vorpommern, working remotely
 
 ## Pages
 
-- [Home](https://annemarie-andersen.de/en/) - overview of all services, references and FAQ
-- [Accessibility, Easy Language & Website Analysis](https://annemarie-andersen.de/en/barrierefreiheit/) - Easy Language, website analysis, Future Prize reference and DARP funding guide
-- [Clear Administrative Language](https://annemarie-andersen.de/en/verwaltung/) - cutting red tape, notices, forms
-- [AI Quality Assurance](https://annemarie-andersen.de/en/ki-qualitaetssicherung/) - checking AI-generated texts
-- [Editing & Translation](https://annemarie-andersen.de/en/lektorat/) - proofreading, German-English
-- [Copywriting](https://annemarie-andersen.de/en/texterstellung/) - impact reports, grant applications, concepts, annual reports, DARP funding guide
-- [About](https://annemarie-andersen.de/en/ueber-mich/) - QA background, career
-- [References](https://annemarie-andersen.de/en/referenzen/) - clients and projects, including the Future Prize, the DARP funding guide, WBG-Pooling and Seniorpartner in School
-- [Contact](https://annemarie-andersen.de/en/kontakt/) - request a quote
-- [Pricing & Booking](https://annemarie-andersen.de/en/preise.html) - terms, indicative prices, the booking process and an FAQ on pricing
-- [Accessibility Statement](https://annemarie-andersen.de/en/barrierefreiheitserklaerung/) - state of accessibility, known limitations and contact for reporting accessibility barriers
+- [Home](https://annemarie-andersen.de/en/) - current service overview, references and frequently asked questions
+- [Easy Language and Website Accessibility Analysis](https://annemarie-andersen.de/en/barrierefreiheit/) - Easy Language, website analysis and service scope
+- [Plain Language](https://annemarie-andersen.de/en/einfache-sprache/) - revision and new writing for German factual texts
+- [Language Support for Agencies](https://annemarie-andersen.de/en/agentur/) - language services for agency client projects
+- [Clear Administrative Language](https://annemarie-andersen.de/en/verwaltung/) - clearer German notices, forms and administrative texts
+- [AI Quality Assurance](https://annemarie-andersen.de/en/ki-qualitaetssicherung/) - review of AI-generated texts
+- [Editing and Translation](https://annemarie-andersen.de/en/lektorat/) - proofreading, editing and German-English specialist translation
+- [Copywriting](https://annemarie-andersen.de/en/texterstellung/) - reports, applications, concepts and corporate communications
+- [About](https://annemarie-andersen.de/en/ueber-mich/) - background and working profile
+- [References](https://annemarie-andersen.de/en/referenzen/) - projects and client feedback, including the German Future Prize, the DARP funding guide, WBG-Pooling and Seniorpartner in School
+- [Contact](https://annemarie-andersen.de/en/kontakt/) - project inquiry and quote request
+- [Pricing](https://annemarie-andersen.de/en/preise.html) - indicative prices, terms and booking information
+- [General Terms and Conditions](https://annemarie-andersen.de/en/agb/) - terms for language services
+- [Right of Withdrawal](https://annemarie-andersen.de/en/widerruf/) - consumer withdrawal information and model form
+- [Legal Notice](https://annemarie-andersen.de/en/impressum/) - provider information
+- [Privacy Policy](https://annemarie-andersen.de/en/datenschutz/) - information about personal data processing
+- [Accessibility Statement](https://annemarie-andersen.de/en/barrierefreiheitserklaerung/) - accessibility status, known limitations and contact for reporting barriers
 
-## Insights (articles)
+## Insights
 
-- [BFSG guide](https://annemarie-andersen.de/en/wissen/bfsg.html) - what the German Accessibility Strengthening Act means for your texts
-- [What is Easy Language?](https://annemarie-andersen.de/en/wissen/leichte-sprache.html) - rules, target audience, legal basis, DIN SPEC 33429
-- [Official Texts: Before & After](https://annemarie-andersen.de/en/wissen/behoerdentexte.html) - three real-world examples of clear administrative language
+- [BFSG Guide](https://annemarie-andersen.de/en/wissen/bfsg.html) - what Germany's Accessibility Strengthening Act means for covered products, services and information
+- [What Is Easy Language?](https://annemarie-andersen.de/en/wissen/leichte-sprache.html) - rules, audiences, legal basis and DIN SPEC 33429
+- [What Is Plain Language?](https://annemarie-andersen.de/en/wissen/einfache-sprache.html) - German Plain Language standards, use, testing and legal context
+- [Making German Official Texts Understandable](https://annemarie-andersen.de/en/wissen/behoerdentexte.html) - English translations of German administrative examples with clearer German wording
 
-## Relevant files
+## Machine-Readable Files
 
-- [AI manifest](https://annemarie-andersen.de/en/ai/manifest.json) - machine-readable endpoints
+- [AI Manifest](https://annemarie-andersen.de/en/ai/manifest.json) - machine-readable endpoints
 - [Services](https://annemarie-andersen.de/en/ai/services.json) - structured service data
-- [Identity](https://annemarie-andersen.de/en/ai/identity-schema.json) - Schema.org Person
+- [Identity](https://annemarie-andersen.de/en/ai/identity-schema.json) - Schema.org Person data
 - [llms.txt](https://annemarie-andersen.de/en/llms.txt) - this file

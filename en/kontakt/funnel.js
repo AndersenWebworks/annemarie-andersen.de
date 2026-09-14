@@ -243,8 +243,8 @@
 
   var RESULT_EMAILS = {
     'result-bfsg': {
-      subject: 'Inquiry: Easy Language / BFSG',
-      body: 'We need to make our communication BFSG-compliant and are looking for support with the translation into Easy Language.'
+      subject: 'Inquiry: Language support for a BFSG-related project',
+      body: 'We are looking for language support for a project involving products or services covered by the BFSG.'
     },
     'result-bitv': {
       subject: 'Inquiry: Easy Language for a public authority (BITV)',
@@ -254,21 +254,29 @@
       subject: 'Inquiry: Easy Language',
       body: 'We would like to have a text translated into Easy Language.'
     },
+    'result-website-analyse': {
+      subject: 'Inquiry: Website accessibility analysis',
+      body: 'We would like a technical and editorial review of representative pages and functions on our website, with a written report.'
+    },
+    'result-einfache-sprache': {
+      subject: 'Inquiry: Plain Language',
+      body: 'We would like to have a text revised or written in Plain Language.'
+    },
     'result-verwaltung-behoerde': {
       subject: 'Inquiry: Clear administrative texts',
       body: 'We are a public authority / local government and would like to make our texts clearer.'
     },
     'result-verwaltung-agentur': {
-      subject: 'Inquiry: Language services (public-sector contract)',
-      body: 'We are an agency with a public-sector contract and are looking for a reliable language specialist for Easy Language and editing.'
+      subject: 'Inquiry: Language support for an agency project',
+      body: 'We are an agency looking for language support on a client project, such as Easy Language, Plain Language, editing, translation or review of an AI-generated draft.'
     },
     'result-verwaltung-unternehmen': {
       subject: 'Inquiry: Clear corporate texts',
-      body: 'We would like to make our corporate communication clearer (customer letters, terms and conditions, and the like).'
+      body: 'We would like to make our customer information, terms and conditions or internal guidelines easier to understand.'
     },
     'result-ki-einzel': {
       subject: 'Inquiry: Check an AI text',
-      body: 'We have an AI-generated text that needs professional revision.'
+      body: 'We have an AI-generated text that needs a factual, language and style review.'
     },
     'result-ki-laufend': {
       subject: 'Inquiry: Ongoing AI quality assurance',
@@ -326,8 +334,8 @@
     h += '<div class="mf-contact-intro mf-stagger">';
     h += '<img src="../../portrait.jpg" alt="Annemarie Andersen" class="mf-contact-portrait" width="56" height="56" loading="lazy">';
     h += '<div class="mf-contact-intro-text">';
-    h += '<h3 class="mf-result-title" tabindex="-1">Lovely to hear from you.</h3>';
-    h += '<p class="mf-contact-intro-sub">I’ve already drafted something – you just need to hit send.</p>';
+    h += '<h3 class="mf-result-title" tabindex="-1">Thanks for getting in touch.</h3>';
+    h += '<p class="mf-contact-intro-sub">I’ve drafted an email for you. Review it and send it when you’re ready.</p>';
     h += '</div>';
     h += '</div>';
 
@@ -351,7 +359,7 @@
     h += '</a>';
 
     /* Trust badge */
-    h += '<p class="mf-trust-badge mf-stagger" style="--i:2.5">Reply within 24 hours · 20+ years’ experience · 100 % remote</p>';
+    h += '<p class="mf-trust-badge mf-stagger" style="--i:2.5">Reply within 24 hours · Freelance since 2018 · 100% remote</p>';
 
     /* Alternative contact */
     h += '<div class="mf-contact-alt mf-stagger" style="--i:3">';

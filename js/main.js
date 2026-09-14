@@ -10,7 +10,7 @@ const T = {
   de: { navOpen: 'Navigation öffnen', navClose: 'Navigation schließen',
         slot: 'Nächster freier Projektslot', locale: 'de-DE' },
   en: { navOpen: 'Open navigation', navClose: 'Close navigation',
-        slot: 'Next available project slot', locale: 'en-GB' },
+        slot: 'Next available project slot', locale: 'en-US' },
 }[LANG];
 
 // Mobile nav toggle

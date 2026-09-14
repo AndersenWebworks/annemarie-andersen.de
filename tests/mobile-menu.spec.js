@@ -17,7 +17,7 @@ test.describe('mobile menu', () => {
     const nav = page.locator('#navLinks');
     const toggle = page.locator('#navToggle');
     const services = page.getByRole('button', { name: 'Leistungen' });
-    const servicesLink = page.getByRole('link', { name: 'Barrierefreiheit & Leichte Sprache' });
+    const servicesLink = page.getByRole('link', { name: 'Leichte Sprache & Barrierefreiheit' });
 
     await expect(nav).toBeHidden();
     await expect(toggle).toHaveAttribute('aria-expanded', 'false');
